@@ -36,13 +36,13 @@ jobs:
 
       - name: Buscar eventos en las fuentes oficiales
         env:
-          VSA_DEBUG: ${{ github.event_name != 'schedule' && '1' || '0' }}
+          VSA_DEBUG: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python -m scraper.main
 
       - name: Pictogramas ARASAAC
         continue-on-error: true
         env:
-          VSA_DEBUG: ${{ github.event_name != 'schedule' && '1' || '0' }}
+          VSA_DEBUG: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python -m scraper.pictos
 
       - name: Comprobar el tráfico en tiempo real (diagnóstico)
