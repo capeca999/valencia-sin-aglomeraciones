@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T08:59+01:00",
+ "updated": "2026-11-09T09:02+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -198,44 +198,34 @@
    },
    "also": [
     {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/en/event/valencia-basket-vs-bayern-20261112/"
+     "name": "Visit València (Ayuntamiento)",
+     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
     }
    ]
   },
   {
    "date": "2026-11-12",
-   "title": "Valencia Basket - FC Bayern Múnich (EuroLeague Masculina)",
-   "type": "Baloncesto",
+   "title": "St. Paul & The Broken Bones",
+   "type": "Concierto / espectáculo",
    "zones": [
     "roig"
    ],
-   "level": 2,
-   "start": "20:30",
-   "to": "23:15",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
    "confirmed": true,
-   "approx": false,
+   "approx": true,
    "raw": "",
    "tags": [],
-   "sid": "visitvalencia",
-   "from": "19:15",
+   "sid": "roig_arena",
+   "from": "19:45",
    "source": {
-    "name": "Visit València (Ayuntamiento)",
-    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-   },
-   "also": [
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/es/event/st-paul-the-broken-bones-20261112/"
-    },
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/en/event/st-paul-the-broken-bones-20261112/"
-    }
-   ]
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/st-paul-the-broken-bones-20261112/"
+   }
   },
   {
    "date": "2026-11-13",
@@ -263,37 +253,7 @@
    "also": [
     {
      "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/en/event/raphaelisimo-tour-2026-20261113/"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Ultraswan Tour - Abhir",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/abhir-20261113/"
-   },
-   "also": [
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/en/event/abhir-20261113/"
+     "url": "https://www.roigarena.com/es/event/abhir-20261113/"
     }
    ]
   },
@@ -323,15 +283,7 @@
    "also": [
     {
      "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/en/event/hombres-g-20261114/"
-    },
-    {
-     "name": "Roig Arena (web oficial)",
      "url": "https://www.roigarena.com/es/event/vincen-garcia-20261114/"
-    },
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/en/event/vincen-garcia-20261114/"
     }
    ]
   },
@@ -381,60 +333,210 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/jesse-and-joy-20261115/"
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Valencia Basket vs Virtus Bolonia",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:00",
+   "to": "22:45",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "18:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-virtus-20261119/"
    },
    "also": [
     {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/en/event/jesse-and-joy-20261115/"
+     "name": "Visit València (Ayuntamiento)",
+     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
     }
    ]
   },
   {
    "date": "2026-11-19",
-   "title": "Valencia Basket - Virtus Bolonia (EuroLeague Masculina)",
-   "type": "Baloncesto",
+   "title": "50 aniversario Orquesta Mondragón",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:30",
+   "to": "00:45",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "20:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/50-aniversario-la-orquesta-mondragon-20261119/"
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Tour 2026 - Lagos",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/lagos-valencia-tour-2026-20261120/"
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "title": "WOW FC 34",
+   "type": "Concierto / espectáculo",
    "zones": [
     "roig"
    ],
    "level": 2,
-   "start": "21:00",
-   "to": "23:45",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "start": "18:00",
+   "to": "21:15",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
    "confirmed": true,
-   "approx": false,
+   "approx": true,
    "raw": "",
    "tags": [],
-   "sid": "visitvalencia",
+   "sid": "roig_arena",
+   "from": "16:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/wow-fc-20261121/"
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Todas las luces Tour - Santero y los muchachos",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
    "from": "19:45",
    "source": {
-    "name": "Visit València (Ayuntamiento)",
-    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/santero-y-los-muchachos-gira-todas-las-luces-20261121/"
    }
   },
   {
    "date": "2026-11-22",
-   "title": "Valencia Basket - Río Breogán (Liga ACB Masculina)",
+   "title": "Valencia Basket vs Innova-TSN Leganes",
    "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
-   "start": "17:00",
-   "to": "19:45",
+   "start": "11:30",
+   "to": "14:15",
    "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
    "confirmed": true,
-   "approx": false,
+   "approx": true,
    "raw": "",
    "tags": [],
-   "sid": "visitvalencia",
-   "from": "15:45",
+   "sid": "roig_arena",
+   "from": "10:15",
    "source": {
-    "name": "Visit València (Ayuntamiento)",
-    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-leganes-20261122/"
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Valencia Basket vs Río Breogán",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "16:00",
+   "to": "18:45",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "14:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-rio-breogan-20261117/"
+   },
+   "also": [
+    {
+     "name": "Visit València (Ayuntamiento)",
+     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Omega 30ª Aniversario",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/omega-morente-20261122/"
    }
   },
   {
@@ -463,26 +565,86 @@
   },
   {
    "date": "2026-11-24",
-   "title": "Valencia Basket - Panathinaikos AKTOR Athens (EuroLeague Masculina Entradas Diciembre 2026)",
+   "title": "Valencia Basket vs Panathinaikos AKTOR Athens",
    "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
-   "start": "20:30",
-   "to": "23:15",
+   "start": "19:30",
+   "to": "22:15",
    "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
    "confirmed": true,
-   "approx": false,
+   "approx": true,
    "raw": "",
    "tags": [],
-   "sid": "visitvalencia",
-   "from": "19:15",
+   "sid": "roig_arena",
+   "from": "18:15",
    "source": {
-    "name": "Visit València (Ayuntamiento)",
-    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-panathinikos-20261124/"
+   },
+   "also": [
+    {
+     "name": "Visit València (Ayuntamiento)",
+     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Fin de la aventura Tour - Carolina Durante",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/carolina-durante-20261126/"
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "title": "ACCEPT",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "18:45",
+   "to": "22:00",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "17:30",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/accept-20261127/"
    }
   },
   {
@@ -510,6 +672,54 @@
    }
   },
   {
+   "date": "2026-11-28",
+   "title": "Mind Enterprises",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/mind-enterprises-20261128/"
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "title": "Valencia Basket vs Impulso 360 Estepona",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "12:15",
+   "to": "15:00",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "11:00",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-estepona-20261129/"
+   }
+  },
+  {
    "date": "2026-11-29",
    "title": "Valencia CF – CA Osasuna (LALIGA EA SPORTS)",
    "type": "Fútbol",
@@ -531,6 +741,30 @@
    "source": {
     "name": "LaLiga (web oficial)",
     "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
+   }
+  },
+  {
+   "date": "2026-12-05",
+   "title": "De Pata Negra a Raimundo Amador",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/raimundoamador-20261205/"
    }
   },
   {
@@ -562,6 +796,102 @@
    "tags": []
   },
   {
+   "date": "2026-12-06",
+   "title": "Niña Pastori",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/nina-pastori-20261206/"
+   }
+  },
+  {
+   "date": "2026-12-07",
+   "title": "Nuevas Mutaciones Tour 2026 - Bunbury",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/nuevas-mutaciones-tour-2026-20261207/"
+   }
+  },
+  {
+   "date": "2026-12-08",
+   "title": "Jay Wheeler",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/jay-wheeler-20261208/"
+   }
+  },
+  {
+   "date": "2026-12-10",
+   "title": "Gira 25 aniversario ¿Qué pides tu? - Alex Ubago",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/alex-ubago-20261210/"
+   }
+  },
+  {
    "date": "2026-12-11",
    "title": "Valencia Basket - Crvena Zvezda (EuroLeague Masculina)",
    "type": "Baloncesto",
@@ -583,6 +913,66 @@
    "source": {
     "name": "Visit València (Ayuntamiento)",
     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/es/event/hens-20261211/"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-12",
+   "title": "Pop Rock Tour - Melendi",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261212/"
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/es/event/sofia-ellar-20261212/"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-13",
+   "title": "Pop Rock Tour - Melendi",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261213/"
    }
   },
   {
@@ -593,17 +983,17 @@
     "ciutat"
    ],
    "level": 3,
-   "start": "01:00",
-   "to": "04:00",
+   "start": "",
+   "to": "",
    "people": "hasta 26.000 personas",
-   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
+   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja. La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día.",
    "official": true,
-   "confirmed": true,
+   "confirmed": false,
    "approx": false,
    "raw": "",
    "tags": [],
    "sid": "laliga",
-   "from": "23:00",
+   "from": "",
    "source": {
     "name": "LaLiga (web oficial)",
     "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
@@ -611,50 +1001,128 @@
   },
   {
    "date": "2026-12-15",
-   "title": "Valencia Basket - Dubai Basketball (EuroLeague Masculina)",
-   "type": "Baloncesto",
+   "title": "The Trouble With The Truth Tour - Macy Gray",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:15",
+   "to": "23:30",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:00",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/macy-gray-the-trouble-with-the-truth-tour-20261215/"
+   },
+   "also": [
+    {
+     "name": "Visit València (Ayuntamiento)",
+     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-16",
+   "title": "Raya Real - Con Alegría",
+   "type": "Concierto / espectáculo",
    "zones": [
     "roig"
    ],
    "level": 2,
    "start": "20:30",
-   "to": "23:15",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "to": "23:45",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
    "confirmed": true,
-   "approx": false,
+   "approx": true,
    "raw": "",
    "tags": [],
-   "sid": "visitvalencia",
+   "sid": "roig_arena",
    "from": "19:15",
    "source": {
-    "name": "Visit València (Ayuntamiento)",
-    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/raya-real-20261216/"
    }
   },
   {
-   "date": "2026-12-20",
-   "title": "Valencia CF – RCD Espanyol de Barcelona (LALIGA EA SPORTS)",
-   "type": "Fútbol",
+   "date": "2026-12-18",
+   "title": "Japan Sound Quest",
+   "type": "Concierto / espectáculo",
    "zones": [
-    "mestalla"
+    "roig"
    ],
-   "level": 3,
-   "start": "01:00",
-   "to": "04:00",
-   "people": "hasta 49.000 personas",
-   "tip": "Evita Blasco Ibáñez, Av. Aragón, Av. Suecia y el metro de Aragón y Facultats en esa franja.",
+   "level": 2,
+   "start": "18:00",
+   "to": "21:15",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
    "confirmed": true,
-   "approx": false,
+   "approx": true,
    "raw": "",
    "tags": [],
-   "sid": "laliga",
-   "from": "23:00",
+   "sid": "roig_arena",
+   "from": "16:45",
    "source": {
-    "name": "LaLiga (web oficial)",
-    "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/japan-sound-quest-20261218/"
+   }
+  },
+  {
+   "date": "2026-12-19",
+   "title": "Festival Locos por la Música Valencia 2026",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "17:00",
+   "to": "20:15",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "15:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/locos-por-la-musica-20261219/"
+   }
+  },
+  {
+   "date": "2026-12-19",
+   "title": "¡DESPIERTA! - Toni Pons",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "19:00",
+   "to": "22:15",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "17:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/toni-pons-20261219/"
    }
   },
   {
@@ -683,8 +1151,32 @@
    "also": []
   },
   {
+   "date": "2026-12-20",
+   "title": "Valencia CF – RCD Espanyol de Barcelona (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "mestalla"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "hasta 49.000 personas",
+   "tip": "Evita Blasco Ibáñez, Av. Aragón, Av. Suecia y el metro de Aragón y Facultats en esa franja. La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día.",
+   "official": true,
+   "confirmed": false,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "from": "",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
+   }
+  },
+  {
    "date": "2026-12-22",
-   "title": "Valencia BC - Hozono Global Jairis (Liga Femenina Endesa Entradas Enero 2027)",
+   "title": "Valencia BC - Hozono Global Jairis (Liga Femenina Endesa)",
    "type": "Baloncesto",
    "zones": [
     "roig"
@@ -707,6 +1199,198 @@
    }
   },
   {
+   "date": "2026-12-26",
+   "title": "Rudolph, El Musical",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "18:00",
+   "to": "21:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "16:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/rudolph-musical-20261226/"
+   }
+  },
+  {
+   "date": "2026-12-27",
+   "title": "Rudolph El Musical",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "18:00",
+   "to": "21:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "16:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/rudolph-musical-20261227/"
+   }
+  },
+  {
+   "date": "2026-12-28",
+   "title": "Rudolph, El Musical",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "18:00",
+   "to": "21:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "16:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/rudolph-musical-20261228/"
+   }
+  },
+  {
+   "date": "2026-12-29",
+   "title": "Luli Pampín en Valencia",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "18:00",
+   "to": "21:15",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "16:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/luli-pampin-en-valencia-20261229/"
+   }
+  },
+  {
+   "date": "2027-01-01",
+   "title": "Concierto Año Nuevo",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "19:30",
+   "to": "22:45",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "18:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/concierto-ano-nuevo-20270101/"
+   }
+  },
+  {
+   "date": "2027-01-02",
+   "title": "Harry Sinfónico | 12:00h",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "12:00",
+   "to": "15:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "10:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/harry-sinfonico-12-270102/"
+   }
+  },
+  {
+   "date": "2027-01-02",
+   "title": "Harry Sinfónico | 17:00h",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "17:00",
+   "to": "20:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "15:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/harry-sinfonico-2701022/"
+   }
+  },
+  {
+   "date": "2027-01-02",
+   "title": "Harry Sinfónico | 20:00h",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:00",
+   "to": "23:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "18:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/harry-sinfonico-270102/"
+   }
+  },
+  {
    "date": "2027-01-03",
    "title": "Levante UD – Valencia CF (LALIGA EA SPORTS)",
    "type": "Fútbol",
@@ -714,17 +1398,17 @@
     "ciutat"
    ],
    "level": 3,
-   "start": "01:00",
-   "to": "04:00",
+   "start": "",
+   "to": "",
    "people": "hasta 26.000 personas",
-   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
+   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja. La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día.",
    "official": true,
-   "confirmed": true,
+   "confirmed": false,
    "approx": false,
    "raw": "",
    "tags": [],
    "sid": "laliga",
-   "from": "23:00",
+   "from": "",
    "source": {
     "name": "LaLiga (web oficial)",
     "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
@@ -732,26 +1416,56 @@
   },
   {
    "date": "2027-01-04",
-   "title": "Valencia Basket - Real Madrid (Liga ACB Masculina Entradas Febrero 2027)",
-   "type": "Baloncesto",
+   "title": "Estoy Solo en Casa | 19:30h",
+   "type": "Concierto / espectáculo",
    "zones": [
     "roig"
    ],
    "level": 2,
-   "start": "20:00",
+   "start": "19:30",
    "to": "22:45",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
    "confirmed": true,
-   "approx": false,
+   "approx": true,
    "raw": "",
    "tags": [],
-   "sid": "visitvalencia",
-   "from": "18:45",
+   "sid": "roig_arena",
+   "from": "18:15",
    "source": {
-    "name": "Visit València (Ayuntamiento)",
-    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/estoy-solo-en-casa202701044/"
+   },
+   "also": [
+    {
+     "name": "Visit València (Ayuntamiento)",
+     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+    }
+   ]
+  },
+  {
+   "date": "2027-01-08",
+   "title": "Cupido",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/cupido-en-valencia-20270108/"
    }
   }
  ],
@@ -774,7 +1488,7 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 14
+   "count": 45
   },
   {
    "id": "visitvalencia",

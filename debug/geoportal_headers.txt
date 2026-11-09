@@ -1,0 +1,18 @@
+HTTP/1.1 200 
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials
+Keep-Alive: timeout=60
+X-Content-Type-Options: nosniff
+Connection: keep-alive
+Date: Mon, 09 Nov 2026 08:02:45 GMT
+Cache-Control: max-age=0,must-revalidate
+ETag: 3db21529
+Set-Cookie: AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Mon, 09-Nov-2026 08:03:45 GMT; Path=/server/rest; Secure; HttpOnly
+Vary: Origin
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-XSS-Protection: 1; mode=block
+Content-Type: application/geo+json;charset=UTF-8
+Content-Length: 1538
+Set-Cookie: TS01fdb1fa=01a7feee543f2a46849a729f8a693bbfeaaf59a43cb07d2f4aa6d6e4dfe691b778018d6136054a2136d028a5f82199eb5b26ae4ab3; Path=/
+Set-Cookie: TS013e1d14=01a7feee543f2a46849a729f8a693bbfeaaf59a43cb07d2f4aa6d6e4dfe691b778018d6136054a2136d028a5f82199eb5b26ae4ab3; path=/server/rest
+
