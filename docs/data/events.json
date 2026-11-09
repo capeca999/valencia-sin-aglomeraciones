@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T12:38+01:00",
+ "updated": "2026-11-09T12:48+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -287,6 +287,45 @@
     }
    }
   }
+ },
+ "areas": {
+  "centro": [
+   "ayuntamiento",
+   "san_agustin",
+   "colon",
+   "reina",
+   "mercado",
+   "carmen",
+   "parterre"
+  ],
+  "ruzafa": [
+   "ruzafa",
+   "america"
+  ],
+  "turia": [
+   "turia",
+   "viveros"
+  ],
+  "mestalla": [
+   "mestalla",
+   "blasco",
+   "tarongers"
+  ],
+  "sur": [
+   "roig",
+   "cac"
+  ],
+  "maritimo": [
+   "marina",
+   "malvarrosa"
+  ],
+  "orriols": [
+   "ciutat"
+  ],
+  "oeste": [
+   "campanar",
+   "feria"
+  ]
  },
  "patterns": [
   {
