@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:10+01:00",
+ "updated": "2026-11-09T09:12+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -181,8 +181,8 @@
     "roig"
    ],
    "level": 2,
-   "start": "19:30",
-   "to": "22:15",
+   "start": "20:30",
+   "to": "23:15",
    "people": "unas 12.000 personas",
    "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
@@ -192,7 +192,7 @@
    "tags": [],
    "sid": "roig_arena",
    "geo": [],
-   "from": "18:15",
+   "from": "19:15",
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/valencia-basket-vs-bayern-20261112/"
@@ -349,8 +349,8 @@
     "roig"
    ],
    "level": 2,
-   "start": "20:00",
-   "to": "22:45",
+   "start": "21:00",
+   "to": "23:45",
    "people": "unas 12.000 personas",
    "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
@@ -360,7 +360,7 @@
    "tags": [],
    "sid": "roig_arena",
    "geo": [],
-   "from": "18:45",
+   "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/valencia-basket-vs-virtus-20261119/"
@@ -505,8 +505,8 @@
     "roig"
    ],
    "level": 2,
-   "start": "16:00",
-   "to": "18:45",
+   "start": "17:00",
+   "to": "19:45",
    "people": "unas 12.000 personas",
    "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
@@ -516,7 +516,7 @@
    "tags": [],
    "sid": "roig_arena",
    "geo": [],
-   "from": "14:45",
+   "from": "15:45",
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/valencia-basket-vs-rio-breogan-20261117/"
@@ -586,8 +586,8 @@
     "roig"
    ],
    "level": 2,
-   "start": "19:30",
-   "to": "22:15",
+   "start": "20:30",
+   "to": "23:15",
    "people": "unas 12.000 personas",
    "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
@@ -597,7 +597,7 @@
    "tags": [],
    "sid": "roig_arena",
    "geo": [],
-   "from": "18:15",
+   "from": "19:15",
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/valencia-basket-vs-panathinikos-20261124/"
