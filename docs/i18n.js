@@ -3,6 +3,7 @@
 window.I18N = {
   es: {
     htmlLang: "es", speechLang: "es-ES",
+    privacy: "Privacidad: contamos las visitas de forma anónima (sin cookies ni datos personales) con GoatCounter. Tus preferencias se guardan solo en tu dispositivo.",
     subscribe: "🔔 Recibir avisos de esta zona", channel: "Canal:",
     subHelp: "Al pulsar se abre ntfy para suscribirte. Te avisará la noche anterior (21:00) y por la mañana, solo los días con mucha gente en esa zona.",
     phoneAreas: "¿Solo te interesan algunas zonas? En «📍 Mis sitios» puedes suscribirte solo a tus barrios.",
@@ -101,6 +102,7 @@ window.I18N = {
 
   va: {
     htmlLang: "ca-ES-valencia", speechLang: "ca-ES",
+    privacy: "Privacitat: comptem les visites de manera anònima (sense galetes ni dades personals) amb GoatCounter. Les teues preferències es guarden només en el teu dispositiu.",
     subscribe: "🔔 Rebre avisos d'esta zona", channel: "Canal:",
     subHelp: "En prémer s'obri ntfy per a subscriure't. T'avisarà la nit abans (21:00) i pel matí, només els dies amb molta gent en eixa zona.",
     phoneAreas: "Només t'interessen algunes zones? En «📍 Els meus llocs» pots subscriure't només als teus barris.",
@@ -200,6 +202,7 @@ window.I18N = {
 
   en: {
     htmlLang: "en", speechLang: "en-GB",
+    privacy: "Privacy: we count visits anonymously (no cookies or personal data) with GoatCounter. Your preferences are only saved on your device.",
     subscribe: "🔔 Get alerts for this area", channel: "Channel:",
     subHelp: "Tapping opens ntfy so you can subscribe. You'll get an alert the night before (9pm) and in the morning, only on days when that area will be crowded.",
     phoneAreas: "Only interested in some areas? In “📍 My places” you can subscribe to just your neighbourhoods.",
