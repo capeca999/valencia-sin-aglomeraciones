@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T13:21+01:00",
+ "updated": "2026-11-09T13:27+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -419,6 +419,84 @@
  ],
  "events": [
   {
+   "date": "2026-11-10",
+   "title": "Feria Valencia: ECOFIRA, FIMMA y MADERALIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: ECOFIRA, FIMMA i MADERALIA",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: ECOFIRA, FIMMA and MADERALIA",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://ecofira.feriavalencia.com/"
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Feria Valencia: ECOFIRA, FIMMA y MADERALIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: ECOFIRA, FIMMA i MADERALIA",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: ECOFIRA, FIMMA and MADERALIA",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://ecofira.feriavalencia.com/"
+   }
+  },
+  {
    "date": "2026-11-11",
    "title": "Marcha educativa: Conselleria de Educación → Plaza del Ayuntamiento",
    "type": "Manifestación",
@@ -531,6 +609,45 @@
   },
   {
    "date": "2026-11-12",
+   "title": "Feria Valencia: ECOFIRA, FIMMA y MADERALIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: ECOFIRA, FIMMA i MADERALIA",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: ECOFIRA, FIMMA and MADERALIA",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://ecofira.feriavalencia.com/"
+   }
+  },
+  {
+   "date": "2026-11-12",
    "title": "Valencia Basket vs FC Bayern Múnich",
    "type": "Baloncesto",
    "zones": [
@@ -607,6 +724,82 @@
   },
   {
    "date": "2026-11-13",
+   "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: ESPAI INDUMENTÀRIA VALENCIANA i FIESTA Y BODA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA and FIESTA Y BODA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.espaiindumentaria.com"
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Feria Valencia: FIMMA y MADERALIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: FIMMA i MADERALIA",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: FIMMA and MADERALIA",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://fimma-maderalia.feriavalencia.com"
+   }
+  },
+  {
+   "date": "2026-11-13",
    "title": "Raphaelísimo Tour 2026 - Raphael",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -677,6 +870,43 @@
   },
   {
    "date": "2026-11-14",
+   "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: ESPAI INDUMENTÀRIA VALENCIANA i FIESTA Y BODA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA and FIESTA Y BODA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.espaiindumentaria.com"
+   }
+  },
+  {
+   "date": "2026-11-14",
    "title": "Los mejores años de nuestra vida - Hombres G",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -743,6 +973,43 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/vincen-garcia-20261114/"
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: ESPAI INDUMENTÀRIA VALENCIANA i FIESTA Y BODA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA and FIESTA Y BODA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.espaiindumentaria.com"
    }
   },
   {
@@ -928,6 +1195,43 @@
   },
   {
    "date": "2026-11-21",
+   "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: JAPAN WEEKEND VALENCIA (ED.2)",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.japanweekend.com/valencia"
+   }
+  },
+  {
+   "date": "2026-11-21",
    "title": "WOW FC 34",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -994,6 +1298,43 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/santero-y-los-muchachos-gira-todas-las-luces-20261121/"
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: JAPAN WEEKEND VALENCIA (ED.2)",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.japanweekend.com/valencia"
    }
   },
   {
@@ -1255,6 +1596,43 @@
   },
   {
    "date": "2026-11-27",
+   "title": "Feria Valencia: 2 RUEDAS",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: 2 RUEDAS",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: 2 RUEDAS",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://dosruedas.feriavalencia.com/"
+   }
+  },
+  {
+   "date": "2026-11-27",
    "title": "ACCEPT",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -1325,6 +1703,43 @@
   },
   {
    "date": "2026-11-28",
+   "title": "Feria Valencia: 2 RUEDAS",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: 2 RUEDAS",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: 2 RUEDAS",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://dosruedas.feriavalencia.com/"
+   }
+  },
+  {
+   "date": "2026-11-28",
    "title": "Mind Enterprises",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -1356,6 +1771,43 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/mind-enterprises-20261128/"
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "title": "Feria Valencia: 2 RUEDAS",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: 2 RUEDAS",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: 2 RUEDAS",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://dosruedas.feriavalencia.com/"
    }
   },
   {
@@ -1426,6 +1878,117 @@
    "source": {
     "name": "LaLiga (web oficial)",
     "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
+   }
+  },
+  {
+   "date": "2026-12-03",
+   "title": "Feria Valencia: EXPO 42K FERIA VALENCIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPO 42K FERIA VALENCIA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPO 42K FERIA VALENCIA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.valenciaciudaddelrunning.com"
+   }
+  },
+  {
+   "date": "2026-12-04",
+   "title": "Feria Valencia: EXPO 42K FERIA VALENCIA y FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPO 42K FERIA VALENCIA i FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPO 42K FERIA VALENCIA and FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.valenciaciudaddelrunning.com"
+   }
+  },
+  {
+   "date": "2026-12-05",
+   "title": "Feria Valencia: EXPO 42K FERIA VALENCIA y FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPO 42K FERIA VALENCIA i FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPO 42K FERIA VALENCIA and FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.valenciaciudaddelrunning.com"
    }
   },
   {
@@ -1502,6 +2065,43 @@
    "official": false,
    "sid": "manual",
    "tags": []
+  },
+  {
+   "date": "2026-12-06",
+   "title": "Feria Valencia: FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: FERIA DEL AUTOMÓVIL DE VALÈNCIA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.feriaautomovil.es/"
+   }
   },
   {
    "date": "2026-12-06",
@@ -1925,6 +2525,45 @@
   },
   {
    "date": "2026-12-16",
+   "title": "Feria Valencia: EDOS – Cumbre Europea de Operadores de Drones",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EDOS – Cumbre Europea de Operadores de Drones",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: EDOS – Cumbre Europea de Operadores de Drones",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://europeandroneoperatorsummit.com"
+   }
+  },
+  {
+   "date": "2026-12-16",
    "title": "Raya Real - Con Alegría",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -1956,6 +2595,45 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/raya-real-20261216/"
+   }
+  },
+  {
+   "date": "2026-12-17",
+   "title": "Feria Valencia: EDOS – Cumbre Europea de Operadores de Drones",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EDOS – Cumbre Europea de Operadores de Drones",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: EDOS – Cumbre Europea de Operadores de Drones",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://europeandroneoperatorsummit.com"
    }
   },
   {
@@ -2205,6 +2883,43 @@
   },
   {
    "date": "2026-12-26",
+   "title": "Feria Valencia: JOC&ROL y EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: JOC&ROL i EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: JOC&ROL and EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.saloncomicvalencia.com/"
+   }
+  },
+  {
+   "date": "2026-12-26",
    "title": "Rudolph, El Musical",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -2236,6 +2951,43 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/rudolph-musical-20261226/"
+   }
+  },
+  {
+   "date": "2026-12-27",
+   "title": "Feria Valencia: JOC&ROL y EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: JOC&ROL i EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: JOC&ROL and EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.saloncomicvalencia.com/"
    }
   },
   {
@@ -2275,6 +3027,43 @@
   },
   {
    "date": "2026-12-28",
+   "title": "Feria Valencia: EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.expojove.com/"
+   }
+  },
+  {
+   "date": "2026-12-28",
    "title": "Rudolph, El Musical",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -2310,6 +3099,43 @@
   },
   {
    "date": "2026-12-29",
+   "title": "Feria Valencia: EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.expojove.com/"
+   }
+  },
+  {
+   "date": "2026-12-29",
    "title": "Luli Pampín en Valencia",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -2341,6 +3167,80 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/luli-pampin-en-valencia-20261229/"
+   }
+  },
+  {
+   "date": "2026-12-30",
+   "title": "Feria Valencia: EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.expojove.com/"
+   }
+  },
+  {
+   "date": "2026-12-31",
+   "title": "Feria Valencia: EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.expojove.com/"
    }
   },
   {
@@ -2384,6 +3284,43 @@
   },
   {
    "date": "2027-01-01",
+   "title": "Feria Valencia: EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.expojove.com/"
+   }
+  },
+  {
+   "date": "2027-01-01",
    "title": "Concierto Año Nuevo",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -2415,6 +3352,43 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/concierto-ano-nuevo-20270101/"
+   }
+  },
+  {
+   "date": "2027-01-02",
+   "title": "Feria Valencia: EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.expojove.com/"
    }
   },
   {
@@ -2524,6 +3498,43 @@
   },
   {
    "date": "2027-01-03",
+   "title": "Feria Valencia: EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.expojove.com/"
+   }
+  },
+  {
+   "date": "2027-01-03",
    "title": "Levante UD – Valencia CF (LALIGA EA SPORTS)",
    "type": "Fútbol",
    "zones": [
@@ -2555,6 +3566,43 @@
    "source": {
     "name": "LaLiga (web oficial)",
     "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
+   }
+  },
+  {
+   "date": "2027-01-04",
+   "title": "Feria Valencia: EXPOJOVE",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: EXPOJOVE",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: EXPOJOVE",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.expojove.com/"
    }
   },
   {
@@ -2670,6 +3718,43 @@
   },
   {
    "date": "2027-01-08",
+   "title": "Feria Valencia: 10K VALENCIA IBERCAJA BY KIPRUN",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: 10K VALENCIA IBERCAJA BY KIPRUN",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: 10K VALENCIA IBERCAJA BY KIPRUN",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://10kvalencia.com/"
+   }
+  },
+  {
+   "date": "2027-01-08",
    "title": "Cupido",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -2701,6 +3786,503 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/cupido-en-valencia-20270108/"
+   }
+  },
+  {
+   "date": "2027-01-09",
+   "title": "Feria Valencia: 10K VALENCIA IBERCAJA BY KIPRUN",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: 10K VALENCIA IBERCAJA BY KIPRUN",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: 10K VALENCIA IBERCAJA BY KIPRUN",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://10kvalencia.com/"
+   }
+  },
+  {
+   "date": "2027-01-20",
+   "title": "Feria Valencia: BABYKID SPAIN y FIMI-OTOÑO/INVIERNO",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: BABYKID SPAIN i FIMI-OTOÑO/INVIERNO",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: BABYKID SPAIN and FIMI-OTOÑO/INVIERNO",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.fimi.es/bksfimi"
+   }
+  },
+  {
+   "date": "2027-01-21",
+   "title": "Feria Valencia: BABYKID SPAIN y FIMI-OTOÑO/INVIERNO",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: BABYKID SPAIN i FIMI-OTOÑO/INVIERNO",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: BABYKID SPAIN and FIMI-OTOÑO/INVIERNO",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.fimi.es/bksfimi"
+   }
+  },
+  {
+   "date": "2027-01-22",
+   "title": "Feria Valencia: BABYKID SPAIN y FIMI-OTOÑO/INVIERNO",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: BABYKID SPAIN i FIMI-OTOÑO/INVIERNO",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: BABYKID SPAIN and FIMI-OTOÑO/INVIERNO",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.fimi.es/bksfimi"
+   }
+  },
+  {
+   "date": "2027-02-17",
+   "title": "Feria Valencia: NUTRACEUTICALS EUROPE – Summit&Expo",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: NUTRACEUTICALS EUROPE – Summit&Expo",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: NUTRACEUTICALS EUROPE – Summit&Expo",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.nutraceuticalseurope.com/home/"
+   }
+  },
+  {
+   "date": "2027-02-18",
+   "title": "Feria Valencia: NUTRACEUTICALS EUROPE – Summit&Expo",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: NUTRACEUTICALS EUROPE – Summit&Expo",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: NUTRACEUTICALS EUROPE – Summit&Expo",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.nutraceuticalseurope.com/home/"
+   }
+  },
+  {
+   "date": "2027-02-20",
+   "title": "Feria Valencia: ATHX Games Valencia",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: ATHX Games Valencia",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: ATHX Games Valencia",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "http://www.athxgames.com/"
+   }
+  },
+  {
+   "date": "2027-02-23",
+   "title": "Feria Valencia: NOCHE DE LAS FINANZAS Y XX PREMIOS FORINVEST",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: NOCHE DE LAS FINANZAS Y XX PREMIOS FORINVEST",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: NOCHE DE LAS FINANZAS Y XX PREMIOS FORINVEST",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://forinvest.feriavalencia.com"
+   }
+  },
+  {
+   "date": "2027-02-24",
+   "title": "Feria Valencia: FORINVEST EXPO & CONGRESS",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: FORINVEST EXPO & CONGRESS",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: FORINVEST EXPO & CONGRESS",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://forinvest.feriavalencia.com"
+   }
+  },
+  {
+   "date": "2027-02-25",
+   "title": "Feria Valencia: FORINVEST EXPO & CONGRESS",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 1,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "feria profesional",
+   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "profesional"
+   ],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: FORINVEST EXPO & CONGRESS",
+     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
+     "people": "fira professional"
+    },
+    "en": {
+     "title": "Feria Valencia: FORINVEST EXPO & CONGRESS",
+     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
+     "people": "trade fair"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://forinvest.feriavalencia.com"
+   }
+  },
+  {
+   "date": "2027-02-26",
+   "title": "Feria Valencia: SALÓN DEL CÓMIC DE VALÈNCIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: SALÓN DEL CÓMIC DE VALÈNCIA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: SALÓN DEL CÓMIC DE VALÈNCIA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.saloncomicvalencia.com/"
+   }
+  },
+  {
+   "date": "2027-02-27",
+   "title": "Feria Valencia: SALÓN DEL CÓMIC DE VALÈNCIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: SALÓN DEL CÓMIC DE VALÈNCIA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: SALÓN DEL CÓMIC DE VALÈNCIA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.saloncomicvalencia.com/"
+   }
+  },
+  {
+   "date": "2027-02-28",
+   "title": "Feria Valencia: SALÓN DEL CÓMIC DE VALÈNCIA",
+   "type": "Feria",
+   "zones": [
+    "feria"
+   ],
+   "level": 2,
+   "start": "10:00",
+   "to": "20:30",
+   "people": "decenas de miles de visitantes",
+   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "feria",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "title": "Fira València: SALÓN DEL CÓMIC DE VALÈNCIA",
+     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
+     "people": "desenes de milers de visitants"
+    },
+    "en": {
+     "title": "Feria Valencia: SALÓN DEL CÓMIC DE VALÈNCIA",
+     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
+     "people": "tens of thousands of visitors"
+    }
+   },
+   "from": "10:00",
+   "source": {
+    "name": "Feria Valencia (calendario oficial)",
+    "url": "https://www.saloncomicvalencia.com/"
    }
   },
   {
@@ -4174,6 +5756,7 @@
    "source": "https://opendata.vlci.valencia.es/dataset/t251234-daily"
   }
  ],
+ "weather": [],
  "sources": [
   {
    "id": "geoportal",
@@ -4200,6 +5783,18 @@
    "count": 11
   },
   {
+   "id": "feria",
+   "name": "Feria Valencia (calendario oficial de ferias)",
+   "ok": true,
+   "count": 54
+  },
+  {
+   "id": "cruceros",
+   "name": "Escalas de cruceros en el puerto (CruiseTimetables, no oficial)",
+   "ok": true,
+   "count": 0
+  },
+  {
    "id": "fiestas",
    "name": "Calendario de fiestas de València (Fallas, Reyes, 9 d'Octubre, Nochevieja…)",
    "ok": true,
@@ -4210,6 +5805,12 @@
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
    "count": 1
+  },
+  {
+   "id": "meteo",
+   "name": "AEMET · avisos meteorológicos (vía MeteoAlarm)",
+   "ok": true,
+   "count": 0
   },
   {
    "id": "ruido",
@@ -4226,8 +5827,17 @@
   "laliga": {},
   "roig_arena": {},
   "visitvalencia": {},
+  "feria": {},
+  "cruceros": {
+   "zero_since": "2026-11-09",
+   "zero_days": 1
+  },
   "fiestas": {},
   "prensa": {},
+  "meteo": {
+   "zero_since": "2026-11-09",
+   "zero_days": 1
+  },
   "ruido": {}
  }
 }

@@ -214,5 +214,63 @@
   "id": 37857,
   "word": "cascos antiruido",
   "alt_ids": []
+ },
+ "feria": {
+  "id": 4649,
+  "word": "feria",
+  "alt_ids": [
+   4649,
+   37741,
+   38297,
+   36241,
+   5102,
+   4760
+  ]
+ },
+ "crucero": {
+  "id": 21573,
+  "word": "crucero",
+  "alt_ids": [
+   21573
+  ]
+ },
+ "tormenta": {
+  "id": 34892,
+  "word": "tormenta",
+  "alt_ids": [
+   34892
+  ]
+ },
+ "lluvia": {
+  "id": 7148,
+  "word": "lluvia",
+  "alt_ids": [
+   7148,
+   3123,
+   26286,
+   37838
+  ]
+ },
+ "calor": {
+  "id": 35561,
+  "word": "calor",
+  "alt_ids": [
+   35561,
+   35597,
+   36407,
+   6952
+  ]
+ },
+ "viento": {
+  "id": 7259,
+  "word": "viento",
+  "alt_ids": [
+   7259,
+   13086,
+   28899,
+   35667,
+   35591,
+   38559
+  ]
  }
 }
