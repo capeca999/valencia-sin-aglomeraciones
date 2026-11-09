@@ -29,6 +29,8 @@ WANTED = {
     "fiesta": "fiesta",
     "gente": "multitud",
     "tranquilo": "tranquilo",
+    "contento": "contento",
+    "feliz": "feliz",
     "silencio": "silencio",
     "ruido": "ruido",
     "biblioteca": "biblioteca",
