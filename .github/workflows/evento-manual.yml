@@ -1,0 +1,56 @@
+name: Evento añadido a mano
+
+on:
+  issues:
+    types: [opened, edited]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  evento:
+    # Solo el dueño del repositorio puede añadir eventos, y solo con el formulario «Añadir un evento»
+    if: >-
+      github.event.sender.login == github.repository_owner &&
+      startsWith(github.event.issue.title, 'Evento') &&
+      (github.event_name == 'issues' || contains(github.event.comment.body, 'borrar'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Guardar o borrar el evento
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          REPLY_FILE: /tmp/reply.md
+        run: python -m scraper.add_manual ${{ github.event_name == 'issue_comment' && 'borrar' || 'guardar' }}
+      - name: Subir el cambio
+        run: |
+          git config user.name "valencia-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/manual.json
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Evento a mano (#${{ github.event.issue.number }})"
+          git pull --rebase origin main
+          git push
+      - name: Actualizar la web
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run actualizar.yml --ref main -R ${{ github.repository }}
+      - name: Responder en el formulario
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} -R ${{ github.repository }} --body-file /tmp/reply.md
+          gh issue close ${{ github.event.issue.number }} -R ${{ github.repository }} || true

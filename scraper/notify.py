@@ -58,7 +58,36 @@ def messages(data: dict, base: str, evening: bool) -> list[tuple[str, str, str, 
         m = build(mine, data["zones"], day, evening, name)
         if m:
             out.append((f"{base}-{area}", *m))
+    w = weather_msg(data.get("weather") or [], day, evening)
+    if w:
+        out.append((base, *w))
+        out += [(f"{base}-{area}", *w) for area in AREAS]
     return out
+
+
+KIND_ES = {"thunderstorm": "tormentas", "rain": "lluvias", "wind": "viento", "high-temperature": "calor",
+           "low-temperature": "frío", "snow": "nieve", "coastal": "temporal en la costa", "fog": "niebla",
+           "forest-fire": "riesgo de incendios", "flood": "inundaciones", "other": "mal tiempo"}
+COLOR_ES = {1: "amarillo", 2: "naranja", 3: "rojo"}
+
+
+def weather_msg(weather: list[dict], day: str, evening: bool):
+    """Aviso de AEMET para ese día: naranja o rojo, o tormentas (los truenos asustan a mucha gente)."""
+    from .meteo import days_of
+    ws = [w for w in weather if day in days_of(w) and (w["level"] >= 2 or w["kind"] == "thunderstorm")]
+    if not ws:
+        return None
+    top = max(w["level"] for w in ws)
+    kinds = []
+    for w in sorted(ws, key=lambda w: -w["level"]):
+        k = KIND_ES.get(w["kind"], "mal tiempo")
+        if k not in kinds:
+            kinds.append(k)
+    when = "Mañana" if evening else "Hoy"
+    title = f"⛈️ {when}: aviso {COLOR_ES[top]} por {' y '.join(kinds)} en València"
+    body = "Aviso oficial de AEMET. " + ("Si te afectan los truenos o el ruido de la lluvia, ten a mano tus cascos. " if "tormentas" in kinds else "") + \
+           "Puede haber cambios en el transporte y en los actos al aire libre."
+    return title, body, top + 1
 
 
 def main() -> None:

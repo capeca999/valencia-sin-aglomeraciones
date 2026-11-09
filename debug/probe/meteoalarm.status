@@ -1,2 +1,0 @@
-200 https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-spain
-{'cache-control': 'max-age=0, private, must-revalidate', 'content-length': '293045', 'content-type': 'application/atom+xml; charset=utf-8', 'cross-origin-window-policy': 'deny', 'date': 'Mon, 09 Nov 2026 12:21:10 GMT', 'server': 'Cowboy', 'x-content-type-options': 'nosniff', 'x-download-options': 'noopen', 'x-frame-options': 'SAMEORIGIN', 'x-permitted-cross-domain-policies': 'none', 'x-request-id': 'GOZf1S8c-saZHZU-mFPk', 'x-xss-protection': '1; mode=block'}

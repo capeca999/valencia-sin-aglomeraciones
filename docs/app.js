@@ -107,7 +107,7 @@
     var t = e.tags || [];
     if (t.indexOf("ciudad") >= 0 || t.indexOf("fuego") >= 0) return /mascl|petard/i.test(e.title) ? "petardo" : "fuegos";
     var m = { "Fútbol": "futbol", "Baloncesto": "baloncesto", "Concierto": "concierto", "Concierto / espectáculo": "concierto",
-      "Manifestación": "manifestacion", "Huelga": "huelga", "Carrera": "carrera", "Fiesta / desfile": "desfile" };
+      "Manifestación": "manifestacion", "Huelga": "huelga", "Carrera": "carrera", "Fiesta / desfile": "desfile", "Feria": "feria", "Turismo": "crucero" };
     return m[e.type] || "gente";
   }
   // Los pictogramas acompañan a un texto que ya dice lo mismo: alt vacío para no repetirlo al lector de pantalla
@@ -290,12 +290,27 @@
   }
 
   // ---------- Detalle del día ----------
+  // Avisos de AEMET que tocan ese día, con la franja horaria de ese día
+  function weatherOn(day) {
+    return ((DATA && DATA.weather) || []).map(function (w) {
+      var a = w.from.slice(0, 10), b = w.to.slice(0, 10), endT = w.to.slice(11, 16);
+      if (endT === "00:00") { var d = parse(b); d.setDate(d.getDate() - 1); b = ymd(d); endT = "24:00"; }
+      if (day < a || day > b) return null;
+      var f = day === a ? w.from.slice(11, 16) : "00:00", t = day === b ? endT : "24:00";
+      return { kind: w.kind, level: w.level, url: w.url, span: (f === "00:00" && (t === "24:00" || t === "23:59")) ? T("allDay") : f + "–" + (t === "24:00" ? "23:59" : t) };
+    }).filter(Boolean).sort(function (x, y) { return y.level - x.level; });
+  }
   function renderDay() {
     var title = (state.selected === TODAY ? T("todayComma", { d: longDate(parse(state.selected)) }) : longDate(parse(state.selected)));
     $("dayTitle").textContent = cap(title);
     var evs = eventsOn(state.selected).slice().sort(function (a, b) { return (isMine(b) ? 1 : 0) - (isMine(a) ? 1 : 0); }), pats = patternsOn(state.selected), h = "";
     if (!evs.length) h += '<p class="empty">' + esc(T("noEvents")) + "</p>";
     if (tagsOn(state.selected).ciudad) h += '<p class="citywide">' + esc(T("fallasBanner")) + "</p>";
+    weatherOn(state.selected).forEach(function (w) {
+      var pk = { thunderstorm: "tormenta", rain: "lluvia", "high-temperature": "calor", wind: "viento" }[w.kind] || "lluvia";
+      h += '<div class="weather w' + w.level + '">' + picto(pk, "small") + "<p><strong>" + esc(T("weatherWarn", { c: T("wColors")[w.level], k: (T("wKinds")[w.kind] || T("wKinds").other) })) + "</strong><br>" +
+        esc(w.span) + (w.kind === "thunderstorm" ? " " + esc(T("weatherStorm")) : "") + ' <a href="' + esc(w.url) + '" target="_blank" rel="noopener">AEMET</a></p></div>';
+    });
     evs.forEach(function (e) {
       var links = srcLink(e.source.name, e.source.url, T("source"));
       (e.also || []).forEach(function (s) { links += srcLink(s.name, s.url, T("alsoIn")); });

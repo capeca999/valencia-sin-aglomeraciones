@@ -266,3 +266,9 @@ a.subbtn, button.subbtn { text-decoration: none; display: inline-block; border: 
 button.subbtn { background: none; color: inherit; font: inherit; cursor: pointer; }
 .offline { background: var(--ink); color: var(--bg); border-radius: 10px; padding: 10px 14px; font-weight: 700; margin: 0 0 12px; }
 .sub2 .subbtn + .subbtn { margin-left: 4px; }
+
+/* Avisos de AEMET */
+.weather { display: flex; gap: 12px; align-items: flex-start; background: var(--surface); border: 1px solid var(--line); border-left: 8px solid var(--l1); border-radius: 12px; padding: 12px 14px; margin: 0 0 12px; }
+.weather.w2 { border-left-color: var(--l2); }
+.weather.w3 { border-left-color: var(--l3); }
+.weather p { margin: 0; }

@@ -1,0 +1,123 @@
+name: "➕ Añadir un evento"
+description: "Añade a la web un evento con mucha gente que las fuentes oficiales no publican. Se publica solo en unos minutos."
+title: "Evento: "
+labels: ["evento"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Rellena lo que sepas. Solo son obligatorios el **día**, el **nombre** y la **zona**.
+        Al enviarlo, en unos minutos aparece en la web, en los calendarios y en los avisos del móvil.
+        Para **corregirlo**, edita este formulario (lápiz ✏️ arriba). Para **quitarlo**, escribe un comentario que diga `borrar`.
+  - type: input
+    id: fecha
+    attributes:
+      label: Día
+      description: "Por ejemplo 21/11/2026"
+      placeholder: "21/11/2026"
+    validations:
+      required: true
+  - type: input
+    id: fecha_fin
+    attributes:
+      label: Último día (solo si dura varios días)
+      placeholder: "23/11/2026"
+  - type: input
+    id: titulo
+    attributes:
+      label: Nombre del evento
+      placeholder: "Manifestación por la vivienda"
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo
+      options:
+        - Manifestación
+        - Huelga
+        - Concierto
+        - Fútbol
+        - Baloncesto
+        - Carrera
+        - Fiesta / desfile
+        - Feria
+        - Evento
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: zonas
+    attributes:
+      label: Zona o zonas a evitar
+      multiple: true
+      options:
+        - "Toda la ciudad"
+        - "Roig Arena"
+        - "Estadio de Mestalla"
+        - "Estadio Ciutat de València"
+        - "Ciudad de las Artes y las Ciencias"
+        - "La Marina / Puerto"
+        - "Av. Tarongers / Universidades"
+        - "Av. Blasco Ibáñez"
+        - "Paseo de la Malvarrosa"
+        - "Plaza del Ayuntamiento"
+        - "Plaza San Agustín / Xàtiva"
+        - "Calle Colón / Porta de la Mar"
+        - "Parterre / Plaza Alfonso el Magnánimo"
+        - "Plaza de América / Albereda"
+        - "Plaza de la Reina / Catedral"
+        - "Mercado Central / Lonja"
+        - "El Carmen / Torres de Serranos"
+        - "Ruzafa"
+        - "Jardines de Viveros"
+        - "Jardín del Turia (tramo central)"
+        - "Av. Campanar (Conselleria de Educación)"
+        - "Feria Valencia"
+    validations:
+      required: true
+  - type: input
+    id: desde
+    attributes:
+      label: Hora desde (a evitar)
+      description: "Déjalo vacío si es todo el día"
+      placeholder: "17:30"
+  - type: input
+    id: hasta
+    attributes:
+      label: Hora hasta
+      placeholder: "21:00"
+  - type: dropdown
+    id: nivel
+    attributes:
+      label: Cuánta gente
+      options:
+        - Mucha gente
+        - Muchísima gente
+        - Algo de gente
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: personas
+    attributes:
+      label: Cuántas personas (opcional)
+      placeholder: "unas 5.000 personas"
+  - type: textarea
+    id: consejo
+    attributes:
+      label: Consejo (opcional)
+      description: "Qué calles o paradas evitar, si habrá ruido…"
+      placeholder: "La marcha sale de la Plaza de San Agustín y llega a la Plaza del Ayuntamiento. Evita la calle Xàtiva."
+  - type: input
+    id: fuente
+    attributes:
+      label: Enlace a la noticia o fuente (opcional)
+      placeholder: "https://…"
+  - type: checkboxes
+    id: extra
+    attributes:
+      label: Otros
+      options:
+        - label: "Hay petardos o pólvora (se marca con fuego 🔥)"
+        - label: "Está confirmado oficialmente"

@@ -20,7 +20,7 @@ import requests
 from .common import ROOT
 
 # Fuentes que casi siempre tienen datos: si dan 0 varios días seguidos, algo pasa
-EXPECT_DATA = {"laliga", "roig_arena", "visitvalencia", "fiestas", "ruido"}
+EXPECT_DATA = {"laliga", "roig_arena", "visitvalencia", "fiestas", "ruido", "feria"}
 DAYS = 2
 
 

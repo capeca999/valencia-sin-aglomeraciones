@@ -10,9 +10,9 @@ import traceback
 from datetime import date, timedelta
 
 from .common import ROOT, Event, norm, now, today
-from . import ruido
+from . import meteo, ruido
 from .geo import AREAS, PATTERNS, zones_json
-from .sources import ayto_movilidad, ayto_noticias, fiestas, geoportal, laliga, prensa, roig_arena, visitvalencia
+from .sources import ayto_movilidad, ayto_noticias, cruceros, feria, fiestas, geoportal, laliga, prensa, roig_arena, visitvalencia
 
 OUT = ROOT / "docs" / "data" / "events.json"
 MANUAL = ROOT / "docs" / "data" / "manual.json"
@@ -23,6 +23,8 @@ SOURCES = [
     ("laliga", "LaLiga (Valencia CF y Levante UD)", laliga.scrape),
     ("roig_arena", "Roig Arena (web oficial)", roig_arena.scrape),
     ("visitvalencia", "Visit València (calendario Valencia Basket)", visitvalencia.scrape),
+    ("feria", "Feria Valencia (calendario oficial de ferias)", feria.scrape),
+    ("cruceros", "Escalas de cruceros en el puerto (CruiseTimetables, no oficial)", cruceros.scrape),
     ("fiestas", "Calendario de fiestas de València (Fallas, Reyes, 9 d'Octubre, Nochevieja…)", fiestas.scrape),
     ("prensa", "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»", prensa.scrape),
 ]
@@ -132,6 +134,14 @@ def run() -> dict:
     events = _merge(events)
 
     try:
+        weather = meteo.scrape()
+        status.append({"id": "meteo", "name": "AEMET · avisos meteorológicos (vía MeteoAlarm)", "ok": True, "count": len(weather)})
+    except Exception as e:  # noqa: BLE001
+        traceback.print_exc()
+        weather = prev.get("weather", [])
+        status.append({"id": "meteo", "name": "AEMET · avisos meteorológicos (vía MeteoAlarm)", "ok": False, "count": len(weather), "error": str(e)[:300]})
+
+    try:
         noise = ruido.scrape()
         status.append({"id": "ruido", "name": "Ajuntament de València · Sonómetros de Ruzafa (datos abiertos)", "ok": True, "count": len(noise)})
     except Exception as e:  # noqa: BLE001
@@ -163,6 +173,7 @@ def run() -> dict:
         "events": events,
         "notices": notices,
         "noise": noise,
+        "weather": weather,
         "sources": status,
         "health": health,
     }
