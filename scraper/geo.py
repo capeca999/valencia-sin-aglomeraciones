@@ -64,6 +64,7 @@ PATTERNS = [
 def find_zones(text: str) -> list[str]:
     """Devuelve las zonas mencionadas en un texto, en orden de aparición."""
     t = norm(text)
+    t = re.sub(r"\bmarina (alta|baixa|baja)\b", " ", t)  # comarcas, no La Marina de València
     hits = []
     for zid, z in ZONES.items():
         pos = min((m.start() for k in z["kw"] for m in [re.search(r"\b" + re.escape(k) + r"\b", t)] if m), default=-1)

@@ -105,9 +105,10 @@ def scrape() -> list[Event]:
                 continue
             # tiene que hablar de la ciudad de València, no de otra
             head = norm(title)
-            if not re.search(r"\bvalencia\b", head) and not find_zones(text):
+            in_city = re.search(r"\bvalencia\b", head) or find_zones(title)
+            if not in_city:
                 continue
-            if any(c in head for c in OTHER_CITIES) and not find_zones(text):
+            if any(c in head for c in OTHER_CITIES) and not find_zones(title):
                 continue
             ds = [d for d in _dates(text, pub) if t0 <= d <= t0 + timedelta(days=30)]
             if not ds:

@@ -39,7 +39,11 @@ def _load_previous() -> dict:
 
 def _same(a: dict, b: dict) -> bool:
     """¿Son el mismo evento? Mismo día, alguna zona en común y misma hora (o sin hora)."""
-    if a["date"] != b["date"] or not set(a["zones"]) & set(b["zones"]):
+    if a["date"] != b["date"]:
+        return False
+    if not a["zones"] and not b["zones"]:
+        return a["type"] == b["type"] and a["type"] in ("Huelga",)
+    if not set(a["zones"]) & set(b["zones"]):
         return False
     generic = ("Evento", "Aviso")
     if a["type"] != b["type"] and a["type"] not in generic and b["type"] not in generic:
