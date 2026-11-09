@@ -5,23 +5,28 @@ Uso:  python -m scraper.main            (VSA_DEBUG=1 guarda el HTML descargado e
 from __future__ import annotations
 
 import json
+import os
 import traceback
 from datetime import date, timedelta
 
 from .common import ROOT, Event, norm, now, today
 from .geo import PATTERNS, zones_json
-from .sources import ayto_movilidad, ayto_noticias, laliga, roig_arena, visitvalencia
+from .sources import ayto_movilidad, ayto_noticias, geoportal, laliga, roig_arena, visitvalencia
 
 OUT = ROOT / "docs" / "data" / "events.json"
 MANUAL = ROOT / "docs" / "data" / "manual.json"
 
 # Orden = prioridad cuando dos fuentes describen el mismo evento
 SOURCES = [
-    ("ayto_movilidad", "Ajuntament de València · Incidencias y previsiones de tráfico", ayto_movilidad.scrape),
+    ("geoportal", "Ajuntament de València · Geoportal (ocupación de vía pública y festejos)", geoportal.scrape),
     ("laliga", "LaLiga (Valencia CF y Levante UD)", laliga.scrape),
     ("roig_arena", "Roig Arena (web oficial)", roig_arena.scrape),
     ("visitvalencia", "Visit València (calendario Valencia Basket)", visitvalencia.scrape),
 ]
+
+
+class _Skip(Exception):
+    pass
 
 
 def _load_previous() -> dict:
@@ -71,7 +76,11 @@ def run() -> dict:
     t = today()
     events: list[dict] = []
     status = []
-    for sid, label, fn in SOURCES:
+    sources = list(SOURCES)
+    # valencia.es rechaza las peticiones desde los servidores de GitHub; se intenta solo si se pide (p. ej. en local).
+    if os.environ.get("VSA_AYTO_WEB") == "1":
+        sources.insert(1, ("ayto_movilidad", "Ajuntament de València · Incidencias y previsiones de tráfico", ayto_movilidad.scrape))
+    for sid, label, fn in sources:
         try:
             found: list[Event] = fn()
             events.extend(e.to_json() for e in found)
@@ -83,8 +92,12 @@ def run() -> dict:
             status.append({"id": sid, "name": label, "ok": False, "count": len(kept), "error": str(e)[:300]})
 
     try:
+        if os.environ.get("VSA_AYTO_WEB") != "1":
+            raise _Skip()
         notices = ayto_noticias.scrape()
         status.append({"id": "ayto_noticias", "name": "Ajuntament de València · Noticias de movilidad", "ok": True, "count": len(notices)})
+    except _Skip:
+        notices = []
     except Exception as e:  # noqa: BLE001
         traceback.print_exc()
         notices = prev.get("notices", [])

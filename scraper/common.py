@@ -115,6 +115,7 @@ class Event:
     raw: str = ""                 # texto original (avisos del Ayuntamiento)
     tags: list[str] = field(default_factory=list)
     sid: str = ""                 # id de la fuente que lo generó
+    geo: list = field(default_factory=list)  # puntos [lat, lon] cuando no hay zona conocida
 
     def key(self) -> str:
         return f"{self.date}|{norm(self.title)[:40]}"

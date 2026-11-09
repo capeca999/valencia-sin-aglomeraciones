@@ -38,7 +38,8 @@
   }
   function zoneNames(e) {
     var n = (e.zones || []).filter(function (z) { return DATA.zones[z]; }).map(function (z) { return DATA.zones[z].name; });
-    return n.length ? n.join(", ") : "Ubicación en el texto del aviso";
+    if (n.length) return n.join(", ");
+    return (e.geo || []).length ? "Marcado en el mapa" : "Ubicación en el texto del aviso";
   }
 
   // ---------- Estado de hoy ----------
@@ -116,6 +117,15 @@
       L.circle([Z.lat, Z.lon], { radius: Z.r * (zl[z] === 3 ? 1.2 : 1), color: col, weight: 3, fillColor: col, fillOpacity: 0.25 })
         .bindPopup(html).bindTooltip(Z.name, { permanent: true, direction: "top", className: "zl" }).addTo(zoneLayer);
       bounds.push([Z.lat, Z.lon]);
+    });
+    evs.forEach(function (e) {
+      if ((e.zones || []).length || !(e.geo || []).length) return;
+      var col = css("--l" + e.level);
+      e.geo.forEach(function (pt) {
+        L.circle(pt, { radius: 90, color: col, weight: 2, fillColor: col, fillOpacity: 0.35 })
+          .bindPopup("<strong>" + esc(e.title) + "</strong><br>" + esc(timeText(e))).addTo(zoneLayer);
+        bounds.push(pt);
+      });
     });
     if (bounds.length === 1) map.setView(bounds[0], 15, { animate: false });
     else if (bounds.length > 1) map.fitBounds(bounds, { padding: [60, 60], maxZoom: 15, animate: false });
