@@ -1,0 +1,19 @@
+{
+  "_info": "Eventos añadidos a mano que las fuentes oficiales todavía no publican. Se borran solos al pasar la fecha. Formato igual que en events.json.",
+  "events": [
+    {
+      "date": "2026-12-06",
+      "title": "Maratón Valencia Trinidad Alfonso",
+      "type": "Carrera",
+      "zones": ["cac", "tarongers", "blasco", "malvarrosa", "marina", "ayuntamiento", "america"],
+      "level": 3,
+      "start": "08:15",
+      "from": "07:00",
+      "to": "15:30",
+      "people": "36.000 corredores + público",
+      "confirmed": true,
+      "tip": "Toda la mañana hay calles cortadas, música de animación y mucha gente en buena parte de la ciudad. Mejor no salir antes de las 15:30 o quedarse lejos del recorrido. El Ayuntamiento publicará los cortes exactos unos días antes.",
+      "source": { "name": "Visit València", "url": "https://www.visitvalencia.com/agenda-valencia/calendario-de-carreras-y-maratones-en-valencia" }
+    }
+  ]
+}

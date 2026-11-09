@@ -1,0 +1,79 @@
+name: Actualizar eventos
+
+on:
+  schedule:
+    - cron: "15 5 * * *"    # cada mañana (06:15 en invierno, 07:15 en verano, hora de Valencia) + aviso al móvil
+    - cron: "15 16 * * *"   # repaso por la tarde, sin aviso
+  push:
+    branches: [main]
+    paths: ["scraper/**", ".github/workflows/**", "docs/**", "config.json"]
+  workflow_dispatch:
+    inputs:
+      notificar:
+        description: "Enviar el aviso al móvil"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  datos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Buscar eventos en las fuentes oficiales
+        env:
+          VSA_DEBUG: ${{ github.event_name != 'schedule' && '1' || '0' }}
+        run: python -m scraper.main
+
+      - name: Comprobar el tráfico en tiempo real (diagnóstico)
+        if: github.event_name != 'schedule'
+        continue-on-error: true
+        run: |
+          mkdir -p debug
+          curl -s --max-time 30 "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/192/query?where=1%3D1&outFields=*&outSR=4326&f=geojson&resultRecordCount=3" -o debug/geoportal.json -D debug/geoportal_headers.txt || true
+
+      - name: Aviso al móvil (ntfy)
+        if: github.event.schedule == '15 5 * * *' || inputs.notificar
+        continue-on-error: true
+        run: python -m scraper.notify
+
+      - name: Guardar datos
+        run: |
+          git config user.name "valencia-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/events.json
+          if [ -d debug ]; then git add -f debug; fi
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Actualizar eventos $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push
+
+  web:
+    needs: datos
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deploy
+        uses: actions/deploy-pages@v4

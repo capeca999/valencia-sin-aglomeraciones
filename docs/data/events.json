@@ -1,0 +1,539 @@
+{
+ "updated": "2026-11-09T09:00+01:00",
+ "zones": {
+  "roig": {
+   "name": "Roig Arena",
+   "lat": 39.4492,
+   "lon": -0.3643,
+   "r": 450
+  },
+  "mestalla": {
+   "name": "Estadio de Mestalla",
+   "lat": 39.4746,
+   "lon": -0.3583,
+   "r": 550
+  },
+  "ciutat": {
+   "name": "Estadio Ciutat de València",
+   "lat": 39.4947,
+   "lon": -0.3644,
+   "r": 500
+  },
+  "cac": {
+   "name": "Ciudad de las Artes y las Ciencias",
+   "lat": 39.4547,
+   "lon": -0.3505,
+   "r": 600
+  },
+  "marina": {
+   "name": "La Marina / Puerto",
+   "lat": 39.46,
+   "lon": -0.324,
+   "r": 550
+  },
+  "tarongers": {
+   "name": "Av. Tarongers / Universidades",
+   "lat": 39.479,
+   "lon": -0.342,
+   "r": 550
+  },
+  "blasco": {
+   "name": "Av. Blasco Ibáñez",
+   "lat": 39.4757,
+   "lon": -0.348,
+   "r": 450
+  },
+  "malvarrosa": {
+   "name": "Paseo de la Malvarrosa",
+   "lat": 39.478,
+   "lon": -0.3245,
+   "r": 500
+  },
+  "ayuntamiento": {
+   "name": "Plaza del Ayuntamiento",
+   "lat": 39.4697,
+   "lon": -0.3763,
+   "r": 380
+  },
+  "san_agustin": {
+   "name": "Plaza San Agustín / Xàtiva",
+   "lat": 39.4667,
+   "lon": -0.378,
+   "r": 300
+  },
+  "colon": {
+   "name": "Calle Colón / Porta de la Mar",
+   "lat": 39.4706,
+   "lon": -0.371,
+   "r": 330
+  },
+  "parterre": {
+   "name": "Parterre / Plaza Alfonso el Magnánimo",
+   "lat": 39.4719,
+   "lon": -0.3712,
+   "r": 250
+  },
+  "america": {
+   "name": "Plaza de América / Albereda",
+   "lat": 39.469,
+   "lon": -0.365,
+   "r": 350
+  },
+  "reina": {
+   "name": "Plaza de la Reina / Catedral",
+   "lat": 39.4748,
+   "lon": -0.3756,
+   "r": 260
+  },
+  "mercado": {
+   "name": "Mercado Central / Lonja",
+   "lat": 39.4736,
+   "lon": -0.379,
+   "r": 260
+  },
+  "carmen": {
+   "name": "El Carmen / Torres de Serranos",
+   "lat": 39.4785,
+   "lon": -0.3795,
+   "r": 360
+  },
+  "ruzafa": {
+   "name": "Ruzafa",
+   "lat": 39.4625,
+   "lon": -0.374,
+   "r": 400
+  },
+  "viveros": {
+   "name": "Jardines de Viveros",
+   "lat": 39.4795,
+   "lon": -0.3665,
+   "r": 380
+  },
+  "turia": {
+   "name": "Jardín del Turia (tramo central)",
+   "lat": 39.472,
+   "lon": -0.364,
+   "r": 600
+  },
+  "feria": {
+   "name": "Feria Valencia",
+   "lat": 39.5055,
+   "lon": -0.4205,
+   "r": 550
+  }
+ },
+ "patterns": [
+  {
+   "zone": "mercado",
+   "days": [
+    6
+   ],
+   "from": "10:00",
+   "to": "14:00",
+   "label": "Mercado Central y Lonja: los sábados por la mañana suele haber muchos turistas y gente comprando."
+  },
+  {
+   "zone": "colon",
+   "days": [
+    5,
+    6
+   ],
+   "from": "17:00",
+   "to": "21:00",
+   "label": "Calle Colón: tardes de viernes y sábado, mucha gente de compras."
+  },
+  {
+   "zone": "ruzafa",
+   "days": [
+    5,
+    6
+   ],
+   "from": "21:00",
+   "to": "02:00",
+   "label": "Ruzafa: noches de fin de semana con bares y terrazas llenas y ruido en la calle."
+  },
+  {
+   "zone": "carmen",
+   "days": [
+    5,
+    6
+   ],
+   "from": "21:00",
+   "to": "02:00",
+   "label": "El Carmen: noches de fin de semana con mucho ambiente y ruido."
+  },
+  {
+   "zone": "malvarrosa",
+   "days": [
+    0
+   ],
+   "from": "12:00",
+   "to": "17:00",
+   "label": "Paseo de la Malvarrosa: domingos a mediodía, sobre todo si hace sol."
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-12",
+   "title": "Valencia Basket – Bayern Múnich (Euroliga)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:30",
+   "from": "19:15",
+   "to": "23:00",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena y el metro/bus hacia Quatre Carreres entre 19:15 y 23:00. La salida (22:30–23:00) es el momento más agobiante.",
+   "official": false,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "title": "St. Paul and the Broken Bones (concierto)",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "",
+   "from": "20:00",
+   "to": "23:30",
+   "people": "aforo pequeño-medio",
+   "tip": "Mismo recinto que el basket: esa noche la zona del Roig Arena estará doblemente llena.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "Ckord",
+    "url": "https://app.ckord.com/venues/roig-arena-2"
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Raphael – Raphaelísimo Tour",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "",
+   "from": "20:00",
+   "to": "00:00",
+   "people": "hasta 15.000 personas",
+   "tip": "Concierto grande. Evita Quatre Carreres y la Av. Hermanos Maristas a partir de las 20:00.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "OfficialPress",
+    "url": "https://officialpress.es/raphael-concierto-en-valencia/amp/"
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Abhir (concierto en el Auditorio)",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "",
+   "from": "20:00",
+   "to": "23:30",
+   "people": "aforo pequeño-medio",
+   "tip": "Se suma al concierto de Raphael en el mismo recinto.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "La Ganzúa",
+    "url": "https://www.laganzua.net/conciertos/salas-conciertos/auditorio-roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-14",
+   "title": "Hombres G",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "",
+   "from": "20:00",
+   "to": "00:00",
+   "people": "hasta 15.000 personas",
+   "tip": "Sábado con concierto grande: el entorno del Roig Arena y el transporte hacia allí irán muy llenos.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "La Ganzúa",
+    "url": "https://www.laganzua.net/conciertos/salas-conciertos/roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "title": "Valencia Basket – Leyma Coruña (Liga ACB)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "12:00",
+   "from": "11:00",
+   "to": "14:30",
+   "people": "unas 12.000 personas",
+   "tip": "Partido por la mañana. Si sales por la zona sur, hazlo antes de las 11:00 o después de las 14:30.",
+   "official": false,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Valencia Basket – Virtus Bolonia (Euroliga)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "21:00",
+   "from": "19:45",
+   "to": "23:30",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el Roig Arena de 19:45 a 23:30.",
+   "official": false,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Lagos (concierto en el Auditorio)",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "",
+   "from": "20:00",
+   "to": "23:30",
+   "people": "aforo pequeño-medio",
+   "tip": "Evento mediano. Algo de gente en el entorno del Roig Arena.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "La Ganzúa",
+    "url": "https://www.laganzua.net/conciertos/salas-conciertos/auditorio-roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Valencia Basket – Río Breogán (Liga ACB)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "17:00",
+   "from": "16:00",
+   "to": "19:30",
+   "people": "unas 12.000 personas",
+   "tip": "Domingo por la tarde. Evita el Roig Arena entre 16:00 y 19:30.",
+   "official": false,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Valencia Basket – Panathinaikos (Euroliga)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:30",
+   "from": "19:15",
+   "to": "23:00",
+   "people": "unas 12.000 personas",
+   "tip": "Partido grande entre semana. Evita el Roig Arena de 19:15 a 23:00.",
+   "official": false,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Los Fabulosos Cadillacs + Carolina Durante",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "",
+   "from": "20:00",
+   "to": "00:00",
+   "people": "hasta 15.000 personas",
+   "tip": "Concierto grande entre semana. Evita el Roig Arena desde las 20:00.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "La Ganzúa",
+    "url": "https://www.laganzua.net/conciertos/valencia/noviembre-2026/pagina-2"
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Estopa (Iberdrola Music Festival)",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "",
+   "from": "20:00",
+   "to": "00:00",
+   "people": "hasta 15.000 personas",
+   "tip": "Sábado con concierto muy popular. Evita Quatre Carreres por la noche.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "La Ganzúa",
+    "url": "https://www.laganzua.net/conciertos/salas-conciertos/roig-arena"
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "title": "Valencia CF – Osasuna (LaLiga)",
+   "type": "Fútbol",
+   "zones": [
+    "mestalla"
+   ],
+   "level": 3,
+   "start": "",
+   "from": "",
+   "to": "",
+   "people": "hasta 49.000 personas",
+   "tip": "Hora todavía sin anunciar (LaLiga la confirma 2–3 semanas antes, y puede moverse al sábado). Evita Blasco Ibáñez, Av. Aragón y el metro de Aragón desde 2 h antes hasta 1 h después del partido.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "source": {
+    "name": "LaLiga",
+    "url": "https://www.laliga.com/es-MA/clubes/valencia-cf/proximos-partidos"
+   }
+  },
+  {
+   "date": "2026-12-07",
+   "title": "Bunbury – Nuevas Mutaciones Tour",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "",
+   "from": "20:00",
+   "to": "00:00",
+   "people": "hasta 15.000 personas",
+   "tip": "Concierto grande en puente festivo.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "La Ganzúa",
+    "url": "https://www.laganzua.net/conciertos/salas-conciertos/roig-arena"
+   }
+  },
+  {
+   "date": "2026-12-08",
+   "title": "Jay Wheeler",
+   "type": "Concierto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "",
+   "from": "20:00",
+   "to": "00:00",
+   "people": "hasta 15.000 personas",
+   "tip": "Festivo con concierto grande en el Roig Arena.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "source": {
+    "name": "La Ganzúa",
+    "url": "https://www.laganzua.net/conciertos/salas-conciertos/roig-arena"
+   }
+  }
+ ],
+ "notices": [],
+ "sources": []
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Valencia sin aglomeraciones</title>
+<meta name="description" content="Avisa de dónde y cuándo va a haber mucha gente en Valencia, para poder evitarlo. Datos de fuentes oficiales, actualizados cada día.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Valencia sin aglomeraciones</h1>
+    <p class="sub">Te avisa de dónde y cuándo va a haber mucha gente, para que puedas evitarlo. <span id="updated"></span></p>
+  </header>
+
+  <section class="card status" id="status" aria-live="polite">
+    <p class="sub" id="statusDate">Cargando…</p>
+    <p class="big" id="statusTitle"></p>
+    <p id="statusText"></p>
+    <div class="next" id="next" hidden></div>
+  </section>
+
+  <section class="card">
+    <div class="weeknav">
+      <h2 id="weekTitle">Próximos 7 días</h2>
+      <div class="navbtns">
+        <button class="link" id="prev" aria-label="Semana anterior">←</button>
+        <button class="link" id="nextw" aria-label="Semana siguiente">→</button>
+      </div>
+    </div>
+    <div class="strip" id="strip" role="group" aria-label="Elegir día"></div>
+    <div class="legend">
+      <span><span class="bars" data-l="0"><i></i><i></i><i></i></span> Tranquilo</span>
+      <span><span class="bars" data-l="1"><i></i><i></i><i></i></span> Algo de gente</span>
+      <span><span class="bars" data-l="2"><i></i><i></i><i></i></span> Mucha gente</span>
+      <span><span class="bars" data-l="3"><i></i><i></i><i></i></span> Muchísima gente</span>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="dayTitle">Día</h2>
+    <div class="settings">
+      <label for="sens"><input type="checkbox" id="sens"> Avisarme también de eventos pequeños</label>
+      <label for="pat"><input type="checkbox" id="pat" checked> Zonas que suelen llenarse</label>
+      <label for="live" id="liveLabel"><input type="checkbox" id="live"> Calles cortadas ahora (tiempo real)</label>
+    </div>
+    <div id="map" role="img" aria-label="Mapa de Valencia con las zonas a evitar"></div>
+    <p class="sub" id="liveNote" hidden></p>
+    <div class="events" id="events"></div>
+  </section>
+
+  <section class="card" id="noticesCard" hidden>
+    <h2>Avisos recientes del Ayuntamiento</h2>
+    <p class="sub">Noticias oficiales sobre cortes de tráfico y dispositivos especiales. Pueden afectar a varios días.</p>
+    <ul class="notices" id="notices"></ul>
+  </section>
+
+  <section class="card">
+    <h2>Recibir el aviso en el móvil</h2>
+    <p>Cada mañana, si ese día hay algún sitio con mucha gente, te llega una notificación.</p>
+    <ol class="steps">
+      <li>Instala la app gratuita <strong>ntfy</strong> (Android o iPhone).</li>
+      <li>Pulsa <strong>+</strong> y suscríbete al tema: <code id="topic">valencia-calma-2cc424e245</code> <button class="link small" id="copyTopic">Copiar</button></li>
+      <li>Listo. No hace falta registrarse.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <h2>De dónde salen los datos</h2>
+    <p>Un programa revisa cada mañana estas fuentes oficiales y actualiza la web sola:</p>
+    <ul class="sources" id="sources"></ul>
+    <p>Las franjas horarias incluyen la llegada y la salida del público, que suelen ser los momentos más agobiantes. Lo marcado «aprox.» es una estimación y lo marcado «sin confirmar» todavía puede cambiar.</p>
+    <p>Mapa: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>.</p>
+  </footer>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="app.js"></script>
+</body>
+</html>
