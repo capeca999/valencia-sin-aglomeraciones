@@ -100,6 +100,36 @@ PATTERNS = [
 ]
 
 
+# Barrios para "Mis sitios" y los avisos por zona: id -> (nombre, zonas)
+AREAS = {
+    "centro": ("Centro", ["ayuntamiento", "san_agustin", "colon", "reina", "mercado", "carmen", "parterre"]),
+    "ruzafa": ("Ruzafa", ["ruzafa", "america"]),
+    "turia": ("Turia y Viveros", ["turia", "viveros"]),
+    "mestalla": ("Mestalla y Blasco Ibáñez", ["mestalla", "blasco", "tarongers"]),
+    "sur": ("Roig Arena y Ciudad de las Artes", ["roig", "cac"]),
+    "maritimo": ("Marítimo y Malvarrosa", ["marina", "malvarrosa"]),
+    "orriols": ("Orriols", ["ciutat"]),
+    "oeste": ("Campanar y Feria", ["campanar", "feria"]),
+}
+
+
+def _dist(a, b, c, d):
+    dx, dy = (b - d) * 85000, (a - c) * 111000
+    return (dx * dx + dy * dy) ** 0.5
+
+
+def areas_of(e: dict) -> list[str]:
+    """Barrios a los que afecta un evento (todos si es de toda la ciudad)."""
+    if "ciudad" in (e.get("tags") or []) or (e.get("type") == "Huelga" and not e.get("zones")):
+        return list(AREAS)
+    zs = list(e.get("zones") or [])
+    for lat, lon in e.get("geo") or []:
+        best = min(ZONES, key=lambda z: _dist(lat, lon, ZONES[z]["lat"], ZONES[z]["lon"]))
+        if _dist(lat, lon, ZONES[best]["lat"], ZONES[best]["lon"]) < 1200:
+            zs.append(best)
+    return [a for a, (_, zl) in AREAS.items() if any(z in zs for z in zl)]
+
+
 def find_zones(text: str) -> list[str]:
     """Devuelve las zonas mencionadas en un texto, en orden de aparición."""
     t = norm(text)

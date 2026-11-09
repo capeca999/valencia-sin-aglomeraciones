@@ -11,7 +11,7 @@ from datetime import date, timedelta
 
 from .common import ROOT, Event, norm, now, today
 from . import ruido
-from .geo import PATTERNS, zones_json
+from .geo import AREAS, PATTERNS, zones_json
 from .sources import ayto_movilidad, ayto_noticias, fiestas, geoportal, laliga, prensa, roig_arena, visitvalencia
 
 OUT = ROOT / "docs" / "data" / "events.json"
@@ -142,6 +142,7 @@ def run() -> dict:
     data = {
         "updated": now().isoformat(timespec="minutes"),
         "zones": zones_json(),
+        "areas": {k: v[1] for k, v in AREAS.items()},
         "patterns": PATTERNS,
         "events": events,
         "notices": notices,

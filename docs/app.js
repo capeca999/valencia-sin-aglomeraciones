@@ -486,14 +486,18 @@
   function renderAreas() {
     $("areasList").innerHTML = Object.keys(AREAS).map(function (a) {
       var places = AREAS[a].filter(function (z) { return DATA && DATA.zones[z]; }).map(zoneName).join(", ");
-      return '<label class="opt" for="ar_' + a + '"><input type="checkbox" id="ar_' + a + '" value="' + a + '"' + (state.mine.indexOf(a) >= 0 ? " checked" : "") + "> <span><strong>" +
-        esc(T("areas")[a]) + "</strong>" + (places ? '<br><span class="sub">' + esc(places) + "</span>" : "") + "</span></label>";
-    }).join("");
+      var topic = $("topic").textContent.trim() + "-" + a, on = state.mine.indexOf(a) >= 0;
+      return '<div class="area"><label class="opt" for="ar_' + a + '"><input type="checkbox" id="ar_' + a + '" value="' + a + '"' + (on ? " checked" : "") + "> <span><strong>" +
+        esc(T("areas")[a]) + "</strong>" + (places ? '<br><span class="sub">' + esc(places) + "</span>" : "") + "</span></label>" +
+        (on ? '<div class="sub2"><a class="link small subbtn" href="https://ntfy.sh/' + esc(topic) + '" target="_blank" rel="noopener">' + esc(T("subscribe")) + '</a> <span class="sub">' + esc(T("channel")) + " <code>" + esc(topic) + "</code></span></div>" : "") + "</div>";
+    }).join("") + (state.mine.length ? '<p class="sub">' + esc(T("subHelp")) + "</p>" : "");
     $("areasList").querySelectorAll("input").forEach(function (inp) {
       inp.onchange = function () {
         state.mine = Array.prototype.map.call($("areasList").querySelectorAll("input:checked"), function (x) { return x.value; });
         store.set("vsa-mine", state.mine);
-        renderAll();
+        var id = inp.id;
+        renderAll(); renderAreas();
+        var again = $(id); if (again) again.focus();
       };
     });
     $("onlyMine").checked = state.onlyMine;
@@ -544,6 +548,7 @@
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (j) {
       DATA = j;
+      if (DATA.areas) AREAS = DATA.areas;
       return fetch("data/quiet.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : { hours: [], places: [] }; })
         .catch(function () { return { hours: [], places: [] }; })
         .then(function (q) { QUIET = q; renderAll(); renderFooter(); renderLive(); renderNoise(); });

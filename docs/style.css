@@ -256,3 +256,7 @@ body.simple .ev h3 { font-size: 1.2rem; }
 .day { position: relative; }
 .day.mine-day { border-color: var(--accent); }
 body.a11y .pill.mine-pill { color: #000; }
+
+.area { display: grid; gap: 6px; }
+.area .sub2 { margin-left: 34px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+a.subbtn { text-decoration: none; display: inline-block; border: 2px solid var(--accent); border-radius: 999px; padding: 4px 12px; font-weight: 700; }
