@@ -142,7 +142,7 @@
     $("status").dataset.level = lvl;
     $("status").classList.toggle("fire", !!tg.fuego);
     $("statusDate").textContent = T("todayComma", { d: longDate(today) });
-    $("statusPicto").src = "pictos/" + (evs.length ? pictoKey(evs.slice().sort(function (a, b) { return b.level - a.level; })[0]) : "tranquilo") + ".png";
+    $("statusPicto").src = "pictos/" + (evs.length ? pictoKey(evs.slice().sort(function (a, b) { return b.level - a.level; })[0]) : "contento") + ".png";
     if (!evs.length) {
       $("statusTitle").textContent = T("calmTitle");
       $("statusText").textContent = T("calmText");

@@ -30,7 +30,6 @@ WANTED = {
     "gente": "multitud",
     "tranquilo": "tranquilo",
     "contento": "contento",
-    "feliz": "feliz",
     "silencio": "silencio",
     "ruido": "ruido",
     "biblioteca": "biblioteca",
@@ -50,7 +49,7 @@ WANTED = {
 }
 # clave -> id de ARASAAC elegido a mano tras revisarlos
 FIXED: dict[str, int] = {
-    "futbol": 29116, "concierto": 14532, "ruido": 7157, "cascos": 37857, "jardin": 30608,
+    "futbol": 29116, "concierto": 14532, "contento": 35547, "ruido": 7157, "cascos": 37857, "jardin": 30608,
 }
 
 
