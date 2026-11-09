@@ -39,6 +39,7 @@
   function zoneNames(e) {
     var n = (e.zones || []).filter(function (z) { return DATA.zones[z]; }).map(function (z) { return DATA.zones[z].name; });
     if (n.length) return n.join(", ");
+    if (e.type === "Huelga") return "Toda la ciudad (transporte con servicios mínimos)";
     return (e.geo || []).length ? "Marcado en el mapa" : "Ubicación en el texto del aviso";
   }
 

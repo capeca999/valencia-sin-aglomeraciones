@@ -45,6 +45,8 @@ ZONES: dict[str, dict] = {
                     "kw": ["viveros", "vivers", "jardines del real", "jardins del real"]},
     "turia":       {"name": "Jardín del Turia (tramo central)", "lat": 39.4720, "lon": -0.3640, "r": 600,
                     "kw": ["antiguo cauce", "jardin del turia", "jardi del turia", "cauce del rio"]},
+    "campanar":    {"name": "Av. Campanar (Conselleria de Educación)", "lat": 39.4815, "lon": -0.3935, "r": 300,
+                    "kw": ["conselleria de educacion", "conselleria d'educacio", "avenida de campanar", "av. campanar", "avinguda de campanar"]},
     "feria":       {"name": "Feria Valencia", "lat": 39.5055, "lon": -0.4205, "r": 550,
                     "kw": ["feria valencia", "fira valencia", "recinto ferial"]},
 }

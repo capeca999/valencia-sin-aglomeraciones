@@ -11,7 +11,7 @@ from datetime import date, timedelta
 
 from .common import ROOT, Event, norm, now, today
 from .geo import PATTERNS, zones_json
-from .sources import ayto_movilidad, ayto_noticias, geoportal, laliga, roig_arena, visitvalencia
+from .sources import ayto_movilidad, ayto_noticias, geoportal, laliga, prensa, roig_arena, visitvalencia
 
 OUT = ROOT / "docs" / "data" / "events.json"
 MANUAL = ROOT / "docs" / "data" / "manual.json"
@@ -22,6 +22,7 @@ SOURCES = [
     ("laliga", "LaLiga (Valencia CF y Levante UD)", laliga.scrape),
     ("roig_arena", "Roig Arena (web oficial)", roig_arena.scrape),
     ("visitvalencia", "Visit València (calendario Valencia Basket)", visitvalencia.scrape),
+    ("prensa", "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»", prensa.scrape),
 ]
 
 

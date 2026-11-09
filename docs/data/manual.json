@@ -2,10 +2,78 @@
   "_info": "Eventos añadidos a mano que las fuentes oficiales todavía no publican. Se borran solos al pasar la fecha. Formato igual que en events.json.",
   "events": [
     {
+      "date": "2026-11-11",
+      "title": "Huelga general de 24 horas (11N)",
+      "type": "Huelga",
+      "zones": [],
+      "level": 2,
+      "start": "",
+      "from": "00:00",
+      "to": "23:59",
+      "people": "toda la ciudad",
+      "confirmed": true,
+      "tip": "El transporte público (metro, tranvía, EMT, Renfe) funcionará con servicios mínimos: menos frecuencia y andenes y paradas más llenos. Puede haber piquetes informativos en zonas comerciales por la mañana.",
+      "source": {
+        "name": "Generalitat Valenciana · servicios mínimos",
+        "url": "https://habitatge.gva.es/documents/21189/165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-0a5baac22c6b"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Marcha educativa: Conselleria de Educación → Plaza del Ayuntamiento",
+      "type": "Manifestación",
+      "zones": [
+        "campanar",
+        "ayuntamiento"
+      ],
+      "level": 2,
+      "start": "11:00",
+      "from": "10:30",
+      "to": "14:00",
+      "people": "miles de personas",
+      "confirmed": true,
+      "approx": true,
+      "tip": "Concentración a las 11:00 en la Conselleria de Educación (Av. Campanar), marcha a las 11:45 hacia la Plaza del Ayuntamiento y concentración allí a las 12:30 con el piquete central de vivienda.",
+      "source": {
+        "name": "Valencia Plaza",
+        "url": "https://valenciaplaza.com/valenciaplaza/educacion/sindicatos-educativos-convocan-protestas-en-las-principales-ciudades-valencianas-el-dia-de-la-huelga-general"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Manifestación de la huelga general (salida calle Xàtiva)",
+      "type": "Manifestación",
+      "zones": [
+        "san_agustin",
+        "carmen",
+        "ayuntamiento"
+      ],
+      "level": 3,
+      "start": "18:00",
+      "from": "16:45",
+      "to": "21:30",
+      "people": "decenas de miles de personas",
+      "confirmed": true,
+      "approx": true,
+      "tip": "Sale a las 18:00 de la calle Xàtiva. Una hora antes sale una columna educativa desde las Torres de Quart. El recorrido exacto aún no está publicado: evita todo el centro (Xàtiva, San Agustín, Plaza del Ayuntamiento, Colón) desde las 17:00.",
+      "source": {
+        "name": "7 Televalencia",
+        "url": "https://7televalencia.com/huelga-11n-todo-lo-que-debes-saber/"
+      }
+    },
+    {
       "date": "2026-12-06",
       "title": "Maratón Valencia Trinidad Alfonso",
       "type": "Carrera",
-      "zones": ["cac", "tarongers", "blasco", "malvarrosa", "marina", "ayuntamiento", "america"],
+      "zones": [
+        "cac",
+        "tarongers",
+        "blasco",
+        "malvarrosa",
+        "marina",
+        "ayuntamiento",
+        "america"
+      ],
       "level": 3,
       "start": "08:15",
       "from": "07:00",
@@ -13,7 +81,10 @@
       "people": "36.000 corredores + público",
       "confirmed": true,
       "tip": "Toda la mañana hay calles cortadas, música de animación y mucha gente en buena parte de la ciudad. Mejor no salir antes de las 15:30 o quedarse lejos del recorrido. El Ayuntamiento publicará los cortes exactos unos días antes.",
-      "source": { "name": "Visit València", "url": "https://www.visitvalencia.com/agenda-valencia/calendario-de-carreras-y-maratones-en-valencia" }
+      "source": {
+        "name": "Visit València",
+        "url": "https://www.visitvalencia.com/agenda-valencia/calendario-de-carreras-y-maratones-en-valencia"
+      }
     }
   ]
 }

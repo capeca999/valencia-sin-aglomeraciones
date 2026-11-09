@@ -22,7 +22,7 @@ def build(data: dict, day: str) -> tuple[str, str, int] | None:
     zones = data["zones"]
     lines = []
     for e in evs:
-        where = ", ".join(zones[z]["name"] for z in e["zones"] if z in zones) or "ver detalles en la web"
+        where = ", ".join(zones[z]["name"] for z in e["zones"] if z in zones) or ("toda la ciudad" if e["type"] == "Huelga" else "ver detalles en la web")
         when = f"{e['from']}–{e['to']}" if e.get("from") else (f"desde las {e['start']}" if e.get("start") else "hora sin anunciar")
         lines.append(f"• {where} · {when}\n  {e['title'][:90]}")
     top = max(e["level"] for e in evs)
