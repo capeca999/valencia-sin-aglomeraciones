@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T12:50+01:00",
+ "updated": "2026-11-09T12:58+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -4217,5 +4217,17 @@
    "ok": true,
    "count": 16
   }
- ]
+ ],
+ "health": {
+  "geoportal": {
+   "zero_since": "2026-11-09",
+   "zero_days": 1
+  },
+  "laliga": {},
+  "roig_arena": {},
+  "visitvalencia": {},
+  "fiestas": {},
+  "prensa": {},
+  "ruido": {}
+ }
 }
