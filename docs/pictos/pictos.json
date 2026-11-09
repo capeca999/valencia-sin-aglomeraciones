@@ -1,6 +1,6 @@
 {
  "futbol": {
-  "id": 16743,
+  "id": 29116,
   "word": "fútbol",
   "alt_ids": [
    16743,
@@ -24,7 +24,7 @@
   ]
  },
  "concierto": {
-  "id": 11586,
+  "id": 14532,
   "word": "concierto",
   "alt_ids": [
    11586,
@@ -124,7 +124,7 @@
   ]
  },
  "ruido": {
-  "id": 37857,
+  "id": 7157,
   "word": "ruido",
   "alt_ids": [
    37857,
@@ -157,7 +157,7 @@
   ]
  },
  "jardin": {
-  "id": 2434,
+  "id": 30608,
   "word": "jardín",
   "alt_ids": [
    2434,
@@ -209,5 +209,10 @@
    29074,
    2915
   ]
+ },
+ "cascos": {
+  "id": 37857,
+  "word": "cascos antiruido",
+  "alt_ids": []
  }
 }
