@@ -4,15 +4,15 @@ Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-
 Keep-Alive: timeout=60
 X-Content-Type-Options: nosniff
 Connection: keep-alive
-Date: Mon, 09 Nov 2026 08:05:46 GMT
+Date: Mon, 09 Nov 2026 08:08:06 GMT
 Cache-Control: max-age=0,must-revalidate
 ETag: 3db21529
-Set-Cookie: AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Mon, 09-Nov-2026 08:06:46 GMT; Path=/server/rest; Secure; HttpOnly
+Set-Cookie: AGS_ROLES="419jqfa+uOZgYod4xPOQ8Q=="; Version=1; Max-Age=60; Expires=Mon, 09-Nov-2026 08:09:07 GMT; Path=/server/rest; Secure; HttpOnly
 Vary: Origin
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
 X-XSS-Protection: 1; mode=block
 Content-Type: application/geo+json;charset=UTF-8
 Content-Length: 1538
-Set-Cookie: TS01fdb1fa=01a7feee54df944fc46978c57b644998b68bbba5cf551d9f98e59c638bd20c37f3214e6a9039b06bc820098e5dfd3cb4d1fe462f53; Path=/
-Set-Cookie: TS013e1d14=01a7feee54df944fc46978c57b644998b68bbba5cf551d9f98e59c638bd20c37f3214e6a9039b06bc820098e5dfd3cb4d1fe462f53; path=/server/rest
+Set-Cookie: TS01fdb1fa=01a7feee54970d7934361a87e20016845f854ef5c9abe4fce0a3b6e825cd886cda5ea262d203329d8e2f17dfafc285385287aece4a; Path=/
+Set-Cookie: TS013e1d14=01a7feee54970d7934361a87e20016845f854ef5c9abe4fce0a3b6e825cd886cda5ea262d203329d8e2f17dfafc285385287aece4a; path=/server/rest
 
