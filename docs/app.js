@@ -27,13 +27,25 @@
   var today = new Date(); today.setHours(0, 0, 0, 0);
   var TODAY = ymd(today);
   var DATA = null;
-  var state = { minLevel: store.get("vsa-small", false) ? 1 : 2, patterns: store.get("vsa-patterns", true), live: store.get("vsa-live", false), selected: TODAY, weekStart: 0 };
+  var QUIET = { hours: [], places: [] };
+  var state = { quiet: store.get("vsa-quiet", true), noise: store.get("vsa-noise", false), minLevel: store.get("vsa-small", false) ? 1 : 2, patterns: store.get("vsa-patterns", true), live: store.get("vsa-live", false), selected: TODAY, weekStart: 0 };
 
   function eventsOn(date) { return DATA.events.filter(function (e) { return e.date === date && e.level >= state.minLevel; }); }
   function patternsOn(date) {
     if (!state.patterns) return [];
     var wd = parse(date).getDay();
     return DATA.patterns.filter(function (p) { return p.days.indexOf(wd) >= 0; });
+  }
+  // Pictograma ARASAAC según el tipo de evento
+  function pictoKey(e) {
+    var t = (e.tags || []);
+    if (t.indexOf("ciudad") >= 0 || t.indexOf("fuego") >= 0) return /mascl|petard/i.test(e.title) ? "petardo" : "fuegos";
+    var map = { "Fútbol": "futbol", "Baloncesto": "baloncesto", "Concierto": "concierto", "Concierto / espectáculo": "concierto",
+      "Manifestación": "manifestacion", "Huelga": "huelga", "Carrera": "carrera", "Fiesta / desfile": "desfile" };
+    return map[e.type] || "gente";
+  }
+  function picto(key, alt, cls) {
+    return '<img class="picto' + (cls ? " " + cls : "") + '" src="pictos/' + key + '.png" alt="' + esc(alt || "") + '" width="56" height="56" loading="lazy">';
   }
   function tagsOn(date) {
     var t = {};
@@ -59,6 +71,8 @@
     $("status").dataset.level = lvl;
     $("status").classList.toggle("fire", !!tg.fuego);
     $("statusDate").textContent = "Hoy, " + longDate(today);
+    var sp = $("statusPicto");
+    if (sp) sp.src = "pictos/" + (evs.length ? pictoKey(evs.slice().sort(function (a, b) { return b.level - a.level; })[0]) : "tranquilo") + ".png";
     if (!evs.length) {
       $("statusTitle").textContent = "Hoy está tranquilo";
       $("statusText").textContent = "No hay grandes eventos previstos en Valencia.";
@@ -120,6 +134,9 @@
       }).addTo(map);
     });
     zoneLayer = L.layerGroup().addTo(map);
+    quietLayer = L.layerGroup().addTo(map);
+    noiseLayer = L.layerGroup().addTo(map);
+    map.on("zoomend", function () { if (DATA) renderNoise(); });
     liveLayer = L.layerGroup().addTo(map);
   }
   function renderMap() {
@@ -202,14 +219,16 @@
     evs.forEach(function (e) {
       var links = '<a href="' + esc(e.source.url) + '" target="_blank" rel="noopener">Fuente: ' + esc(e.source.name) + "</a>";
       (e.also || []).forEach(function (s) { links += '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">También en: ' + esc(s.name) + "</a>"; });
-      h += '<article class="ev" data-l="' + e.level + '"><div class="row"><span class="pill l' + e.level + '">' + LEVELS[e.level] + "</span>" +
+      var fire = (e.tags || []).indexOf("fuego") >= 0;
+      h += '<article class="ev" data-l="' + e.level + '"><div class="evhead">' + picto(pictoKey(e), e.type) + '<div><div class="row"><span class="pill l' + e.level + '">' + LEVELS[e.level] + "</span>" +
         ((e.tags || []).indexOf("fuego") >= 0 ? '<span class="pill fire">🔥 Fuego y petardos</span>' : "") +
         (e.official ? '<span class="pill off">Fuente oficial</span>' : "") +
         (e.confirmed === false ? '<span class="pill warn">Sin confirmar</span>' : "") +
         '<span class="sub">' + esc(e.type) + (e.people ? " · " + esc(e.people) : "") + "</span></div>" +
-        "<h3>" + esc(e.title) + "</h3>" +
+        "<h3>" + esc(e.title) + "</h3></div></div>" +
         '<div class="row"><span class="when">' + esc(timeText(e)) + "</span>" + (e.start && e.from && e.start !== e.from ? '<span class="sub">Empieza a las ' + esc(e.start) + "</span>" : "") + "</div>" +
         '<p class="avoid"><strong>Zona a evitar:</strong> ' + esc(zoneNames(e)) + (e.tip ? "<br>" + esc(e.tip) : "") + "</p>" +
+        (fire ? '<div class="evhead">' + picto("cascos", "Protección auditiva", "small") + '<p class="sub">Si te molesta el ruido, lleva cascos o tapones.</p></div>' : "") +
         (e.raw ? '<details class="raw"><summary>Texto completo del aviso oficial</summary><p>' + esc(e.raw) + "</p></details>" : "") +
         '<div class="links">' + links + "</div></article>";
     });
@@ -233,17 +252,87 @@
     }).join("") + '<li>Geoportal del Ayuntamiento de València (tráfico en tiempo real)</li>';
   }
 
+  // ---------- Lugares y horas tranquilas ----------
+  function dist(a, b, c, d) { var dx = (b - d) * 85000, dy = (a - c) * 111000; return Math.sqrt(dx * dx + dy * dy); }
+  function nearbyEvent(pl, date) {
+    return eventsOn(date).filter(function (e) {
+      return (e.tags || []).indexOf("ciudad") >= 0 || (e.zones || []).some(function (z) { var Z = DATA.zones[z]; return Z && dist(pl.lat, pl.lon, Z.lat, Z.lon) < Z.r + 400; });
+    })[0];
+  }
+  function nowIn(from, to) {
+    var n = new Date(), m = n.getHours() * 60 + n.getMinutes();
+    var f = from.split(":"), t = to.split(":");
+    return m >= +f[0] * 60 + +f[1] && m < +t[0] * 60 + +t[1];
+  }
+  function renderQuiet() {
+    var wd = parse(state.selected).getDay(), isToday = state.selected === TODAY;
+    $("quietHours").innerHTML = QUIET.hours.filter(function (q) { return q.days.indexOf(wd) >= 0; }).map(function (q) {
+      var live = isToday && nowIn(q.from, q.to);
+      return '<article class="ev quiet"><div class="evhead">' + picto(q.picto, q.title) + '<div><div class="row">' +
+        (live ? '<span class="pill now">Ahora mismo</span>' : '<span class="pill calm">Hora tranquila</span>') +
+        '<span class="when">' + esc(q.when) + "</span></div><h3>" + esc(q.title) + "</h3></div></div><p>" + esc(q.text) +
+        '</p><div class="links"><a href="' + esc(q.source.url) + '" target="_blank" rel="noopener">Fuente: ' + esc(q.source.name) + "</a></div></article>";
+    }).join("");
+    $("quietPlaces").innerHTML = QUIET.places.map(function (pl) {
+      var ev = nearbyEvent(pl, state.selected);
+      return '<article class="ev quiet' + (ev ? " warn" : "") + '"><div class="evhead">' + picto(pl.picto, pl.name) + '<div><div class="row">' +
+        (ev ? '<span class="pill l2">Este día no es tranquilo</span>' : '<span class="pill calm">Lugar tranquilo</span>') +
+        '<span class="sub">' + esc(pl.best) + "</span></div><h3>" + esc(pl.name) + "</h3></div></div>" +
+        (ev ? '<p class="avoid">Cerca hay: <strong>' + esc(ev.title) + "</strong> (" + esc(timeText(ev)) + ").</p>" : "") +
+        "<p>" + esc(pl.text) + '</p><div class="links"><a href="' + esc(pl.source.url) + '" target="_blank" rel="noopener">Fuente: ' + esc(pl.source.name) + "</a></div></article>";
+    }).join("");
+  }
+  var quietLayer, noiseLayer;
+  function renderQuietMap() {
+    quietLayer.clearLayers();
+    if (!state.quiet) return;
+    QUIET.places.forEach(function (pl) {
+      var ev = nearbyEvent(pl, state.selected);
+      L.marker([pl.lat, pl.lon], { icon: L.divIcon({ className: "quiet-icon", html: '<img src="pictos/' + pl.picto + '.png" alt="">', iconSize: [34, 34] }), keyboard: false, opacity: ev ? 0.5 : 1 })
+        .bindPopup("<strong>" + esc(pl.name) + "</strong><br>" + (ev ? "Este día hay un evento cerca: " + esc(ev.title) : esc(pl.best))).addTo(quietLayer);
+    });
+  }
+  function dbColor(v) { return v == null ? css("--muted") : v < 55 ? css("--calm") : v < 60 ? css("--l1") : v < 65 ? css("--l2") : css("--l3"); }
+  function renderNoise() {
+    noiseLayer.clearLayers();
+    var note = $("noiseNote");
+    var data = DATA.noise || [];
+    if (!state.noise || !data.length) { note.hidden = true; return; }
+    var hour = new Date().getHours(), field = hour >= 23 || hour < 7 ? "laeq_n" : hour >= 19 ? "laeq_e" : "laeq_d";
+    var label = { laeq_d: "de día (7–19 h)", laeq_e: "por la tarde (19–23 h)", laeq_n: "por la noche (23–7 h)" }[field];
+    var vals = data.map(function (n) { return n[field] != null ? n[field] : n.laeq; }).filter(function (v) { return v != null; });
+    if (map.getZoom() < 16 && vals.length) {
+      var avg = vals.reduce(function (a, b) { return a + b; }, 0) / vals.length, mx = Math.max.apply(null, vals);
+      var la = data.reduce(function (a, n) { return a + n.lat; }, 0) / data.length, lo = data.reduce(function (a, n) { return a + n.lon; }, 0) / data.length;
+      L.marker([la, lo], { icon: L.divIcon({ className: "db-icon", html: '<span style="background:' + dbColor(avg) + '">Ruzafa ' + Math.round(avg) + " dB</span>", iconSize: [96, 22], iconAnchor: [48, 11] }), keyboard: false })
+        .bindPopup("<strong>Ruido en Ruzafa</strong><br>Media " + Math.round(avg) + " dB, máximo " + Math.round(mx) + " dB (" + vals.length + " sonómetros), " + esc(label) + ".<br>Acerca el mapa para ver cada sonómetro.")
+        .on("dblclick", function () { map.setView([la, lo], 16, { animate: false }); }).addTo(noiseLayer);
+    } else data.forEach(function (n) {
+      var v = n[field] != null ? n[field] : n.laeq;
+      L.marker([n.lat, n.lon], { icon: L.divIcon({ className: "db-icon", html: '<span style="background:' + dbColor(v) + '">' + (v != null ? Math.round(v) + " dB" : "—") + "</span>", iconSize: [48, 22] }), keyboard: false })
+        .bindPopup("<strong>" + esc(n.name) + "</strong><br>Ruido medido el " + esc(n.date.split("-").reverse().join("/")) + ":<br>Día " + (n.laeq_d ?? "—") + " dB · Tarde " + (n.laeq_e ?? "—") + " dB · Noche " + (n.laeq_n ?? "—") + " dB" +
+          '<br><a href="' + esc(n.source) + '" target="_blank" rel="noopener">Datos del Ayuntamiento</a>').addTo(noiseLayer);
+    });
+    note.hidden = false;
+    note.innerHTML = "Ruido medido el último día por los sonómetros del Ayuntamiento en Ruzafa, " + esc(label) + ":" +
+      ' <span><b style="background:' + css("--calm") + '"></b>menos de 55 dB (tranquilo)</span><span><b style="background:' + css("--l1") + '"></b>55–60</span><span><b style="background:' + css("--l2") + '"></b>60–65</span><span><b style="background:' + css("--l3") + '"></b>más de 65 dB (molesto)</span>';
+  }
+
   function select(date) {
     state.selected = date;
     var diff = Math.round((parse(date) - today) / 86400000);
     if (diff >= 0) state.weekStart = Math.floor(diff / 7);
     renderAll();
   }
-  function renderAll() { renderStatus(); renderStrip(); renderMap(); renderDay(); }
+  function renderAll() { renderStatus(); renderStrip(); renderMap(); renderDay(); renderQuiet(); renderQuietMap(); }
 
   $("sens").checked = state.minLevel === 1;
   $("pat").checked = state.patterns;
   $("live").checked = state.live;
+  $("quietChk").checked = state.quiet;
+  $("noiseChk").checked = state.noise;
+  $("quietChk").onchange = function (ev) { state.quiet = ev.target.checked; store.set("vsa-quiet", state.quiet); renderQuietMap(); };
+  $("noiseChk").onchange = function (ev) { state.noise = ev.target.checked; store.set("vsa-noise", state.noise); renderNoise(); };
   $("sens").onchange = function (ev) { state.minLevel = ev.target.checked ? 1 : 2; store.set("vsa-small", ev.target.checked); renderAll(); };
   $("pat").onchange = function (ev) { state.patterns = ev.target.checked; store.set("vsa-patterns", ev.target.checked); renderMap(); renderDay(); };
   $("live").onchange = function (ev) { state.live = ev.target.checked; store.set("vsa-live", ev.target.checked); renderLive(); };
@@ -265,7 +354,9 @@
       DATA = j;
       var u = new Date(DATA.updated);
       $("updated").textContent = "Actualizado el " + u.getDate() + " de " + MO_LONG[u.getMonth()] + " a las " + String(u.getHours()).padStart(2, "0") + ":" + String(u.getMinutes()).padStart(2, "0") + ".";
-      renderAll(); renderFooter(); renderLive();
+      return fetch("data/quiet.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : { hours: [], places: [] }; })
+        .catch(function () { return { hours: [], places: [] }; })
+        .then(function (q) { QUIET = q; renderAll(); renderFooter(); renderLive(); renderNoise(); });
     })
     .catch(function () {
       $("statusDate").textContent = "";

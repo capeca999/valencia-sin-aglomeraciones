@@ -117,10 +117,28 @@ footer { color: var(--muted); font-size: 0.92rem; display: grid; gap: 10px; }
 .status.fire .big { color: var(--l3); }
 .pill.fire { color: #fff; background: var(--l3); border-color: var(--l3); }
 .citywide { background: var(--l3); color: #fff; border-radius: 10px; padding: 12px 14px; font-weight: 700; }
-.leaflet-div-icon.flame-icon { background: none; border: none; font-size: 26px; line-height: 26px; text-align: center; }
+.leaflet-marker-icon.flame-icon { background: none; border: none; font-size: 26px; line-height: 26px; text-align: center; }
 .leaflet-tooltip.citylabel { font-family: var(--font); font-weight: 700; font-size: 15px; background: var(--l3); color: #fff; border: none; box-shadow: none; }
 
 /* Apoyo (Buy Me a Coffee): botón tranquilo, sin ventanas flotantes */
 .coffee { justify-self: start; display: inline-block; font-weight: 700; text-decoration: none; color: #1E2A2D; background: #FFDD00;
   border-radius: 999px; padding: 10px 18px; border: 2px solid #E5C600; }
 .coffee:hover { background: #FFE53B; }
+
+/* Pictogramas ARASAAC: fondo blanco siempre, para que se lean igual en modo oscuro */
+.picto { width: 56px; height: 56px; flex: none; background: #fff; border-radius: 10px; border: 1px solid var(--line); padding: 3px; object-fit: contain; }
+.picto.small { width: 40px; height: 40px; }
+.evhead { display: flex; gap: 12px; align-items: flex-start; }
+.evhead > div { display: grid; gap: 6px; min-width: 0; }
+.titlerow { display: flex; gap: 12px; align-items: center; }
+.status .titlerow .picto { width: 64px; height: 64px; }
+.ev.quiet { border-left-color: var(--calm); }
+.ev.quiet.warn { border-left-color: var(--l2); }
+.pill.calm { color: var(--calm); border-color: var(--calm); }
+.pill.now { color: #fff; background: var(--calm); border-color: var(--calm); }
+.leaflet-marker-icon.quiet-icon { background: #fff; border: 2px solid var(--calm); border-radius: 10px; padding: 2px; }
+.leaflet-marker-icon.quiet-icon img { width: 100%; height: 100%; display: block; object-fit: contain; }
+.leaflet-marker-icon.db-icon { background: none; border: none; }
+.db-icon span { display: inline-block; font: 700 12px/1 var(--font); color: #fff; padding: 4px 6px; border-radius: 999px; white-space: nowrap; }
+.noiselegend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.85rem; color: var(--muted); align-items: center; }
+.noiselegend b { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }

@@ -1,0 +1,100 @@
+{
+ "_info": "Lugares y horas tranquilas. Son recomendaciones: compruébalas antes de ir. Se pueden añadir más con el mismo formato.",
+ "hours": [
+  {
+   "title": "La Hora Silenciosa en Carrefour",
+   "when": "Todos los días, de 15:00 a 16:00",
+   "from": "15:00",
+   "to": "16:00",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "picto": "supermercado",
+   "text": "En todos los hipermercados Carrefour y supermercados Carrefour Market se baja la luz, se apaga la música, no hay megafonía (salvo emergencias) y se reduce el sonido de las cajas.",
+   "source": {
+    "name": "Autismo España",
+    "url": "https://autismo.org.es/colabora-con-autismo-espana/soy-empresa/la-hora-silenciosa/"
+   }
+  }
+ ],
+ "places": [
+  {
+   "name": "Parque Gulliver (Autism Friendly)",
+   "lat": 39.4603,
+   "lon": -0.3573,
+   "picto": "parque",
+   "best": "Mejor entre semana por la mañana",
+   "text": "Certificado como espacio Autism Friendly por el Ayuntamiento: señalética adaptada, materiales informativos y kits sensoriales. Los fines de semana se llena de familias.",
+   "source": {
+    "name": "Ajuntament de València",
+    "url": "https://www.valencia.es/es/-/parque-gulliver-autism-friendly-autismo-val%C3%A8ncia"
+   }
+  },
+  {
+   "name": "Jardín Botánico de la Universitat de València",
+   "lat": 39.4757,
+   "lon": -0.3869,
+   "picto": "jardin",
+   "best": "Mejor entre semana",
+   "text": "Jardín cerrado con muros, con mucha sombra y poco ruido de tráfico. Tiene entrada de pago: consulta horario y precio antes de ir.",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/va/que-fer-valencia/naturalesa-en-valencia/parcs-i-jardins/jardi-botanic"
+   }
+  },
+  {
+   "name": "Jardines de Monforte",
+   "lat": 39.4779,
+   "lon": -0.3652,
+   "picto": "jardin",
+   "best": "Mejor por la mañana",
+   "text": "Jardín pequeño y recogido junto a Viveros, normalmente muy tranquilo. En Fallas y en las ferias de Viveros la zona de alrededor se llena.",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/"
+   }
+  },
+  {
+   "name": "Parque de Cabecera",
+   "lat": 39.4795,
+   "lon": -0.4075,
+   "picto": "jardin",
+   "best": "Mejor entre semana",
+   "text": "Inicio del Jardín del Turia, con mucho espacio abierto y lago. Suele estar mucho menos lleno que el tramo central del Turia.",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/"
+   }
+  },
+  {
+   "name": "Biblioteca Pública de València",
+   "lat": 39.4703,
+   "lon": -0.3815,
+   "picto": "biblioteca",
+   "best": "Mejor por la mañana entre semana",
+   "text": "Espacio en silencio dentro del antiguo Hospital, en la calle Hospital. En agosto solo abre por la mañana. Ojo: está junto a San Agustín, de donde salen muchas manifestaciones.",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/biblioteca-publica-valencia-antiguo-hospital-general"
+   }
+  },
+  {
+   "name": "Devesa del Saler",
+   "lat": 39.37,
+   "lon": -0.319,
+   "picto": "playa",
+   "best": "Mejor entre semana y fuera del verano",
+   "text": "Pinar y dunas junto al mar, dentro del Parque Natural de l'Albufera. Mucho espacio y poco ruido.",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/"
+   }
+  }
+ ]
+}

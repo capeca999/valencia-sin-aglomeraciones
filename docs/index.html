@@ -19,8 +19,9 @@
   </header>
 
   <section class="card status" id="status" aria-live="polite">
+    <div class="titlerow"><img class="picto" id="statusPicto" src="pictos/tranquilo.png" alt="" width="64" height="64"><div>
     <p class="sub" id="statusDate">Cargando…</p>
-    <p class="big" id="statusTitle"></p>
+    <p class="big" id="statusTitle"></p></div></div>
     <p id="statusText"></p>
     <div class="next" id="next" hidden></div>
   </section>
@@ -47,11 +48,21 @@
     <div class="settings">
       <label for="sens"><input type="checkbox" id="sens"> Avisarme también de eventos pequeños</label>
       <label for="pat"><input type="checkbox" id="pat" checked> Zonas que suelen llenarse</label>
+      <label for="quietChk"><input type="checkbox" id="quietChk" checked> Lugares tranquilos</label>
+      <label for="noiseChk"><input type="checkbox" id="noiseChk"> Ruido medido (Ruzafa)</label>
       <label for="live" id="liveLabel"><input type="checkbox" id="live"> Calles cortadas ahora (tiempo real)</label>
     </div>
     <div id="map" role="img" aria-label="Mapa de Valencia con las zonas a evitar"></div>
     <p class="sub" id="liveNote" hidden></p>
+    <div class="noiselegend" id="noiseNote" hidden></div>
     <div class="events" id="events"></div>
+  </section>
+
+  <section class="card" id="quietCard">
+    <div class="titlerow"><img class="picto" src="pictos/tranquilo.png" alt="" width="56" height="56"><h2>Lugares y horas tranquilas</h2></div>
+    <p class="sub">Sitios donde suele haber poca gente y poco ruido, y horas en las que algunas tiendas bajan la luz y el sonido. Son recomendaciones: compruébalas antes de ir.</p>
+    <div class="events" id="quietHours"></div>
+    <div class="events" id="quietPlaces"></div>
   </section>
 
   <section class="card" id="noticesCard" hidden>
@@ -82,6 +93,7 @@
     <ul class="sources" id="sources"></ul>
     <p>Las franjas horarias incluyen la llegada y la salida del público, que suelen ser los momentos más agobiantes. Lo marcado «aprox.» es una estimación y lo marcado «sin confirmar» todavía puede cambiar.</p>
     <p>Mapa: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>.</p>
+    <p>Pictogramas: Sergio Palao. Origen: <a href="https://arasaac.org">ARASAAC</a>. Licencia: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">CC BY-NC-SA</a>. Propiedad: Gobierno de Aragón (España).</p>
   </footer>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
