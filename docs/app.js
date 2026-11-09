@@ -5,6 +5,9 @@
   var WD_LONG = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
   var MO = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
   var MO_LONG = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+  // Clave pública de CARTO Basemaps (gratis para uso no comercial). Va en el navegador: es normal que sea visible.
+  // Restríngela a tu dominio (capeca999.github.io) en el panel de CARTO.
+  var CARTO_KEY = "cb1_5554_1_8fee9a245a93f097e737999e";
   var LIVE_URL = "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/192/query?where=1%3D1&outFields=*&outSR=4326&f=geojson";
 
   var store = {
@@ -94,10 +97,19 @@
   function initMap() {
     var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
     map = L.map("map", { zoomAnimation: false, fadeAnimation: false, markerZoomAnimation: false, scrollWheelZoom: false }).setView([39.4699, -0.3700], 13);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/" + (dark ? "dark_all" : "light_all") + "/{z}/{x}/{y}{r}.png", {
+    var base = L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/" + (dark ? "dark_all" : "light_all") + "/{z}/{x}/{y}{r}.png?key=" + CARTO_KEY, {
       maxZoom: 19, subdomains: "abcd",
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(map);
+    // Si CARTO falla, se usa el mapa estándar de OpenStreetMap (no necesita clave)
+    var errors = 0;
+    base.on("tileerror", function () {
+      if (++errors !== 4) return;
+      map.removeLayer(base);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      }).addTo(map);
+    });
     zoneLayer = L.layerGroup().addTo(map);
     liveLayer = L.layerGroup().addTo(map);
   }
