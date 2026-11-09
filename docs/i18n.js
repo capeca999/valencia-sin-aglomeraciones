@@ -3,6 +3,12 @@
 window.I18N = {
   es: {
     htmlLang: "es", speechLang: "es-ES",
+    mySites: "Mis sitios", sitesIntro: "Marca las zonas por las que te mueves (casa, trabajo, terapia…). Se guarda solo en este dispositivo.",
+    onlyMine: "Mostrar solo lo que afecta a mis sitios", onlyMineHelp: "Los avisos que afectan a toda la ciudad (huelgas, Fallas) se muestran siempre.",
+    mineToday: "En tus sitios hoy", mineCalm: "En tus sitios hoy está tranquilo.", minePill: "★ Tu sitio", mineDay: "afecta a tus sitios",
+    mineNone: "Aún no has elegido tus sitios.",
+    areas: { centro: "Centro (Ciutat Vella y Colón)", ruzafa: "Ruzafa y Plaza de América", turia: "Jardín del Turia y Viveros", mestalla: "Mestalla, Blasco Ibáñez y universidades",
+      sur: "Roig Arena y Ciudad de las Artes", maritimo: "Marítimo, Malvarrosa y La Marina", orriols: "Orriols (estadio del Levante)", oeste: "Campanar y Feria Valencia" },
     a11yPanel: "Accesibilidad", a11yIntro: "Elige lo que te ayude. Puedes combinar varias opciones y la web las recordará.",
     dysMode: "Modo dislexia", dysHelp: "Letra OpenDyslexic, más espacio entre letras y líneas, y fondo crema.",
     simpleMode: "Vista sencilla", simpleHelp: "Solo lo importante: hoy, los próximos días y los avisos, sin opciones ni textos largos.",
@@ -92,6 +98,12 @@ window.I18N = {
 
   va: {
     htmlLang: "ca-ES-valencia", speechLang: "ca-ES",
+    mySites: "Els meus llocs", sitesIntro: "Marca les zones per on et mous (casa, treball, teràpia…). Es guarda només en este dispositiu.",
+    onlyMine: "Mostrar només el que afecta els meus llocs", onlyMineHelp: "Els avisos que afecten tota la ciutat (vagues, Falles) es mostren sempre.",
+    mineToday: "Hui en els teus llocs", mineCalm: "Hui en els teus llocs està tranquil.", minePill: "★ El teu lloc", mineDay: "afecta els teus llocs",
+    mineNone: "Encara no has triat els teus llocs.",
+    areas: { centro: "Centre (Ciutat Vella i Colón)", ruzafa: "Russafa i plaça d'Amèrica", turia: "Jardí del Túria i Vivers", mestalla: "Mestalla, Blasco Ibáñez i universitats",
+      sur: "Roig Arena i Ciutat de les Arts", maritimo: "Marítim, Malva-rosa i la Marina", orriols: "Orriols (estadi del Llevant)", oeste: "Campanar i Fira València" },
     a11yPanel: "Accessibilitat", a11yIntro: "Tria el que t'ajude. Pots combinar diverses opcions i la web les recordarà.",
     dysMode: "Mode dislèxia", dysHelp: "Lletra OpenDyslexic, més espai entre lletres i línies, i fons crema.",
     simpleMode: "Vista senzilla", simpleHelp: "Només el que és important: hui, els pròxims dies i els avisos, sense opcions ni textos llargs.",
@@ -182,6 +194,12 @@ window.I18N = {
 
   en: {
     htmlLang: "en", speechLang: "en-GB",
+    mySites: "My places", sitesIntro: "Tick the areas you usually go to (home, work, therapy…). It's only saved on this device.",
+    onlyMine: "Only show what affects my places", onlyMineHelp: "Alerts that affect the whole city (strikes, Fallas) are always shown.",
+    mineToday: "In your places today", mineCalm: "Your places are calm today.", minePill: "★ Your place", mineDay: "affects your places",
+    mineNone: "You haven't chosen your places yet.",
+    areas: { centro: "City centre (Ciutat Vella and Colón)", ruzafa: "Ruzafa and Plaza de América", turia: "Turia Gardens and Viveros", mestalla: "Mestalla, Blasco Ibáñez and universities",
+      sur: "Roig Arena and City of Arts and Sciences", maritimo: "Seafront, Malvarrosa and La Marina", orriols: "Orriols (Levante stadium)", oeste: "Campanar and Feria Valencia" },
     a11yPanel: "Accessibility", a11yIntro: "Choose whatever helps you. You can combine several options and the site will remember them.",
     dysMode: "Dyslexia mode", dysHelp: "OpenDyslexic font, more space between letters and lines, and a cream background.",
     simpleMode: "Simple view", simpleHelp: "Only the essentials: today, the next few days and the alerts, without options or long texts.",

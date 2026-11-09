@@ -57,18 +57,47 @@
     $("phoneLang").hidden = !T("phoneLang");
   }
 
+  // Zonas agrupadas por barrios para "Mis sitios"
+  var AREAS = {
+    centro: ["ayuntamiento", "san_agustin", "colon", "reina", "mercado", "carmen", "parterre"],
+    ruzafa: ["ruzafa", "america"],
+    turia: ["turia", "viveros"],
+    mestalla: ["mestalla", "blasco", "tarongers"],
+    sur: ["roig", "cac"],
+    maritimo: ["marina", "malvarrosa"],
+    orriols: ["ciutat"],
+    oeste: ["campanar", "feria"]
+  };
   var today = new Date(); today.setHours(0, 0, 0, 0);
   var TODAY = ymd(today);
   var DATA = null;
   var QUIET = { hours: [], places: [] };
   var state = {
+    mine: store.get("vsa-mine", []), onlyMine: store.get("vsa-onlymine", false),
     a11y: store.get("vsa-a11y", false), dys: store.get("vsa-dys", false), simple: store.get("vsa-simple", false), size: store.get("vsa-size", 1),
     quiet: store.get("vsa-quiet", true), noise: store.get("vsa-noise", false),
     minLevel: store.get("vsa-small", false) ? 1 : 2, patterns: store.get("vsa-patterns", true),
     live: store.get("vsa-live", false), selected: TODAY, weekStart: 0
   };
 
-  function eventsOn(date) { return DATA.events.filter(function (e) { return e.date === date && e.level >= state.minLevel; }); }
+  function isCityWide(e) { return (e.tags || []).indexOf("ciudad") >= 0 || (e.type === "Huelga" && !(e.zones || []).length); }
+  function areasOf(e) {
+    if (isCityWide(e)) return Object.keys(AREAS);
+    var zs = (e.zones || []).slice();
+    // eventos situados por puntos (Geoportal): zona más cercana a menos de 1,2 km
+    (e.geo || []).forEach(function (pt) {
+      var best = null, bd = 1200;
+      Object.keys(DATA.zones).forEach(function (z) { var Z = DATA.zones[z], d = dist(pt[0], pt[1], Z.lat, Z.lon); if (d < bd) { bd = d; best = z; } });
+      if (best) zs.push(best);
+    });
+    return Object.keys(AREAS).filter(function (a) { return AREAS[a].some(function (z) { return zs.indexOf(z) >= 0; }); });
+  }
+  function isMine(e) { return state.mine.length > 0 && areasOf(e).some(function (a) { return state.mine.indexOf(a) >= 0; }); }
+  function eventsOn(date) {
+    return DATA.events.filter(function (e) {
+      return e.date === date && e.level >= state.minLevel && (!state.onlyMine || !state.mine.length || isMine(e));
+    });
+  }
   function patternsOn(date) {
     if (!state.patterns) return [];
     var wd = parse(date).getDay();
@@ -121,7 +150,16 @@
       $("statusTitle").textContent = tg.ciudad ? T("todayCity") : (tg.fuego ? "🔥 " : "") + T("todayLevel", { l: T("levels")[lvl].toLowerCase() });
       $("statusText").innerHTML = evs.map(function (e) { return esc(T("avoid")) + " <strong>" + esc(zoneNames(e)) + "</strong> · " + esc(timeText(e)); }).join("<br>");
     }
-    var nx = DATA.events.filter(function (e) { return e.date > TODAY && e.level >= state.minLevel; })[0];
+    var mb = $("mineBox");
+    if (state.mine.length) {
+      var mineEvs = DATA.events.filter(function (e) { return e.date === TODAY && e.level >= state.minLevel && isMine(e); });
+      mb.hidden = false;
+      mb.classList.toggle("calm", !mineEvs.length);
+      mb.innerHTML = mineEvs.length
+        ? '<strong class="h">★ ' + esc(T("mineToday")) + "</strong>" + mineEvs.map(function (e) { return "<span>" + esc(tx(e, "title")) + " · " + esc(timeText(e)) + "</span>"; }).join("")
+        : '<strong class="h">★ ' + esc(T("mineCalm")) + "</strong>";
+    } else mb.hidden = true;
+    var nx = DATA.events.filter(function (e) { return e.date > TODAY && e.level >= state.minLevel && (!state.onlyMine || !state.mine.length || isMine(e)); })[0];
     var box = $("next");
     if (nx) {
       box.hidden = false;
@@ -140,13 +178,15 @@
       var d = new Date(start); d.setDate(d.getDate() + i);
       var key = ymd(d), l = levelOn(key), tg = tagsOn(key);
       var b = document.createElement("button");
-      b.className = "day" + (key === TODAY ? " today" : "") + (tg.fuego ? " fire" : "") + (tg.ciudad ? " city" : "");
+      var mineHere = state.mine.length && eventsOn(key).some(isMine);
+      b.className = "day" + (key === TODAY ? " today" : "") + (tg.fuego ? " fire" : "") + (tg.ciudad ? " city" : "") + (mineHere ? " mine-day" : "");
       b.setAttribute("aria-pressed", key === state.selected ? "true" : "false");
       var lbl = longDate(d) + ": " + (tg.ciudad ? T("fireCity") : T("levels")[l] + (tg.fuego ? ", " + T("fire") : ""));
-      b.setAttribute("aria-label", (key === TODAY ? T("todayShort") + ", " : "") + lbl);
+      b.setAttribute("aria-label", (key === TODAY ? T("todayShort") + ", " : "") + lbl + (mineHere ? ", " + T("mineDay") : ""));
       b.innerHTML = '<span class="wd" aria-hidden="true">' + esc(key === TODAY ? T("todayShort") : T("wdShort")[d.getDay()]) + '</span><span class="dn" aria-hidden="true">' + d.getDate() +
         '</span><span class="mo" aria-hidden="true">' + esc(T("moShort")[d.getMonth()]) + '</span>' +
-        (tg.fuego ? '<span class="flame" aria-hidden="true">🔥</span>' : '<span class="bars" aria-hidden="true" data-l="' + l + '"><i></i><i></i><i></i></span>');
+        (tg.fuego ? '<span class="flame" aria-hidden="true">🔥</span>' : '<span class="bars" aria-hidden="true" data-l="' + l + '"><i></i><i></i><i></i></span>') +
+        (mineHere ? '<span class="star" aria-hidden="true">★</span>' : "");
       b.onclick = (function (k) { return function () { select(k); }; })(key);
       strip.appendChild(b);
     }
@@ -251,7 +291,7 @@
   function renderDay() {
     var title = (state.selected === TODAY ? T("todayComma", { d: longDate(parse(state.selected)) }) : longDate(parse(state.selected)));
     $("dayTitle").textContent = cap(title);
-    var evs = eventsOn(state.selected), pats = patternsOn(state.selected), h = "";
+    var evs = eventsOn(state.selected).slice().sort(function (a, b) { return (isMine(b) ? 1 : 0) - (isMine(a) ? 1 : 0); }), pats = patternsOn(state.selected), h = "";
     if (!evs.length) h += '<p class="empty">' + esc(T("noEvents")) + "</p>";
     if (tagsOn(state.selected).ciudad) h += '<p class="citywide">' + esc(T("fallasBanner")) + "</p>";
     evs.forEach(function (e) {
@@ -259,7 +299,7 @@
       (e.also || []).forEach(function (s) { links += srcLink(s.name, s.url, T("alsoIn")); });
       var fire = (e.tags || []).indexOf("fuego") >= 0;
       h += '<article class="ev" data-l="' + e.level + '"><div class="evhead">' + picto(pictoKey(e)) + '<div><h3>' + esc(tx(e, "title")) + "</h3>" +
-        '<div class="row"><span class="pill l' + e.level + '">' + esc(T("levels")[e.level]) + "</span>" +
+        '<div class="row">' + (isMine(e) && !isCityWide(e) ? '<span class="pill mine-pill">' + esc(T("minePill")) + "</span>" : "") + '<span class="pill l' + e.level + '">' + esc(T("levels")[e.level]) + "</span>" +
         (fire ? '<span class="pill fire">' + esc(T("pillFire")) + "</span>" : "") +
         (e.official ? '<span class="pill off">' + esc(T("official")) + "</span>" : "") +
         (e.confirmed === false ? '<span class="pill warn">' + esc(T("unconfirmed")) + "</span>" : "") +
@@ -382,6 +422,7 @@
   function speechText() {
     var d = parse(state.selected), parts = [];
     if (state.selected === TODAY) parts.push($("statusTitle").textContent.replace("🔥", "") + ".");
+    if (state.selected === TODAY && !$("mineBox").hidden) parts.push($("mineBox").innerText.replace(/★/g, "").replace(/\n/g, ". ") + ".");
     parts.push(cap(longDate(d)) + ".");
     var evs = eventsOn(state.selected);
     if (!evs.length) parts.push(T("speechNoEvents"));
@@ -421,7 +462,7 @@
     stopSpeech();
     LANG = l; store.set("vsa-lang", l);
     applyStatic();
-    if (DATA) { renderAll(); renderFooter(); renderNoise(); if (state.live) renderLive(); }
+    if (DATA) { renderAll(); renderFooter(); renderNoise(); if (state.live) renderLive(); if (!$("sitesPanel").hidden) renderAreas(); }
   }
 
   // ---------- Controles ----------
@@ -442,12 +483,29 @@
     if (navigator.clipboard) navigator.clipboard.writeText(t).then(function () { $("copyTopic").textContent = T("copied"); }, function () {});
   };
   document.querySelectorAll(".lang").forEach(function (b) { b.onclick = function () { setLang(b.dataset.lang); }; });
-  $("panelBtn").onclick = function () {
-    var open = $("a11yPanel").hidden;
-    $("a11yPanel").hidden = !open;
-    $("panelBtn").setAttribute("aria-expanded", open ? "true" : "false");
-    if (open) $("optBlind").focus();
-  };
+  function renderAreas() {
+    $("areasList").innerHTML = Object.keys(AREAS).map(function (a) {
+      var places = AREAS[a].filter(function (z) { return DATA && DATA.zones[z]; }).map(zoneName).join(", ");
+      return '<label class="opt" for="ar_' + a + '"><input type="checkbox" id="ar_' + a + '" value="' + a + '"' + (state.mine.indexOf(a) >= 0 ? " checked" : "") + "> <span><strong>" +
+        esc(T("areas")[a]) + "</strong>" + (places ? '<br><span class="sub">' + esc(places) + "</span>" : "") + "</span></label>";
+    }).join("");
+    $("areasList").querySelectorAll("input").forEach(function (inp) {
+      inp.onchange = function () {
+        state.mine = Array.prototype.map.call($("areasList").querySelectorAll("input:checked"), function (x) { return x.value; });
+        store.set("vsa-mine", state.mine);
+        renderAll();
+      };
+    });
+    $("onlyMine").checked = state.onlyMine;
+  }
+  $("onlyMine").onchange = function (ev) { state.onlyMine = ev.target.checked; store.set("vsa-onlymine", state.onlyMine); renderAll(); };
+  function togglePanel(btn, panel, other, otherBtn) {
+    var open = $(panel).hidden;
+    $(panel).hidden = !open; $(btn).setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) { $(other).hidden = true; $(otherBtn).setAttribute("aria-expanded", "false"); var f = $(panel).querySelector("input"); if (f) f.focus(); }
+  }
+  $("sitesBtn").onclick = function () { renderAreas(); togglePanel("sitesBtn", "sitesPanel", "a11yPanel", "panelBtn"); };
+  $("panelBtn").onclick = function () { togglePanel("panelBtn", "a11yPanel", "sitesPanel", "sitesBtn"); };
   $("optBlind").onchange = function (ev) { state.a11y = ev.target.checked; store.set("vsa-a11y", state.a11y); applyA11y(); renderAll(); renderNoise(); renderLive(); };
   $("optDys").onchange = function (ev) { state.dys = ev.target.checked; store.set("vsa-dys", state.dys); applyA11y(); if (map) setTimeout(function () { map.invalidateSize(); }, 50); };
   $("optSimple").onchange = function (ev) { state.simple = ev.target.checked; store.set("vsa-simple", state.simple); applyA11y(); };

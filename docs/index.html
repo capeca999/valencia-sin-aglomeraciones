@@ -38,8 +38,17 @@
         <button class="lang" data-lang="va" lang="ca-ES-valencia" aria-pressed="false">Valencià</button>
         <button class="lang" data-lang="en" lang="en" aria-pressed="false">English</button>
       </div>
+      <span class="toolbtns">
+      <button class="a11ybtn" id="sitesBtn" aria-expanded="false" aria-controls="sitesPanel"><span aria-hidden="true">📍</span> <span data-i18n="mySites">Mis sitios</span></button>
       <button class="a11ybtn" id="panelBtn" aria-expanded="false" aria-controls="a11yPanel"><span aria-hidden="true">♿</span> <span data-i18n="a11yPanel">Accesibilidad</span></button>
+      </span>
     </div>
+    <fieldset class="a11ypanel" id="sitesPanel" hidden>
+      <legend data-i18n="mySites">Mis sitios</legend>
+      <p class="sub" data-i18n="sitesIntro">Marca las zonas por las que te mueves (casa, trabajo, terapia…). Se guarda solo en este dispositivo.</p>
+      <div class="areas" id="areasList"></div>
+      <label class="opt" for="onlyMine"><input type="checkbox" id="onlyMine"> <span><strong data-i18n="onlyMine">Mostrar solo lo que afecta a mis sitios</strong><br><span class="sub" data-i18n="onlyMineHelp">Los avisos que afectan a toda la ciudad (huelgas, Fallas) se muestran siempre.</span></span></label>
+    </fieldset>
     <fieldset class="a11ypanel" id="a11yPanel" hidden>
       <legend data-i18n="a11yPanel">Accesibilidad</legend>
       <p class="sub" data-i18n="a11yIntro">Elige lo que te ayude. Puedes combinar varias opciones y la web las recordará.</p>
@@ -65,6 +74,7 @@
     <div class="titlerow"><img class="picto" id="statusPicto" src="pictos/tranquilo.png" alt="" width="64" height="64"><div>
     <p class="sub" id="statusDate" data-i18n="loading">Cargando…</p>
     <h2 class="big" id="statusTitle" aria-live="polite"></h2></div></div>
+    <div class="mine" id="mineBox" hidden></div>
     <p id="statusText"></p>
     <div class="next" id="next" hidden></div>
     <div class="speak"><button class="link" id="speakBtn" data-i18n="listen">🔊 Escuchar el día</button> <span class="sub" id="speakNote" role="status"></span></div>

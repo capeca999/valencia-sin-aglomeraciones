@@ -243,3 +243,16 @@ body.simple footer .sources, body.simple footer [data-i18n="sourcesIntro"], body
 body.simple #quietHours .ev > p, body.simple #quietPlaces .ev > p:not(.avoid), body.simple .pattern, body.simple .habtitle { display: none !important; }
 body.simple .picto { width: 72px; height: 72px; }
 body.simple .ev h3 { font-size: 1.2rem; }
+
+/* ---------- Mis sitios ---------- */
+.toolbtns { display: flex; flex-wrap: wrap; gap: 8px; }
+.areas { display: grid; gap: 10px; }
+.areas .opt .sub { font-size: 0.85rem; }
+.mine { border: 2px solid var(--accent); border-radius: 10px; padding: 10px 14px; display: grid; gap: 4px; }
+.mine.calm { border-color: var(--calm); }
+.mine strong.h { font-size: 1.05rem; }
+.pill.mine-pill { color: var(--surface); background: var(--accent); border-color: var(--accent); }
+.day .star { position: absolute; bottom: 3px; right: 4px; font-size: 0.8rem; color: var(--accent); line-height: 1; }
+.day { position: relative; }
+.day.mine-day { border-color: var(--accent); }
+body.a11y .pill.mine-pill { color: #000; }
