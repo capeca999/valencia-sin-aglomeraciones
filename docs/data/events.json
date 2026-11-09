@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:02+01:00",
+ "updated": "2026-11-09T09:05+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -913,13 +913,31 @@
    "source": {
     "name": "Visit València (Ayuntamiento)",
     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-   },
-   "also": [
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/es/event/hens-20261211/"
-    }
-   ]
+   }
+  },
+  {
+   "date": "2026-12-11",
+   "title": "Una mudanza tour - Hens",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/hens-20261211/"
+   }
   },
   {
    "date": "2026-12-12",
@@ -1006,7 +1024,7 @@
    "zones": [
     "roig"
    ],
-   "level": 2,
+   "level": 1,
    "start": "20:15",
    "to": "23:30",
    "people": "hasta 2.000 personas",
@@ -1021,13 +1039,31 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/macy-gray-the-trouble-with-the-truth-tour-20261215/"
-   },
-   "also": [
-    {
-     "name": "Visit València (Ayuntamiento)",
-     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-    }
-   ]
+   }
+  },
+  {
+   "date": "2026-12-15",
+   "title": "Valencia Basket - Dubai Basketball (EuroLeague Masculina)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:30",
+   "to": "23:15",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "from": "19:15",
+   "source": {
+    "name": "Visit València (Ayuntamiento)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
   },
   {
    "date": "2026-12-16",
@@ -1421,7 +1457,7 @@
    "zones": [
     "roig"
    ],
-   "level": 2,
+   "level": 1,
    "start": "19:30",
    "to": "22:45",
    "people": "hasta 2.000 personas",
@@ -1436,13 +1472,31 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/estoy-solo-en-casa202701044/"
-   },
-   "also": [
-    {
-     "name": "Visit València (Ayuntamiento)",
-     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-    }
-   ]
+   }
+  },
+  {
+   "date": "2027-01-04",
+   "title": "Valencia Basket - Real Madrid (Liga ACB Masculina)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:00",
+   "to": "22:45",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "from": "18:45",
+   "source": {
+    "name": "Visit València (Ayuntamiento)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
   },
   {
    "date": "2027-01-08",
