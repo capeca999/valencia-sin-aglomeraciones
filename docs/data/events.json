@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:17+01:00",
+ "updated": "2026-11-09T09:18+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -230,32 +230,23 @@
   },
   {
    "date": "2026-11-11",
-   "title": "La huelga general del 11N suma ya 4.342 adhesiones de trabajadores de Amazon, Zara, Seat o BBVA",
+   "title": "Huelga general de 24 horas (11N)",
    "type": "Huelga",
    "zones": [],
    "level": 2,
    "start": "",
+   "from": "00:00",
    "to": "23:59",
    "people": "toda la ciudad",
-   "tip": "Huelga anunciada en prensa. El transporte público funcionará con servicios mínimos: habrá menos metros y autobuses y más gente esperando en paradas y andenes.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "La huelga general del 11N suma ya 4.342 adhesiones de trabajadores de Amazon, Zara, Seat o BBVA València Extra",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "from": "00:00",
+   "confirmed": true,
+   "tip": "El transporte público (metro, tranvía, EMT, Renfe) funcionará con servicios mínimos: menos frecuencia y andenes y paradas más llenos. Puede haber piquetes informativos en zonas comerciales por la mañana.",
    "source": {
-    "name": "Prensa: València Extra",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDVweVpsMWpybTl4UWkyQzB0RkZEQnJibHgtaVB1S1hPSE50eXo1Tm5wS3N1ZUpSWDFwRW5RZG1yRFdlODVFRmxUcGFfcTlaYkl5VFVZazAwM0IwbXNLcUUzQ05XMEUwa0gzN2h2MklJd1VvMnNucjB3aU10MnJ5Q3lGanZhUDc4RHBmeXVkTk5IS2tOLV9lV01odl80a2FHdm1yaGdsRWNFLXFTWlVtQnRFYmJhUDRKZXBtSWpYNnB2Mk93ektiTnNEQXR0cWFJ?oc=5"
+    "name": "Generalitat Valenciana · servicios mínimos",
+    "url": "https://habitatge.gva.es/documents/21189/165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-0a5baac22c6b"
    },
-   "also": [
-    {
-     "name": "Generalitat Valenciana · servicios mínimos",
-     "url": "https://habitatge.gva.es/documents/21189/165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-0a5baac22c6b"
-    }
-   ]
+   "official": false,
+   "sid": "manual",
+   "tags": []
   },
   {
    "date": "2026-11-12",
@@ -423,29 +414,6 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/jesse-and-joy-20261115/"
-   }
-  },
-  {
-   "date": "2026-11-17",
-   "title": "El comité de empresa de Adif acuerda una huelga para el próximo 17 de noviembre",
-   "type": "Huelga",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Huelga anunciada en prensa. El transporte público funcionará con servicios mínimos: habrá menos metros y autobuses y más gente esperando en paradas y andenes.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "El comité de empresa de Adif acuerda una huelga para el próximo 17 de noviembre Valencia Plaza",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "from": "",
-   "source": {
-    "name": "Prensa: Valencia Plaza",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS2lURGJPTlRzOVp2OVNPNEVtSGdzVFNyWjFRVDBHVnp1REloTGFPcFJ3dXc5NGxCVjJ4dndnOERZS3lwMU5mN29pQ1pPOHpVdzJQdVU0WnZoZjVocFd3ZnZra01aWklnOHFZLXNKQWE4UlV5RzQ5b2ZKQ3F4N1NrTXUzUVRINGUwd2ZhZDlVOTl5cGxBWXpIRXZuOFFETU9CMWcwY09uOG92ZGtENzZnR2s4LTcyZHpnNzAtUkZIaFczRXBKMXNz?oc=5"
    }
   },
   {
@@ -1713,7 +1681,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 2
+   "count": 0
   }
  ]
 }
