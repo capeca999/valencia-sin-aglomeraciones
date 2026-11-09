@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:00+01:00",
+ "updated": "2026-11-09T08:59+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -175,365 +175,619 @@
  "events": [
   {
    "date": "2026-11-12",
-   "title": "Valencia Basket – Bayern Múnich (Euroliga)",
+   "title": "Valencia Basket vs FC Bayern Múnich",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "19:30",
+   "to": "22:15",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "18:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-bayern-20261112/"
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/en/event/valencia-basket-vs-bayern-20261112/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "title": "Valencia Basket - FC Bayern Múnich (EuroLeague Masculina)",
    "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
    "start": "20:30",
-   "from": "19:15",
-   "to": "23:00",
+   "to": "23:15",
    "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el metro/bus hacia Quatre Carreres entre 19:15 y 23:00. La salida (22:30–23:00) es el momento más agobiante.",
-   "official": false,
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
    "confirmed": true,
    "approx": false,
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "from": "19:15",
    "source": {
-    "name": "Visit València",
+    "name": "Visit València (Ayuntamiento)",
     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-   }
-  },
-  {
-   "date": "2026-11-12",
-   "title": "St. Paul and the Broken Bones (concierto)",
-   "type": "Concierto",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "",
-   "from": "20:00",
-   "to": "23:30",
-   "people": "aforo pequeño-medio",
-   "tip": "Mismo recinto que el basket: esa noche la zona del Roig Arena estará doblemente llena.",
-   "official": false,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "source": {
-    "name": "Ckord",
-    "url": "https://app.ckord.com/venues/roig-arena-2"
-   }
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/es/event/st-paul-the-broken-bones-20261112/"
+    },
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/en/event/st-paul-the-broken-bones-20261112/"
+    }
+   ]
   },
   {
    "date": "2026-11-13",
-   "title": "Raphael – Raphaelísimo Tour",
-   "type": "Concierto",
+   "title": "Raphaelísimo Tour 2026 - Raphael",
+   "type": "Concierto / espectáculo",
    "zones": [
     "roig"
    ],
    "level": 2,
-   "start": "",
-   "from": "20:00",
-   "to": "00:00",
+   "start": "20:00",
+   "to": "23:15",
    "people": "hasta 15.000 personas",
-   "tip": "Concierto grande. Evita Quatre Carreres y la Av. Hermanos Maristas a partir de las 20:00.",
-   "official": false,
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
    "confirmed": true,
    "approx": true,
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "from": "18:45",
    "source": {
-    "name": "OfficialPress",
-    "url": "https://officialpress.es/raphael-concierto-en-valencia/amp/"
-   }
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/raphaelisimo-tour-2026-20261113/"
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/en/event/raphaelisimo-tour-2026-20261113/"
+    }
+   ]
   },
   {
    "date": "2026-11-13",
-   "title": "Abhir (concierto en el Auditorio)",
-   "type": "Concierto",
+   "title": "Ultraswan Tour - Abhir",
+   "type": "Concierto / espectáculo",
    "zones": [
     "roig"
    ],
    "level": 1,
-   "start": "",
-   "from": "20:00",
-   "to": "23:30",
-   "people": "aforo pequeño-medio",
-   "tip": "Se suma al concierto de Raphael en el mismo recinto.",
-   "official": false,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
    "confirmed": true,
    "approx": true,
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "from": "19:45",
    "source": {
-    "name": "La Ganzúa",
-    "url": "https://www.laganzua.net/conciertos/salas-conciertos/auditorio-roig-arena"
-   }
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/abhir-20261113/"
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/en/event/abhir-20261113/"
+    }
+   ]
   },
   {
    "date": "2026-11-14",
-   "title": "Hombres G",
-   "type": "Concierto",
+   "title": "Los mejores años de nuestra vida - Hombres G",
+   "type": "Concierto / espectáculo",
    "zones": [
     "roig"
    ],
    "level": 2,
-   "start": "",
-   "from": "20:00",
-   "to": "00:00",
+   "start": "21:00",
+   "to": "00:15",
    "people": "hasta 15.000 personas",
-   "tip": "Sábado con concierto grande: el entorno del Roig Arena y el transporte hacia allí irán muy llenos.",
-   "official": false,
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
    "confirmed": true,
    "approx": true,
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "from": "19:45",
    "source": {
-    "name": "La Ganzúa",
-    "url": "https://www.laganzua.net/conciertos/salas-conciertos/roig-arena"
-   }
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/hombres-g-20261114/"
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/en/event/hombres-g-20261114/"
+    },
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/es/event/vincen-garcia-20261114/"
+    },
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/en/event/vincen-garcia-20261114/"
+    }
+   ]
   },
   {
    "date": "2026-11-15",
-   "title": "Valencia Basket – Leyma Coruña (Liga ACB)",
+   "title": "Valencia Basket - Leyma Coruña (Liga ACB Masculina)",
    "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
    "start": "12:00",
-   "from": "11:00",
-   "to": "14:30",
+   "to": "14:45",
    "people": "unas 12.000 personas",
-   "tip": "Partido por la mañana. Si sales por la zona sur, hazlo antes de las 11:00 o después de las 14:30.",
-   "official": false,
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
    "confirmed": true,
    "approx": false,
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "from": "10:45",
    "source": {
-    "name": "Visit València",
+    "name": "Visit València (Ayuntamiento)",
     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
    }
   },
   {
+   "date": "2026-11-15",
+   "title": "El Despecho Tour - Jesse & Joy",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:00",
+   "to": "23:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "from": "18:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/jesse-and-joy-20261115/"
+   },
+   "also": [
+    {
+     "name": "Roig Arena (web oficial)",
+     "url": "https://www.roigarena.com/en/event/jesse-and-joy-20261115/"
+    }
+   ]
+  },
+  {
    "date": "2026-11-19",
-   "title": "Valencia Basket – Virtus Bolonia (Euroliga)",
+   "title": "Valencia Basket - Virtus Bolonia (EuroLeague Masculina)",
    "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
    "start": "21:00",
-   "from": "19:45",
-   "to": "23:30",
+   "to": "23:45",
    "people": "unas 12.000 personas",
-   "tip": "Evita el Roig Arena de 19:45 a 23:30.",
-   "official": false,
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
    "confirmed": true,
    "approx": false,
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "from": "19:45",
    "source": {
-    "name": "Visit València",
+    "name": "Visit València (Ayuntamiento)",
     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
    }
   },
   {
-   "date": "2026-11-20",
-   "title": "Lagos (concierto en el Auditorio)",
-   "type": "Concierto",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "",
-   "from": "20:00",
-   "to": "23:30",
-   "people": "aforo pequeño-medio",
-   "tip": "Evento mediano. Algo de gente en el entorno del Roig Arena.",
-   "official": false,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "source": {
-    "name": "La Ganzúa",
-    "url": "https://www.laganzua.net/conciertos/salas-conciertos/auditorio-roig-arena"
-   }
-  },
-  {
    "date": "2026-11-22",
-   "title": "Valencia Basket – Río Breogán (Liga ACB)",
+   "title": "Valencia Basket - Río Breogán (Liga ACB Masculina)",
    "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
    "start": "17:00",
-   "from": "16:00",
-   "to": "19:30",
+   "to": "19:45",
    "people": "unas 12.000 personas",
-   "tip": "Domingo por la tarde. Evita el Roig Arena entre 16:00 y 19:30.",
-   "official": false,
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
    "confirmed": true,
    "approx": false,
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "from": "15:45",
    "source": {
-    "name": "Visit València",
+    "name": "Visit València (Ayuntamiento)",
     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
    }
   },
   {
+   "date": "2026-11-23",
+   "title": "Levante UD – Elche CF (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "ciutat"
+   ],
+   "level": 3,
+   "start": "21:00",
+   "to": "00:00",
+   "people": "hasta 26.000 personas",
+   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "from": "19:00",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
+   }
+  },
+  {
    "date": "2026-11-24",
-   "title": "Valencia Basket – Panathinaikos (Euroliga)",
+   "title": "Valencia Basket - Panathinaikos AKTOR Athens (EuroLeague Masculina Entradas Diciembre 2026)",
    "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
    "start": "20:30",
-   "from": "19:15",
-   "to": "23:00",
+   "to": "23:15",
    "people": "unas 12.000 personas",
-   "tip": "Partido grande entre semana. Evita el Roig Arena de 19:15 a 23:00.",
-   "official": false,
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
    "confirmed": true,
    "approx": false,
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "from": "19:15",
    "source": {
-    "name": "Visit València",
+    "name": "Visit València (Ayuntamiento)",
     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
    }
   },
   {
-   "date": "2026-11-26",
-   "title": "Los Fabulosos Cadillacs + Carolina Durante",
-   "type": "Concierto",
+   "date": "2026-11-27",
+   "title": "Levante UD – R. Racing Club (LALIGA EA SPORTS)",
+   "type": "Fútbol",
    "zones": [
-    "roig"
+    "ciutat"
    ],
-   "level": 2,
-   "start": "",
-   "from": "20:00",
+   "level": 3,
+   "start": "21:00",
    "to": "00:00",
-   "people": "hasta 15.000 personas",
-   "tip": "Concierto grande entre semana. Evita el Roig Arena desde las 20:00.",
-   "official": false,
+   "people": "hasta 26.000 personas",
+   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
+   "official": true,
    "confirmed": true,
-   "approx": true,
+   "approx": false,
    "raw": "",
    "tags": [],
-   "sid": "roig_arena",
+   "sid": "laliga",
+   "from": "19:00",
    "source": {
-    "name": "La Ganzúa",
-    "url": "https://www.laganzua.net/conciertos/valencia/noviembre-2026/pagina-2"
-   }
-  },
-  {
-   "date": "2026-11-28",
-   "title": "Estopa (Iberdrola Music Festival)",
-   "type": "Concierto",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "",
-   "from": "20:00",
-   "to": "00:00",
-   "people": "hasta 15.000 personas",
-   "tip": "Sábado con concierto muy popular. Evita Quatre Carreres por la noche.",
-   "official": false,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "source": {
-    "name": "La Ganzúa",
-    "url": "https://www.laganzua.net/conciertos/salas-conciertos/roig-arena"
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
    }
   },
   {
    "date": "2026-11-29",
-   "title": "Valencia CF – Osasuna (LaLiga)",
+   "title": "Valencia CF – CA Osasuna (LALIGA EA SPORTS)",
    "type": "Fútbol",
    "zones": [
     "mestalla"
    ],
    "level": 3,
-   "start": "",
-   "from": "",
-   "to": "",
+   "start": "14:00",
+   "to": "17:00",
    "people": "hasta 49.000 personas",
-   "tip": "Hora todavía sin anunciar (LaLiga la confirma 2–3 semanas antes, y puede moverse al sábado). Evita Blasco Ibáñez, Av. Aragón y el metro de Aragón desde 2 h antes hasta 1 h después del partido.",
-   "official": false,
+   "tip": "Evita Blasco Ibáñez, Av. Aragón, Av. Suecia y el metro de Aragón y Facultats en esa franja.",
+   "official": true,
    "confirmed": true,
-   "approx": true,
+   "approx": false,
    "raw": "",
    "tags": [],
    "sid": "laliga",
+   "from": "12:00",
    "source": {
-    "name": "LaLiga",
-    "url": "https://www.laliga.com/es-MA/clubes/valencia-cf/proximos-partidos"
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
    }
   },
   {
-   "date": "2026-12-07",
-   "title": "Bunbury – Nuevas Mutaciones Tour",
-   "type": "Concierto",
+   "date": "2026-12-06",
+   "title": "Maratón Valencia Trinidad Alfonso",
+   "type": "Carrera",
+   "zones": [
+    "cac",
+    "tarongers",
+    "blasco",
+    "malvarrosa",
+    "marina",
+    "ayuntamiento",
+    "america"
+   ],
+   "level": 3,
+   "start": "08:15",
+   "from": "07:00",
+   "to": "15:30",
+   "people": "36.000 corredores + público",
+   "confirmed": true,
+   "tip": "Toda la mañana hay calles cortadas, música de animación y mucha gente en buena parte de la ciudad. Mejor no salir antes de las 15:30 o quedarse lejos del recorrido. El Ayuntamiento publicará los cortes exactos unos días antes.",
+   "source": {
+    "name": "Visit València",
+    "url": "https://www.visitvalencia.com/agenda-valencia/calendario-de-carreras-y-maratones-en-valencia"
+   },
+   "official": false,
+   "sid": "manual",
+   "tags": []
+  },
+  {
+   "date": "2026-12-11",
+   "title": "Valencia Basket - Crvena Zvezda (EuroLeague Masculina)",
+   "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
-   "start": "",
-   "from": "20:00",
-   "to": "00:00",
-   "people": "hasta 15.000 personas",
-   "tip": "Concierto grande en puente festivo.",
-   "official": false,
+   "start": "20:30",
+   "to": "23:15",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
    "confirmed": true,
-   "approx": true,
+   "approx": false,
    "raw": "",
    "tags": [],
-   "sid": "roig_arena",
+   "sid": "visitvalencia",
+   "from": "19:15",
    "source": {
-    "name": "La Ganzúa",
-    "url": "https://www.laganzua.net/conciertos/salas-conciertos/roig-arena"
+    "name": "Visit València (Ayuntamiento)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
    }
   },
   {
-   "date": "2026-12-08",
-   "title": "Jay Wheeler",
-   "type": "Concierto",
+   "date": "2026-12-13",
+   "title": "Levante UD – Deportivo Alavés (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "ciutat"
+   ],
+   "level": 3,
+   "start": "01:00",
+   "to": "04:00",
+   "people": "hasta 26.000 personas",
+   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "from": "23:00",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
+   }
+  },
+  {
+   "date": "2026-12-15",
+   "title": "Valencia Basket - Dubai Basketball (EuroLeague Masculina)",
+   "type": "Baloncesto",
    "zones": [
     "roig"
    ],
    "level": 2,
-   "start": "",
-   "from": "20:00",
-   "to": "00:00",
-   "people": "hasta 15.000 personas",
-   "tip": "Festivo con concierto grande en el Roig Arena.",
-   "official": false,
+   "start": "20:30",
+   "to": "23:15",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
    "confirmed": true,
-   "approx": true,
+   "approx": false,
    "raw": "",
    "tags": [],
-   "sid": "roig_arena",
+   "sid": "visitvalencia",
+   "from": "19:15",
    "source": {
-    "name": "La Ganzúa",
-    "url": "https://www.laganzua.net/conciertos/salas-conciertos/roig-arena"
+    "name": "Visit València (Ayuntamiento)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
+  },
+  {
+   "date": "2026-12-20",
+   "title": "Valencia CF – RCD Espanyol de Barcelona (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "mestalla"
+   ],
+   "level": 3,
+   "start": "01:00",
+   "to": "04:00",
+   "people": "hasta 49.000 personas",
+   "tip": "Evita Blasco Ibáñez, Av. Aragón, Av. Suecia y el metro de Aragón y Facultats en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "from": "23:00",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
+   }
+  },
+  {
+   "date": "2026-12-20",
+   "title": "Valencia BC - Cadí La Seu (Liga Femenina Endesa)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "12:15",
+   "to": "15:00",
+   "people": "unos miles de personas",
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "from": "11:00",
+   "source": {
+    "name": "Visit València (Ayuntamiento)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   },
+   "also": []
+  },
+  {
+   "date": "2026-12-22",
+   "title": "Valencia BC - Hozono Global Jairis (Liga Femenina Endesa Entradas Enero 2027)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:00",
+   "to": "22:45",
+   "people": "unos miles de personas",
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "from": "18:45",
+   "source": {
+    "name": "Visit València (Ayuntamiento)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
+  },
+  {
+   "date": "2027-01-03",
+   "title": "Levante UD – Valencia CF (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "ciutat"
+   ],
+   "level": 3,
+   "start": "01:00",
+   "to": "04:00",
+   "people": "hasta 26.000 personas",
+   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "from": "23:00",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
+   }
+  },
+  {
+   "date": "2027-01-04",
+   "title": "Valencia Basket - Real Madrid (Liga ACB Masculina Entradas Febrero 2027)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "20:00",
+   "to": "22:45",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "from": "18:45",
+   "source": {
+    "name": "Visit València (Ayuntamiento)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
    }
   }
  ],
  "notices": [],
- "sources": []
+ "sources": [
+  {
+   "id": "ayto_movilidad",
+   "name": "Ajuntament de València · Incidencias y previsiones de tráfico",
+   "ok": false,
+   "count": 0,
+   "error": "No se pudo descargar https://www.valencia.es/cas/movilidad/incidencias-y-previsiones: 403 Client Error: Forbidden for url: https://www.valencia.es/cas/movilidad/incidencias-y-previsiones; No se pudo descargar https://www.valencia.es/val/mobilitat/incidencies-i-previsions: 403 Client Error: Forbidden"
+  },
+  {
+   "id": "laliga",
+   "name": "LaLiga (Valencia CF y Levante UD)",
+   "ok": true,
+   "count": 6
+  },
+  {
+   "id": "roig_arena",
+   "name": "Roig Arena (web oficial)",
+   "ok": true,
+   "count": 14
+  },
+  {
+   "id": "visitvalencia",
+   "name": "Visit València (calendario Valencia Basket)",
+   "ok": true,
+   "count": 11
+  },
+  {
+   "id": "ayto_noticias",
+   "name": "Ajuntament de València · Noticias de movilidad",
+   "ok": false,
+   "count": 0,
+   "error": "No se pudo descargar https://www.valencia.es/cas/movilidad/noticias: 403 Client Error: Forbidden for url: https://www.valencia.es/cas/movilidad/noticias; No se pudo descargar https://www.valencia.es/web/guest/cas/actualidad/movilidad-y-urbanismo: 403 Client Error: Forbidden for url: https://www.vale"
+  }
+ ]
 }
