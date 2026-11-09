@@ -23,7 +23,10 @@
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html, body { margin: 0; }
-body { background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 18px; line-height: 1.5; }
+html { font-size: 100%; }
+html.sz2 { font-size: 118%; }
+html.sz3 { font-size: 136%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 1.125rem; line-height: 1.5; }
 .wrap { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; display: grid; gap: 20px; }
 h1, h2, h3 { text-wrap: balance; margin: 0; line-height: 1.2; }
 h1 { font-size: 1.7rem; }
@@ -103,7 +106,7 @@ details.raw p { font-size: 0.9rem; margin-top: 6px; color: var(--muted); }
 .sources li .bad { color: var(--l3); }
 footer { color: var(--muted); font-size: 0.92rem; display: grid; gap: 10px; }
 @media (max-width: 480px) {
-  body { font-size: 17px; }
+  body { font-size: 1.0625rem; }
   .day { min-height: 70px; }
   .day .mo { display: none; }
   #map { height: 380px; }
@@ -166,7 +169,7 @@ main { display: grid; gap: 20px; }
 body.a11y {
   --bg: #000; --surface: #0B0B0B; --ink: #FFFFFF; --muted: #E6E6E6; --line: #FFFFFF;
   --accent: #FFD400; --calm: #7CFFB2; --l1: #FFE066; --l2: #FFB15C; --l3: #FF7A7A;
-  color-scheme: dark; font-size: 22px; line-height: 1.6;
+  color-scheme: dark; font-size: 1.375rem; line-height: 1.6;
 }
 body.a11y .wrap { max-width: 860px; gap: 26px; }
 body.a11y .a11yhelp { display: block; }
@@ -209,3 +212,34 @@ button.link.primary { background: var(--accent); color: var(--surface); font-wei
 .formerror { color: var(--l3); font-weight: 700; }
 body.a11y .field input, body.a11y .field select, body.a11y .field textarea { border-color: #fff; font-size: 1.05rem; min-height: 48px; }
 body.a11y button.link.primary { color: #000; }
+
+/* ---------- Panel de accesibilidad ---------- */
+.a11ypanel { border: 2px solid var(--accent); border-radius: 14px; padding: 14px 16px; background: var(--surface); display: grid; gap: 12px; margin: 0; }
+.a11ypanel legend { font-weight: 700; padding: 0 6px; }
+.opt { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
+.opt input[type=checkbox] { width: 24px; height: 24px; margin-top: 2px; flex: none; accent-color: var(--accent); }
+.sizes { flex-direction: column; cursor: default; }
+.sizebtns { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.sizebtns label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
+.sizebtns input { width: 20px; height: 20px; accent-color: var(--accent); }
+.a11ybtn[aria-expanded="true"] { background: var(--ink); color: var(--surface); }
+
+/* Modo dislexia: letra OpenDyslexic, más espacio entre letras, palabras y líneas, fondo crema y sin cursivas */
+@font-face { font-family: "OpenDyslexic"; src: url("fonts/OpenDyslexic-Regular.woff") format("woff"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "OpenDyslexic"; src: url("fonts/OpenDyslexic-Bold.woff") format("woff"); font-weight: 700; font-display: swap; }
+body.dys { font-family: "OpenDyslexic", "Atkinson Hyperlegible", Verdana, sans-serif; letter-spacing: 0.005em; word-spacing: 0.08em; line-height: 1.75; font-size: 1.05rem; }
+body.dys:not(.a11y) { --bg: #F7F1E1; --surface: #FFFBF0; --line: #D9CFB6; }
+@media (prefers-color-scheme: dark) { body.dys:not(.a11y) { --bg: #1D1B16; --surface: #26231C; --line: #4A4436; } }
+body.dys p, body.dys li, body.dys .avoid { max-width: 60ch; text-align: left; }
+body.dys em, body.dys i { font-style: normal; }
+body.dys h1, body.dys h2, body.dys h3 { letter-spacing: 0; line-height: 1.35; }
+body.dys .day .wd, body.dys .day .mo { letter-spacing: 0; }
+body.dys .leaflet-container { font-family: "OpenDyslexic", var(--font); }
+
+/* Vista sencilla: solo lo importante, sin opciones ni textos largos */
+body.simple .settings, body.simple .mapwrap, body.simple #noiseNote, body.simple #liveNote,
+body.simple details.raw, body.simple .ev .links, body.simple .ev .tip, body.simple #noticesCard,
+body.simple footer .sources, body.simple footer [data-i18n="sourcesIntro"], body.simple footer [data-i18n="disclaimer"], body.simple .legend, body.simple .ev .pill.off, body.simple .ev .sub.people,
+body.simple #quietHours .ev > p, body.simple #quietPlaces .ev > p:not(.avoid), body.simple .pattern, body.simple .habtitle { display: none !important; }
+body.simple .picto { width: 72px; height: 72px; }
+body.simple .ev h3 { font-size: 1.2rem; }

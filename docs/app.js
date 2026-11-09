@@ -62,7 +62,7 @@
   var DATA = null;
   var QUIET = { hours: [], places: [] };
   var state = {
-    a11y: store.get("vsa-a11y", false),
+    a11y: store.get("vsa-a11y", false), dys: store.get("vsa-dys", false), simple: store.get("vsa-simple", false), size: store.get("vsa-size", 1),
     quiet: store.get("vsa-quiet", true), noise: store.get("vsa-noise", false),
     minLevel: store.get("vsa-small", false) ? 1 : 2, patterns: store.get("vsa-patterns", true),
     live: store.get("vsa-live", false), selected: TODAY, weekStart: 0
@@ -263,15 +263,15 @@
         (fire ? '<span class="pill fire">' + esc(T("pillFire")) + "</span>" : "") +
         (e.official ? '<span class="pill off">' + esc(T("official")) + "</span>" : "") +
         (e.confirmed === false ? '<span class="pill warn">' + esc(T("unconfirmed")) + "</span>" : "") +
-        '<span class="sub">' + esc(typeName(e.type)) + (tx(e, "people") ? " · " + esc(tx(e, "people")) : "") + "</span></div></div></div>" +
+        '<span class="sub people">' + esc(typeName(e.type)) + (tx(e, "people") ? " · " + esc(tx(e, "people")) : "") + "</span></div></div></div>" +
         '<div class="row"><span class="when">' + esc(timeText(e)) + "</span>" + (e.start && e.from && e.start !== e.from ? '<span class="sub">' + esc(T("startsAt", { t: e.start })) + "</span>" : "") + "</div>" +
-        '<p class="avoid"><strong>' + esc(T("avoidZone")) + "</strong> " + esc(zoneNames(e)) + (tx(e, "tip") ? "<br>" + esc(tx(e, "tip")) : "") + "</p>" +
+        '<p class="avoid"><strong>' + esc(T("avoidZone")) + "</strong> " + esc(zoneNames(e)) + (tx(e, "tip") ? '<span class="tip"><br>' + esc(tx(e, "tip")) + "</span>" : "") + "</p>" +
         (fire ? '<div class="evhead">' + picto("cascos", "small") + '<p class="sub">' + esc(T("earsTip")) + "</p></div>" : "") +
         (e.raw ? '<details class="raw"><summary>' + esc(T("rawSummary")) + "</summary><p>" + esc(e.raw) + "</p></details>" : "") +
         '<div class="links">' + links + "</div></article>";
     });
     if (pats.length) {
-      h += "<h3>" + esc(T("habitualTitle")) + "</h3>";
+      h += '<h3 class="habtitle">' + esc(T("habitualTitle")) + "</h3>";
       pats.forEach(function (p) {
         h += '<article class="ev pattern"><div class="row"><span class="pill warn">' + esc(T("habitual")) + '</span><span class="when">' + esc(p.from + "–" + p.to) + "</span></div><p>" + esc(tx(p, "label")) + "</p></article>";
       });
@@ -367,7 +367,12 @@
   // ---------- Modo accesible y lectura en voz alta ----------
   function applyA11y() {
     document.body.classList.toggle("a11y", state.a11y);
-    $("a11yBtn").setAttribute("aria-pressed", state.a11y ? "true" : "false");
+    document.body.classList.toggle("dys", state.dys);
+    document.body.classList.toggle("simple", state.simple);
+    document.documentElement.classList.remove("sz2", "sz3");
+    if (state.size > 1) document.documentElement.classList.add("sz" + state.size);
+    $("optBlind").checked = state.a11y; $("optDys").checked = state.dys; $("optSimple").checked = state.simple;
+    $("sz" + state.size).checked = true;
     $("map").hidden = state.a11y;
     $("mapHidden").hidden = !state.a11y;
     document.querySelectorAll(".mapopt").forEach(function (el) { el.hidden = state.a11y && el.id !== "liveLabel"; });
@@ -437,7 +442,18 @@
     if (navigator.clipboard) navigator.clipboard.writeText(t).then(function () { $("copyTopic").textContent = T("copied"); }, function () {});
   };
   document.querySelectorAll(".lang").forEach(function (b) { b.onclick = function () { setLang(b.dataset.lang); }; });
-  $("a11yBtn").onclick = function () { state.a11y = !state.a11y; store.set("vsa-a11y", state.a11y); applyA11y(); renderAll(); renderNoise(); renderLive(); };
+  $("panelBtn").onclick = function () {
+    var open = $("a11yPanel").hidden;
+    $("a11yPanel").hidden = !open;
+    $("panelBtn").setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) $("optBlind").focus();
+  };
+  $("optBlind").onchange = function (ev) { state.a11y = ev.target.checked; store.set("vsa-a11y", state.a11y); applyA11y(); renderAll(); renderNoise(); renderLive(); };
+  $("optDys").onchange = function (ev) { state.dys = ev.target.checked; store.set("vsa-dys", state.dys); applyA11y(); if (map) setTimeout(function () { map.invalidateSize(); }, 50); };
+  $("optSimple").onchange = function (ev) { state.simple = ev.target.checked; store.set("vsa-simple", state.simple); applyA11y(); };
+  document.querySelectorAll('input[name="sz"]').forEach(function (r) {
+    r.onchange = function () { state.size = +r.value; store.set("vsa-size", state.size); applyA11y(); if (map) setTimeout(function () { map.invalidateSize(); }, 50); };
+  });
   $("speakBtn").onclick = speak;
   if (window.speechSynthesis) window.speechSynthesis.onvoiceschanged = function () {};
   $("dayTitle").setAttribute("tabindex", "-1");

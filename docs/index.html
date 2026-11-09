@@ -38,11 +38,26 @@
         <button class="lang" data-lang="va" lang="ca-ES-valencia" aria-pressed="false">Valencià</button>
         <button class="lang" data-lang="en" lang="en" aria-pressed="false">English</button>
       </div>
-      <button class="a11ybtn" id="a11yBtn" aria-pressed="false" aria-describedby="a11yHelp"><span aria-hidden="true">👁</span> <span data-i18n="a11yMode">Modo accesible</span></button>
+      <button class="a11ybtn" id="panelBtn" aria-expanded="false" aria-controls="a11yPanel"><span aria-hidden="true">♿</span> <span data-i18n="a11yPanel">Accesibilidad</span></button>
     </div>
+    <fieldset class="a11ypanel" id="a11yPanel" hidden>
+      <legend data-i18n="a11yPanel">Accesibilidad</legend>
+      <p class="sub" data-i18n="a11yIntro">Elige lo que te ayude. Puedes combinar varias opciones y la web las recordará.</p>
+      <label class="opt" for="optBlind"><input type="checkbox" id="optBlind"> <span><strong data-i18n="a11yMode">Modo para personas ciegas o con baja visión</strong><br><span class="sub" data-i18n="a11yHelp"></span></span></label>
+      <label class="opt" for="optDys"><input type="checkbox" id="optDys"> <span><strong data-i18n="dysMode">Modo dislexia</strong><br><span class="sub" data-i18n="dysHelp"></span></span></label>
+      <label class="opt" for="optSimple"><input type="checkbox" id="optSimple"> <span><strong data-i18n="simpleMode">Vista sencilla</strong><br><span class="sub" data-i18n="simpleHelp"></span></span></label>
+      <div class="opt sizes" role="radiogroup" aria-labelledby="sizeLbl">
+        <strong id="sizeLbl" data-i18n="textSize">Tamaño de letra</strong>
+        <span class="sizebtns">
+          <label for="sz1"><input type="radio" name="sz" id="sz1" value="1"> <span data-i18n="sizeNormal">Normal</span></label>
+          <label for="sz2"><input type="radio" name="sz" id="sz2" value="2"> <span data-i18n="sizeBig">Grande</span></label>
+          <label for="sz3"><input type="radio" name="sz" id="sz3" value="3"> <span data-i18n="sizeHuge">Muy grande</span></label>
+        </span>
+      </div>
+      <p class="sub" data-i18n="a11yMore">También puedes pulsar «Escuchar el día» para oír los avisos en voz alta.</p>
+    </fieldset>
     <div class="brand"><img class="logo" src="logo.svg" alt="" width="64" height="64"><h1 data-i18n="title">Valencia sin aglomeraciones</h1></div>
     <p class="sub"><span data-i18n="tagline">Te avisa de dónde y cuándo va a haber mucha gente, para que puedas evitarlo.</span> <span id="updated"></span></p>
-    <p class="sub a11yhelp" id="a11yHelp" data-i18n="a11yHelp">Letra grande, alto contraste, sin mapa y con lectura en voz alta.</p>
   </header>
 
   <main>
