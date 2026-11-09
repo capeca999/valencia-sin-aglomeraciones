@@ -189,3 +189,11 @@ body.a11y .settings input { width: 28px; height: 28px; }
 body.a11y :focus-visible { outline: 4px solid var(--accent); outline-offset: 3px; }
 body.a11y #speakBtn { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 700; }
 @media (prefers-contrast: more) { :root { --muted: #333; --line: #555; } }
+
+/* Logo */
+.brand { display: flex; align-items: center; gap: 14px; }
+.brand .logo { width: 64px; height: 64px; flex: none; }
+@media (max-width: 480px) { .brand .logo { width: 52px; height: 52px; } }
+body.a11y .brand .logo { width: 76px; height: 76px; }
+.leaflet-container .leaflet-control-attribution { background: var(--surface); color: var(--ink); }
+.leaflet-container .leaflet-control-attribution a { color: var(--accent); }

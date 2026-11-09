@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Valencia sin aglomeraciones">
+  <defs>
+    <clipPath id="pinhead"><circle cx="32" cy="26" r="15"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="#2B6E4E"/>
+  <!-- chincheta de mapa -->
+  <path d="M32 6.5c-10.8 0-19.5 8.6-19.5 19.3 0 13.7 15.9 28.4 18.4 30.6a1.7 1.7 0 0 0 2.2 0C35.6 54.2 51.5 39.5 51.5 25.8 51.5 15.1 42.8 6.5 32 6.5z" fill="#FFFFFF"/>
+  <!-- dentro: sol mediterráneo y mar en calma -->
+  <g clip-path="url(#pinhead)">
+    <rect x="17" y="11" width="30" height="30" fill="#E8F3EE"/>
+    <circle cx="32" cy="24" r="6.2" fill="#F2B84B"/>
+    <path d="M15 30.5c3.2 0 3.2-2 6.4-2s3.2 2 6.4 2 3.2-2 6.4-2 3.2 2 6.4 2 3.2-2 6.4-2V42H15z" fill="#2E6A78"/>
+    <path d="M15 35.5c3.2 0 3.2-2 6.4-2s3.2 2 6.4 2 3.2-2 6.4-2 3.2 2 6.4 2 3.2-2 6.4-2" fill="none" stroke="#7FC0CF" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>
