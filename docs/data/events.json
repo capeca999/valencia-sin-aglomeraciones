@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:08+01:00",
+ "updated": "2026-11-09T09:10+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -191,6 +191,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "18:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -221,6 +222,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -245,6 +247,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "18:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -275,6 +278,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -305,6 +309,7 @@
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "geo": [],
    "from": "10:45",
    "source": {
     "name": "Visit València (Ayuntamiento)",
@@ -329,6 +334,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "18:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -353,6 +359,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "18:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -383,6 +390,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "20:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -407,6 +415,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -431,6 +440,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "16:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -455,6 +465,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -479,6 +490,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "10:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -503,6 +515,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "14:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -533,6 +546,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -557,6 +571,7 @@
    "raw": "",
    "tags": [],
    "sid": "laliga",
+   "geo": [],
    "from": "19:00",
    "source": {
     "name": "LaLiga (web oficial)",
@@ -581,6 +596,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "18:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -611,6 +627,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -641,6 +658,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "17:30",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -665,6 +683,7 @@
    "raw": "",
    "tags": [],
    "sid": "laliga",
+   "geo": [],
    "from": "19:00",
    "source": {
     "name": "LaLiga (web oficial)",
@@ -689,6 +708,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -713,6 +733,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "11:00",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -737,6 +758,7 @@
    "raw": "",
    "tags": [],
    "sid": "laliga",
+   "geo": [],
    "from": "12:00",
    "source": {
     "name": "LaLiga (web oficial)",
@@ -761,6 +783,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -813,6 +836,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -837,6 +861,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -861,6 +886,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -885,6 +911,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -909,6 +936,7 @@
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "geo": [],
    "from": "19:15",
    "source": {
     "name": "Visit València (Ayuntamiento)",
@@ -933,6 +961,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -957,6 +986,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -987,6 +1017,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1011,6 +1042,7 @@
    "raw": "",
    "tags": [],
    "sid": "laliga",
+   "geo": [],
    "from": "",
    "source": {
     "name": "LaLiga (web oficial)",
@@ -1035,6 +1067,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:00",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1059,6 +1092,7 @@
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "geo": [],
    "from": "19:15",
    "source": {
     "name": "Visit València (Ayuntamiento)",
@@ -1083,6 +1117,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1107,6 +1142,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "16:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1131,6 +1167,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "15:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1155,6 +1192,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "17:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1179,6 +1217,7 @@
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "geo": [],
    "from": "11:00",
    "source": {
     "name": "Visit València (Ayuntamiento)",
@@ -1204,6 +1243,7 @@
    "raw": "",
    "tags": [],
    "sid": "laliga",
+   "geo": [],
    "from": "",
    "source": {
     "name": "LaLiga (web oficial)",
@@ -1228,6 +1268,7 @@
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "geo": [],
    "from": "18:45",
    "source": {
     "name": "Visit València (Ayuntamiento)",
@@ -1252,6 +1293,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "16:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1276,6 +1318,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "16:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1300,6 +1343,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "16:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1324,6 +1368,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "16:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1348,6 +1393,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "18:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1372,6 +1418,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "10:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1396,6 +1443,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "15:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1420,6 +1468,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "18:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1444,6 +1493,7 @@
    "raw": "",
    "tags": [],
    "sid": "laliga",
+   "geo": [],
    "from": "",
    "source": {
     "name": "LaLiga (web oficial)",
@@ -1468,6 +1518,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "18:15",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1492,6 +1543,7 @@
    "raw": "",
    "tags": [],
    "sid": "visitvalencia",
+   "geo": [],
    "from": "18:45",
    "source": {
     "name": "Visit València (Ayuntamiento)",
@@ -1516,6 +1568,7 @@
    "raw": "",
    "tags": [],
    "sid": "roig_arena",
+   "geo": [],
    "from": "19:45",
    "source": {
     "name": "Roig Arena (web oficial)",
@@ -1526,11 +1579,10 @@
  "notices": [],
  "sources": [
   {
-   "id": "ayto_movilidad",
-   "name": "Ajuntament de València · Incidencias y previsiones de tráfico",
-   "ok": false,
-   "count": 0,
-   "error": "No se pudo descargar https://www.valencia.es/cas/movilidad/incidencias-y-previsiones: 403 Client Error: Forbidden for url: https://www.valencia.es/cas/movilidad/incidencias-y-previsiones; No se pudo descargar https://www.valencia.es/val/mobilitat/incidencies-i-previsions: 403 Client Error: Forbidden"
+   "id": "geoportal",
+   "name": "Ajuntament de València · Geoportal (ocupación de vía pública y festejos)",
+   "ok": true,
+   "count": 0
   },
   {
    "id": "laliga",
@@ -1549,13 +1601,6 @@
    "name": "Visit València (calendario Valencia Basket)",
    "ok": true,
    "count": 11
-  },
-  {
-   "id": "ayto_noticias",
-   "name": "Ajuntament de València · Noticias de movilidad",
-   "ok": false,
-   "count": 0,
-   "error": "No se pudo descargar https://www.valencia.es/cas/movilidad/noticias: 403 Client Error: Forbidden for url: https://www.valencia.es/cas/movilidad/noticias; No se pudo descargar https://www.valencia.es/web/guest/cas/actualidad/movilidad-y-urbanismo: 403 Client Error: Forbidden for url: https://www.vale"
   }
  ]
 }
