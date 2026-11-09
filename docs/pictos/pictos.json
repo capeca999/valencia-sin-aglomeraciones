@@ -1,0 +1,221 @@
+{
+ "futbol": {
+  "id": 16743,
+  "word": "fútbol",
+  "alt_ids": [
+   16743,
+   7137,
+   29116,
+   35256,
+   35255,
+   6007
+  ]
+ },
+ "baloncesto": {
+  "id": 10166,
+  "word": "baloncesto",
+  "alt_ids": [
+   10166,
+   39791,
+   39225,
+   39224,
+   39223,
+   3260
+  ]
+ },
+ "concierto": {
+  "id": 11586,
+  "word": "concierto",
+  "alt_ids": [
+   11586,
+   11584,
+   11588,
+   14532,
+   38296
+  ]
+ },
+ "manifestacion": {
+  "id": 21976,
+  "word": "manifestación",
+  "alt_ids": [
+   21976
+  ]
+ },
+ "huelga": {
+  "id": 19561,
+  "word": "huelga",
+  "alt_ids": [
+   19561
+  ]
+ },
+ "fuegos": {
+  "id": 5474,
+  "word": "fuegos artificiales",
+  "alt_ids": [
+   5474,
+   29198
+  ]
+ },
+ "petardo": {
+  "id": 16851,
+  "word": "petardo",
+  "alt_ids": [
+   16851
+  ]
+ },
+ "carrera": {
+  "id": 11205,
+  "word": "carrera",
+  "alt_ids": [
+   11205,
+   11206,
+   21498,
+   34830,
+   37424,
+   36105
+  ]
+ },
+ "desfile": {
+  "id": 36663,
+  "word": "desfile",
+  "alt_ids": [
+   36663
+  ]
+ },
+ "fiesta": {
+  "id": 16649,
+  "word": "fiesta",
+  "alt_ids": [
+   16649,
+   7099,
+   24963,
+   25107,
+   38130,
+   37848
+  ]
+ },
+ "gente": {
+  "id": 38445,
+  "word": "multitud",
+  "alt_ids": [
+   38445
+  ]
+ },
+ "tranquilo": {
+  "id": 31310,
+  "word": "tranquilo",
+  "alt_ids": [
+   31310,
+   37828,
+   38050,
+   38932,
+   39269,
+   39856
+  ]
+ },
+ "silencio": {
+  "id": 5936,
+  "word": "silencio",
+  "alt_ids": [
+   5936,
+   6071,
+   25453,
+   38214
+  ]
+ },
+ "ruido": {
+  "id": 37857,
+  "word": "ruido",
+  "alt_ids": [
+   37857,
+   7157,
+   38945
+  ]
+ },
+ "biblioteca": {
+  "id": 6063,
+  "word": "biblioteca",
+  "alt_ids": [
+   6063,
+   3065,
+   5926,
+   32450,
+   34814,
+   6642
+  ]
+ },
+ "parque": {
+  "id": 2859,
+  "word": "parque",
+  "alt_ids": [
+   2859,
+   36145,
+   36077,
+   29626,
+   39565,
+   39572
+  ]
+ },
+ "jardin": {
+  "id": 2434,
+  "word": "jardín",
+  "alt_ids": [
+   2434,
+   30608,
+   30609,
+   37986,
+   33988,
+   39661
+  ]
+ },
+ "supermercado": {
+  "id": 3389,
+  "word": "supermercado",
+  "alt_ids": [
+   3389,
+   6618
+  ]
+ },
+ "museo": {
+  "id": 32406,
+  "word": "museo",
+  "alt_ids": [
+   32406,
+   3132,
+   6566,
+   39919
+  ]
+ },
+ "playa": {
+  "id": 30518,
+  "word": "playa",
+  "alt_ids": [
+   30518,
+   2826,
+   37901,
+   26696,
+   4790,
+   4746
+  ]
+ },
+ "calle_cortada": {
+  "id": 2299,
+  "word": "calle cortada",
+  "alt_ids": [
+   2299,
+   26720
+  ]
+ },
+ "metro": {
+  "id": 26925,
+  "word": "metro",
+  "alt_ids": [
+   26925,
+   2472,
+   2913,
+   2914,
+   29074,
+   2915
+  ]
+ }
+}

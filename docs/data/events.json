@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T10:11+01:00",
+ "updated": "2026-11-09T10:26+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -246,7 +246,13 @@
    },
    "official": false,
    "sid": "manual",
-   "tags": []
+   "tags": [],
+   "also": [
+    {
+     "name": "Prensa: Actualidad Castellón",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNzdKelNUSWFzb0lPTHA1cU1YZjd4Z0N1d2R4T0ZGM0s2VERRUzJGNXFMMTA1QVFzYXA1czZYMmZFNFQ3ZFpDVVZMUVdta0NzNWVFd3hnaVlnLWY0RkdJelRaM0dCLXVDZkZlSUZJck5fb1QzYkJnbUpKVnBsMFdHUFYxdnBjb19V?oc=5"
+    }
+   ]
   },
   {
    "date": "2026-11-12",
@@ -2723,6 +2729,200 @@
   }
  ],
  "notices": [],
+ "noise": [
+  {
+   "id": "t248652-daily",
+   "name": "Sueca Esq. Denia",
+   "lat": 39.4628376,
+   "lon": -0.37588849999997365,
+   "date": "2026-11-08",
+   "laeq": 57.5,
+   "laeq_d": 58.0,
+   "laeq_e": 56.8,
+   "laeq_n": 57.1,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248652-daily"
+  },
+  {
+   "id": "t248680-daily",
+   "name": "Sueca, 32",
+   "lat": 39.4613594,
+   "lon": -0.37514680000003864,
+   "date": "2026-11-08",
+   "laeq": 57.8,
+   "laeq_d": 57.6,
+   "laeq_e": 59.2,
+   "laeq_n": 57.3,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
+  },
+  {
+   "id": "t248684-daily",
+   "name": "Sueca, 61",
+   "lat": 39.4605601,
+   "lon": -0.37411520000000564,
+   "date": "2026-11-08",
+   "laeq": 57.8,
+   "laeq_d": 58.5,
+   "laeq_e": 57.9,
+   "laeq_n": 56.4,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248684-daily"
+  },
+  {
+   "id": "t248683-daily",
+   "name": "Sueca, 2",
+   "lat": 39.4633107,
+   "lon": -0.3766378000000259,
+   "date": "2026-11-08",
+   "laeq": 58.7,
+   "laeq_d": 60.5,
+   "laeq_e": 55.5,
+   "laeq_n": 55.4,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248683-daily"
+  },
+  {
+   "id": "t248672-daily",
+   "name": "Puerto Rico, 21",
+   "lat": 39.4609867,
+   "lon": -0.3761412000000064,
+   "date": "2026-11-08",
+   "laeq": 57.0,
+   "laeq_d": 56.5,
+   "laeq_e": 60.2,
+   "laeq_n": 55.0,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248672-daily"
+  },
+  {
+   "id": "t248679-daily",
+   "name": "Matías Perelló Esq. Doctor Sumsi",
+   "lat": 39.4614718,
+   "lon": -0.36814430000003995,
+   "date": "2026-11-08",
+   "laeq": 58.4,
+   "laeq_d": 58.5,
+   "laeq_e": 60.2,
+   "laeq_n": 57.2,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248679-daily"
+  },
+  {
+   "id": "t248661-daily",
+   "name": "General Prim Chaflán Donoso Cortés",
+   "lat": 39.4625622,
+   "lon": -0.370427100000029,
+   "date": "2026-11-08",
+   "laeq": 51.5,
+   "laeq_d": 52.1,
+   "laeq_e": 52.1,
+   "laeq_n": 50.0,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248661-daily"
+  },
+  {
+   "id": "t248676-daily",
+   "name": "Salvador Abril Chaflán Maestro José Serrano",
+   "lat": 39.4635655,
+   "lon": -0.37060220000000754,
+   "date": "2026-11-08",
+   "laeq": 58.7,
+   "laeq_d": 59.2,
+   "laeq_e": 60.9,
+   "laeq_n": 55.5,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248676-daily"
+  },
+  {
+   "id": "t248669-daily",
+   "name": "Doctor Serrano, 21",
+   "lat": 39.4626872,
+   "lon": -0.3737806999999975,
+   "date": "2026-10-21",
+   "laeq": 61.2,
+   "laeq_d": 61.5,
+   "laeq_e": null,
+   "laeq_n": 60.8,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248669-daily"
+  },
+  {
+   "id": "t248682-daily",
+   "name": "Cuba, 3",
+   "lat": 39.4628861,
+   "lon": -0.3775977000000239,
+   "date": "2026-11-08",
+   "laeq": 60.0,
+   "laeq_d": 59.0,
+   "laeq_e": 58.3,
+   "laeq_n": 61.6,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248682-daily"
+  },
+  {
+   "id": "t248670-daily",
+   "name": "Carles Cervera, Chaflán Reina Doña María",
+   "lat": 39.4613005,
+   "lon": -0.37288599999999406,
+   "date": "2026-11-08",
+   "laeq": 60.6,
+   "laeq_d": 59.8,
+   "laeq_e": 61.7,
+   "laeq_n": 61.2,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248670-daily"
+  },
+  {
+   "id": "t248678-daily",
+   "name": "Carles Cervera, 34",
+   "lat": 39.4615883,
+   "lon": -0.3727962000000389,
+   "date": "2026-11-08",
+   "laeq": 57.3,
+   "laeq_d": 54.8,
+   "laeq_e": 54.7,
+   "laeq_n": 60.1,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248678-daily"
+  },
+  {
+   "id": "t248677-daily",
+   "name": "Vivons Chaflán Cádiz",
+   "lat": 39.4599927,
+   "lon": -0.3721407000000454,
+   "date": "2026-11-08",
+   "laeq": 59.5,
+   "laeq_d": 60.8,
+   "laeq_e": 58.9,
+   "laeq_n": 57.0,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248677-daily"
+  },
+  {
+   "id": "t248655-daily",
+   "name": "Cádiz, 3",
+   "lat": 39.4640447,
+   "lon": -0.3750515000000405,
+   "date": "2026-11-08",
+   "laeq": 64.5,
+   "laeq_d": 64.1,
+   "laeq_e": 64.6,
+   "laeq_n": 65.0,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248655-daily"
+  },
+  {
+   "id": "t248671-daily",
+   "name": "Cádiz, 16",
+   "lat": 39.4631424,
+   "lon": -0.3746647000000394,
+   "date": "2026-11-08",
+   "laeq": 60.2,
+   "laeq_d": 60.1,
+   "laeq_e": 61.1,
+   "laeq_n": 59.8,
+   "source": "https://opendata.vlci.valencia.es/dataset/t248671-daily"
+  },
+  {
+   "id": "t251234-daily",
+   "name": "Cura Femenía, 14",
+   "lat": 39.46227,
+   "lon": -0.3732538,
+   "date": "2026-11-08",
+   "laeq": 62.1,
+   "laeq_d": 60.1,
+   "laeq_e": 61.1,
+   "laeq_n": 64.3,
+   "source": "https://opendata.vlci.valencia.es/dataset/t251234-daily"
+  }
+ ],
  "sources": [
   {
    "id": "geoportal",
@@ -2758,7 +2958,13 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 0
+   "count": 1
+  },
+  {
+   "id": "ruido",
+   "name": "Ajuntament de València · Sonómetros de Ruzafa (datos abiertos)",
+   "ok": true,
+   "count": 16
   }
  ]
 }
