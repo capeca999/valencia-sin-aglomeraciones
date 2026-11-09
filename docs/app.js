@@ -86,7 +86,7 @@
     $("weekTitle").textContent = state.weekStart === 0 ? "Próximos 7 días" :
       "Del " + start.getDate() + " " + MO[start.getMonth()] + " al " + end.getDate() + " " + MO[end.getMonth()];
     $("prev").disabled = state.weekStart <= 0;
-    $("nextw").disabled = state.weekStart >= 7;
+    $("nextw").disabled = state.weekStart >= 18;
   }
 
   // ---------- Mapa ----------
@@ -214,7 +214,7 @@
   $("pat").onchange = function (ev) { state.patterns = ev.target.checked; store.set("vsa-patterns", ev.target.checked); renderMap(); renderDay(); };
   $("live").onchange = function (ev) { state.live = ev.target.checked; store.set("vsa-live", ev.target.checked); renderLive(); };
   $("prev").onclick = function () { if (state.weekStart > 0) { state.weekStart--; renderStrip(); } };
-  $("nextw").onclick = function () { if (state.weekStart < 7) { state.weekStart++; renderStrip(); } };
+  $("nextw").onclick = function () { if (state.weekStart < 18) { state.weekStart++; renderStrip(); } };
   $("copyTopic").onclick = function () {
     var t = $("topic").textContent;
     if (navigator.clipboard) navigator.clipboard.writeText(t).then(function () { $("copyTopic").textContent = "Copiado"; }, function () {});

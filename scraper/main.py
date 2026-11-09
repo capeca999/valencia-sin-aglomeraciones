@@ -11,7 +11,7 @@ from datetime import date, timedelta
 
 from .common import ROOT, Event, norm, now, today
 from .geo import PATTERNS, zones_json
-from .sources import ayto_movilidad, ayto_noticias, geoportal, laliga, prensa, roig_arena, visitvalencia
+from .sources import ayto_movilidad, ayto_noticias, fiestas, geoportal, laliga, prensa, roig_arena, visitvalencia
 
 OUT = ROOT / "docs" / "data" / "events.json"
 MANUAL = ROOT / "docs" / "data" / "manual.json"
@@ -22,6 +22,7 @@ SOURCES = [
     ("laliga", "LaLiga (Valencia CF y Levante UD)", laliga.scrape),
     ("roig_arena", "Roig Arena (web oficial)", roig_arena.scrape),
     ("visitvalencia", "Visit València (calendario Valencia Basket)", visitvalencia.scrape),
+    ("fiestas", "Calendario de fiestas de València (Fallas, Reyes, 9 d'Octubre, Nochevieja…)", fiestas.scrape),
     ("prensa", "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»", prensa.scrape),
 ]
 
@@ -39,8 +40,8 @@ def _load_previous() -> dict:
 
 def _same(a: dict, b: dict) -> bool:
     """¿Son el mismo evento? Mismo día, alguna zona en común y misma hora (o sin hora)."""
-    if a["date"] != b["date"]:
-        return False
+    if a["date"] != b["date"] or (a.get("sid") and a.get("sid") == b.get("sid")):
+        return False  # una misma fuente no repite eventos
     if not a["zones"] and not b["zones"]:
         return a["type"] == b["type"] and a["type"] in ("Huelga",)
     if not set(a["zones"]) & set(b["zones"]):
@@ -124,7 +125,7 @@ def run() -> dict:
         m.setdefault("tags", [])
         events.append(m)
 
-    lo, hi = (t - timedelta(days=1)).isoformat(), (t + timedelta(days=60)).isoformat()
+    lo, hi = (t - timedelta(days=1)).isoformat(), (t + timedelta(days=130)).isoformat()
     events = [e for e in events if lo <= e["date"] <= hi]
     events.sort(key=lambda e: (e["date"], e.get("start") or "99", e.get("sid") == "prensa", -e["level"]))
     events = _merge(events)
