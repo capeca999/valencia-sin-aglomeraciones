@@ -47,6 +47,7 @@ jobs:
           curl -s --max-time 30 "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/192/query?where=1%3D1&outFields=*&outSR=4326&f=geojson&resultRecordCount=3" -o debug/geoportal.json -D debug/geoportal_headers.txt || true
           curl -s --max-time 30 "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer?f=json" -o debug/geoportal_trafico_layers.json || true
           curl -s --max-time 30 "https://geoportal.valencia.es/server/rest/services/OPENDATA?f=json" -o debug/geoportal_opendata_services.json || true
+          for L in 233 232 237 209; do curl -s --max-time 40 "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/$L/query?where=1%3D1&outFields=*&outSR=4326&f=json&resultRecordCount=8&returnGeometry=false" -o debug/geo_layer_$L.json || true; curl -s --max-time 40 "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/$L/query?where=1%3D1&returnCountOnly=true&f=json" -o debug/geo_count_$L.json || true; done
           for q in afecciones cortes talls eventos agenda; do curl -s --max-time 30 "https://opendata.vlci.valencia.es/api/3/action/package_search?q=$q&rows=20" -o debug/ckan_$q.json || true; done
 
       - name: Aviso al móvil (ntfy)
