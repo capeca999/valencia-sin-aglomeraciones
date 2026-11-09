@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T10:48+01:00",
+ "updated": "2026-11-09T10:54+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -482,13 +482,7 @@
    },
    "official": false,
    "sid": "manual",
-   "tags": [],
-   "also": [
-    {
-     "name": "Prensa: Actualidad Castellón",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNzdKelNUSWFzb0lPTHA1cU1YZjd4Z0N1d2R4T0ZGM0s2VERRUzJGNXFMMTA1QVFzYXA1czZYMmZFNFQ3ZFpDVVZMUVdta0NzNWVFd3hnaVlnLWY0RkdJelRaM0dCLXVDZkZlSUZJck5fb1QzYkJnbUpKVnBsMFdHUFYxdnBjb19V?oc=5"
-    }
-   ]
+   "tags": []
   },
   {
    "date": "2026-11-12",
@@ -4170,7 +4164,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 1
+   "count": 0
   },
   {
    "id": "ruido",
