@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:12+01:00",
+ "updated": "2026-11-09T09:15+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -115,6 +115,12 @@
    "lon": -0.364,
    "r": 600
   },
+  "campanar": {
+   "name": "Av. Campanar (Conselleria de Educación)",
+   "lat": 39.4815,
+   "lon": -0.3935,
+   "r": 300
+  },
   "feria": {
    "name": "Feria Valencia",
    "lat": 39.5055,
@@ -173,6 +179,123 @@
   }
  ],
  "events": [
+  {
+   "date": "2026-11-11",
+   "title": "Marcha educativa: Conselleria de Educación → Plaza del Ayuntamiento",
+   "type": "Manifestación",
+   "zones": [
+    "campanar",
+    "ayuntamiento"
+   ],
+   "level": 2,
+   "start": "11:00",
+   "from": "10:30",
+   "to": "14:00",
+   "people": "miles de personas",
+   "confirmed": true,
+   "approx": true,
+   "tip": "Concentración a las 11:00 en la Conselleria de Educación (Av. Campanar), marcha a las 11:45 hacia la Plaza del Ayuntamiento y concentración allí a las 12:30 con el piquete central de vivienda.",
+   "source": {
+    "name": "Valencia Plaza",
+    "url": "https://valenciaplaza.com/valenciaplaza/educacion/sindicatos-educativos-convocan-protestas-en-las-principales-ciudades-valencianas-el-dia-de-la-huelga-general"
+   },
+   "official": false,
+   "sid": "manual",
+   "tags": []
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Manifestación de la huelga general (salida calle Xàtiva)",
+   "type": "Manifestación",
+   "zones": [
+    "san_agustin",
+    "carmen",
+    "ayuntamiento"
+   ],
+   "level": 3,
+   "start": "18:00",
+   "from": "16:45",
+   "to": "21:30",
+   "people": "decenas de miles de personas",
+   "confirmed": true,
+   "approx": true,
+   "tip": "Sale a las 18:00 de la calle Xàtiva. Una hora antes sale una columna educativa desde las Torres de Quart. El recorrido exacto aún no está publicado: evita todo el centro (Xàtiva, San Agustín, Plaza del Ayuntamiento, Colón) desde las 17:00.",
+   "source": {
+    "name": "7 Televalencia",
+    "url": "https://7televalencia.com/huelga-11n-todo-lo-que-debes-saber/"
+   },
+   "official": false,
+   "sid": "manual",
+   "tags": []
+  },
+  {
+   "date": "2026-11-11",
+   "title": "La huelga general del 11N suma ya 4.342 adhesiones de trabajadores de Amazon, Zara, Seat o BBVA",
+   "type": "Huelga",
+   "zones": [],
+   "level": 2,
+   "start": "",
+   "to": "",
+   "people": "",
+   "tip": "Huelga anunciada en prensa. El transporte público funcionará con servicios mínimos: habrá menos metros y autobuses y más gente esperando en paradas y andenes.",
+   "official": false,
+   "confirmed": false,
+   "approx": true,
+   "raw": "La huelga general del 11N suma ya 4.342 adhesiones de trabajadores de Amazon, Zara, Seat o BBVA València Extra",
+   "tags": [],
+   "sid": "prensa",
+   "geo": [],
+   "from": "",
+   "source": {
+    "name": "Prensa: València Extra",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDVweVpsMWpybTl4UWkyQzB0RkZEQnJibHgtaVB1S1hPSE50eXo1Tm5wS3N1ZUpSWDFwRW5RZG1yRFdlODVFRmxUcGFfcTlaYkl5VFVZazAwM0IwbXNLcUUzQ05XMEUwa0gzN2h2MklJd1VvMnNucjB3aU10MnJ5Q3lGanZhUDc4RHBmeXVkTk5IS2tOLV9lV01odl80a2FHdm1yaGdsRWNFLXFTWlVtQnRFYmJhUDRKZXBtSWpYNnB2Mk93ektiTnNEQXR0cWFJ?oc=5"
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Huelga general del 11 de noviembre en la Marina Alta: tres piquetes y una manifestación en Dénia",
+   "type": "Manifestación",
+   "zones": [
+    "marina"
+   ],
+   "level": 2,
+   "start": "",
+   "to": "",
+   "people": "",
+   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
+   "official": false,
+   "confirmed": false,
+   "approx": true,
+   "raw": "Huelga general del 11 de noviembre en la Marina Alta: tres piquetes y una manifestación en Dénia La Marina Alta .COM",
+   "tags": [],
+   "sid": "prensa",
+   "geo": [],
+   "from": "",
+   "source": {
+    "name": "Prensa: La Marina Alta .COM",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1Z2YzFCSktsb0UxVlRhWXM3OXcyQmJmeFlCSWlzLV9VWkFMU2V0UXRuZS0xUzRWNHBYOXNNSFZjckxaQmRlRUxZSTR0NWllck5RT3FDNTFMT1VHMW96R19oZEpVcHJBQVpfeU9uOWZGMndlaFpuSUhJaFlzOWxJRXRkdTJ4Rzk4MElCQzU1cHFBelUzZE8zenBITGF3Y1Y5QjdQajlOODkwUGxwZS11STR2RWlLbEFSNzdTbEp3?oc=5"
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Huelga general de 24 horas (11N)",
+   "type": "Huelga",
+   "zones": [],
+   "level": 2,
+   "start": "",
+   "from": "00:00",
+   "to": "23:59",
+   "people": "toda la ciudad",
+   "confirmed": true,
+   "tip": "El transporte público (metro, tranvía, EMT, Renfe) funcionará con servicios mínimos: menos frecuencia y andenes y paradas más llenos. Puede haber piquetes informativos en zonas comerciales por la mañana.",
+   "source": {
+    "name": "Generalitat Valenciana · servicios mínimos",
+    "url": "https://habitatge.gva.es/documents/21189/165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-0a5baac22c6b"
+   },
+   "official": false,
+   "sid": "manual",
+   "tags": []
+  },
   {
    "date": "2026-11-12",
    "title": "Valencia Basket vs FC Bayern Múnich",
@@ -339,6 +462,29 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/jesse-and-joy-20261115/"
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "title": "El comité de empresa de Adif acuerda una huelga para el próximo 17 de noviembre",
+   "type": "Huelga",
+   "zones": [],
+   "level": 2,
+   "start": "",
+   "to": "",
+   "people": "",
+   "tip": "Huelga anunciada en prensa. El transporte público funcionará con servicios mínimos: habrá menos metros y autobuses y más gente esperando en paradas y andenes.",
+   "official": false,
+   "confirmed": false,
+   "approx": true,
+   "raw": "El comité de empresa de Adif acuerda una huelga para el próximo 17 de noviembre Valencia Plaza",
+   "tags": [],
+   "sid": "prensa",
+   "geo": [],
+   "from": "",
+   "source": {
+    "name": "Prensa: Valencia Plaza",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS2lURGJPTlRzOVp2OVNPNEVtSGdzVFNyWjFRVDBHVnp1REloTGFPcFJ3dXc5NGxCVjJ4dndnOERZS3lwMU5mN29pQ1pPOHpVdzJQdVU0WnZoZjVocFd3ZnZra01aWklnOHFZLXNKQWE4UlV5RzQ5b2ZKQ3F4N1NrTXUzUVRINGUwd2ZhZDlVOTl5cGxBWXpIRXZuOFFETU9CMWcwY09uOG92ZGtENzZnR2s4LTcyZHpnNzAtUkZIaFczRXBKMXNz?oc=5"
    }
   },
   {
@@ -1601,6 +1747,12 @@
    "name": "Visit València (calendario Valencia Basket)",
    "ok": true,
    "count": 11
+  },
+  {
+   "id": "prensa",
+   "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
+   "ok": true,
+   "count": 3
   }
  ]
 }
