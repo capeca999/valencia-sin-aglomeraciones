@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Valencia sin aglomeraciones//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sin aglomeraciones · Campanar y Feria
+X-WR-TIMEZONE:Europe/Madrid
+X-WR-CALDESC:Dónde y cuándo habrá mucha gente en València. https://cap
+ eca999.github.io/valencia-sin-aglomeraciones/
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:365f6e2b81e67eb8df29@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261111T093000Z
+DTEND:20261111T130000Z
+SUMMARY:Mucha gente: Marcha educativa: Conselleria de Educación → Plaza
+  del Ayuntamiento
+LOCATION:Av. Campanar (Conselleria de Educación)\, Plaza del Ayuntamiento
+DESCRIPTION:Mucha gente. Zona a evitar: Av. Campanar (Conselleria de Educa
+ ción)\, Plaza del Ayuntamiento.\nConcentración a las 11:00 en la Consel
+ leria de Educación (Av. Campanar)\, marcha a las 11:45 hacia la Plaza de
+ l Ayuntamiento y concentración allí a las 12:30 con el piquete central 
+ de vivienda.\n\nFuente: Valencia Plaza https://valenciaplaza.com/valencia
+ plaza/educacion/sindicatos-educativos-convocan-protestas-en-las-principal
+ es-ciudades-valencianas-el-dia-de-la-huelga-general\nhttps://capeca999.gi
+ thub.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8bdd527d467abe9a4a99@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Mucha gente: Huelga general de 24 horas (11N)
+LOCATION:Toda la ciudad
+DESCRIPTION:Mucha gente. Zona a evitar: Toda la ciudad.\nEl transporte pú
+ blico (metro\, tranvía\, EMT\, Renfe) funcionará con servicios mínimos
+ : menos frecuencia y andenes y paradas más llenos. Puede haber piquetes 
+ informativos en zonas comerciales por la mañana.\n\nFuente: Generalitat 
+ Valenciana · servicios mínimos https://habitatge.gva.es/documents/21189
+ /165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-
+ 0a5baac22c6b\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5dd325f5361338f10744@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a377c1f17db83db7d153@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a1ddb933f795c7732e7@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5cb2f202fa5e1825a9b6@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:88a86f8c94bdcbc3a131@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:87c79c1167b7a08e4a39@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -139,6 +139,22 @@ def run() -> dict:
         noise = prev.get("noise", [])
         status.append({"id": "ruido", "name": "Ajuntament de València · Sonómetros de Ruzafa (datos abiertos)", "ok": False, "count": len(noise), "error": str(e)[:300]})
 
+    # Salud de cada fuente: desde qué día falla o devuelve 0 (para el aviso privado de fallos)
+    health = {}
+    prev_h = prev.get("health") or {}
+    for st in status:
+        sid, ph = st["id"], prev_h.get(st["id"], {})
+        h = {}
+        if not st["ok"]:
+            h["fail_since"] = ph.get("fail_since") or t.isoformat()
+            h["last_error"] = st.get("error", "")
+        elif st["count"] == 0:
+            h["zero_since"] = ph.get("zero_since") or t.isoformat()
+        for k in ("fail", "zero"):
+            if h.get(k + "_since"):
+                h[k + "_days"] = (t - date.fromisoformat(h[k + "_since"])).days + 1
+        health[sid] = h
+
     data = {
         "updated": now().isoformat(timespec="minutes"),
         "zones": zones_json(),
@@ -148,9 +164,15 @@ def run() -> dict:
         "notices": notices,
         "noise": noise,
         "sources": status,
+        "health": health,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    try:
+        from .calendar_ics import build as build_cal
+        print("Calendarios:", build_cal(data))
+    except Exception as ex:  # el calendario nunca debe tumbar la actualización
+        print("Calendarios: FALLO", ex)
     print(f"{len(events)} eventos, {len(notices)} avisos")
     for s in status:
         print(("OK  " if s["ok"] else "FALLO ") + f"{s['id']}: {s['count']}" + (f"  ({s.get('error')})" if not s["ok"] else ""))

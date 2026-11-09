@@ -70,6 +70,7 @@
   </header>
 
   <main>
+  <p class="offline" id="offlineBar" role="status" hidden></p>
   <section class="card status" id="status" tabindex="-1" aria-labelledby="statusTitle">
     <div class="titlerow"><img class="picto" id="statusPicto" src="pictos/tranquilo.png" alt="" width="64" height="64"><div>
     <p class="sub" id="statusDate" data-i18n="loading">Cargando…</p>
@@ -140,6 +141,24 @@
     </ol>
     <p data-i18n="phoneAreas">¿Solo te interesan algunas zonas? En «📍 Mis sitios» puedes suscribirte solo a tus barrios.</p>
     <p class="sub" id="phoneLang" data-i18n="phoneLang"></p>
+  </section>
+
+  <section class="card" aria-labelledby="calTitle">
+    <h2 id="calTitle" data-i18n="calTitle">📅 Añadir a tu calendario</h2>
+    <p data-i18n="calIntro">Los días con mucha gente aparecen solos en tu calendario del móvil o del ordenador, y se actualizan cada día.</p>
+    <p class="calbtns">
+      <a class="link small subbtn" id="calGoogle" href="#" target="_blank" rel="noopener" data-i18n="calGoogle">Google Calendar</a>
+      <a class="link small subbtn" id="calApple" href="#" data-i18n="calApple">iPhone, Mac u Outlook</a>
+      <button class="link small" id="calCopy" type="button" data-i18n="calCopy">Copiar enlace</button>
+    </p>
+    <p class="sub" data-i18n="calAreas">En «📍 Mis sitios» tienes un calendario solo para cada barrio.</p>
+  </section>
+
+  <section class="card" id="installCard" aria-labelledby="installTitle">
+    <h2 id="installTitle" data-i18n="installTitle">📲 Usar como app</h2>
+    <p data-i18n="installIntro">Puedes poner la web en la pantalla de inicio. Funciona también sin conexión, con los últimos datos descargados.</p>
+    <p><button class="link small subbtn" id="installBtn" type="button" hidden data-i18n="installBtn">Instalar</button></p>
+    <p class="sub" id="installHelp" data-i18n="installHelp">En iPhone: botón Compartir → «Añadir a pantalla de inicio». En Android: menú ⋮ → «Instalar aplicación».</p>
   </section>
 
   <section class="card" id="contact" aria-labelledby="contactTitle" hidden>

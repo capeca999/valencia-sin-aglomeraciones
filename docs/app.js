@@ -2,7 +2,7 @@
   "use strict";
   // Clave pública de CARTO Basemaps (gratis para uso no comercial). Va en el navegador: es normal que sea visible.
   // Restríngela a tu dominio (capeca999.github.io) en el panel de CARTO.
-  var CARTO_KEY = "cb1_5554_1_8fee9a245a93f097e737999e";
+  var CARTO_KEY = "cb1_559w_1_188a2836d59cdf2f50ac30a1";
   // Usuario de Buy Me a Coffee (buymeacoffee.com/USUARIO). Vacío = no se muestra el botón.
   var BMC_USER = "";
   // Correo de contacto, partido en dos para que los robots que recogen correos lo encuentren peor.
@@ -199,6 +199,7 @@
   // ---------- Mapa ----------
   var map, zoneLayer, liveLayer, quietLayer, noiseLayer, liveData = null;
   function initMap() {
+    if (!window.L) { $("map").hidden = true; return; }  // sin conexión y sin Leaflet guardado
     var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
     map = L.map("map", { zoomAnimation: false, fadeAnimation: false, markerZoomAnimation: false, scrollWheelZoom: false, keyboard: false }).setView([39.4699, -0.3700], 13);
     var base = L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/" + (dark ? "dark_all" : "light_all") + "/{z}/{x}/{y}{r}.png?key=" + CARTO_KEY, {
@@ -222,14 +223,14 @@
     unfocus(); map.on("layeradd popupopen", unfocus);
   }
   function renderMap() {
-    zoneLayer.clearLayers();
+    if (zoneLayer) zoneLayer.clearLayers();
     var evs = eventsOn(state.selected), zl = {}, zev = {};
     evs.forEach(function (e) { (e.zones || []).forEach(function (z) { if (!DATA.zones[z]) return; zl[z] = Math.max(zl[z] || 0, e.level); (zev[z] = zev[z] || []).push(e); }); });
     var bounds = [], city = evs.some(function (e) { return (e.tags || []).indexOf("ciudad") >= 0; });
     // Resumen en texto del mapa para lectores de pantalla
     var names = Object.keys(zl).map(function (z) { return zoneName(z) + " (" + T("levels")[zl[z]].toLowerCase() + ")"; });
     $("mapSummary").textContent = (city ? T("cityLabel").replace("🔥 ", "") + ". " : "") + (names.length ? T("mapSummary", { z: names.join(", ") }) : T("mapSummaryNone"));
-    if (state.a11y) return;
+    if (state.a11y || !map) return;
     if (city) {
       L.circle([39.4699, -0.3700], { radius: 4200, color: css("--l3"), weight: 4, fillColor: css("--l3"), fillOpacity: 0.22, interactive: false }).addTo(zoneLayer);
       L.tooltip({ permanent: true, direction: "center", className: "citylabel" }).setLatLng([39.4950, -0.3700]).setContent(esc(T("cityLabel"))).addTo(zoneLayer);
@@ -267,6 +268,7 @@
   // Calles cortadas en tiempo real (Geoportal del Ayuntamiento)
   function estadoOf(props) { for (var k in props) if (/^estado$|estat/i.test(k)) return Number(props[k]); return NaN; }
   function renderLive() {
+    if (!map) return;
     liveLayer.clearLayers();
     $("liveNote").hidden = true;
     if (!state.live) return;
@@ -363,6 +365,7 @@
     }).join("");
   }
   function renderQuietMap() {
+    if (!map) return;
     quietLayer.clearLayers();
     if (!state.quiet || state.a11y) return;
     QUIET.places.forEach(function (pl) {
@@ -379,6 +382,7 @@
     return hour >= 23 || hour < 7 ? ["laeq_n", T("noiseNight")] : hour >= 19 ? ["laeq_e", T("noiseEve")] : ["laeq_d", T("noiseDay")];
   }
   function renderNoise() {
+    if (!map) return;
     noiseLayer.clearLayers();
     var note = $("noiseNote"), data = DATA.noise || [];
     if (!state.noise || !data.length) { note.hidden = true; return; }
@@ -462,7 +466,7 @@
     stopSpeech();
     LANG = l; store.set("vsa-lang", l);
     applyStatic();
-    if (DATA) { renderAll(); renderFooter(); renderNoise(); if (state.live) renderLive(); if (!$("sitesPanel").hidden) renderAreas(); }
+    if (DATA) { renderAll(); renderFooter(); renderNoise(); if (state.live) renderLive(); if (!$("sitesPanel").hidden) renderAreas(); renderOffline(); }
   }
 
   // ---------- Controles ----------
@@ -489,7 +493,7 @@
       var topic = $("topic").textContent.trim() + "-" + a, on = state.mine.indexOf(a) >= 0;
       return '<div class="area"><label class="opt" for="ar_' + a + '"><input type="checkbox" id="ar_' + a + '" value="' + a + '"' + (on ? " checked" : "") + "> <span><strong>" +
         esc(T("areas")[a]) + "</strong>" + (places ? '<br><span class="sub">' + esc(places) + "</span>" : "") + "</span></label>" +
-        (on ? '<div class="sub2"><a class="link small subbtn" href="https://ntfy.sh/' + esc(topic) + '" target="_blank" rel="noopener">' + esc(T("subscribe")) + '</a> <span class="sub">' + esc(T("channel")) + " <code>" + esc(topic) + "</code></span></div>" : "") + "</div>";
+        (on ? '<div class="sub2"><a class="link small subbtn" href="https://ntfy.sh/' + esc(topic) + '" target="_blank" rel="noopener">' + esc(T("subscribe")) + '</a> <a class="link small subbtn" href="' + esc(calUrl(a, APPLE ? "webcal" : "google")) + '" target="_blank" rel="noopener">' + esc(T("calArea")) + '</a> <span class="sub">' + esc(T("channel")) + " <code>" + esc(topic) + "</code></span></div>" : "") + "</div>";
     }).join("") + (state.mine.length ? '<p class="sub">' + esc(T("subHelp")) + "</p>" : "");
     $("areasList").querySelectorAll("input").forEach(function (inp) {
       inp.onchange = function () {
@@ -519,6 +523,43 @@
   $("speakBtn").onclick = speak;
   if (window.speechSynthesis) window.speechSynthesis.onvoiceschanged = function () {};
   $("dayTitle").setAttribute("tabindex", "-1");
+
+  // ---------- Calendario (.ics) ----------
+  var APPLE = /iPhone|iPad|Macintosh/.test(navigator.userAgent);
+  function calUrl(area, kind) {
+    var u = new URL("cal/" + (area || "valencia") + ".ics", location.href).href, wc = u.replace(/^https?:/, "webcal:");
+    if (kind === "google") return "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(wc);
+    if (kind === "webcal") return wc;
+    return u;
+  }
+  $("calGoogle").href = calUrl("", "google");
+  $("calApple").href = calUrl("", "webcal");
+  $("calCopy").onclick = function () {
+    if (navigator.clipboard) navigator.clipboard.writeText(calUrl("")).then(function () { $("calCopy").textContent = T("copied"); }, function () {});
+  };
+
+  // ---------- Instalar como app / sin conexión ----------
+  var installEvt = null;
+  window.addEventListener("beforeinstallprompt", function (ev) { ev.preventDefault(); installEvt = ev; $("installBtn").hidden = false; });
+  $("installBtn").onclick = function () {
+    if (!installEvt) return;
+    installEvt.prompt();
+    installEvt.userChoice.then(function () { installEvt = null; $("installBtn").hidden = true; });
+  };
+  var standalone = (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) || navigator.standalone;
+  if (standalone) $("installCard").hidden = true;
+  function renderOffline() {
+    var b = $("offlineBar");
+    if (navigator.onLine || !DATA) { b.hidden = true; return; }
+    var u = new Date(DATA.updated);
+    b.textContent = T("offline", { d: shortDate(u) + " " + String(u.getHours()).padStart(2, "0") + ":" + String(u.getMinutes()).padStart(2, "0") });
+    b.hidden = false;
+  }
+  window.addEventListener("online", renderOffline);
+  window.addEventListener("offline", renderOffline);
+  if ("serviceWorker" in navigator && location.protocol !== "file:") {
+    window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });
+  }
 
   // ---------- Contacto ----------
   function contactEmail() { return CONTACT.user && CONTACT.domain ? CONTACT.user + "@" + CONTACT.domain : ""; }
@@ -551,7 +592,7 @@
       if (DATA.areas) AREAS = DATA.areas;
       return fetch("data/quiet.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : { hours: [], places: [] }; })
         .catch(function () { return { hours: [], places: [] }; })
-        .then(function (q) { QUIET = q; renderAll(); renderFooter(); renderLive(); renderNoise(); });
+        .then(function (q) { QUIET = q; renderAll(); renderFooter(); renderLive(); renderNoise(); renderOffline(); });
     })
     .catch(function () {
       $("statusDate").textContent = "";

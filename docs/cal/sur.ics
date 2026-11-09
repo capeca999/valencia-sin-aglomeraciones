@@ -1,0 +1,599 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Valencia sin aglomeraciones//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sin aglomeraciones · Roig Arena y Ciudad de las Artes
+X-WR-TIMEZONE:Europe/Madrid
+X-WR-CALDESC:Dónde y cuándo habrá mucha gente en València. https://cap
+ eca999.github.io/valencia-sin-aglomeraciones/
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:8bdd527d467abe9a4a99@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Mucha gente: Huelga general de 24 horas (11N)
+LOCATION:Toda la ciudad
+DESCRIPTION:Mucha gente. Zona a evitar: Toda la ciudad.\nEl transporte pú
+ blico (metro\, tranvía\, EMT\, Renfe) funcionará con servicios mínimos
+ : menos frecuencia y andenes y paradas más llenos. Puede haber piquetes 
+ informativos en zonas comerciales por la mañana.\n\nFuente: Generalitat 
+ Valenciana · servicios mínimos https://habitatge.gva.es/documents/21189
+ /165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-
+ 0a5baac22c6b\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:88fde8bbd2bf512a209c@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261112T181500Z
+DTEND:20261112T221500Z
+SUMMARY:Mucha gente: Valencia Basket vs FC Bayern Múnich
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/valencia-basket-
+ vs-bayern-20261112/\nhttps://capeca999.github.io/valencia-sin-aglomeracio
+ nes/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4ef43e4cb5da695fc0be@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261113T174500Z
+DTEND:20261113T221500Z
+SUMMARY:Mucha gente: Raphaelísimo Tour 2026 - Raphael
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/raphaelisimo-tou
+ r-2026-20261113/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones
+ /
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:deecbf83ac756272f864@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261114T184500Z
+DTEND:20261114T231500Z
+SUMMARY:Mucha gente: Los mejores años de nuestra vida - Hombres G
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/hombres-g-202611
+ 14/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4835c82d231d32ecc870@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261115T094500Z
+DTEND:20261115T134500Z
+SUMMARY:Mucha gente: Valencia Basket - Leyma Coruña (Liga ACB Masculina)
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena y el transporte hacia Quatre Carreres en esa franja.\n\nFuente
+ : Visit València (Ayuntamiento) https://www.visitvalencia.com/agenda-val
+ encia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena\n
+ https://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2649387ff9b9ae412e05@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261119T184500Z
+DTEND:20261119T224500Z
+SUMMARY:Mucha gente: Valencia Basket vs Virtus Bolonia
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/valencia-basket-
+ vs-virtus-20261119/\nhttps://capeca999.github.io/valencia-sin-aglomeracio
+ nes/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0486bf349b17b16eac5f@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261121T154500Z
+DTEND:20261121T201500Z
+SUMMARY:Mucha gente: WOW FC 34
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/wow-fc-20261121/
+ \nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6cfbeb6674847da24d4b@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261122T091500Z
+DTEND:20261122T131500Z
+SUMMARY:Mucha gente: Valencia Basket vs Innova-TSN Leganes
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/valencia-basket-
+ vs-leganes-20261122/\nhttps://capeca999.github.io/valencia-sin-aglomeraci
+ ones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5d063870d939c97ee73f@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261122T144500Z
+DTEND:20261122T184500Z
+SUMMARY:Mucha gente: Valencia Basket vs Río Breogán
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/valencia-basket-
+ vs-rio-breogan-20261117/\nhttps://capeca999.github.io/valencia-sin-aglome
+ raciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:37e9474bfcf0a71788d3@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261124T181500Z
+DTEND:20261124T221500Z
+SUMMARY:Mucha gente: Valencia Basket vs Panathinaikos AKTOR Athens
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/valencia-basket-
+ vs-panathinikos-20261124/\nhttps://capeca999.github.io/valencia-sin-aglom
+ eraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:68bc3cd9ac293b8b3251@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261126T184500Z
+DTEND:20261126T231500Z
+SUMMARY:Mucha gente: Fin de la aventura Tour - Carolina Durante
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/carolina-durante
+ -20261126/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7b2b184a9c1f51944820@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261129T100000Z
+DTEND:20261129T140000Z
+SUMMARY:Mucha gente: Valencia Basket vs Impulso 360 Estepona
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/valencia-basket-
+ vs-estepona-20261129/\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cdf671622be8a4c4aba2@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261206T060000Z
+DTEND:20261206T143000Z
+SUMMARY:Muchísima gente: Maratón Valencia Trinidad Alfonso
+LOCATION:Ciudad de las Artes y las Ciencias\, Av. Tarongers / Universidade
+ s\, Av. Blasco Ibáñez\, Paseo de la Malvarrosa\, La Marina / Puerto\, P
+ laza del Ayuntamiento\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Ciudad de las Artes y las Cie
+ ncias\, Av. Tarongers / Universidades\, Av. Blasco Ibáñez\, Paseo de la
+  Malvarrosa\, La Marina / Puerto\, Plaza del Ayuntamiento\, Plaza de Amé
+ rica / Albereda.\nToda la mañana hay calles cortadas\, música de animac
+ ión y mucha gente en buena parte de la ciudad. Mejor no salir antes de l
+ as 15:30 o quedarse lejos del recorrido. El Ayuntamiento publicará los c
+ ortes exactos unos días antes.\n\nFuente: Visit València https://www.vi
+ sitvalencia.com/agenda-valencia/calendario-de-carreras-y-maratones-en-val
+ encia\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8021e45791688dcbcdbb@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261207T181500Z
+DTEND:20261207T224500Z
+SUMMARY:Mucha gente: Nuevas Mutaciones Tour 2026 - Bunbury
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/nuevas-mutacione
+ s-tour-2026-20261207/\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:28c93f661e2a76f5e2b2@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261208T181500Z
+DTEND:20261208T224500Z
+SUMMARY:Mucha gente: Jay Wheeler
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/jay-wheeler-2026
+ 1208/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f56b2234c8604348b603@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261211T181500Z
+DTEND:20261211T221500Z
+SUMMARY:Mucha gente: Valencia Basket - Crvena Zvezda (EuroLeague Masculina
+ )
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena y el transporte hacia Quatre Carreres en esa franja.\n\nFuente
+ : Visit València (Ayuntamiento) https://www.visitvalencia.com/agenda-val
+ encia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena\n
+ https://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b3574ddf1837382eaf77@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261212T181500Z
+DTEND:20261212T224500Z
+SUMMARY:Mucha gente: Pop Rock Tour - Melendi
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/melendi-pop-rock
+ -tour-20261212/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0a613fc0043a59e458e6@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261213T181500Z
+DTEND:20261213T224500Z
+SUMMARY:Mucha gente: Pop Rock Tour - Melendi
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/melendi-pop-rock
+ -tour-20261213/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:24765f3d5fb89b2e88ea@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261215T181500Z
+DTEND:20261215T221500Z
+SUMMARY:Mucha gente: Valencia Basket - Dubai Basketball (EuroLeague Mascul
+ ina)
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena y el transporte hacia Quatre Carreres en esa franja.\n\nFuente
+ : Visit València (Ayuntamiento) https://www.visitvalencia.com/agenda-val
+ encia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena\n
+ https://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:235f73b5e4995b43d100@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261216T181500Z
+DTEND:20261216T224500Z
+SUMMARY:Mucha gente: Raya Real - Con Alegría
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/raya-real-202612
+ 16/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e37996e7afd7cc53e952@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261218T154500Z
+DTEND:20261218T201500Z
+SUMMARY:Mucha gente: Japan Sound Quest
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/japan-sound-ques
+ t-20261218/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0eb2b80562276bf20293@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261219T144500Z
+DTEND:20261219T191500Z
+SUMMARY:Mucha gente: Festival Locos por la Música Valencia 2026
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/locos-por-la-mus
+ ica-20261219/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cc1f366f0ef6ff898b58@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261219T164500Z
+DTEND:20261219T211500Z
+SUMMARY:Mucha gente: ¡DESPIERTA! - Toni Pons
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/toni-pons-202612
+ 19/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:267fee73cef93515e249@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261220T101500Z
+DTEND:20261220T141500Z
+SUMMARY:Mucha gente: Valencia Basket - La Laguna Tenerife (Liga ACB Mascul
+ ina)
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena y el transporte hacia Quatre Carreres en esa franja.\n\nFuente
+ : Visit València (Ayuntamiento) https://www.visitvalencia.com/agenda-val
+ encia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena\n
+ https://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8bfaa4f425f30d1debd9@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20261229T154500Z
+DTEND:20261229T201500Z
+SUMMARY:Mucha gente: Luli Pampín en Valencia
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/luli-pampin-en-v
+ alencia-20261229/\nhttps://capeca999.github.io/valencia-sin-aglomeracione
+ s/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:65b7c149a4054fd88462@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20270101T171500Z
+DTEND:20270101T214500Z
+SUMMARY:Mucha gente: Concierto Año Nuevo
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. L
+ a salida del público suele ser el momento más agobiante.\n\nFuente: Roi
+ g Arena (web oficial) https://www.roigarena.com/es/event/concierto-ano-nu
+ evo-20270101/\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b5479b051a1c082a5671@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART:20270104T174500Z
+DTEND:20270104T214500Z
+SUMMARY:Mucha gente: Valencia Basket - Real Madrid (Liga ACB Masculina)
+LOCATION:Roig Arena
+DESCRIPTION:Mucha gente. Zona a evitar: Roig Arena.\nEvita el entorno del 
+ Roig Arena y el transporte hacia Quatre Carreres en esa franja.\n\nFuente
+ : Visit València (Ayuntamiento) https://www.visitvalencia.com/agenda-val
+ encia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena\n
+ https://capeca999.github.io/valencia-sin-aglomeraciones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5dd325f5361338f10744@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a377c1f17db83db7d153@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a1ddb933f795c7732e7@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5cb2f202fa5e1825a9b6@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:88a86f8c94bdcbc3a131@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:87c79c1167b7a08e4a39@valenciasinaglomeraciones
+DTSTAMP:20261109T115604Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
+ ente\, fuego y petardos
+LOCATION:Plaza del Ayuntamiento\, Plaza San Agustín / Xàtiva\, Calle Col
+ ón / Porta de la Mar\, Plaza de la Reina / Catedral\, Mercado Central / 
+ Lonja\, El Carmen / Torres de Serranos\, Ruzafa\, Parterre / Plaza Alfons
+ o el Magnánimo\, Plaza de América / Albereda
+DESCRIPTION:Muchísima gente. Zona a evitar: Plaza del Ayuntamiento\, Plaz
+ a San Agustín / Xàtiva\, Calle Colón / Porta de la Mar\, Plaza de la R
+ eina / Catedral\, Mercado Central / Lonja\, El Carmen / Torres de Serrano
+ s\, Ruzafa\, Parterre / Plaza Alfonso el Magnánimo\, Plaza de América /
+  Albereda.\nEs la semana más difícil del año en València: cientos de 
+ miles de personas en la calle\, música y petardos en casi todos los barr
+ ios de día y de noche\, calles cortadas y metro abarrotado. Si puedes\, 
+ organiza estos días para salir lo justo\, o pásalos fuera de la ciudad.
+  Hay petardos\, mucho ruido y olor a pólvora en toda la ciudad\; si te a
+ fecta el ruido\, lleva protección auditiva.\n\nFuente: Calendario de fie
+ stas de València (fechas fijas) https://www.visitvalencia.com/agenda-val
+ encia/fallas-valencia\nhttps://capeca999.github.io/valencia-sin-aglomerac
+ iones/
+URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
