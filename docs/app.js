@@ -8,6 +8,8 @@
   // Clave pública de CARTO Basemaps (gratis para uso no comercial). Va en el navegador: es normal que sea visible.
   // Restríngela a tu dominio (capeca999.github.io) en el panel de CARTO.
   var CARTO_KEY = "cb1_5554_1_8fee9a245a93f097e737999e";
+  // Usuario de Buy Me a Coffee (buymeacoffee.com/USUARIO). Vacío = no se muestra el botón.
+  var BMC_USER = "";
   var LIVE_URL = "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/192/query?where=1%3D1&outFields=*&outSR=4326&f=geojson";
 
   var store = {
@@ -252,6 +254,10 @@
     if (navigator.clipboard) navigator.clipboard.writeText(t).then(function () { $("copyTopic").textContent = "Copiado"; }, function () {});
   };
 
+  if (BMC_USER) {
+    $("coffeeLink").href = "https://www.buymeacoffee.com/" + encodeURIComponent(BMC_USER);
+    $("support").hidden = false;
+  }
   initMap();
   fetch("data/events.json", { cache: "no-store" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
