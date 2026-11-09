@@ -22,7 +22,7 @@ MAX_PAGES = 15
 EVENT_LINK = re.compile(r"/(?:en/|es/)?(?:event|evento|eventos)/[a-z0-9\-]+/?$")
 DMY = re.compile(r"(\d{2})/(\d{2})/(\d{4})")
 TIME = re.compile(r"\b(\d{1,2}:\d{2})\b")
-MAX_DETAILS = 45
+MAX_DETAILS = 100
 
 
 def _slug_date(url: str) -> date | None:
