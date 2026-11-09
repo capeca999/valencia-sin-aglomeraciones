@@ -10,6 +10,7 @@ import traceback
 from datetime import date, timedelta
 
 from .common import ROOT, Event, norm, now, today
+from . import ruido
 from .geo import PATTERNS, zones_json
 from .sources import ayto_movilidad, ayto_noticias, fiestas, geoportal, laliga, prensa, roig_arena, visitvalencia
 
@@ -130,12 +131,21 @@ def run() -> dict:
     events.sort(key=lambda e: (e["date"], e.get("start") or "99", e.get("sid") == "prensa", -e["level"]))
     events = _merge(events)
 
+    try:
+        noise = ruido.scrape()
+        status.append({"id": "ruido", "name": "Ajuntament de València · Sonómetros de Ruzafa (datos abiertos)", "ok": True, "count": len(noise)})
+    except Exception as e:  # noqa: BLE001
+        traceback.print_exc()
+        noise = prev.get("noise", [])
+        status.append({"id": "ruido", "name": "Ajuntament de València · Sonómetros de Ruzafa (datos abiertos)", "ok": False, "count": len(noise), "error": str(e)[:300]})
+
     data = {
         "updated": now().isoformat(timespec="minutes"),
         "zones": zones_json(),
         "patterns": PATTERNS,
         "events": events,
         "notices": notices,
+        "noise": noise,
         "sources": status,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
