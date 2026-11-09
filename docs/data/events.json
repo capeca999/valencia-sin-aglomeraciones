@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:19+01:00",
+ "updated": "2026-11-09T09:22+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -333,13 +333,32 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/raphaelisimo-tour-2026-20261113/"
-   },
-   "also": [
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/es/event/abhir-20261113/"
-    }
-   ]
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Ultraswan Tour - Abhir",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/abhir-20261113/"
+   }
   },
   {
    "date": "2026-11-14",
@@ -364,13 +383,32 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/hombres-g-20261114/"
-   },
-   "also": [
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/es/event/vincen-garcia-20261114/"
-    }
-   ]
+   }
+  },
+  {
+   "date": "2026-11-14",
+   "title": "Vincen García",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/vincen-garcia-20261114/"
+   }
   },
   {
    "date": "2026-11-15",
@@ -713,13 +751,32 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/carolina-durante-20261126/"
-   },
-   "also": [
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/"
-    }
-   ]
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Los Fabulosos Cadillacs en Valencia",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/"
+   }
   },
   {
    "date": "2026-11-27",
@@ -1072,13 +1129,32 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261212/"
-   },
-   "also": [
-    {
-     "name": "Roig Arena (web oficial)",
-     "url": "https://www.roigarena.com/es/event/sofia-ellar-20261212/"
-    }
-   ]
+   }
+  },
+  {
+   "date": "2026-12-12",
+   "title": "ELLAR - Sofía Ellar",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/sofia-ellar-20261212/"
+   }
   },
   {
    "date": "2026-12-13",
@@ -1287,7 +1363,7 @@
    "zones": [
     "roig"
    ],
-   "level": 2,
+   "level": 1,
    "start": "12:15",
    "to": "15:00",
    "people": "unos miles de personas",
@@ -1303,8 +1379,32 @@
    "source": {
     "name": "Visit València (Ayuntamiento)",
     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-   },
-   "also": []
+   }
+  },
+  {
+   "date": "2026-12-20",
+   "title": "Valencia Basket - La Laguna Tenerife (Liga ACB Masculina)",
+   "type": "Baloncesto",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "12:30",
+   "to": "15:15",
+   "people": "unas 12.000 personas",
+   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "visitvalencia",
+   "geo": [],
+   "from": "11:15",
+   "source": {
+    "name": "Visit València (Ayuntamiento)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
+   }
   },
   {
    "date": "2026-12-20",
@@ -1454,6 +1554,31 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/luli-pampin-en-valencia-20261229/"
+   }
+  },
+  {
+   "date": "2026-12-31",
+   "title": "Nochevieja en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento"
+   ],
+   "level": 3,
+   "start": "22:00",
+   "to": "01:30",
+   "people": "decenas de miles de personas",
+   "tip": "Campanadas, música y fuegos artificiales. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "22:00",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia"
    }
   },
   {
@@ -1632,6 +1757,33 @@
    }
   },
   {
+   "date": "2027-01-05",
+   "title": "Cabalgata de los Reyes Magos",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "colon",
+    "san_agustin"
+   ],
+   "level": 3,
+   "start": "17:00",
+   "to": "21:30",
+   "people": "decenas de miles de personas",
+   "tip": "La cabalgata recorre el centro por la tarde. Muchísimas familias en las aceras desde horas antes.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "17:00",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia"
+   }
+  },
+  {
    "date": "2027-01-08",
    "title": "Cupido",
    "type": "Concierto / espectáculo",
@@ -1654,6 +1806,822 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/cupido-en-valencia-20270108/"
+   }
+  },
+  {
+   "date": "2027-02-28",
+   "title": "Fallas: la Crida (inicio de las Fallas)",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "carmen"
+   ],
+   "level": 3,
+   "start": "18:30",
+   "to": "21:30",
+   "people": "decenas de miles de personas",
+   "tip": "La Crida se celebra en las Torres de Serranos, con fuegos artificiales al final. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "18:30",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-01",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-02",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-03",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-04",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-05",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-06",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-07",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-08",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-09",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 2,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-10",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-11",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-12",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-13",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-14",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-15",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-15",
+   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon",
+    "reina",
+    "mercado",
+    "carmen",
+    "ruzafa",
+    "parterre",
+    "america"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "cientos de miles de personas",
+   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-16",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-16",
+   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon",
+    "reina",
+    "mercado",
+    "carmen",
+    "ruzafa",
+    "parterre",
+    "america"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "cientos de miles de personas",
+   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-17",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-17",
+   "title": "Fallas: Ofrenda de flores a la Virgen",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "reina",
+    "ayuntamiento",
+    "colon"
+   ],
+   "level": 3,
+   "start": "15:00",
+   "to": "01:00",
+   "people": "decenas de miles de personas",
+   "tip": "Desfile por las calles de San Vicente y de la Paz hasta la Plaza de la Virgen, desde las 15:30 hasta pasada la medianoche.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "15:00",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-17",
+   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon",
+    "reina",
+    "mercado",
+    "carmen",
+    "ruzafa",
+    "parterre",
+    "america"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "cientos de miles de personas",
+   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-18",
+   "title": "Fallas: Nit del Foc (castillo de fuegos artificiales)",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "america",
+    "turia"
+   ],
+   "level": 3,
+   "start": "01:30",
+   "to": "02:30",
+   "people": "decenas de miles de personas",
+   "tip": "Castillo de fuegos en el Paseo de la Alameda hacia la 01:30. Muy ruidoso y con muchísima gente. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "23:00",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-18",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-18",
+   "title": "Fallas: Ofrenda de flores a la Virgen",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "reina",
+    "ayuntamiento",
+    "colon"
+   ],
+   "level": 3,
+   "start": "15:00",
+   "to": "01:00",
+   "people": "decenas de miles de personas",
+   "tip": "Desfile por las calles de San Vicente y de la Paz hasta la Plaza de la Virgen, desde las 15:30 hasta pasada la medianoche.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "15:00",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-18",
+   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon",
+    "reina",
+    "mercado",
+    "carmen",
+    "ruzafa",
+    "parterre",
+    "america"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "cientos de miles de personas",
+   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-19",
+   "title": "Fallas: mascletà en la Plaza del Ayuntamiento",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "14:45",
+   "people": "decenas de miles de personas",
+   "tip": "La mascletà es a las 14:00 y es MUY ruidosa (se nota en todo el centro). La plaza se llena desde una hora antes. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-19",
+   "title": "Fallas: la Cremà (se queman las fallas)",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon",
+    "reina",
+    "mercado",
+    "carmen",
+    "ruzafa",
+    "parterre",
+    "america"
+   ],
+   "level": 3,
+   "start": "20:00",
+   "to": "02:00",
+   "people": "decenas de miles de personas",
+   "tip": "Las fallas se queman desde las 22:00; la de la Plaza del Ayuntamiento hacia la 01:00. Fuego, petardos y calles llenas. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "20:00",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-19",
+   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon",
+    "reina",
+    "mercado",
+    "carmen",
+    "ruzafa",
+    "parterre",
+    "america"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "cientos de miles de personas",
+   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
    }
   }
  ],
@@ -1682,6 +2650,12 @@
    "name": "Visit València (calendario Valencia Basket)",
    "ok": true,
    "count": 11
+  },
+  {
+   "id": "fiestas",
+   "name": "Calendario de fiestas de València (Fallas, Reyes, 9 d'Octubre, Nochevieja…)",
+   "ok": true,
+   "count": 66
   },
   {
    "id": "prensa",
