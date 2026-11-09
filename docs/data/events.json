@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:25+01:00",
+ "updated": "2026-11-09T09:36+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -246,13 +246,7 @@
    },
    "official": false,
    "sid": "manual",
-   "tags": [],
-   "also": [
-    {
-     "name": "Prensa: Actualidad Castellón",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNzdKelNUSWFzb0lPTHA1cU1YZjd4Z0N1d2R4T0ZGM0s2VERRUzJGNXFMMTA1QVFzYXA1czZYMmZFNFQ3ZFpDVVZMUVdta0NzNWVFd3hnaVlnLWY0RkdJelRaM0dCLXVDZkZlSUZJck5fb1QzYkJnbUpKVnBsMFdHUFYxdnBjb19V?oc=5"
-    }
-   ]
+   "tags": []
   },
   {
    "date": "2026-11-12",
@@ -1572,7 +1566,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "22:00",
@@ -1774,7 +1770,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "desfile"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "17:00",
@@ -1824,7 +1822,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "18:30",
@@ -1851,7 +1851,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -1878,7 +1880,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -1905,7 +1909,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -1932,7 +1938,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -1959,7 +1967,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -1986,7 +1996,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2013,7 +2025,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2040,7 +2054,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2067,7 +2083,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2094,7 +2112,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2121,7 +2141,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2148,7 +2170,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2175,7 +2199,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2202,10 +2228,48 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
+   "source": {
+    "name": "Calendario de fiestas de València (fechas fijas)",
+    "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
+   }
+  },
+  {
+   "date": "2027-03-14",
+   "title": "Semana de Fallas: TODA la ciudad llena de gente, fuego y petardos",
+   "type": "Fiesta / desfile",
+   "zones": [
+    "ayuntamiento",
+    "san_agustin",
+    "colon",
+    "reina",
+    "mercado",
+    "carmen",
+    "ruzafa",
+    "parterre",
+    "america"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "más de un millón de visitantes",
+   "tip": "Es la semana más difícil del año en València: cientos de miles de personas en la calle, música y petardos en casi todos los barrios de día y de noche, calles cortadas y metro abarrotado. Si puedes, organiza estos días para salir lo justo, o pásalos fuera de la ciudad. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "official": false,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [
+    "fuego",
+    "ciudad"
+   ],
+   "sid": "fiestas",
+   "geo": [],
+   "from": "",
    "source": {
     "name": "Calendario de fiestas de València (fechas fijas)",
     "url": "https://www.visitvalencia.com/agenda-valencia/fallas-valencia"
@@ -2229,7 +2293,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2240,7 +2306,7 @@
   },
   {
    "date": "2027-03-15",
-   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "title": "Semana de Fallas: TODA la ciudad llena de gente, fuego y petardos",
    "type": "Fiesta / desfile",
    "zones": [
     "ayuntamiento",
@@ -2256,13 +2322,16 @@
    "level": 3,
    "start": "",
    "to": "",
-   "people": "cientos de miles de personas",
-   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "people": "más de un millón de visitantes",
+   "tip": "Es la semana más difícil del año en València: cientos de miles de personas en la calle, música y petardos en casi todos los barrios de día y de noche, calles cortadas y metro abarrotado. Si puedes, organiza estos días para salir lo justo, o pásalos fuera de la ciudad. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
    "official": false,
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego",
+    "ciudad"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "",
@@ -2289,7 +2358,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2300,7 +2371,7 @@
   },
   {
    "date": "2027-03-16",
-   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "title": "Semana de Fallas: TODA la ciudad llena de gente, fuego y petardos",
    "type": "Fiesta / desfile",
    "zones": [
     "ayuntamiento",
@@ -2316,13 +2387,16 @@
    "level": 3,
    "start": "",
    "to": "",
-   "people": "cientos de miles de personas",
-   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "people": "más de un millón de visitantes",
+   "tip": "Es la semana más difícil del año en València: cientos de miles de personas en la calle, música y petardos en casi todos los barrios de día y de noche, calles cortadas y metro abarrotado. Si puedes, organiza estos días para salir lo justo, o pásalos fuera de la ciudad. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
    "official": false,
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego",
+    "ciudad"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "",
@@ -2349,7 +2423,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2376,7 +2452,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "desfile"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "15:00",
@@ -2387,7 +2465,7 @@
   },
   {
    "date": "2027-03-17",
-   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "title": "Semana de Fallas: TODA la ciudad llena de gente, fuego y petardos",
    "type": "Fiesta / desfile",
    "zones": [
     "ayuntamiento",
@@ -2403,13 +2481,16 @@
    "level": 3,
    "start": "",
    "to": "",
-   "people": "cientos de miles de personas",
-   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "people": "más de un millón de visitantes",
+   "tip": "Es la semana más difícil del año en València: cientos de miles de personas en la calle, música y petardos en casi todos los barrios de día y de noche, calles cortadas y metro abarrotado. Si puedes, organiza estos días para salir lo justo, o pásalos fuera de la ciudad. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
    "official": false,
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego",
+    "ciudad"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "",
@@ -2435,7 +2516,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "23:00",
@@ -2462,7 +2545,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2489,7 +2574,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "desfile"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "15:00",
@@ -2500,7 +2587,7 @@
   },
   {
    "date": "2027-03-18",
-   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "title": "Semana de Fallas: TODA la ciudad llena de gente, fuego y petardos",
    "type": "Fiesta / desfile",
    "zones": [
     "ayuntamiento",
@@ -2516,13 +2603,16 @@
    "level": 3,
    "start": "",
    "to": "",
-   "people": "cientos de miles de personas",
-   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "people": "más de un millón de visitantes",
+   "tip": "Es la semana más difícil del año en València: cientos de miles de personas en la calle, música y petardos en casi todos los barrios de día y de noche, calles cortadas y metro abarrotado. Si puedes, organiza estos días para salir lo justo, o pásalos fuera de la ciudad. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
    "official": false,
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego",
+    "ciudad"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "",
@@ -2549,7 +2639,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "12:45",
@@ -2582,7 +2674,9 @@
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "20:00",
@@ -2593,7 +2687,7 @@
   },
   {
    "date": "2027-03-19",
-   "title": "Fallas: días grandes, toda la ciudad con fallas, verbenas y calles cortadas",
+   "title": "Semana de Fallas: TODA la ciudad llena de gente, fuego y petardos",
    "type": "Fiesta / desfile",
    "zones": [
     "ayuntamiento",
@@ -2609,13 +2703,16 @@
    "level": 3,
    "start": "",
    "to": "",
-   "people": "cientos de miles de personas",
-   "tip": "Durante los días grandes de Fallas hay mucha gente, música y petardos en casi todos los barrios, de día y de noche. Muchas calles están cortadas y el metro va lleno. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
+   "people": "más de un millón de visitantes",
+   "tip": "Es la semana más difícil del año en València: cientos de miles de personas en la calle, música y petardos en casi todos los barrios de día y de noche, calles cortadas y metro abarrotado. Si puedes, organiza estos días para salir lo justo, o pásalos fuera de la ciudad. Hay petardos, mucho ruido y olor a pólvora en toda la ciudad; si te afecta el ruido, lleva protección auditiva.",
    "official": false,
    "confirmed": true,
    "approx": true,
    "raw": "",
-   "tags": [],
+   "tags": [
+    "fuego",
+    "ciudad"
+   ],
    "sid": "fiestas",
    "geo": [],
    "from": "",
@@ -2655,13 +2752,13 @@
    "id": "fiestas",
    "name": "Calendario de fiestas de València (Fallas, Reyes, 9 d'Octubre, Nochevieja…)",
    "ok": true,
-   "count": 66
+   "count": 68
   },
   {
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 1
+   "count": 0
   }
  ]
 }
