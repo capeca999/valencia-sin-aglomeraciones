@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import re
 import time
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -17,12 +17,8 @@ from ..common import Event, clean, fetch, hm, in_range, norm, today, window
 SID = "roig_arena"
 NAME = "Roig Arena (web oficial)"
 BASE = "https://www.roigarena.com"
-LISTINGS = [
-    BASE + "/eventos/",
-    BASE + "/es/eventos/",
-    BASE + "/en/events/",
-    BASE + "/",
-]
+LISTING = BASE + "/eventos/?page={}"
+MAX_PAGES = 15
 EVENT_LINK = re.compile(r"/(?:en/|es/)?(?:event|evento|eventos)/[a-z0-9\-]+/?$")
 DMY = re.compile(r"(\d{2})/(\d{2})/(\d{4})")
 TIME = re.compile(r"\b(\d{1,2}:\d{2})\b")
@@ -97,23 +93,29 @@ def scrape() -> list[Event]:
     links: dict[str, str] = {}
     listing_hits: dict[str, tuple] = {}
     errors = []
-    for i, url in enumerate(LISTINGS):
+    for page in range(1, MAX_PAGES + 1):
         try:
-            html = fetch(url, name=f"{SID}_list_{i}")
+            html = fetch(LISTING.format(page), name=f"{SID}_list_{page}" if page <= 2 else None)
         except Exception as e:  # noqa: BLE001
             errors.append(str(e))
-            continue
+            break
         soup = BeautifulSoup(html, "lxml")
+        new = 0
         for a in soup.find_all("a", href=True):
             href = urljoin(BASE, a["href"].split("?")[0])
-            if "roigarena.com" in href and EVENT_LINK.search(href):
+            if "roigarena.com" in href and EVENT_LINK.search(href) and href not in links:
                 txt = clean(a.get_text(" "))
-                links.setdefault(href, txt)
+                links[href] = txt
+                new += 1
                 m, tm = DMY.search(txt), TIME.search(txt)
                 if m:
                     listing_hits[href] = (date(int(m.group(3)), int(m.group(2)), int(m.group(1))), hm(tm.group(1)) if tm else "")
-        if len(links) >= 8:
+        if not new:
             break
+        dates = [d for d in (_slug_date(u) for u in links) if d]
+        if dates and max(dates) > today().replace(day=1) + timedelta(days=75):
+            break
+        time.sleep(0.4)
     if not links and errors:
         raise RuntimeError("; ".join(errors))
 

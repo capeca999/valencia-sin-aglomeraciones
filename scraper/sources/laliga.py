@@ -80,12 +80,14 @@ def _scrape_club(club: dict) -> list[Event]:
             dt = datetime.fromisoformat(when.replace("Z", "+00:00"))
         except ValueError:
             continue
+        if (dt.hour, dt.minute) == (0, 0):
+            unknown = True  # LaLiga pone 00:00 UTC cuando aún no hay hora
         if dt.tzinfo:
             dt = dt.astimezone(TZ)
         d = dt.date()
         if not in_range(d) or d < today():
             continue
-        has_time = not unknown and (dt.hour, dt.minute) != (0, 0)
+        has_time = not unknown
         start = dt.strftime("%H:%M") if has_time else ""
         frm, to = window(start, 120, before=120, after=60)
         events.append(Event(

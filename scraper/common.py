@@ -26,12 +26,23 @@ _session = requests.Session()
 _session.headers.update(HEADERS)
 
 
+BROWSER = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 ValenciaSinAglomeraciones/1.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9",
+}
+
+
 def fetch(url: str, *, name: str | None = None, tries: int = 3, timeout: int = 30) -> str:
     """Descarga una URL como texto, con reintentos. Si VSA_DEBUG=1 guarda el HTML."""
     last = None
     for i in range(tries):
         try:
-            r = _session.get(url, timeout=timeout)
+            headers = BROWSER if (i > 0 or "valencia.es" in url) else None
+            r = _session.get(url, timeout=timeout, headers=headers)
+            if r.status_code == 403 and DEBUG and name:
+                DEBUG_DIR.mkdir(exist_ok=True)
+                (DEBUG_DIR / f"{name}_403.html").write_text(r.text[:20000], encoding="utf-8")
             r.raise_for_status()
             r.encoding = r.encoding or "utf-8"
             text = r.text

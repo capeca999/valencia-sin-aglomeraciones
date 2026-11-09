@@ -34,7 +34,7 @@ def scrape() -> list[Event]:
         if not in_range(d) or d < today():
             continue
         start = hm(m.group(4))
-        match, comp = clean(m.group(5)), clean(m.group(6))
+        match, comp = clean(m.group(5)), clean(re.split(r"\bEntradas\b", m.group(6))[0])
         women = "femenina" in comp.lower() or "women" in comp.lower() or "valencia bc" in match.lower()
         frm, to = window(start, 120)
         events.append(Event(

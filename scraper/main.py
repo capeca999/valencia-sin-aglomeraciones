@@ -38,7 +38,8 @@ def _same(a: dict, b: dict) -> bool:
     if a["start"] and b["start"]:
         h1, m1 = map(int, a["start"].split(":"))
         h2, m2 = map(int, b["start"].split(":"))
-        return abs((h1 * 60 + m1) - (h2 * 60 + m2)) <= 45
+        diff = abs((h1 * 60 + m1) - (h2 * 60 + m2))
+        return diff <= 45 or (diff <= 90 and a["type"] == b["type"])
     return a["type"] == b["type"]
 
 
