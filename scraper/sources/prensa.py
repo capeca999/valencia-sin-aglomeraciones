@@ -105,7 +105,7 @@ def scrape() -> list[Event]:
                 continue
             # tiene que hablar de la ciudad de València, no de otra
             head = norm(title)
-            in_city = re.search(r"\bvalencia\b", head) or find_zones(title)
+            in_city = "valencia" in head or "valencian" in head or find_zones(title)
             if not in_city:
                 continue
             if any(c in head for c in OTHER_CITIES) and not find_zones(title):
