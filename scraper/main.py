@@ -58,6 +58,9 @@ def _merge(events: list[dict]) -> list[dict]:
         if dup is None:
             out.append(e)
             continue
+        # el calendario oficial del club manda sobre la hora de apertura de puertas del recinto
+        if e.get("sid") == "visitvalencia" and dup.get("sid") == "roig_arena" and e.get("start"):
+            dup["start"], dup["from"], dup["to"] = e["start"], e["from"], e["to"]
         # completar huecos del primero con el segundo y anotar la otra fuente
         for k in ("start", "from", "to", "people"):
             if not dup.get(k) and e.get(k):

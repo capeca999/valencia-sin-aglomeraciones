@@ -127,8 +127,8 @@
         bounds.push(pt);
       });
     });
-    if (bounds.length === 1) map.setView(bounds[0], 15, { animate: false });
-    else if (bounds.length > 1) map.fitBounds(bounds, { padding: [60, 60], maxZoom: 15, animate: false });
+    if (bounds.length === 1) map.setView(bounds[0], 14, { animate: false });
+    else if (bounds.length > 1) map.fitBounds(bounds, { padding: [60, 60], maxZoom: 14, animate: false });
     else map.setView([39.4699, -0.3700], 13, { animate: false });
   }
 
