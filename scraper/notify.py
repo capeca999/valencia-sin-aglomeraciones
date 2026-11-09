@@ -26,7 +26,11 @@ def build(data: dict, day: str) -> tuple[str, str, int] | None:
         when = f"{e['from']}–{e['to']}" if e.get("from") else (f"desde las {e['start']}" if e.get("start") else "hora sin anunciar")
         lines.append(f"• {where} · {when}\n  {e['title'][:90]}")
     top = max(e["level"] for e in evs)
-    title = f"Hoy: {LEVEL[top].lower()} en {len(evs)} sitio{'s' if len(evs) > 1 else ''}"
+    tags = {t for e in evs for t in e.get("tags", [])}
+    if "ciudad" in tags:
+        title = "🔥 Hoy: toda València llena de gente (Fallas)"
+    else:
+        title = ("🔥 " if "fuego" in tags else "") + f"Hoy: {LEVEL[top].lower()} en {len(evs)} sitio{'s' if len(evs) > 1 else ''}"
     return title, "\n".join(lines), top
 
 
@@ -48,7 +52,7 @@ def main() -> None:
         headers={
             "Title": title.encode("utf-8"),
             "Priority": "high" if top >= 3 else "default",
-            "Tags": "warning" if top >= 3 else "information_source",
+            "Tags": "fire" if "🔥" in title else ("warning" if top >= 3 else "information_source"),
             "Click": cfg.get("site_url", ""),
         },
         timeout=20,

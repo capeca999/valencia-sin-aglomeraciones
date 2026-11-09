@@ -108,3 +108,14 @@ footer { color: var(--muted); font-size: 0.92rem; display: grid; gap: 10px; }
   .day .mo { display: none; }
   #map { height: 380px; }
 }
+
+/* Fallas y otros días con fuego y petardos: se ve a la primera */
+.day.fire { border-color: var(--l3); background: color-mix(in srgb, var(--l3) 16%, var(--surface)); }
+.day.fire.city { background: color-mix(in srgb, var(--l3) 30%, var(--surface)); }
+.day .flame { font-size: 0.9rem; line-height: 1; }
+.status.fire { background: color-mix(in srgb, var(--l3) 12%, var(--surface)); border-left-color: var(--l3); }
+.status.fire .big { color: var(--l3); }
+.pill.fire { color: #fff; background: var(--l3); border-color: var(--l3); }
+.citywide { background: var(--l3); color: #fff; border-radius: 10px; padding: 12px 14px; font-weight: 700; }
+.leaflet-div-icon.flame-icon { background: none; border: none; font-size: 26px; line-height: 26px; text-align: center; }
+.leaflet-tooltip.citylabel { font-family: var(--font); font-weight: 700; font-size: 15px; background: var(--l3); color: #fff; border: none; box-shadow: none; }

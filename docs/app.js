@@ -33,6 +33,11 @@
     var wd = parse(date).getDay();
     return DATA.patterns.filter(function (p) { return p.days.indexOf(wd) >= 0; });
   }
+  function tagsOn(date) {
+    var t = {};
+    DATA.events.forEach(function (e) { if (e.date === date) (e.tags || []).forEach(function (x) { t[x] = true; }); });
+    return t;
+  }
   function levelOn(date) { return eventsOn(date).reduce(function (m, e) { return Math.max(m, e.level); }, 0); }
   function timeText(e) {
     if (e.from) return e.from + "–" + e.to + (e.approx ? " (aprox.)" : "");
@@ -48,14 +53,15 @@
 
   // ---------- Estado de hoy ----------
   function renderStatus() {
-    var evs = eventsOn(TODAY), lvl = levelOn(TODAY);
+    var evs = eventsOn(TODAY), lvl = levelOn(TODAY), tg = tagsOn(TODAY);
     $("status").dataset.level = lvl;
+    $("status").classList.toggle("fire", !!tg.fuego);
     $("statusDate").textContent = "Hoy, " + longDate(today);
     if (!evs.length) {
       $("statusTitle").textContent = "Hoy está tranquilo";
       $("statusText").textContent = "No hay grandes eventos previstos en Valencia.";
     } else {
-      $("statusTitle").textContent = "Hoy: " + LEVELS[lvl].toLowerCase();
+      $("statusTitle").textContent = tg.ciudad ? "🔥 Hoy: toda la ciudad llena de gente" : (tg.fuego ? "🔥 " : "") + "Hoy: " + LEVELS[lvl].toLowerCase();
       $("statusText").innerHTML = evs.map(function (e) { return "Evita <strong>" + esc(zoneNames(e)) + "</strong> · " + esc(timeText(e)); }).join("<br>");
     }
     var nx = DATA.events.filter(function (e) { return e.date > TODAY && e.level >= state.minLevel; })[0];
@@ -75,13 +81,14 @@
     strip.innerHTML = "";
     for (var i = 0; i < 7; i++) {
       var d = new Date(start); d.setDate(d.getDate() + i);
-      var key = ymd(d), l = levelOn(key);
+      var key = ymd(d), l = levelOn(key), tg = tagsOn(key);
       var b = document.createElement("button");
-      b.className = "day" + (key === TODAY ? " today" : "");
+      b.className = "day" + (key === TODAY ? " today" : "") + (tg.fuego ? " fire" : "") + (tg.ciudad ? " city" : "");
       b.setAttribute("aria-pressed", key === state.selected ? "true" : "false");
       b.setAttribute("aria-label", longDate(d) + ": " + LEVELS[l]);
       b.innerHTML = '<span class="wd">' + (key === TODAY ? "hoy" : WD[d.getDay()]) + '</span><span class="dn">' + d.getDate() +
-        '</span><span class="mo">' + MO[d.getMonth()] + '</span><span class="bars" data-l="' + l + '"><i></i><i></i><i></i></span>';
+        '</span><span class="mo">' + MO[d.getMonth()] + '</span>' + (tg.fuego ? '<span class="flame" aria-hidden="true">🔥</span>' : '<span class="bars" data-l="' + l + '"><i></i><i></i><i></i></span>');
+      if (tg.fuego) b.setAttribute("aria-label", longDate(d) + ": " + (tg.ciudad ? "toda la ciudad llena, fuego y petardos" : LEVELS[l] + ", fuego y petardos"));
       b.onclick = (function (k) { return function () { select(k); }; })(key);
       strip.appendChild(b);
     }
@@ -118,6 +125,12 @@
     var evs = eventsOn(state.selected), zl = {}, zev = {};
     evs.forEach(function (e) { (e.zones || []).forEach(function (z) { if (!DATA.zones[z]) return; zl[z] = Math.max(zl[z] || 0, e.level); (zev[z] = zev[z] || []).push(e); }); });
     var bounds = [];
+    var city = evs.some(function (e) { return (e.tags || []).indexOf("ciudad") >= 0; });
+    if (city) {
+      L.circle([39.4699, -0.3700], { radius: 4200, color: css("--l3"), weight: 4, fillColor: css("--l3"), fillOpacity: 0.22, interactive: false }).addTo(zoneLayer);
+      L.tooltip({ permanent: true, direction: "center", className: "citylabel" }).setLatLng([39.4950, -0.3700])
+        .setContent("🔥 Toda la ciudad llena de gente").addTo(zoneLayer);
+    }
     patternsOn(state.selected).forEach(function (p) {
       if (zl[p.zone] || !DATA.zones[p.zone]) return;
       var Z = DATA.zones[p.zone];
@@ -128,7 +141,11 @@
       var Z = DATA.zones[z], col = css("--l" + zl[z]);
       var html = "<strong>" + esc(Z.name) + "</strong> · " + LEVELS[zl[z]] + "<br>" + zev[z].map(function (e) { return esc(timeText(e)) + " · " + esc(e.title); }).join("<br>");
       L.circle([Z.lat, Z.lon], { radius: Z.r * (zl[z] === 3 ? 1.2 : 1), color: col, weight: 3, fillColor: col, fillOpacity: 0.25 })
-        .bindPopup(html).bindTooltip(Z.name, { permanent: true, direction: "top", className: "zl" }).addTo(zoneLayer);
+        .bindPopup(html).bindTooltip(Z.name, { permanent: !city, direction: "top", className: "zl" }).addTo(zoneLayer);
+      if (zev[z].some(function (e) { return (e.tags || []).indexOf("fuego") >= 0; })) {
+        L.marker([Z.lat, Z.lon], { icon: L.divIcon({ className: "flame-icon", html: "🔥", iconSize: [26, 26] }), keyboard: false })
+          .bindPopup(html).addTo(zoneLayer);
+      }
       bounds.push([Z.lat, Z.lon]);
     });
     evs.forEach(function (e) {
@@ -140,7 +157,8 @@
         bounds.push(pt);
       });
     });
-    if (bounds.length === 1) map.setView(bounds[0], 14, { animate: false });
+    if (city) map.setView([39.4699, -0.3700], 12, { animate: false });
+    else if (bounds.length === 1) map.setView(bounds[0], 14, { animate: false });
     else if (bounds.length > 1) map.fitBounds(bounds, { padding: [60, 60], maxZoom: 14, animate: false });
     else map.setView([39.4699, -0.3700], 13, { animate: false });
   }
@@ -178,10 +196,12 @@
     $("dayTitle").textContent = cap(title);
     var evs = eventsOn(state.selected), pats = patternsOn(state.selected), h = "";
     if (!evs.length) h += '<p class="empty">No hay eventos grandes previstos este día.</p>';
+    if (tagsOn(state.selected).ciudad) h += '<p class="citywide">🔥 Semana de Fallas: toda València está llena de gente, con fuego y petardos de día y de noche. Si puedes, sal lo justo o pasa estos días fuera de la ciudad.</p>';
     evs.forEach(function (e) {
       var links = '<a href="' + esc(e.source.url) + '" target="_blank" rel="noopener">Fuente: ' + esc(e.source.name) + "</a>";
       (e.also || []).forEach(function (s) { links += '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">También en: ' + esc(s.name) + "</a>"; });
       h += '<article class="ev" data-l="' + e.level + '"><div class="row"><span class="pill l' + e.level + '">' + LEVELS[e.level] + "</span>" +
+        ((e.tags || []).indexOf("fuego") >= 0 ? '<span class="pill fire">🔥 Fuego y petardos</span>' : "") +
         (e.official ? '<span class="pill off">Fuente oficial</span>' : "") +
         (e.confirmed === false ? '<span class="pill warn">Sin confirmar</span>' : "") +
         '<span class="sub">' + esc(e.type) + (e.people ? " · " + esc(e.people) : "") + "</span></div>" +
