@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:15+01:00",
+ "updated": "2026-11-09T09:17+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -235,8 +235,8 @@
    "zones": [],
    "level": 2,
    "start": "",
-   "to": "",
-   "people": "",
+   "to": "23:59",
+   "people": "toda la ciudad",
    "tip": "Huelga anunciada en prensa. El transporte público funcionará con servicios mínimos: habrá menos metros y autobuses y más gente esperando en paradas y andenes.",
    "official": false,
    "confirmed": false,
@@ -245,56 +245,17 @@
    "tags": [],
    "sid": "prensa",
    "geo": [],
-   "from": "",
+   "from": "00:00",
    "source": {
     "name": "Prensa: València Extra",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDVweVpsMWpybTl4UWkyQzB0RkZEQnJibHgtaVB1S1hPSE50eXo1Tm5wS3N1ZUpSWDFwRW5RZG1yRFdlODVFRmxUcGFfcTlaYkl5VFVZazAwM0IwbXNLcUUzQ05XMEUwa0gzN2h2MklJd1VvMnNucjB3aU10MnJ5Q3lGanZhUDc4RHBmeXVkTk5IS2tOLV9lV01odl80a2FHdm1yaGdsRWNFLXFTWlVtQnRFYmJhUDRKZXBtSWpYNnB2Mk93ektiTnNEQXR0cWFJ?oc=5"
-   }
-  },
-  {
-   "date": "2026-11-11",
-   "title": "Huelga general del 11 de noviembre en la Marina Alta: tres piquetes y una manifestación en Dénia",
-   "type": "Manifestación",
-   "zones": [
-    "marina"
-   ],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Huelga general del 11 de noviembre en la Marina Alta: tres piquetes y una manifestación en Dénia La Marina Alta .COM",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "from": "",
-   "source": {
-    "name": "Prensa: La Marina Alta .COM",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1Z2YzFCSktsb0UxVlRhWXM3OXcyQmJmeFlCSWlzLV9VWkFMU2V0UXRuZS0xUzRWNHBYOXNNSFZjckxaQmRlRUxZSTR0NWllck5RT3FDNTFMT1VHMW96R19oZEpVcHJBQVpfeU9uOWZGMndlaFpuSUhJaFlzOWxJRXRkdTJ4Rzk4MElCQzU1cHFBelUzZE8zenBITGF3Y1Y5QjdQajlOODkwUGxwZS11STR2RWlLbEFSNzdTbEp3?oc=5"
-   }
-  },
-  {
-   "date": "2026-11-11",
-   "title": "Huelga general de 24 horas (11N)",
-   "type": "Huelga",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "from": "00:00",
-   "to": "23:59",
-   "people": "toda la ciudad",
-   "confirmed": true,
-   "tip": "El transporte público (metro, tranvía, EMT, Renfe) funcionará con servicios mínimos: menos frecuencia y andenes y paradas más llenos. Puede haber piquetes informativos en zonas comerciales por la mañana.",
-   "source": {
-    "name": "Generalitat Valenciana · servicios mínimos",
-    "url": "https://habitatge.gva.es/documents/21189/165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-0a5baac22c6b"
    },
-   "official": false,
-   "sid": "manual",
-   "tags": []
+   "also": [
+    {
+     "name": "Generalitat Valenciana · servicios mínimos",
+     "url": "https://habitatge.gva.es/documents/21189/165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-0a5baac22c6b"
+    }
+   ]
   },
   {
    "date": "2026-11-12",
@@ -1752,7 +1713,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 3
+   "count": 2
   }
  ]
 }
