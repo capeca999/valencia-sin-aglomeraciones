@@ -116,6 +116,7 @@ class Event:
     tags: list[str] = field(default_factory=list)
     sid: str = ""                 # id de la fuente que lo generó
     geo: list = field(default_factory=list)  # puntos [lat, lon] cuando no hay zona conocida
+    i18n: dict = field(default_factory=dict)  # {"va": {"title":..,"tip":..,"people":..}, "en": {...}}
 
     def key(self) -> str:
         return f"{self.date}|{norm(self.title)[:40]}"
@@ -137,3 +138,12 @@ def window(start: str, duration_min: int, before: int = 75, after: int = 45) -> 
 def in_range(d: date, days_ahead: int = 60) -> bool:
     t = today()
     return t - timedelta(days=1) <= d <= t + timedelta(days=days_ahead)
+
+
+def tr(**fields) -> dict:
+    """tr(tip=("es", "va", "en"), people=(...)) -> {"va": {...}, "en": {...}} (el castellano va en el propio campo)."""
+    out = {"va": {}, "en": {}}
+    for k, v in fields.items():
+        if v and len(v) == 3:
+            out["va"][k], out["en"][k] = v[1], v[2]
+    return out

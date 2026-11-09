@@ -1,5 +1,5 @@
 {
- "_info": "Lugares y horas tranquilas. Son recomendaciones: compruébalas antes de ir. Se pueden añadir más con el mismo formato.",
+ "_info": "Lugares y horas tranquilas. Son recomendaciones: compruébalas antes de ir. Traducciones opcionales en i18n.va / i18n.en.",
  "hours": [
   {
    "title": "La Hora Silenciosa en Carrefour",
@@ -20,6 +20,18 @@
    "source": {
     "name": "Autismo España",
     "url": "https://autismo.org.es/colabora-con-autismo-espana/soy-empresa/la-hora-silenciosa/"
+   },
+   "i18n": {
+    "va": {
+     "title": "L'Hora Silenciosa a Carrefour",
+     "when": "Tots els dies, de 15:00 a 16:00",
+     "text": "En tots els hipermercats Carrefour i supermercats Carrefour Market s'abaixa la llum, s'apaga la música, no hi ha megafonia (llevat d'emergències) i es redueix el so de les caixes."
+    },
+    "en": {
+     "title": "Carrefour's Quiet Hour",
+     "when": "Every day, 3pm to 4pm",
+     "text": "In all Carrefour hypermarkets and Carrefour Market supermarkets the lights are dimmed, music is switched off, there are no announcements (except emergencies) and checkout sounds are reduced."
+    }
    }
   }
  ],
@@ -34,6 +46,18 @@
    "source": {
     "name": "Ajuntament de València",
     "url": "https://www.valencia.es/es/-/parque-gulliver-autism-friendly-autismo-val%C3%A8ncia"
+   },
+   "i18n": {
+    "va": {
+     "name": "Parc Gulliver (Autism Friendly)",
+     "best": "Millor entre setmana pel matí",
+     "text": "Certificat com a espai Autism Friendly per l'Ajuntament: senyalística adaptada, materials informatius i kits sensorials. Els caps de setmana s'ompli de famílies."
+    },
+    "en": {
+     "name": "Gulliver Park (Autism Friendly)",
+     "best": "Best on weekday mornings",
+     "text": "Certified as an Autism Friendly space by the City Council: adapted signage, information materials and sensory kits. At weekends it fills up with families."
+    }
    }
   },
   {
@@ -46,6 +70,18 @@
    "source": {
     "name": "Visit València",
     "url": "https://www.visitvalencia.com/va/que-fer-valencia/naturalesa-en-valencia/parcs-i-jardins/jardi-botanic"
+   },
+   "i18n": {
+    "va": {
+     "name": "Jardí Botànic de la Universitat de València",
+     "best": "Millor entre setmana",
+     "text": "Jardí tancat amb murs, amb molta ombra i poc soroll de trànsit. Té entrada de pagament: consulta l'horari i el preu abans d'anar-hi."
+    },
+    "en": {
+     "name": "University of Valencia Botanical Garden",
+     "best": "Best on weekdays",
+     "text": "A walled garden with lots of shade and little traffic noise. There is an entrance fee: check opening times and prices before you go."
+    }
    }
   },
   {
@@ -58,6 +94,18 @@
    "source": {
     "name": "Visit València",
     "url": "https://www.visitvalencia.com/"
+   },
+   "i18n": {
+    "va": {
+     "name": "Jardins de Montfort",
+     "best": "Millor pel matí",
+     "text": "Jardí xicotet i recollit al costat de Vivers, normalment molt tranquil. En Falles i en les fires de Vivers els voltants s'omplin."
+    },
+    "en": {
+     "name": "Monforte Gardens",
+     "best": "Best in the morning",
+     "text": "A small, secluded garden next to Viveros, usually very quiet. During Fallas and the Viveros fairs the surrounding area gets crowded."
+    }
    }
   },
   {
@@ -70,6 +118,18 @@
    "source": {
     "name": "Visit València",
     "url": "https://www.visitvalencia.com/"
+   },
+   "i18n": {
+    "va": {
+     "name": "Parc de Capçalera",
+     "best": "Millor entre setmana",
+     "text": "Inici del Jardí del Túria, amb molt d'espai obert i un llac. Sol estar molt menys ple que el tram central del Túria."
+    },
+    "en": {
+     "name": "Cabecera Park",
+     "best": "Best on weekdays",
+     "text": "The start of the Turia Gardens, with lots of open space and a lake. Usually much less crowded than the central section of the Turia."
+    }
    }
   },
   {
@@ -82,6 +142,18 @@
    "source": {
     "name": "Visit València",
     "url": "https://www.visitvalencia.com/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/biblioteca-publica-valencia-antiguo-hospital-general"
+   },
+   "i18n": {
+    "va": {
+     "name": "Biblioteca Pública de València",
+     "best": "Millor pel matí entre setmana",
+     "text": "Espai en silenci dins de l'antic Hospital, al carrer de l'Hospital. A l'agost només obri pel matí. Compte: està al costat de Sant Agustí, d'on ixen moltes manifestacions."
+    },
+    "en": {
+     "name": "Valencia Public Library",
+     "best": "Best on weekday mornings",
+     "text": "A silent space inside the old Hospital building on Calle Hospital. In August it only opens in the morning. Note: it's next to San Agustín, where many demonstrations start."
+    }
    }
   },
   {
@@ -94,6 +166,18 @@
    "source": {
     "name": "Visit València",
     "url": "https://www.visitvalencia.com/"
+   },
+   "i18n": {
+    "va": {
+     "name": "Devesa del Saler",
+     "best": "Millor entre setmana i fora de l'estiu",
+     "text": "Pinar i dunes al costat de la mar, dins del Parc Natural de l'Albufera. Molt d'espai i poc soroll."
+    },
+    "en": {
+     "name": "Devesa del Saler",
+     "best": "Best on weekdays and outside summer",
+     "text": "Pine forest and dunes by the sea, inside the Albufera Natural Park. Lots of space and little noise."
+    }
    }
   }
  ]

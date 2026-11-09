@@ -12,7 +12,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from ..common import Event, clean, fetch, hm, in_range, norm, today, window
+from ..common import Event, clean, fetch, hm, in_range, norm, today, tr, window
 
 SID = "roig_arena"
 NAME = "Roig Arena (web oficial)"
@@ -73,19 +73,20 @@ def _make(title: str, d: date, start: str, loc: str, url: str) -> Event:
     small = any(k in l for k in ("auditori", "hall", "sala", "exterior"))
     if re.search(r"\b(vbc|valencia basket|valencia bc)\b", t) or " vs " in t:
         typ, dur = "Baloncesto", 120
-        people = "unas 12.000 personas" if not small else "aforo mediano"
+        people = ("unas 12.000 personas", "unes 12.000 persones", "about 12,000 people") if not small else ("aforo mediano", "aforament mitjà", "medium-sized crowd")
     else:
         typ, dur = "Concierto / espectáculo", 150
-        people = "hasta 15.000 personas" if not small else "hasta 2.000 personas"
+        people = ("hasta 15.000 personas", "fins a 15.000 persones", "up to 15,000 people") if not small else ("hasta 2.000 personas", "fins a 2.000 persones", "up to 2,000 people")
     lvl = 1 if small else 2
     frm, to = window(start, dur)
-    where = "Auditorio del Roig Arena" if small else "Roig Arena"
+    w_es, w_va, w_en = ("Auditorio del Roig Arena", "Auditori del Roig Arena", "the Roig Arena Auditorium") if small else ("Roig Arena", "Roig Arena", "the Roig Arena")
+    tip = (f"Evita el entorno del {w_es} (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+           f"Evita els voltants del {w_va} (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+           f"Avoid the area around {w_en} (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.")
     return Event(
         date=d.isoformat(), title=title, type=typ, zones=["roig"], level=lvl,
-        source_name=NAME, source_url=url, start=start, frm=frm, to=to, people=people,
-        approx=True, sid=SID,
-        tip=(f"Evita el entorno del {where} (Quatre Carreres) y el transporte hacia allí en esa franja. "
-             "La salida del público suele ser el momento más agobiante."),
+        source_name=NAME, source_url=url, start=start, frm=frm, to=to, people=people[0],
+        approx=True, sid=SID, tip=tip[0], i18n=tr(tip=tip, people=people),
     )
 
 

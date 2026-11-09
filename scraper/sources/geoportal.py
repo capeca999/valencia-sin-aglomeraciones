@@ -12,7 +12,7 @@ import re
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
-from ..common import DEBUG, DEBUG_DIR, TZ, Event, clean, fetch, norm, today
+from ..common import DEBUG, DEBUG_DIR, TZ, Event, clean, fetch, norm, today, tr
 from ..geo import find_zones
 from .ayto_movilidad import EXCLUDE, KINDS
 
@@ -120,6 +120,8 @@ def scrape() -> list[Event]:
                 source_name=NAME, source_url=VIEW, start=frm, frm=frm, to=to, sid=SID,
                 tip="Ocupación oficial de la vía pública registrada por el Ayuntamiento." + (" Calles: " + ", ".join(s.title() for s in streets[:6]) + "." if streets else ""),
                 raw=f"{g['tipo']} · {g['desc']} · {g['afect']}".strip(" ·"),
+                i18n=tr(tip=("", "Ocupació oficial de la via pública registrada per l'Ajuntament." + (" Carrers: " + ", ".join(s.title() for s in streets[:6]) + "." if streets else ""),
+                             "Official public-road occupation registered by the City Council." + (" Streets: " + ", ".join(s.title() for s in streets[:6]) + "." if streets else ""))),
             )
             ev.geo = pts  # type: ignore[attr-defined]
             events.append(ev)

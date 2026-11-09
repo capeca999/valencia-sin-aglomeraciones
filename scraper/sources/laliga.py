@@ -11,15 +11,21 @@ from datetime import datetime
 
 from bs4 import BeautifulSoup
 
-from ..common import TZ, Event, fetch, in_range, norm, today, window
+from ..common import TZ, Event, fetch, in_range, norm, today, tr, window
 
 SID = "laliga"
 NAME = "LaLiga (web oficial)"
 CLUBS = [
-    {"slug": "valencia-cf", "match": "valencia", "zone": "mestalla", "stadium": "Mestalla", "people": "hasta 49.000 personas",
-     "tip": "Evita Blasco Ibáñez, Av. Aragón, Av. Suecia y el metro de Aragón y Facultats en esa franja."},
-    {"slug": "levante-ud", "match": "levante", "zone": "ciutat", "stadium": "Ciutat de València", "people": "hasta 26.000 personas",
-     "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja."},
+    {"slug": "valencia-cf", "match": "valencia", "zone": "mestalla", "stadium": "Mestalla",
+     "people": ("hasta 49.000 personas", "fins a 49.000 persones", "up to 49,000 people"),
+     "tip": ("Evita Blasco Ibáñez, Av. Aragón, Av. Suecia y el metro de Aragón y Facultats en esa franja.",
+             "Evita Blasco Ibáñez, l'Av. d'Aragó, l'Av. de Suècia i el metro d'Aragó i Facultats en eixa franja.",
+             "Avoid Blasco Ibáñez, Av. Aragón, Av. Suecia and the Aragó and Facultats metro stations during this time.")},
+    {"slug": "levante-ud", "match": "levante", "zone": "ciutat", "stadium": "Ciutat de València",
+     "people": ("hasta 26.000 personas", "fins a 26.000 persones", "up to 26,000 people"),
+     "tip": ("Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
+             "Evita els voltants de l'estadi (Orriols, Av. Germans Machado) i el metro d'Orriols en eixa franja.",
+             "Avoid the area around the stadium (Orriols, Av. Hermanos Machado) and Orriols metro station during this time.")},
 ]
 
 
@@ -90,11 +96,15 @@ def _scrape_club(club: dict) -> list[Event]:
         has_time = not unknown
         start = dt.strftime("%H:%M") if has_time else ""
         frm, to = window(start, 120, before=120, after=60)
+        extra = ("", "", "") if has_time else (
+            " La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día.",
+            " L'hora encara no està anunciada: LaLiga la confirma 2-3 setmanes abans i el partit es pot moure un dia.",
+            " Kick-off time not announced yet: LaLiga confirms it 2-3 weeks before and the match may move by a day.")
+        tip = tuple(a + b for a, b in zip(club["tip"], extra))
         events.append(Event(
             date=d.isoformat(), title=f"{home} – {away}" + (f" ({comp})" if comp else ""), type="Fútbol",
             zones=[club["zone"]], level=3, source_name=NAME, source_url=url, start=start, frm=frm, to=to,
-            people=club["people"], confirmed=has_time, sid=SID,
-            tip=club["tip"] + ("" if has_time else " La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día."),
+            people=club["people"][0], confirmed=has_time, sid=SID, tip=tip[0], i18n=tr(tip=tip, people=club["people"]),
         ))
     return events
 

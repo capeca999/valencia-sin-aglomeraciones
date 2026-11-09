@@ -16,7 +16,7 @@ from xml.etree import ElementTree as ET
 
 from bs4 import BeautifulSoup
 
-from ..common import TZ, Event, clean, fetch, hm, norm, today, window
+from ..common import TZ, Event, clean, fetch, hm, norm, today, tr, window
 from ..geo import find_zones
 
 SID = "prensa"
@@ -126,15 +126,18 @@ def scrape() -> list[Event]:
             if k in found:
                 continue
             frm, to = window(start, 150, before=60, after=30)
-            tip = ("Convocatoria publicada en prensa; hora y recorrido pueden cambiar. "
-                   "Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.")
+            tips = ("Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
+                    "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses.",
+                    "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy.")
             if typ == "Huelga":
-                tip = ("Huelga anunciada en prensa. El transporte público funcionará con servicios mínimos: "
-                       "habrá menos metros y autobuses y más gente esperando en paradas y andenes.")
+                tips = ("Huelga anunciada en prensa. El transporte público funcionará con servicios mínimos: habrá menos metros y autobuses y más gente esperando en paradas y andenes.",
+                        "Vaga anunciada en premsa. El transport públic funcionarà amb serveis mínims: hi haurà menys metros i autobusos i més gent esperant a parades i andanes.",
+                        "Strike announced in the press. Public transport will run minimum services: fewer metros and buses and more people waiting at stops and platforms.")
+            tip = tips[0]
             found[k] = Event(
                 date=d.isoformat(), title=re.sub(r"\s+-\s+[^-]+$", "", title)[:140], type=typ, zones=zones,
                 level=2, source_name=f"Prensa: {src}", source_url=link, start=start, frm=frm, to=to,
-                official=False, confirmed=False, approx=True, sid=SID, tip=tip, raw=desc[:400],
+                official=False, confirmed=False, approx=True, sid=SID, tip=tip, raw=desc[:400], i18n=tr(tip=tips),
             )
     if errors == len(QUERIES):
         raise RuntimeError("No se pudo leer ninguna búsqueda de noticias")

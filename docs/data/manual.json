@@ -1,5 +1,5 @@
 {
-  "_info": "Eventos añadidos a mano que las fuentes oficiales todavía no publican. Se borran solos al pasar la fecha. Formato igual que en events.json.",
+  "_info": "Eventos añadidos a mano que las fuentes oficiales todavía no publican. Se borran solos al pasar la fecha. Formato igual que en events.json; las traducciones van en i18n.va / i18n.en (opcional).",
   "events": [
     {
       "date": "2026-11-11",
@@ -16,6 +16,18 @@
       "source": {
         "name": "Generalitat Valenciana · servicios mínimos",
         "url": "https://habitatge.gva.es/documents/21189/165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-0a5baac22c6b"
+      },
+      "i18n": {
+        "va": {
+          "title": "Vaga general de 24 hores (11N)",
+          "people": "tota la ciutat",
+          "tip": "El transport públic (metro, tramvia, EMT, Renfe) funcionarà amb serveis mínims: menys freqüència i andanes i parades més plenes. Pot haver-hi piquets informatius en zones comercials pel matí."
+        },
+        "en": {
+          "title": "24-hour general strike (11N)",
+          "people": "the whole city",
+          "tip": "Public transport (metro, tram, EMT buses, Renfe trains) will run minimum services: less frequent and with fuller platforms and stops. There may be strike pickets in shopping areas in the morning."
+        }
       }
     },
     {
@@ -37,6 +49,18 @@
       "source": {
         "name": "Valencia Plaza",
         "url": "https://valenciaplaza.com/valenciaplaza/educacion/sindicatos-educativos-convocan-protestas-en-las-principales-ciudades-valencianas-el-dia-de-la-huelga-general"
+      },
+      "i18n": {
+        "va": {
+          "title": "Marxa educativa: Conselleria d'Educació → plaça de l'Ajuntament",
+          "people": "milers de persones",
+          "tip": "Concentració a les 11:00 a la Conselleria d'Educació (Av. de Campanar), marxa a les 11:45 cap a la plaça de l'Ajuntament i concentració allí a les 12:30 amb el piquet central d'habitatge."
+        },
+        "en": {
+          "title": "Education march: Education Department → Plaza del Ayuntamiento",
+          "people": "thousands of people",
+          "tip": "Gathering at 11am at the Regional Education Department (Av. Campanar), march at 11:45 towards Plaza del Ayuntamiento and gathering there at 12:30 with the central housing picket."
+        }
       }
     },
     {
@@ -59,6 +83,18 @@
       "source": {
         "name": "7 Televalencia",
         "url": "https://7televalencia.com/huelga-11n-todo-lo-que-debes-saber/"
+      },
+      "i18n": {
+        "va": {
+          "title": "Manifestació de la vaga general (eixida carrer de Xàtiva)",
+          "people": "desenes de milers de persones",
+          "tip": "Ix a les 18:00 del carrer de Xàtiva. Una hora abans ix una columna educativa des de les Torres de Quart. El recorregut exacte encara no està publicat: evita tot el centre (Xàtiva, Sant Agustí, plaça de l'Ajuntament, Colón) des de les 17:00."
+        },
+        "en": {
+          "title": "General strike demonstration (starting from Calle Xàtiva)",
+          "people": "tens of thousands of people",
+          "tip": "Starts at 6pm from Calle Xàtiva. An hour earlier an education column leaves from the Torres de Quart. The exact route hasn't been published yet: avoid the whole centre (Xàtiva, San Agustín, Plaza del Ayuntamiento, Colón) from 5pm."
+        }
       }
     },
     {
@@ -84,6 +120,18 @@
       "source": {
         "name": "Visit València",
         "url": "https://www.visitvalencia.com/agenda-valencia/calendario-de-carreras-y-maratones-en-valencia"
+      },
+      "i18n": {
+        "va": {
+          "title": "Marató València Trinidad Alfonso",
+          "people": "36.000 corredors + públic",
+          "tip": "Tot el matí hi ha carrers tallats, música d'animació i molta gent en bona part de la ciutat. Millor no eixir abans de les 15:30 o quedar-se lluny del recorregut. L'Ajuntament publicarà els talls exactes uns dies abans."
+        },
+        "en": {
+          "title": "Valencia Trinidad Alfonso Marathon",
+          "people": "36,000 runners + spectators",
+          "tip": "All morning there are closed streets, cheering music and lots of people across much of the city. Better not to go out before 3:30pm, or stay away from the route. The City Council will publish the exact closures a few days before."
+        }
       }
     }
   ]

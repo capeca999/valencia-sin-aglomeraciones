@@ -10,7 +10,7 @@ from datetime import date
 
 from bs4 import BeautifulSoup
 
-from ..common import Event, clean, fetch, hm, in_range, today, window
+from ..common import Event, clean, fetch, hm, in_range, today, tr, window
 
 SID = "visitvalencia"
 NAME = "Visit València (Ayuntamiento)"
@@ -42,5 +42,9 @@ def scrape() -> list[Event]:
             level=1 if women else 2, source_name=NAME, source_url=URL, start=start, frm=frm, to=to,
             people="unos miles de personas" if women else "unas 12.000 personas", sid=SID,
             tip="Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
+            i18n=tr(people=(("unos miles de personas", "uns quants milers de persones", "a few thousand people") if women
+                            else ("unas 12.000 personas", "unes 12.000 persones", "about 12,000 people")),
+                    tip=("", "Evita els voltants del Roig Arena i el transport cap a Quatre Carreres en eixa franja.",
+                         "Avoid the Roig Arena area and transport towards Quatre Carreres during this time.")),
         ))
     return events

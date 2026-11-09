@@ -6,9 +6,9 @@
   --muted: #56666B;
   --line: #D6DDD8;
   --accent: #2E6A78;
-  --calm: #3B8763;
-  --l1: #B8901C;
-  --l2: #C9661F;
+  --calm: #2B6E4E;
+  --l1: #8A6A0E;
+  --l2: #A4501A;
   --l3: #A63A30;
   --font: "Atkinson Hyperlegible", "Verdana", system-ui, sans-serif;
   color-scheme: light;
@@ -142,3 +142,50 @@ footer { color: var(--muted); font-size: 0.92rem; display: grid; gap: 10px; }
 .db-icon span { display: inline-block; font: 700 12px/1 var(--font); color: #fff; padding: 4px 6px; border-radius: 999px; white-space: nowrap; }
 .noiselegend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.85rem; color: var(--muted); align-items: center; }
 .noiselegend b { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+
+/* ---------- Idioma, accesibilidad y lectores de pantalla ---------- */
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip { position: absolute; left: 12px; top: -60px; z-index: 1000; background: var(--accent); color: #fff; padding: 10px 16px; border-radius: 8px; font-weight: 700; }
+.skip:focus { top: 12px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; align-items: center; }
+.langs { display: inline-flex; border: 2px solid var(--accent); border-radius: 999px; overflow: hidden; }
+.lang { font: inherit; font-size: 0.85rem; background: transparent; color: var(--accent); border: 0; padding: 6px 12px; cursor: pointer; }
+.lang + .lang { border-left: 2px solid var(--accent); }
+.lang[aria-pressed="true"] { background: var(--accent); color: var(--surface); font-weight: 700; }
+.a11ybtn { font: inherit; font-size: 0.85rem; font-weight: 700; background: var(--surface); color: var(--ink); border: 2px solid var(--ink); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.a11ybtn[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.a11yhelp { display: none; }
+.speak { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+fieldset.settings { border: 0; margin: 0; padding: 0; min-width: 0; }
+.maphidden { background: var(--bg); border-radius: 10px; padding: 12px 14px; }
+main { display: grid; gap: 20px; }
+.status h2.big { font-size: 1.35rem; }
+.ev h3 { margin: 0; }
+
+/* Modo accesible: letra grande, alto contraste, sin mapa, objetivos táctiles grandes */
+body.a11y {
+  --bg: #000; --surface: #0B0B0B; --ink: #FFFFFF; --muted: #E6E6E6; --line: #FFFFFF;
+  --accent: #FFD400; --calm: #7CFFB2; --l1: #FFE066; --l2: #FFB15C; --l3: #FF7A7A;
+  color-scheme: dark; font-size: 22px; line-height: 1.6;
+}
+body.a11y .wrap { max-width: 860px; gap: 26px; }
+body.a11y .a11yhelp { display: block; }
+body.a11y .card, body.a11y .ev { border-width: 2px; }
+body.a11y .sub { font-size: 1rem; }
+body.a11y .pill { font-size: 0.95rem; padding: 4px 12px; border-width: 2px; }
+body.a11y .lang, body.a11y .a11ybtn, body.a11y button.link { font-size: 1rem; padding: 10px 18px; min-height: 48px; }
+body.a11y .lang[aria-pressed="true"] { color: #000; }
+body.a11y .a11ybtn[aria-pressed="true"] { background: var(--accent); color: #000; border-color: var(--accent); }
+body.a11y .day { min-height: 96px; border-width: 3px; }
+body.a11y .day .wd, body.a11y .day .mo { font-size: 0.85rem; color: var(--ink); }
+body.a11y .day[aria-pressed="true"] { background: var(--accent); color: #000; border-color: var(--accent); }
+body.a11y .day[aria-pressed="true"] .wd, body.a11y .day[aria-pressed="true"] .mo { color: #000; }
+body.a11y .picto { width: 72px; height: 72px; }
+body.a11y .picto.small { width: 52px; height: 52px; }
+body.a11y a { color: var(--accent); text-decoration-thickness: 2px; }
+body.a11y .avoid, body.a11y .next, body.a11y .maphidden { background: #1A1A1A; }
+body.a11y .citywide { background: #7A0000; }
+body.a11y .settings input { width: 28px; height: 28px; }
+body.a11y :focus-visible { outline: 4px solid var(--accent); outline-offset: 3px; }
+body.a11y #speakBtn { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 700; }
+@media (prefers-contrast: more) { :root { --muted: #333; --line: #555; } }
