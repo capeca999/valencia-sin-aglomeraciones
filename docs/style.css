@@ -197,3 +197,15 @@ body.a11y #speakBtn { background: var(--accent); color: #000; border-color: var(
 body.a11y .brand .logo { width: 76px; height: 76px; }
 .leaflet-container .leaflet-control-attribution { background: var(--surface); color: var(--ink); }
 .leaflet-container .leaflet-control-attribution a { color: var(--accent); }
+
+/* Contacto */
+.contactform { display: grid; gap: 14px; max-width: 560px; }
+.field { display: grid; gap: 6px; }
+.field label { font-weight: 700; }
+.field input, .field select, .field textarea { font: inherit; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: 10px; padding: 10px 12px; width: 100%; }
+.field textarea { resize: vertical; }
+.field input:focus-visible, .field select:focus-visible, .field textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+button.link.primary { background: var(--accent); color: var(--surface); font-weight: 700; justify-self: start; }
+.formerror { color: var(--l3); font-weight: 700; }
+body.a11y .field input, body.a11y .field select, body.a11y .field textarea { border-color: #fff; font-size: 1.05rem; min-height: 48px; }
+body.a11y button.link.primary { color: #000; }

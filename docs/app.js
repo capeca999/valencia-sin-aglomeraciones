@@ -5,6 +5,9 @@
   var CARTO_KEY = "cb1_5554_1_8fee9a245a93f097e737999e";
   // Usuario de Buy Me a Coffee (buymeacoffee.com/USUARIO). Vacío = no se muestra el botón.
   var BMC_USER = "";
+  // Correo de contacto, partido en dos para que los robots que recogen correos lo encuentren peor.
+  // Vacío = no se muestra la sección de contacto.
+  var CONTACT = { user: "pinazogunafrancisco", domain: "gmail.com" };
   var LIVE_URL = "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/192/query?where=1%3D1&outFields=*&outSR=4326&f=geojson";
 
   var store = {
@@ -438,6 +441,26 @@
   $("speakBtn").onclick = speak;
   if (window.speechSynthesis) window.speechSynthesis.onvoiceschanged = function () {};
   $("dayTitle").setAttribute("tabindex", "-1");
+
+  // ---------- Contacto ----------
+  function contactEmail() { return CONTACT.user && CONTACT.domain ? CONTACT.user + "@" + CONTACT.domain : ""; }
+  if (contactEmail()) {
+    $("contact").hidden = false;
+    $("cEmail").textContent = contactEmail();
+    $("cCopy").onclick = function () {
+      if (navigator.clipboard) navigator.clipboard.writeText(contactEmail()).then(function () { $("cCopy").textContent = T("copied"); }, function () {});
+    };
+    $("contactForm").onsubmit = function (ev) {
+      ev.preventDefault();
+      var msg = $("cMsg").value.trim(), err = $("cError");
+      if (!msg) { err.textContent = T("cEmpty"); err.hidden = false; $("cMsg").setAttribute("aria-invalid", "true"); $("cMsg").focus(); return; }
+      err.hidden = true; $("cMsg").removeAttribute("aria-invalid");
+      var sel = $("cReason"), reason = sel.options[sel.selectedIndex].textContent, name = $("cName").value.trim();
+      var body = msg + "\n\n" + (name ? T("cFrom", { n: name }) + "\n" : "") + "— " + location.href.split("#")[0] + " (" + LANG + ")";
+      location.href = "mailto:" + contactEmail() + "?subject=" + encodeURIComponent(T("cSubject", { r: reason })) + "&body=" + encodeURIComponent(body);
+      $("cDone").textContent = T("cOpened");
+    };
+  }
 
   if (BMC_USER) { $("coffeeLink").href = "https://www.buymeacoffee.com/" + encodeURIComponent(BMC_USER); $("support").hidden = false; }
   applyStatic();

@@ -3,6 +3,11 @@
 window.I18N = {
   es: {
     htmlLang: "es", speechLang: "es-ES",
+    contactTitle: "Contacto", contactIntro: "¿Falta un evento, hay un error o conoces un lugar tranquilo? Escríbenos.",
+    cReason: "Motivo", cReasonError: "Hay un error", cReasonEvent: "Falta un evento", cReasonPlace: "Propongo un lugar tranquilo", cReasonOther: "Otra cosa",
+    cMsg: "Mensaje", cMsgHelp: "Si es un evento, di qué es, el día, la hora y dónde.", cName: "Tu nombre (opcional)", cSend: "Enviar",
+    cEmpty: "Escribe un mensaje antes de enviar.", cOpened: "Se ha abierto tu programa de correo con el mensaje preparado. Si no se ha abierto, copia la dirección de abajo y escríbenos desde tu correo.",
+    cDirect: "O escribe directamente a:", cSubject: "Valencia sin aglomeraciones: {r}", cFrom: "De: {n}",
     title: "Valencia sin aglomeraciones",
     tagline: "Te avisa de dónde y cuándo va a haber mucha gente, para que puedas evitarlo.",
     updated: "Actualizado el {d} a las {t}.",
@@ -82,6 +87,11 @@ window.I18N = {
 
   va: {
     htmlLang: "ca-ES-valencia", speechLang: "ca-ES",
+    contactTitle: "Contacte", contactIntro: "Falta un esdeveniment, hi ha un error o coneixes un lloc tranquil? Escriu-nos.",
+    cReason: "Motiu", cReasonError: "Hi ha un error", cReasonEvent: "Falta un esdeveniment", cReasonPlace: "Propose un lloc tranquil", cReasonOther: "Una altra cosa",
+    cMsg: "Missatge", cMsgHelp: "Si és un esdeveniment, digues què és, el dia, l'hora i on.", cName: "El teu nom (opcional)", cSend: "Enviar",
+    cEmpty: "Escriu un missatge abans d'enviar.", cOpened: "S'ha obert el teu programa de correu amb el missatge preparat. Si no s'ha obert, copia l'adreça de baix i escriu-nos des del teu correu.",
+    cDirect: "O escriu directament a:", cSubject: "València sense aglomeracions: {r}", cFrom: "De: {n}",
     title: "València sense aglomeracions",
     tagline: "T'avisa d'on i quan hi haurà molta gent, perquè la pugues evitar.",
     updated: "Actualitzat el {d} a les {t}.",
@@ -162,6 +172,11 @@ window.I18N = {
 
   en: {
     htmlLang: "en", speechLang: "en-GB",
+    contactTitle: "Contact", contactIntro: "Is an event missing, is something wrong, or do you know a quiet place? Write to us.",
+    cReason: "Reason", cReasonError: "Something is wrong", cReasonEvent: "An event is missing", cReasonPlace: "I'd like to suggest a quiet place", cReasonOther: "Something else",
+    cMsg: "Message", cMsgHelp: "If it's an event, say what it is, the day, the time and where.", cName: "Your name (optional)", cSend: "Send",
+    cEmpty: "Write a message before sending.", cOpened: "Your email app has opened with the message ready. If it didn't open, copy the address below and write to us from your email.",
+    cDirect: "Or write directly to:", cSubject: "Valencia without crowds: {r}", cFrom: "From: {n}",
     title: "Valencia without crowds",
     tagline: "Tells you where and when it will be crowded, so you can avoid it.",
     updated: "Updated on {d} at {t}.",

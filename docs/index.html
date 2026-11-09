@@ -116,6 +116,35 @@
     <p class="sub" id="phoneLang" data-i18n="phoneLang"></p>
   </section>
 
+  <section class="card" id="contact" aria-labelledby="contactTitle" hidden>
+    <h2 id="contactTitle" data-i18n="contactTitle">Contacto</h2>
+    <p data-i18n="contactIntro">¿Falta un evento, hay un error o conoces un lugar tranquilo? Escríbenos.</p>
+    <form id="contactForm" class="contactform" novalidate>
+      <div class="field">
+        <label for="cReason" data-i18n="cReason">Motivo</label>
+        <select id="cReason">
+          <option value="error" data-i18n="cReasonError">Hay un error</option>
+          <option value="event" data-i18n="cReasonEvent">Falta un evento</option>
+          <option value="place" data-i18n="cReasonPlace">Propongo un lugar tranquilo</option>
+          <option value="other" data-i18n="cReasonOther">Otra cosa</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cMsg" data-i18n="cMsg">Mensaje</label>
+        <textarea id="cMsg" rows="5" required aria-describedby="cMsgHelp"></textarea>
+        <p class="sub" id="cMsgHelp" data-i18n="cMsgHelp">Si es un evento, di qué es, el día, la hora y dónde.</p>
+      </div>
+      <div class="field">
+        <label for="cName" data-i18n="cName">Tu nombre (opcional)</label>
+        <input id="cName" type="text" autocomplete="name">
+      </div>
+      <p class="formerror" id="cError" role="alert" hidden></p>
+      <button type="submit" class="link primary" data-i18n="cSend">Enviar</button>
+    </form>
+    <p class="sub" id="cDone" role="status"></p>
+    <p class="sub"><span data-i18n="cDirect">O escribe directamente a:</span> <strong id="cEmail"></strong> <button class="link small" id="cCopy" type="button" data-i18n="copy">Copiar</button></p>
+  </section>
+
   <section class="card support" id="support" aria-labelledby="supportTitle" hidden>
     <h2 id="supportTitle" data-i18n="supportTitle">¿Te ayuda esta web?</h2>
     <p data-i18n="supportText">Es gratuita y sin anuncios.</p>
