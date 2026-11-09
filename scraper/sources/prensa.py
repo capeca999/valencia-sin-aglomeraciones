@@ -76,7 +76,7 @@ def _items(q: str):
     xml = fetch(RSS.format(quote_plus(q)), timeout=30)
     root = ET.fromstring(xml)
     for it in root.iter("item"):
-        title = clean(it.findtext("title") or "")
+        title = re.sub(r"\s+-\s+[^-]+$", "", clean(it.findtext("title") or ""))  # quita « - Medio»
         link = it.findtext("link") or ""
         desc = clean(BeautifulSoup(it.findtext("description") or "", "lxml").get_text(" "))
         src = clean(it.findtext("source") or "Prensa")

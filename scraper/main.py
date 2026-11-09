@@ -126,7 +126,7 @@ def run() -> dict:
 
     lo, hi = (t - timedelta(days=1)).isoformat(), (t + timedelta(days=60)).isoformat()
     events = [e for e in events if lo <= e["date"] <= hi]
-    events.sort(key=lambda e: (e["date"], e.get("start") or "99", -e["level"]))
+    events.sort(key=lambda e: (e["date"], e.get("start") or "99", e.get("sid") == "prensa", -e["level"]))
     events = _merge(events)
 
     data = {
