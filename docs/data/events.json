@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:57+01:00",
+ "updated": "2026-11-10T01:16+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -3826,6 +3826,41 @@
    }
   },
   {
+   "date": "2027-01-09",
+   "title": "Universo Makina Valencia",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "16:00",
+   "to": "19:15",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 15.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 15,000 people"
+    }
+   },
+   "from": "14:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/universo-makina-20270109/"
+   }
+  },
+  {
    "date": "2027-01-20",
    "title": "Feria Valencia: BABYKID SPAIN y FIMI-OTOÑO/INVIERNO",
    "type": "Feria",
@@ -5774,7 +5809,7 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 45
+   "count": 46
   },
   {
    "id": "visitvalencia",
@@ -5822,7 +5857,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-09",
-   "zero_days": 1
+   "zero_days": 2
   },
   "laliga": {},
   "roig_arena": {},
@@ -5830,13 +5865,13 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-09",
-   "zero_days": 1
+   "zero_days": 2
   },
   "fiestas": {},
   "prensa": {},
   "meteo": {
    "zero_since": "2026-11-09",
-   "zero_days": 1
+   "zero_days": 2
   },
   "ruido": {}
  }
