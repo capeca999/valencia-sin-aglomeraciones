@@ -57,6 +57,11 @@ jobs:
           for L in 233 232 237 209; do curl -s --max-time 40 "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/$L/query?where=1%3D1&outFields=*&outSR=4326&f=json&resultRecordCount=8&returnGeometry=false" -o debug/geo_layer_$L.json || true; curl -s --max-time 40 "https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/$L/query?where=1%3D1&returnCountOnly=true&f=json" -o debug/geo_count_$L.json || true; done
           for q in afecciones cortes talls eventos agenda; do curl -s --max-time 30 "https://opendata.vlci.valencia.es/api/3/action/package_search?q=$q&rows=20" -o debug/ckan_$q.json || true; done
 
+      - name: Diagnóstico refugios (temporal)
+        if: github.event_name == 'push'
+        continue-on-error: true
+        run: python -m scraper.tools.probe_refugios
+
       - name: Aviso al móvil de hoy (ntfy)
         if: github.event.schedule == '15 5 * * *' || inputs.notificar
         continue-on-error: true
@@ -87,6 +92,7 @@ jobs:
           git config user.name "valencia-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/events.json docs/pictos docs/cal
+          if [ -d probe ]; then git add -f probe; fi
           if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
           git commit -m "Actualizar eventos $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin main
