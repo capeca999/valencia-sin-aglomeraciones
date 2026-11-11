@@ -16,8 +16,8 @@ PAGE = "https://valenciasostenible.com/es/portfolio/refugios-climaticos/"
 KML = "https://www.google.com/maps/d/kml?mid=1694N07k6WSWSUxy-jiJ83iIaRGuiHyo&forcekml=1"
 KEEP = [("biblioteca", "biblioteca"), ("museu", "museo"), ("museo", "museo"), ("ivam", "museo"), ("art modern", "museo"),
         ("centre del carme", "museo"), ("cccc", "museo"), ("centro cultural", "cultura"), ("centre cultural", "cultura"),
-        ("las naves", "cultura"), ("les naus", "cultura")]
-SKIP = ("ciencias", "ciencies", "ciències")  # Museo de las Ciencias: mucho turismo
+        ("las naves", "cultura"), ("les naus", "cultura"), ("aben al abbar", "cultura"), ("paleontolog", "museo")]
+SKIP = ("museo de las ciencias", "museu de les ciencies", "principe felipe")  # mucho turismo
 
 
 def kind_of(name: str) -> str | None:
@@ -35,6 +35,8 @@ def parse(kml: str) -> list[dict]:
         if not nm or not co:
             continue
         name = html.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", nm.group(1))).strip()
+        if name.isupper():
+            name = name.title().replace(" I ", " i ").replace(" De ", " de ")
         kind = kind_of(name)
         lon, lat = float(co.group(1)), float(co.group(2))
         if not kind or not (39.2 < lat < 39.7 and -0.6 < lon < -0.2) or norm(name) in seen:
