@@ -25,7 +25,7 @@ SKIP_TYPES = {"obras", "mudanzas", "mudances", "obres", "contenedor", "contenedo
 
 def _query(layer: int) -> dict:
     url = BASE.format(layer) + "?where=1%3D1&outFields=*&outSR=4326&f=json&returnGeometry=true&resultRecordCount=2000"
-    return json.loads(fetch(url, timeout=60))
+    return json.loads(fetch(url, timeout=60, tries=5))
 
 
 def _center(geom: dict | None):
