@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T14:47+01:00",
+ "updated": "2026-11-11T23:42+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -1411,8 +1411,8 @@
     "roig"
    ],
    "level": 2,
-   "start": "11:30",
-   "to": "14:15",
+   "start": "12:30",
+   "to": "15:15",
    "people": "unas 12.000 personas",
    "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
    "official": true,
@@ -1432,7 +1432,7 @@
      "people": "about 12,000 people"
     }
    },
-   "from": "10:15",
+   "from": "11:15",
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/valencia-basket-vs-leganes-20261122/"
@@ -1699,41 +1699,6 @@
   },
   {
    "date": "2026-11-27",
-   "title": "ACCEPT",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "18:45",
-   "to": "22:00",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "17:30",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/accept-20261127/"
-   }
-  },
-  {
-   "date": "2026-11-27",
    "title": "Levante UD – R. Racing Club (LALIGA EA SPORTS)",
    "type": "Fútbol",
    "zones": [
@@ -1765,6 +1730,41 @@
    "source": {
     "name": "LaLiga (web oficial)",
     "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "title": "ACCEPT",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/accept-20261127/"
    }
   },
   {
