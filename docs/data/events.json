@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T14:35+01:00",
+ "updated": "2026-11-11T14:47+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -5754,7 +5754,7 @@
    "date": "2026-11-10",
    "laeq": 59.3,
    "laeq_d": 61.1,
-   "laeq_e": 58.4,
+   "laeq_e": 58.3,
    "laeq_n": 54.4,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
   },
@@ -6087,9 +6087,8 @@
   {
    "id": "geoportal",
    "name": "Ajuntament de València · Geoportal (ocupación de vía pública y festejos)",
-   "ok": false,
-   "count": 0,
-   "error": "No se pudo descargar https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/209/query?where=1%3D1&outFields=*&outSR=4326&f=json&returnGeometry=true&resultRecordCount=2000: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+   "ok": true,
+   "count": 0
   },
   {
    "id": "laliga",
@@ -6154,9 +6153,8 @@
  ],
  "health": {
   "geoportal": {
-   "fail_since": "2026-11-11",
-   "last_error": "No se pudo descargar https://geoportal.valencia.es/server/rest/services/OPENDATA/Trafico/MapServer/209/query?where=1%3D1&outFields=*&outSR=4326&f=json&returnGeometry=true&resultRecordCount=2000: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "fail_days": 1
+   "zero_since": "2026-11-11",
+   "zero_days": 1
   },
   "laliga": {},
   "roig_arena": {},
