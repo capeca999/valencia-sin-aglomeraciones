@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:50+01:00",
+ "updated": "2026-11-11T01:22+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -3892,6 +3892,76 @@
    }
   },
   {
+   "date": "2027-01-10",
+   "title": "Simply The Best - Tina Turner Tribute",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:00",
+   "to": "23:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "18:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/tributotinaturner-20270101/"
+   }
+  },
+  {
+   "date": "2027-01-10",
+   "title": "Valencia CF – Málaga CF (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "mestalla"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "hasta 49.000 personas",
+   "tip": "Evita Blasco Ibáñez, Av. Aragón, Av. Suecia y el metro de Aragón y Facultats en esa franja. La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día.",
+   "official": true,
+   "confirmed": false,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita Blasco Ibáñez, l'Av. d'Aragó, l'Av. de Suècia i el metro d'Aragó i Facultats en eixa franja. L'hora encara no està anunciada: LaLiga la confirma 2-3 setmanes abans i el partit es pot moure un dia.",
+     "people": "fins a 49.000 persones"
+    },
+    "en": {
+     "tip": "Avoid Blasco Ibáñez, Av. Aragón, Av. Suecia and the Aragó and Facultats metro stations during this time. Kick-off time not announced yet: LaLiga confirms it 2-3 weeks before and the match may move by a day.",
+     "people": "up to 49,000 people"
+    }
+   },
+   "from": "",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
+   }
+  },
+  {
    "date": "2027-01-20",
    "title": "Feria Valencia: BABYKID SPAIN y FIMI-OTOÑO/INVIERNO",
    "type": "Feria",
@@ -5822,7 +5892,15 @@
    "source": "https://opendata.vlci.valencia.es/dataset/t251234-daily"
   }
  ],
- "weather": [],
+ "weather": [
+  {
+   "kind": "wind",
+   "level": 1,
+   "from": "2026-11-12T00:00+01:00",
+   "to": "2026-11-12T14:59+01:00",
+   "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos?k=val"
+  }
+ ],
  "sources": [
   {
    "id": "geoportal",
@@ -5834,13 +5912,13 @@
    "id": "laliga",
    "name": "LaLiga (Valencia CF y Levante UD)",
    "ok": true,
-   "count": 6
+   "count": 7
   },
   {
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 46
+   "count": 47
   },
   {
    "id": "visitvalencia",
@@ -5857,9 +5935,8 @@
   {
    "id": "cruceros",
    "name": "Escalas de cruceros en el puerto (CruiseTimetables, no oficial)",
-   "ok": false,
-   "count": 0,
-   "error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: HTTPSConnectionPool(host='www.cruisetimetables.com', port=443): Max retries exceeded with url: /valenciaspainschedule-nov2026.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cruisetimetables.com'"
+   "ok": true,
+   "count": 0
   },
   {
    "id": "fiestas",
@@ -5877,7 +5954,7 @@
    "id": "meteo",
    "name": "AEMET · avisos meteorológicos (vía MeteoAlarm)",
    "ok": true,
-   "count": 0
+   "count": 1
   },
   {
    "id": "ruido",
@@ -5889,23 +5966,19 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-09",
-   "zero_days": 2
+   "zero_days": 3
   },
   "laliga": {},
   "roig_arena": {},
   "visitvalencia": {},
   "feria": {},
   "cruceros": {
-   "fail_since": "2026-11-10",
-   "last_error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: HTTPSConnectionPool(host='www.cruisetimetables.com', port=443): Max retries exceeded with url: /valenciaspainschedule-nov2026.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cruisetimetables.com'",
-   "fail_days": 1
+   "zero_since": "2026-11-11",
+   "zero_days": 1
   },
   "fiestas": {},
   "prensa": {},
-  "meteo": {
-   "zero_since": "2026-11-09",
-   "zero_days": 2
-  },
+  "meteo": {},
   "ruido": {}
  }
 }
