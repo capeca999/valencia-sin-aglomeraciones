@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T11:24+01:00",
+ "updated": "2026-11-11T11:29+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -5934,12 +5934,6 @@
  ],
  "refuges": [
   {
-   "name": "BIBLIOTECA MUNICIPAL LLUÍS FULLANA I MIRA (TRES FORQUES)",
-   "kind": "biblioteca",
-   "lat": 39.46527,
-   "lon": -0.40216
-  },
-  {
    "name": "Biblioteca Clara Santiró i Font",
    "kind": "biblioteca",
    "lat": 39.44715,
@@ -5974,6 +5968,12 @@
    "kind": "biblioteca",
    "lat": 39.49696,
    "lon": -0.36853
+  },
+  {
+   "name": "Biblioteca Municipal Lluís Fullana i Mira (Tres Forques)",
+   "kind": "biblioteca",
+   "lat": 39.46527,
+   "lon": -0.40216
   },
   {
    "name": "Biblioteca Municipal Nova Al-Russafí",
@@ -6054,6 +6054,12 @@
    "lon": -0.38276
   },
   {
+   "name": "Museo de Ciencias Naturales",
+   "kind": "museo",
+   "lat": 39.47932,
+   "lon": -0.36873
+  },
+  {
    "name": "Museu d'Història de València",
    "kind": "museo",
    "lat": 39.47249,
@@ -6125,7 +6131,7 @@
    "id": "refugios",
    "name": "València Sostenible · Red de Refugios Climáticos",
    "ok": true,
-   "count": 22
+   "count": 23
   },
   {
    "id": "ruido",
