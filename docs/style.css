@@ -272,3 +272,10 @@ button.subbtn { background: none; color: inherit; font: inherit; cursor: pointer
 .weather.w2 { border-left-color: var(--l2); }
 .weather.w3 { border-left-color: var(--l3); }
 .weather p { margin: 0; }
+
+/* Refugios municipales (lista plegable) */
+.refuges { margin-top: 12px; border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; background: var(--surface); }
+.refuges summary { cursor: pointer; font-weight: 700; padding: 4px 0; }
+.refuges ul { list-style: none; padding: 0; margin: 8px 0; }
+.refuges li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-top: 1px solid var(--line); }
+.quiet-icon.small img { width: 26px; height: 26px; }

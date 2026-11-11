@@ -378,6 +378,15 @@
         (ev ? '<p class="avoid">' + esc(T("nearby")) + " <strong>" + esc(tx(ev, "title")) + "</strong> (" + esc(timeText(ev)) + ").</p>" : "") +
         "<p>" + esc(tx(pl, "text")) + '</p><div class="links">' + srcLink(pl.source.name, pl.source.url, T("source")) + "</div></article>";
     }).join("");
+    var refs = (DATA && DATA.refuges) || [];
+    $("refugesBox").hidden = !refs.length;
+    $("refugesTitle").textContent = T("refugesTitle", { n: refs.length });
+    $("refugesList").innerHTML = refs.map(function (r) {
+      var ev = nearbyEvent(r, state.selected);
+      return "<li>" + picto(r.kind === "biblioteca" ? "biblioteca" : "museo", "small") + "<span><strong>" + esc(r.name) + "</strong><br>" +
+        '<span class="sub">' + esc(T("refugeKinds")[r.kind] || "") + (ev ? " · " + esc(T("eventNear", { t: tx(ev, "title") })) : "") + "</span> " +
+        '<a href="https://www.google.com/maps/search/?api=1&query=' + r.lat + "," + r.lon + '" target="_blank" rel="noopener">' + esc(T("howToGet")) + "</a></span></li>";
+    }).join("");
   }
   function renderQuietMap() {
     if (!map) return;
@@ -387,6 +396,11 @@
       var ev = nearbyEvent(pl, state.selected);
       L.marker([pl.lat, pl.lon], { icon: L.divIcon({ className: "quiet-icon", html: '<img src="pictos/' + pl.picto + '.png" alt="">', iconSize: [34, 34] }), keyboard: false, opacity: ev ? 0.5 : 1 })
         .bindPopup("<strong>" + esc(tx(pl, "name")) + "</strong><br>" + (ev ? esc(T("eventNear", { t: tx(ev, "title") })) : esc(tx(pl, "best")))).addTo(quietLayer);
+    });
+    ((DATA && DATA.refuges) || []).forEach(function (r) {
+      var ev = nearbyEvent(r, state.selected);
+      L.marker([r.lat, r.lon], { icon: L.divIcon({ className: "quiet-icon small", html: '<img src="pictos/' + (r.kind === "biblioteca" ? "biblioteca" : "museo") + '.png" alt="">', iconSize: [26, 26] }), keyboard: false, opacity: ev ? 0.5 : 0.9 })
+        .bindPopup("<strong>" + esc(r.name) + "</strong><br>" + esc(T("refugeKinds")[r.kind] || "") + (ev ? "<br>" + esc(T("eventNear", { t: tx(ev, "title") })) : "")).addTo(quietLayer);
     });
   }
 

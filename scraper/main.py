@@ -10,7 +10,7 @@ import traceback
 from datetime import date, timedelta
 
 from .common import ROOT, Event, norm, now, today
-from . import meteo, ruido
+from . import meteo, refugios, ruido
 from .geo import AREAS, PATTERNS, zones_json
 from .sources import ayto_movilidad, ayto_noticias, cruceros, feria, fiestas, geoportal, laliga, prensa, roig_arena, visitvalencia
 
@@ -142,6 +142,14 @@ def run() -> dict:
         status.append({"id": "meteo", "name": "AEMET · avisos meteorológicos (vía MeteoAlarm)", "ok": False, "count": len(weather), "error": str(e)[:300]})
 
     try:
+        refuges = refugios.scrape()
+        status.append({"id": "refugios", "name": "València Sostenible · Red de Refugios Climáticos", "ok": True, "count": len(refuges)})
+    except Exception as e:  # noqa: BLE001
+        traceback.print_exc()
+        refuges = prev.get("refuges", [])
+        status.append({"id": "refugios", "name": "València Sostenible · Red de Refugios Climáticos", "ok": False, "count": len(refuges), "error": str(e)[:300]})
+
+    try:
         noise = ruido.scrape()
         status.append({"id": "ruido", "name": "Ajuntament de València · Sonómetros de Ruzafa (datos abiertos)", "ok": True, "count": len(noise)})
     except Exception as e:  # noqa: BLE001
@@ -174,6 +182,7 @@ def run() -> dict:
         "notices": notices,
         "noise": noise,
         "weather": weather,
+        "refuges": refuges,
         "sources": status,
         "health": health,
     }
