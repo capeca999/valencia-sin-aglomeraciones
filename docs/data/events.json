@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T11:29+01:00",
+ "updated": "2026-11-11T13:43+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -754,37 +754,6 @@
    }
   },
   {
-   "date": "2026-11-12",
-   "title": "Siete manifestaciones anuncian atascos toda la mañana en Valencia",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Siete manifestaciones anuncian atascos toda la mañana en Valencia Las Provincias",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: Las Provincias",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVHAzSmhWT3o2d2xuQm5UX0VYNjNpcFVFQWotN1RJSFFqb0Nmb1BncVVNczh5RkY2ZDdpTkVDWHloVExKTFhjMk1kUmo5eGMzUzhNSko5eFpycjhJdXNBZXBRNlMySEtENHNoNEZKdGJrN08wV0puaE92RWhKUXJlaWpaVEpUQm40N0JzbXYzcnQxZlNZWjdULVM0SXE0WXd1Tjd4VUlVeUxWdVlWbU1kUmFxLWpNOEh2WFA5TnNOZ9IBxAFBVV95cUxQTnVHTFlxdEoyVVo4dU1uMm9BV0luZERydGVsV3FIUndQdzJqdEduZC1PeVdEeDlfalp2Y1lwQ2VEUjdJS0hYMVpPSUhoWTlPNW41RElXMV9tbTFIdXJaLVM1V21TdU0wbXo2SzVJZHRXUzBiU1N6S3N4bUN1V2x5MWpXUzVhSTV3dzJqVDFFcFk1dmxGcFJDaGVUVndybUdoaVpEOE5heElWSHBTcFZYUi1oYXVvbUhFX2hRWHluVjN5MWVn?oc=5"
-   }
-  },
-  {
    "date": "2026-11-13",
    "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
    "type": "Feria",
@@ -1035,6 +1004,41 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/vincen-garcia-20261114/"
+   }
+  },
+  {
+   "date": "2026-11-14",
+   "title": "Las Noches del Arena - Generación EGB",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "",
+   "to": "",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 15.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 15,000 people"
+    }
+   },
+   "from": "",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/noches-del-arena-261114/"
    }
   },
   {
@@ -5930,6 +5934,13 @@
    "from": "2026-11-12T00:00+01:00",
    "to": "2026-11-12T14:59+01:00",
    "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos?k=val"
+  },
+  {
+   "kind": "coastal",
+   "level": 1,
+   "from": "2026-11-12T00:00+01:00",
+   "to": "2026-11-12T23:59+01:00",
+   "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos?k=val"
   }
  ],
  "refuges": [
@@ -6089,7 +6100,7 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 47
+   "count": 48
   },
   {
    "id": "visitvalencia",
@@ -6119,13 +6130,13 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 3
+   "count": 2
   },
   {
    "id": "meteo",
    "name": "AEMET · avisos meteorológicos (vía MeteoAlarm)",
    "ok": true,
-   "count": 1
+   "count": 2
   },
   {
    "id": "refugios",
