@@ -139,8 +139,8 @@ footer { color: var(--muted); font-size: 0.92rem; display: grid; gap: 10px; }
 .ev.quiet.warn { border-left-color: var(--l2); }
 .pill.calm { color: var(--calm); border-color: var(--calm); }
 .pill.now { color: #fff; background: var(--calm); border-color: var(--calm); }
-.leaflet-marker-icon.quiet-icon { background: #fff; border: 2px solid var(--calm); border-radius: 10px; padding: 2px; }
-.leaflet-marker-icon.quiet-icon img { width: 100%; height: 100%; display: block; object-fit: contain; }
+.leaflet-marker-icon.quiet-icon { box-sizing: border-box; background: #fff; border: 2px solid var(--calm); border-radius: 10px; padding: 2px; }
+.leaflet-marker-icon.quiet-icon img { width: 100% !important; height: 100% !important; margin: 0 !important; display: block; object-fit: contain; }
 .leaflet-marker-icon.db-icon { background: none; border: none; }
 .db-icon span { display: inline-block; font: 700 12px/1 var(--font); color: #fff; padding: 4px 6px; border-radius: 999px; white-space: nowrap; }
 .noiselegend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.85rem; color: var(--muted); align-items: center; }
@@ -278,4 +278,3 @@ button.subbtn { background: none; color: inherit; font: inherit; cursor: pointer
 .refuges summary { cursor: pointer; font-weight: 700; padding: 4px 0; }
 .refuges ul { list-style: none; padding: 0; margin: 8px 0; }
 .refuges li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-top: 1px solid var(--line); }
-.quiet-icon.small img { width: 26px; height: 26px; }
