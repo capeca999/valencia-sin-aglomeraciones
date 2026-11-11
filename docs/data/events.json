@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T11:21+01:00",
+ "updated": "2026-11-11T11:24+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -5750,7 +5750,7 @@
    "date": "2026-11-10",
    "laeq": 59.3,
    "laeq_d": 61.1,
-   "laeq_e": 58.4,
+   "laeq_e": 58.3,
    "laeq_n": 54.4,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
   },
@@ -5932,6 +5932,140 @@
    "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos?k=val"
   }
  ],
+ "refuges": [
+  {
+   "name": "BIBLIOTECA MUNICIPAL LLUÍS FULLANA I MIRA (TRES FORQUES)",
+   "kind": "biblioteca",
+   "lat": 39.46527,
+   "lon": -0.40216
+  },
+  {
+   "name": "Biblioteca Clara Santiró i Font",
+   "kind": "biblioteca",
+   "lat": 39.44715,
+   "lon": -0.39265
+  },
+  {
+   "name": "Biblioteca Eduardo Escalante",
+   "kind": "biblioteca",
+   "lat": 39.46769,
+   "lon": -0.38777
+  },
+  {
+   "name": "Biblioteca Municipal Carola Reig Salvà",
+   "kind": "biblioteca",
+   "lat": 39.4881,
+   "lon": -0.3582
+  },
+  {
+   "name": "Biblioteca Municipal Gregori Maians i Ciscar",
+   "kind": "biblioteca",
+   "lat": 39.46163,
+   "lon": -0.3456
+  },
+  {
+   "name": "Biblioteca Municipal Joanot Martorell",
+   "kind": "biblioteca",
+   "lat": 39.48645,
+   "lon": -0.38124
+  },
+  {
+   "name": "Biblioteca Municipal Josep María Bayarri",
+   "kind": "biblioteca",
+   "lat": 39.49696,
+   "lon": -0.36853
+  },
+  {
+   "name": "Biblioteca Municipal Nova Al-Russafí",
+   "kind": "biblioteca",
+   "lat": 39.46092,
+   "lon": -0.37054
+  },
+  {
+   "name": "Biblioteca Municipal Palacio de la Exposición",
+   "kind": "biblioteca",
+   "lat": 39.47355,
+   "lon": -0.36252
+  },
+  {
+   "name": "Biblioteca Municipal Roís de Corella",
+   "kind": "biblioteca",
+   "lat": 39.44872,
+   "lon": -0.37725
+  },
+  {
+   "name": "Biblioteca Municipal Tomás Vicent Tosca",
+   "kind": "biblioteca",
+   "lat": 39.47228,
+   "lon": -0.35085
+  },
+  {
+   "name": "Biblioteca Municipal de Nazaret",
+   "kind": "biblioteca",
+   "lat": 39.44896,
+   "lon": -0.33129
+  },
+  {
+   "name": "Biblioteca del Grao – Constantí Llombart",
+   "kind": "biblioteca",
+   "lat": 39.46269,
+   "lon": -0.33054
+  },
+  {
+   "name": "Centre Cultural Escorxador",
+   "kind": "cultura",
+   "lat": 39.46922,
+   "lon": -0.3319
+  },
+  {
+   "name": "Centro Cultural Municipal Alquería Albors",
+   "kind": "cultura",
+   "lat": 39.49696,
+   "lon": -0.36853
+  },
+  {
+   "name": "Centro Cultural Nave 3 Ribes",
+   "kind": "cultura",
+   "lat": 39.45889,
+   "lon": -0.37816
+  },
+  {
+   "name": "Centro Cultural Reina 121",
+   "kind": "cultura",
+   "lat": 39.46908,
+   "lon": -0.32873
+  },
+  {
+   "name": "Las Naves | Centro de innovación social y urbana",
+   "kind": "cultura",
+   "lat": 39.4587,
+   "lon": -0.33827
+  },
+  {
+   "name": "CCCC (Centro del Carmen de Cultura Contemporánea)",
+   "kind": "museo",
+   "lat": 39.47967,
+   "lon": -0.37902
+  },
+  {
+   "name": "Instituto Valenciano de Arte Moderno (IVAM)",
+   "kind": "museo",
+   "lat": 39.47961,
+   "lon": -0.38276
+  },
+  {
+   "name": "Museu d'Història de València",
+   "kind": "museo",
+   "lat": 39.47249,
+   "lon": -0.40842
+  },
+  {
+   "name": "Palacio del Marqués de Campo, Museo de la Ciudad de Valencia",
+   "kind": "museo",
+   "lat": 39.47597,
+   "lon": -0.37384
+  }
+ ],
  "sources": [
   {
    "id": "geoportal",
@@ -5988,6 +6122,12 @@
    "count": 1
   },
   {
+   "id": "refugios",
+   "name": "València Sostenible · Red de Refugios Climáticos",
+   "ok": true,
+   "count": 22
+  },
+  {
    "id": "ruido",
    "name": "Ajuntament de València · Sonómetros de Ruzafa (datos abiertos)",
    "ok": true,
@@ -6010,6 +6150,7 @@
   "fiestas": {},
   "prensa": {},
   "meteo": {},
+  "refugios": {},
   "ruido": {}
  }
 }
