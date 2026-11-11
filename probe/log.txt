@@ -1,0 +1,3 @@
+200 https://valenciasostenible.com/es/portfolio/refugios-climaticos/ 284297
+200 https://opendata.vlci.valencia.es/api/3/action/package_search?q=refugi&rows=10 225
+200 https://geoportal.valencia.es/server/rest/services/OPENDATA?f=json 365
