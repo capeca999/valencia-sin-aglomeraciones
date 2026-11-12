@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T23:42+01:00",
+ "updated": "2026-11-12T02:46+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -419,45 +419,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-10",
-   "title": "Feria Valencia: ECOFIRA, FIMMA y MADERALIA",
-   "type": "Feria",
-   "zones": [
-    "feria"
-   ],
-   "level": 1,
-   "start": "10:00",
-   "to": "20:30",
-   "people": "feria profesional",
-   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [
-    "profesional"
-   ],
-   "sid": "feria",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "title": "Fira València: ECOFIRA, FIMMA i MADERALIA",
-     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
-     "people": "fira professional"
-    },
-    "en": {
-     "title": "Feria Valencia: ECOFIRA, FIMMA and MADERALIA",
-     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
-     "people": "trade fair"
-    }
-   },
-   "from": "10:00",
-   "source": {
-    "name": "Feria Valencia (calendario oficial)",
-    "url": "https://ecofira.feriavalencia.com/"
-   }
-  },
-  {
    "date": "2026-11-11",
    "title": "Feria Valencia: ECOFIRA, FIMMA y MADERALIA",
    "type": "Feria",
@@ -599,44 +560,7 @@
    },
    "official": false,
    "sid": "manual",
-   "tags": [],
-   "also": [
-    {
-     "name": "Prensa: Valencia Secreta",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX1NTNWJDbU4wVmFrOFEtYzQ0X3R1bE8xbVNJZkVzbmhDSTBVblBTUEl0ZkI2WkZmMEdzZHgxeUlRNFNJRWpfNXRQYXdfTUstRlZhVFl2U2o1cWROY2lYNTUxWUlaOXdhUF84d081VmxUbjJhUXVjR3JlV1hYN0VvTTMwUDB3Tmx0a2RLeUJpZ1hYRGFMNXNPXzUzTGQyTndWVVBjV0RpNFVoOWE0M2VZ?oc=5"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-11",
-   "title": "Huelga General el 11 de noviembre en Valencia: horario y recorrido de la manifestación, servicios mínimos en transporte y hospitales y corte",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Huelga General el 11 de noviembre en Valencia: horario y recorrido de la manifestación, servicios mínimos en transporte y hospitales y cortes de tráfico El Confidencial",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: El Confidencial",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNODdaNm9wNnBMOEFPRkktR1RKdThvM0pNZEhpQVRUMmhJcEU5UGhHYVAyalNoUGk3M0FkMlNrZ0RhbHdnLVlPRUcyX3pBWllqRUJnUFNFWkc2ZzNocWtORVZFRmh0em1HTFpLTE5pR2lmMVc1UjdHa19mMkN1eDh3M3NhX3A1aEJRd294cndTTzFQcVoxTnh0SVh3YVpMaXJRWTVMbGJUWmwyMUJMc3doY0g0b0o4anBsWHZaeFdfcnZ3WVZ6SUdWc3gwRlZzRkMxVWVBbHhKeVJpenJx?oc=5"
-   }
+   "tags": []
   },
   {
    "date": "2026-11-12",
@@ -5754,7 +5678,7 @@
    "date": "2026-11-10",
    "laeq": 59.3,
    "laeq_d": 61.1,
-   "laeq_e": 58.3,
+   "laeq_e": 58.4,
    "laeq_n": 54.4,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
   },
@@ -6112,7 +6036,7 @@
    "id": "feria",
    "name": "Feria Valencia (calendario oficial de ferias)",
    "ok": true,
-   "count": 54
+   "count": 53
   },
   {
    "id": "cruceros",
@@ -6130,7 +6054,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 2
+   "count": 0
   },
   {
    "id": "meteo",
@@ -6154,7 +6078,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-11",
-   "zero_days": 1
+   "zero_days": 2
   },
   "laliga": {},
   "roig_arena": {},
@@ -6162,10 +6086,13 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-11",
-   "zero_days": 1
+   "zero_days": 2
   },
   "fiestas": {},
-  "prensa": {},
+  "prensa": {
+   "zero_since": "2026-11-12",
+   "zero_days": 1
+  },
   "meteo": {},
   "refugios": {},
   "ruido": {}
