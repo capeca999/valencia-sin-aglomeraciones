@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T14:45+01:00",
+ "updated": "2026-11-12T23:16+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -5853,13 +5853,6 @@
  ],
  "weather": [
   {
-   "kind": "wind",
-   "level": 1,
-   "from": "2026-11-12T00:00+01:00",
-   "to": "2026-11-12T14:59+01:00",
-   "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos?k=val"
-  },
-  {
    "kind": "coastal",
    "level": 1,
    "from": "2026-11-12T11:00+01:00",
@@ -6060,7 +6053,7 @@
    "id": "meteo",
    "name": "AEMET · avisos meteorológicos (vía MeteoAlarm)",
    "ok": true,
-   "count": 2
+   "count": 1
   },
   {
    "id": "refugios",
