@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T08:20+01:00",
+ "updated": "2026-11-13T08:45+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -6534,8 +6534,9 @@
   {
    "id": "cruceros",
    "name": "Escalas de cruceros en el puerto (CruiseTimetables, no oficial)",
-   "ok": true,
-   "count": 0
+   "ok": false,
+   "count": 0,
+   "error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html"
   },
   {
    "id": "fiestas",
@@ -6590,8 +6591,9 @@
   "visitvalencia": {},
   "feria": {},
   "cruceros": {
-   "zero_since": "2026-11-11",
-   "zero_days": 3
+   "fail_since": "2026-11-13",
+   "last_error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html",
+   "fail_days": 1
   },
   "fiestas": {},
   "prensa": {
