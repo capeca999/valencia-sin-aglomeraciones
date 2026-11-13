@@ -10,64 +10,8 @@ X-WR-CALDESC:Dónde y cuándo habrá mucha gente en València. https://cap
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:365f6e2b81e67eb8df29@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
-DTSTART:20261111T093000Z
-DTEND:20261111T130000Z
-SUMMARY:Mucha gente: Marcha educativa: Conselleria de Educación → Plaza
-  del Ayuntamiento
-LOCATION:Av. Campanar (Conselleria de Educación)\, Plaza del Ayuntamiento
-DESCRIPTION:Mucha gente. Zona a evitar: Av. Campanar (Conselleria de Educa
- ción)\, Plaza del Ayuntamiento.\nConcentración a las 11:00 en la Consel
- leria de Educación (Av. Campanar)\, marcha a las 11:45 hacia la Plaza de
- l Ayuntamiento y concentración allí a las 12:30 con el piquete central 
- de vivienda.\n\nFuente: Valencia Plaza https://valenciaplaza.com/valencia
- plaza/educacion/sindicatos-educativos-convocan-protestas-en-las-principal
- es-ciudades-valencianas-el-dia-de-la-huelga-general\nhttps://capeca999.gi
- thub.io/valencia-sin-aglomeraciones/
-URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cf767bafe3166762eb88@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
-DTSTART:20261111T154500Z
-DTEND:20261111T203000Z
-SUMMARY:Muchísima gente: Manifestación de la huelga general (salida call
- e Xàtiva)
-LOCATION:Plaza San Agustín / Xàtiva\, El Carmen / Torres de Serranos\, P
- laza del Ayuntamiento
-DESCRIPTION:Muchísima gente. Zona a evitar: Plaza San Agustín / Xàtiva\
- , El Carmen / Torres de Serranos\, Plaza del Ayuntamiento.\nSale a las 18
- :00 de la calle Xàtiva. Una hora antes sale una columna educativa desde 
- las Torres de Quart. El recorrido exacto aún no está publicado: evita t
- odo el centro (Xàtiva\, San Agustín\, Plaza del Ayuntamiento\, Colón) 
- desde las 17:00.\n\nFuente: 7 Televalencia https://7televalencia.com/huel
- ga-11n-todo-lo-que-debes-saber/\nhttps://capeca999.github.io/valencia-sin
- -aglomeraciones/
-URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8bdd527d467abe9a4a99@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:Mucha gente: Huelga general de 24 horas (11N)
-LOCATION:Toda la ciudad
-DESCRIPTION:Mucha gente. Zona a evitar: Toda la ciudad.\nEl transporte pú
- blico (metro\, tranvía\, EMT\, Renfe) funcionará con servicios mínimos
- : menos frecuencia y andenes y paradas más llenos. Puede haber piquetes 
- informativos en zonas comerciales por la mañana.\n\nFuente: Generalitat 
- Valenciana · servicios mínimos https://habitatge.gva.es/documents/21189
- /165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-
- 0a5baac22c6b\nhttps://capeca999.github.io/valencia-sin-aglomeraciones/
-URL:https://capeca999.github.io/valencia-sin-aglomeraciones/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:cdf671622be8a4c4aba2@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20261206T060000Z
 DTEND:20261206T143000Z
 SUMMARY:Muchísima gente: Maratón Valencia Trinidad Alfonso
@@ -88,7 +32,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fff87759bb1e31efacc6@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20261231T210000Z
 DTEND:20270101T003000Z
 SUMMARY:🔥 Muchísima gente: Nochevieja en la Plaza del Ayuntamiento
@@ -104,7 +48,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:66843152aa43ac7a8fda@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270105T160000Z
 DTEND:20270105T203000Z
 SUMMARY:Muchísima gente: Cabalgata de los Reyes Magos
@@ -121,7 +65,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f9e6538dac84ff9ef9d@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270228T173000Z
 DTEND:20270228T203000Z
 SUMMARY:🔥 Muchísima gente: Fallas: la Crida (inicio de las Fallas)
@@ -138,7 +82,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:86c9a86c3cf6d51e5cc1@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270301T114500Z
 DTEND:20270301T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -157,7 +101,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da8e5cce998672a66e93@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270302T114500Z
 DTEND:20270302T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -176,7 +120,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8d974e1b41ff6a00d08f@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270303T114500Z
 DTEND:20270303T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -195,7 +139,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:295c02149f1121da1c3e@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270304T114500Z
 DTEND:20270304T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -214,7 +158,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7cbae9dcb32e2dbcab9c@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270305T114500Z
 DTEND:20270305T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -233,7 +177,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a68555557ecb3e615e3c@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270306T114500Z
 DTEND:20270306T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -252,7 +196,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5fe5e0c4c4a5a7714035@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270307T114500Z
 DTEND:20270307T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -271,7 +215,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bc6bc8c3a2c09e79f720@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270308T114500Z
 DTEND:20270308T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -290,7 +234,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ddcc7d3465f84fe2c20d@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270309T114500Z
 DTEND:20270309T134500Z
 SUMMARY:🔥 Mucha gente: Fallas: mascletà en la Plaza del Ayuntamiento
@@ -309,7 +253,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8122cdeee38b1e1942bf@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270310T114500Z
 DTEND:20270310T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -329,7 +273,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6bc189f704c6d414af0f@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270311T114500Z
 DTEND:20270311T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -349,7 +293,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f81f9488fdc449c0346b@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270312T114500Z
 DTEND:20270312T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -369,7 +313,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3e944d8ec40b524bdb96@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270313T114500Z
 DTEND:20270313T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -389,7 +333,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1d049c050c3728f6c1a0@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270314T114500Z
 DTEND:20270314T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -409,7 +353,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5dd325f5361338f10744@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
@@ -436,7 +380,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6bcca0dbf599854d8696@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270315T114500Z
 DTEND:20270315T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -456,7 +400,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a377c1f17db83db7d153@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
@@ -483,7 +427,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:81e3909cf63b78cb00b2@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270316T114500Z
 DTEND:20270316T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -503,7 +447,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2a1ddb933f795c7732e7@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
@@ -530,7 +474,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c20a86104fb2e4f5f147@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270317T114500Z
 DTEND:20270317T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -550,7 +494,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb617ed4b7f0dd8611a@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270317T140000Z
 DTEND:20270318T000000Z
 SUMMARY:Muchísima gente: Fallas: Ofrenda de flores a la Virgen
@@ -567,7 +511,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5cb2f202fa5e1825a9b6@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
@@ -594,7 +538,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:310b229dbe01769979d2@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270318T114500Z
 DTEND:20270318T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -614,7 +558,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2e5dd5f780a01c0307a9@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270318T140000Z
 DTEND:20270319T000000Z
 SUMMARY:Muchísima gente: Fallas: Ofrenda de flores a la Virgen
@@ -631,7 +575,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:88a86f8c94bdcbc3a131@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g
@@ -658,7 +602,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1ceedb5009728ecf7c16@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270319T114500Z
 DTEND:20270319T134500Z
 SUMMARY:🔥 Muchísima gente: Fallas: mascletà en la Plaza del Ayuntamie
@@ -678,7 +622,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2e6ad05ce3026f27bff4@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART:20270319T190000Z
 DTEND:20270320T010000Z
 SUMMARY:🔥 Muchísima gente: Fallas: la Cremà (se queman las fallas)
@@ -701,7 +645,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:87c79c1167b7a08e4a39@valenciasinaglomeraciones
-DTSTAMP:20261112T221600Z
+DTSTAMP:20261113T005137Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 SUMMARY:🔥 Muchísima gente: Semana de Fallas: TODA la ciudad llena de g

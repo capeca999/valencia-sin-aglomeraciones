@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:16+01:00",
+ "updated": "2026-11-13T01:51+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -419,8 +419,8 @@
  ],
  "events": [
   {
-   "date": "2026-11-11",
-   "title": "Feria Valencia: ECOFIRA, FIMMA y MADERALIA",
+   "date": "2026-11-12",
+   "title": "Feria Valencia: FIMMA y MADERALIA",
    "type": "Feria",
    "zones": [
     "feria"
@@ -441,12 +441,12 @@
    "geo": [],
    "i18n": {
     "va": {
-     "title": "Fira València: ECOFIRA, FIMMA i MADERALIA",
+     "title": "Fira València: FIMMA i MADERALIA",
      "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
      "people": "fira professional"
     },
     "en": {
-     "title": "Feria Valencia: ECOFIRA, FIMMA and MADERALIA",
+     "title": "Feria Valencia: FIMMA and MADERALIA",
      "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
      "people": "trade fair"
     }
@@ -454,227 +454,7 @@
    "from": "10:00",
    "source": {
     "name": "Feria Valencia (calendario oficial)",
-    "url": "https://ecofira.feriavalencia.com/"
-   }
-  },
-  {
-   "date": "2026-11-11",
-   "title": "Marcha educativa: Conselleria de Educación → Plaza del Ayuntamiento",
-   "type": "Manifestación",
-   "zones": [
-    "campanar",
-    "ayuntamiento"
-   ],
-   "level": 2,
-   "start": "11:00",
-   "from": "10:30",
-   "to": "14:00",
-   "people": "miles de personas",
-   "confirmed": true,
-   "approx": true,
-   "tip": "Concentración a las 11:00 en la Conselleria de Educación (Av. Campanar), marcha a las 11:45 hacia la Plaza del Ayuntamiento y concentración allí a las 12:30 con el piquete central de vivienda.",
-   "source": {
-    "name": "Valencia Plaza",
-    "url": "https://valenciaplaza.com/valenciaplaza/educacion/sindicatos-educativos-convocan-protestas-en-las-principales-ciudades-valencianas-el-dia-de-la-huelga-general"
-   },
-   "i18n": {
-    "va": {
-     "title": "Marxa educativa: Conselleria d'Educació → plaça de l'Ajuntament",
-     "people": "milers de persones",
-     "tip": "Concentració a les 11:00 a la Conselleria d'Educació (Av. de Campanar), marxa a les 11:45 cap a la plaça de l'Ajuntament i concentració allí a les 12:30 amb el piquet central d'habitatge."
-    },
-    "en": {
-     "title": "Education march: Education Department → Plaza del Ayuntamiento",
-     "people": "thousands of people",
-     "tip": "Gathering at 11am at the Regional Education Department (Av. Campanar), march at 11:45 towards Plaza del Ayuntamiento and gathering there at 12:30 with the central housing picket."
-    }
-   },
-   "official": false,
-   "sid": "manual",
-   "tags": []
-  },
-  {
-   "date": "2026-11-11",
-   "title": "Manifestación de la huelga general (salida calle Xàtiva)",
-   "type": "Manifestación",
-   "zones": [
-    "san_agustin",
-    "carmen",
-    "ayuntamiento"
-   ],
-   "level": 3,
-   "start": "18:00",
-   "from": "16:45",
-   "to": "21:30",
-   "people": "decenas de miles de personas",
-   "confirmed": true,
-   "approx": true,
-   "tip": "Sale a las 18:00 de la calle Xàtiva. Una hora antes sale una columna educativa desde las Torres de Quart. El recorrido exacto aún no está publicado: evita todo el centro (Xàtiva, San Agustín, Plaza del Ayuntamiento, Colón) desde las 17:00.",
-   "source": {
-    "name": "7 Televalencia",
-    "url": "https://7televalencia.com/huelga-11n-todo-lo-que-debes-saber/"
-   },
-   "i18n": {
-    "va": {
-     "title": "Manifestació de la vaga general (eixida carrer de Xàtiva)",
-     "people": "desenes de milers de persones",
-     "tip": "Ix a les 18:00 del carrer de Xàtiva. Una hora abans ix una columna educativa des de les Torres de Quart. El recorregut exacte encara no està publicat: evita tot el centre (Xàtiva, Sant Agustí, plaça de l'Ajuntament, Colón) des de les 17:00."
-    },
-    "en": {
-     "title": "General strike demonstration (starting from Calle Xàtiva)",
-     "people": "tens of thousands of people",
-     "tip": "Starts at 6pm from Calle Xàtiva. An hour earlier an education column leaves from the Torres de Quart. The exact route hasn't been published yet: avoid the whole centre (Xàtiva, San Agustín, Plaza del Ayuntamiento, Colón) from 5pm."
-    }
-   },
-   "official": false,
-   "sid": "manual",
-   "tags": []
-  },
-  {
-   "date": "2026-11-11",
-   "title": "Huelga general de 24 horas (11N)",
-   "type": "Huelga",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "from": "00:00",
-   "to": "23:59",
-   "people": "toda la ciudad",
-   "confirmed": true,
-   "tip": "El transporte público (metro, tranvía, EMT, Renfe) funcionará con servicios mínimos: menos frecuencia y andenes y paradas más llenos. Puede haber piquetes informativos en zonas comerciales por la mañana.",
-   "source": {
-    "name": "Generalitat Valenciana · servicios mínimos",
-    "url": "https://habitatge.gva.es/documents/21189/165429228/RESOL_HUELGA+GRAL+11nov26+firmado.pdf/e8132fe4-1128-4d8d-8545-0a5baac22c6b"
-   },
-   "i18n": {
-    "va": {
-     "title": "Vaga general de 24 hores (11N)",
-     "people": "tota la ciutat",
-     "tip": "El transport públic (metro, tramvia, EMT, Renfe) funcionarà amb serveis mínims: menys freqüència i andanes i parades més plenes. Pot haver-hi piquets informatius en zones comercials pel matí."
-    },
-    "en": {
-     "title": "24-hour general strike (11N)",
-     "people": "the whole city",
-     "tip": "Public transport (metro, tram, EMT buses, Renfe trains) will run minimum services: less frequent and with fuller platforms and stops. There may be strike pickets in shopping areas in the morning."
-    }
-   },
-   "official": false,
-   "sid": "manual",
-   "tags": []
-  },
-  {
-   "date": "2026-11-12",
-   "title": "Feria Valencia: ECOFIRA, FIMMA y MADERALIA",
-   "type": "Feria",
-   "zones": [
-    "feria"
-   ],
-   "level": 1,
-   "start": "10:00",
-   "to": "20:30",
-   "people": "feria profesional",
-   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [
-    "profesional"
-   ],
-   "sid": "feria",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "title": "Fira València: ECOFIRA, FIMMA i MADERALIA",
-     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
-     "people": "fira professional"
-    },
-    "en": {
-     "title": "Feria Valencia: ECOFIRA, FIMMA and MADERALIA",
-     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
-     "people": "trade fair"
-    }
-   },
-   "from": "10:00",
-   "source": {
-    "name": "Feria Valencia (calendario oficial)",
-    "url": "https://ecofira.feriavalencia.com/"
-   }
-  },
-  {
-   "date": "2026-11-12",
-   "title": "Valencia Basket vs FC Bayern Múnich",
-   "type": "Baloncesto",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "20:30",
-   "to": "23:15",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "unes 12.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "about 12,000 people"
-    }
-   },
-   "from": "19:15",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-bayern-20261112/"
-   },
-   "also": [
-    {
-     "name": "Visit València (Ayuntamiento)",
-     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-12",
-   "title": "St. Paul & The Broken Bones",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/st-paul-the-broken-bones-20261112/"
+    "url": "https://fimma-maderalia.feriavalencia.com"
    }
   },
   {
@@ -6017,19 +5797,19 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 48
+   "count": 46
   },
   {
    "id": "visitvalencia",
    "name": "Visit València (calendario Valencia Basket)",
    "ok": true,
-   "count": 11
+   "count": 10
   },
   {
    "id": "feria",
    "name": "Feria Valencia (calendario oficial de ferias)",
    "ok": true,
-   "count": 53
+   "count": 52
   },
   {
    "id": "cruceros",
@@ -6071,7 +5851,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-11",
-   "zero_days": 2
+   "zero_days": 3
   },
   "laliga": {},
   "roig_arena": {},
@@ -6079,12 +5859,12 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-11",
-   "zero_days": 2
+   "zero_days": 3
   },
   "fiestas": {},
   "prensa": {
    "zero_since": "2026-11-12",
-   "zero_days": 1
+   "zero_days": 2
   },
   "meteo": {},
   "refugios": {},
