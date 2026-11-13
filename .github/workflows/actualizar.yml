@@ -101,7 +101,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy1.outputs.page_url || steps.deploy2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -109,5 +109,13 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - id: deploy
+      # A veces GitHub tarda en "ver" el paquete recién subido y falla el primer intento:
+      # se espera un poco y se reintenta una vez.
+      - id: deploy1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - if: steps.deploy1.outcome == 'failure'
+        run: sleep 45
+      - id: deploy2
+        if: steps.deploy1.outcome == 'failure'
         uses: actions/deploy-pages@v4
