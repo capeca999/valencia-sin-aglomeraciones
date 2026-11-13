@@ -281,3 +281,7 @@ button.subbtn { background: none; color: inherit; font: inherit; cursor: pointer
 .refuges li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-top: 1px solid var(--line); }
 
 .fallasnote { margin-top: 8px; }
+
+/* Planes tranquilos */
+.plansnote { background: color-mix(in srgb, var(--calm) 12%, var(--surface)); border-radius: 10px; padding: 10px 14px; font-weight: 600; }
+.plan .links { display: flex; flex-wrap: wrap; gap: 14px; }

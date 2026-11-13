@@ -1,0 +1,125 @@
+{
+  "_info": "Planes tranquilos. closed: días cerrados (1=lunes … 7=domingo). months: meses en que tiene sentido. kind: indoor/outdoor. outside: fuera del centro (sirve en días de toda la ciudad llena). nearby: false si no tiene un sitio concreto.",
+  "plans": [
+    {
+      "id": "bellas_artes", "picto": "museo", "kind": "indoor", "lat": 39.4793, "lon": -0.3762, "closed": [1],
+      "title": "Museo de Bellas Artes, gratis y con salas amplias",
+      "why": "Uno de los museos más grandes de España, con salas amplias y silenciosas. Puedes salir y volver a entrar, y justo al lado están los Jardines del Real (Viveros) para descansar.",
+      "best": "Entre semana por la mañana",
+      "info": "Gratis. De martes a domingo, de 10:00 a 20:00. Lunes cerrado.",
+      "source": {"name": "Visit València", "url": "https://www.visitvalencia.com/que-hacer-valencia/cultura-valenciana/museos-en-valencia/museo-bellas-artes-valencia-san-pio-v"},
+      "i18n": {
+        "va": {"title": "Museu de Belles Arts, de franc i amb sales amples", "why": "Un dels museus més grans d'Espanya, amb sales amples i silencioses. Pots eixir i tornar a entrar, i just al costat hi ha els Jardins del Real (Vivers) per a descansar.", "best": "Entre setmana pel matí", "info": "De franc. De dimarts a diumenge, de 10:00 a 20:00. Dilluns tancat."},
+        "en": {"title": "Museum of Fine Arts: free, with spacious rooms", "why": "One of Spain's largest art museums, with spacious, quiet rooms. You can leave and come back in, and the Real (Viveros) Gardens are right next door for a break.", "best": "Weekday mornings", "info": "Free. Tuesday to Sunday, 10:00 to 20:00. Closed on Mondays."}
+      }
+    },
+    {
+      "id": "paleontologic", "picto": "museo", "kind": "indoor", "lat": 39.4786, "lon": -0.3701, "closed": [1],
+      "title": "Fósiles gigantes en el Paleontològic (Viveros)",
+      "why": "Un museo pequeño y tranquilo con esqueletos enormes de animales prehistóricos, dentro de los Jardines de Viveros. Ideal si te gustan los dinosaurios y la naturaleza.",
+      "best": "Entre semana por la mañana",
+      "info": "De martes a domingo y festivos, de 10:00 a 19:00. Lunes cerrado.",
+      "source": {"name": "Visit València", "url": "https://www.visitvalencia.com/que-hacer-valencia/cultura-valenciana/museos-en-valencia/museo-municipal-ciencias-naturales"},
+      "i18n": {
+        "va": {"title": "Fòssils gegants al Paleontològic (Vivers)", "why": "Un museu xicotet i tranquil amb esquelets enormes d'animals prehistòrics, dins dels Jardins de Vivers. Ideal si t'agraden els dinosaures i la natura.", "best": "Entre setmana pel matí", "info": "De dimarts a diumenge i festius, de 10:00 a 19:00. Dilluns tancat."},
+        "en": {"title": "Giant fossils at the Paleontològic (Viveros)", "why": "A small, quiet museum with huge skeletons of prehistoric animals, inside the Viveros Gardens. Great if you like dinosaurs and nature.", "best": "Weekday mornings", "info": "Tuesday to Sunday and public holidays, 10:00 to 19:00. Closed on Mondays."}
+      }
+    },
+    {
+      "id": "ivam", "picto": "museo", "kind": "indoor", "lat": 39.4796, "lon": -0.3828, "closed": [1],
+      "title": "Arte moderno en el IVAM",
+      "why": "Salas grandes, blancas y luminosas, con poca gente entre semana. Tiene cafetería por si necesitas una pausa.",
+      "best": "Entre semana por la mañana",
+      "info": "De martes a domingo, de 10:00 a 19:00 (viernes hasta las 20:00). Lunes cerrado. Entrada 5 €; gratis los miércoles de 16:00 a 19:00 y los domingos, cuando puede haber más gente.",
+      "source": {"name": "Visit València", "url": "https://www.visitvalencia.com/que-hacer-valencia/cultura-valenciana/museos-en-valencia/ivam-institut-valencia-dart-modern-centre-julio-gonzalez"},
+      "i18n": {
+        "va": {"title": "Art modern a l'IVAM", "why": "Sales grans, blanques i lluminoses, amb poca gent entre setmana. Té cafeteria per si necessites una pausa.", "best": "Entre setmana pel matí", "info": "De dimarts a diumenge, de 10:00 a 19:00 (divendres fins a les 20:00). Dilluns tancat. Entrada 5 €; de franc els dimecres de 16:00 a 19:00 i els diumenges, quan hi pot haver més gent."},
+        "en": {"title": "Modern art at the IVAM", "why": "Large, white, bright rooms with few people on weekdays. There's a café if you need a break.", "best": "Weekday mornings", "info": "Tuesday to Sunday, 10:00 to 19:00 (Fridays until 20:00). Closed on Mondays. Tickets €5; free on Wednesdays 16:00–19:00 and on Sundays, when it can be busier."}
+      }
+    },
+    {
+      "id": "monforte", "picto": "jardin", "kind": "outdoor", "lat": 39.4770, "lon": -0.3635,
+      "title": "Paseo por el Jardín de Monforte",
+      "why": "Un jardín pequeño y cerrado, con fuentes, setos, un túnel de enredaderas y estatuas. Es de los rincones más silenciosos del centro.",
+      "best": "Entre semana por la mañana",
+      "info": "Gratis. De 10:30 a 18:00 en otoño e invierno, y hasta las 20:00 del 21 de marzo al 20 de septiembre.",
+      "source": {"name": "Visit València", "url": "https://www.visitvalencia.com/jardin-monforte-lhort-romero"},
+      "i18n": {
+        "va": {"title": "Passeig pel Jardí de Montfort", "why": "Un jardí xicotet i tancat, amb fonts, bardisses, un túnel d'enfiladisses i estàtues. És dels racons més silenciosos del centre.", "best": "Entre setmana pel matí", "info": "De franc. De 10:30 a 18:00 a la tardor i l'hivern, i fins a les 20:00 del 21 de març al 20 de setembre."},
+        "en": {"title": "A walk in the Monforte Garden", "why": "A small, enclosed garden with fountains, hedges, a tunnel of climbing plants and statues. One of the quietest corners of the city centre.", "best": "Weekday mornings", "info": "Free. 10:30 to 18:00 in autumn and winter, and until 20:00 from 21 March to 20 September."}
+      }
+    },
+    {
+      "id": "botanico", "picto": "jardin", "kind": "outdoor", "lat": 39.4760, "lon": -0.3872,
+      "title": "Sombra y plantas en el Jardín Botánico",
+      "why": "Caminos con sombra, invernaderos y muchos bancos para sentarse. Al ser un recinto cerrado, hay poco ruido de tráfico.",
+      "best": "Entre semana por la mañana",
+      "info": "Entrada 2,50 €. Puede cerrar con viento fuerte o lluvia intensa: mira el horario antes de ir.",
+      "source": {"name": "Comunitat Valenciana Turisme", "url": "https://www.comunitatvalenciana.com/en/valencia/valencia/museen/jardi-botanic"},
+      "i18n": {
+        "va": {"title": "Ombra i plantes al Jardí Botànic", "why": "Camins amb ombra, hivernacles i molts bancs per a seure. Com és un recinte tancat, hi ha poc soroll de trànsit.", "best": "Entre setmana pel matí", "info": "Entrada 2,50 €. Pot tancar amb vent fort o pluja intensa: mira l'horari abans d'anar."},
+        "en": {"title": "Shade and plants at the Botanical Garden", "why": "Shady paths, greenhouses and plenty of benches. As an enclosed site, there's little traffic noise.", "best": "Weekday mornings", "info": "Tickets €2.50. It may close in strong wind or heavy rain: check opening hours before you go."}
+      }
+    },
+    {
+      "id": "cabecera", "picto": "parque", "kind": "outdoor", "lat": 39.4805, "lon": -0.4062,
+      "title": "Lago y colinas en el Parque de Cabecera",
+      "why": "Es el principio del Jardín del Turia: mucho espacio abierto, un lago y caminos anchos. Entre semana por la mañana es de los tramos más tranquilos.",
+      "best": "Entre semana por la mañana",
+      "info": "Gratis y abierto. Al lado está el Bioparc: los fines de semana hay más familias.",
+      "source": null,
+      "i18n": {
+        "va": {"title": "Llac i tossals al Parc de Capçalera", "why": "És el principi del Jardí del Túria: molt d'espai obert, un llac i camins amples. Entre setmana pel matí és dels trams més tranquils.", "best": "Entre setmana pel matí", "info": "De franc i obert. Al costat hi ha el Bioparc: els caps de setmana hi ha més famílies."},
+        "en": {"title": "Lake and hills in Cabecera Park", "why": "The start of the Turia Gardens: lots of open space, a lake and wide paths. On weekday mornings it's one of the quietest stretches.", "best": "Weekday mornings", "info": "Free and open. Bioparc zoo is next door, so weekends bring more families."}
+      }
+    },
+    {
+      "id": "devesa", "picto": "bosque", "kind": "outdoor", "outside": true, "lat": 39.3700, "lon": -0.3200, "noWeekendMonths": [6, 7, 8, 9],
+      "title": "Pinar y dunas en la Devesa del Saler",
+      "why": "Un bosque de pinos junto al mar, lejos del ruido de la ciudad. Fuera del verano y entre semana hay muy poca gente.",
+      "best": "Por la mañana",
+      "info": "Autobuses EMT 24 y 25 desde el centro (unos 30 minutos). Después de lluvias fuertes la carretera CV-500 puede inundarse.",
+      "source": {"name": "Visit València", "url": "https://www.visitvalencia.com/que-hacer-valencia/naturaleza-en-valencia/parques-y-jardines/parque-natural-lalbufera"},
+      "i18n": {
+        "va": {"title": "Pinar i dunes a la Devesa del Saler", "why": "Un bosc de pins al costat de la mar, lluny del soroll de la ciutat. Fora de l'estiu i entre setmana hi ha molt poca gent.", "best": "Pel matí", "info": "Autobusos EMT 24 i 25 des del centre (uns 30 minuts). Després de pluges fortes la carretera CV-500 es pot inundar."},
+        "en": {"title": "Pine forest and dunes at the Devesa del Saler", "why": "A pine forest by the sea, far from the city noise. Outside summer and on weekdays there are very few people.", "best": "In the morning", "info": "EMT buses 24 and 25 from the centre (about 30 minutes). After heavy rain the CV-500 road can flood."}
+      }
+    },
+    {
+      "id": "playa", "picto": "playa", "kind": "outdoor", "lat": 39.4790, "lon": -0.3230, "months": [10, 11, 12, 1, 2, 3, 4, 5],
+      "title": "La playa fuera de temporada",
+      "why": "Fuera del verano, la playa por la mañana es amplia y tranquila, con el sonido del mar. Mejor la zona de la Malva-rosa, lejos de los restaurantes del paseo.",
+      "best": "Entre semana por la mañana",
+      "info": "Gratis. Si hace viento, el ruido del mar y la arena pueden molestar.",
+      "source": null,
+      "i18n": {
+        "va": {"title": "La platja fora de temporada", "why": "Fora de l'estiu, la platja pel matí és ampla i tranquil·la, amb el so de la mar. Millor la zona de la Malva-rosa, lluny dels restaurants del passeig.", "best": "Entre setmana pel matí", "info": "De franc. Si fa vent, el soroll de la mar i l'arena poden molestar."},
+        "en": {"title": "The beach out of season", "why": "Outside summer, the beach in the morning is wide and calm, with the sound of the sea. The Malva-rosa end is best, away from the promenade restaurants.", "best": "Weekday mornings", "info": "Free. On windy days, the sound of the sea and the sand can be bothersome."}
+      }
+    },
+    {
+      "id": "biblioteca", "picto": "biblioteca", "kind": "indoor", "outside": true, "nearby": false, "closed": [7],
+      "title": "Un rato en la biblioteca de tu barrio",
+      "why": "Las bibliotecas municipales son silenciosas, con calefacción o aire acondicionado, asientos y agua. Hay 13 repartidas por los barrios: las tienes en «Lugares y horas tranquilas».",
+      "best": "Por la mañana",
+      "info": "Gratis. El horario cambia según la biblioteca y la época del año (normalmente cierran los domingos): consúltalo antes.",
+      "source": {"name": "València Sostenible", "url": "https://valenciasostenible.com/es/portfolio/refugios-climaticos/"},
+      "i18n": {
+        "va": {"title": "Una estona a la biblioteca del teu barri", "why": "Les biblioteques municipals són silencioses, amb calefacció o aire condicionat, seients i aigua. N'hi ha 13 repartides pels barris: les tens a «Llocs i hores tranquils».", "best": "Pel matí", "info": "De franc. L'horari canvia segons la biblioteca i l'època de l'any (normalment tanquen els diumenges): consulta'l abans."},
+        "en": {"title": "Time at your local library", "why": "Public libraries are quiet, heated or air-conditioned, with seats and water. There are 13 across the neighbourhoods: see «Quiet places and times».", "best": "In the morning", "info": "Free. Opening hours depend on the library and the time of year (they usually close on Sundays): check before you go."}
+      }
+    },
+    {
+      "id": "hora_silenciosa", "picto": "supermercado", "kind": "indoor", "outside": true, "nearby": false,
+      "title": "Hacer la compra en la hora silenciosa",
+      "why": "Si tienes que ir al súper, entre las 15:00 y las 16:00 los Carrefour bajan la luz, apagan la música y no usan la megafonía.",
+      "best": "De 15:00 a 16:00",
+      "info": "Todos los días, en hipermercados Carrefour y supermercados Carrefour Market.",
+      "source": {"name": "Carrefour", "url": "https://www.carrefour.es/_includes/multimedia/es/w41_np_hora-silenciosa-market_20221013_tcm5-55700.pdf"},
+      "i18n": {
+        "va": {"title": "Fer la compra en l'hora silenciosa", "why": "Si has d'anar al súper, entre les 15:00 i les 16:00 els Carrefour abaixen la llum, apaguen la música i no fan servir la megafonia.", "best": "De 15:00 a 16:00", "info": "Tots els dies, als hipermercats Carrefour i als supermercats Carrefour Market."},
+        "en": {"title": "Shopping during the quiet hour", "why": "If you need to go to the supermarket, between 15:00 and 16:00 Carrefour stores dim the lights, turn off the music and stop announcements.", "best": "15:00 to 16:00", "info": "Every day, at Carrefour hypermarkets and Carrefour Market supermarkets."}
+      }
+    }
+  ]
+}

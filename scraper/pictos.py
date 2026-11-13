@@ -46,6 +46,8 @@ WANTED = {
     "lluvia": "lluvia",
     "calor": "calor",
     "viento": "viento",
+    "bosque": "bosque",
+    "autobus": "autobús",
 }
 # clave -> id de ARASAAC elegido a mano tras revisarlos
 FIXED: dict[str, int] = {

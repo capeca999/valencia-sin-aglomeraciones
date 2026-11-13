@@ -72,6 +72,7 @@
   var TODAY = ymd(today);
   var DATA = null;
   var QUIET = { hours: [], places: [] };
+  var PLANS = [], plansShift = 0;
   var state = {
     mine: store.get("vsa-mine", []), onlyMine: store.get("vsa-onlymine", false),
     a11y: store.get("vsa-a11y", false), dys: store.get("vsa-dys", false), simple: store.get("vsa-simple", false), size: store.get("vsa-size", 1),
@@ -491,7 +492,45 @@
     if (diff >= 0) state.weekStart = Math.floor(diff / 7);
     renderAll();
   }
-  function renderAll() { renderStatus(); renderStrip(); renderMap(); renderDay(); renderQuiet(); renderQuietMap(); renderZas(); renderFallas(); }
+  function renderAll() { renderStatus(); renderStrip(); renderMap(); renderDay(); renderQuiet(); renderQuietMap(); renderZas(); renderFallas(); renderPlans(); }
+
+  // ---------- Planes tranquilos para el día elegido ----------
+  // Se eligen solos: lo que está abierto ese día, el tiempo (avisos de AEMET) y los eventos cerca.
+  function seedOf(s) { var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h; }
+  function renderPlans() {
+    if (!PLANS.length || !DATA) { $("plansCard").hidden = true; return; }
+    $("plansCard").hidden = false;
+    var d = parse(state.selected), dow = d.getDay() || 7, month = d.getMonth() + 1, weekend = dow >= 6;
+    var city = eventsOn(state.selected).some(function (e) { return (e.tags || []).indexOf("ciudad") >= 0; });
+    var badWeather = weatherOn(state.selected).length > 0;
+    var ok = PLANS.filter(function (p) {
+      if ((p.closed || []).indexOf(dow) >= 0) return false;
+      if (p.months && p.months.indexOf(month) < 0) return false;
+      if (weekend && (p.noWeekendMonths || []).indexOf(month) >= 0) return false;
+      if (badWeather && p.kind === "outdoor") return false;
+      if (city) return !!p.outside;
+      if (p.nearby !== false && p.lat && nearbyEvent(p, state.selected)) return false;
+      return true;
+    });
+    // Orden distinto cada día (y con «Ver otras ideas»), mezclando sitios a cubierto y al aire libre
+    var key = function (p) { var h = seedOf(p.id + "|" + state.selected + "|" + plansShift); h ^= h >>> 16; h = Math.imul(h, 2246822507) >>> 0; h ^= h >>> 13; return h; };
+    ok.sort(function (a, b) { return key(a) - key(b); });
+    var pick = [], kinds = {};
+    ok.forEach(function (p) { if (pick.length < 3 && !kinds[p.kind]) { pick.push(p); kinds[p.kind] = 1; } });
+    ok.forEach(function (p) { if (pick.length < 3 && pick.indexOf(p) < 0) pick.push(p); });
+    var isToday = state.selected === TODAY;
+    $("plansTitle").textContent = isToday ? T("plansTitleToday") : T("plansTitle", { d: longDate(d) });
+    var note = city ? T("plansCity") : badWeather ? T("plansRain") : "";
+    $("plansNote").hidden = !note; $("plansNote").textContent = note;
+    $("plansMore").hidden = ok.length <= 3;
+    $("plansList").innerHTML = pick.map(function (p) {
+      return '<article class="ev quiet plan"><div class="evhead">' + picto(p.picto) + "<div><h3>" + esc(tx(p, "title")) + '</h3><div class="row"><span class="pill calm">' +
+        esc(p.kind === "indoor" ? T("plansIndoor") : T("plansOutdoor")) + '</span><span class="when">' + esc(T("plansBest")) + " " + esc(tx(p, "best")) + "</span></div></div></div>" +
+        "<p>" + esc(tx(p, "why")) + '</p><p class="sub">' + esc(tx(p, "info")) + '</p><div class="links">' +
+        (p.lat ? '<a href="https://www.google.com/maps/search/?api=1&query=' + p.lat + "," + p.lon + '" target="_blank" rel="noopener">' + esc(T("howToGet")) + "</a>" : "") +
+        (p.source ? srcLink(p.source.name, p.source.url, T("source")) : "") + "</div></article>";
+    }).join("") || '<p class="sub">' + esc(T("plansNone")) + "</p>";
+  }
 
   // ---------- Zonas acústicamente saturadas (ruido de ocio nocturno) ----------
   var ZAS_NAMES = { CARMEN: "El Carmen", XUQUER: "Xúquer", WOODY: "Woody", "JUAN LLORENS": "Juan Llorens" };
@@ -555,6 +594,7 @@
   $("quietChk").checked = state.quiet;
   $("noiseChk").checked = state.noise;
   $("quietChk").onchange = function (ev) { state.quiet = ev.target.checked; store.set("vsa-quiet", state.quiet); renderQuietMap(); };
+  $("plansMore").onclick = function () { plansShift++; renderPlans(); };
   $("zasChk").checked = state.zas;
   $("zasChk").onchange = function (ev) { state.zas = ev.target.checked; store.set("vsa-zas", state.zas); renderZas(); };
   $("noiseChk").onchange = function (ev) { state.noise = ev.target.checked; store.set("vsa-noise", state.noise); renderNoise(); };
@@ -673,7 +713,8 @@
       if (DATA.areas) AREAS = DATA.areas;
       return fetch("data/quiet.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : { hours: [], places: [] }; })
         .catch(function () { return { hours: [], places: [] }; })
-        .then(function (q) { QUIET = q; renderAll(); renderFooter(); renderLive(); renderNoise(); renderOffline(); });
+        .then(function (q) { QUIET = q; return fetch("data/planes.json").then(function (r) { return r.ok ? r.json() : { plans: [] }; }).catch(function () { return { plans: [] }; }); })
+        .then(function (pl) { PLANS = pl.plans || []; renderAll(); renderFooter(); renderLive(); renderNoise(); renderOffline(); });
     })
     .catch(function () {
       $("statusDate").textContent = "";
