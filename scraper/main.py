@@ -10,7 +10,7 @@ import traceback
 from datetime import date, timedelta
 
 from .common import ROOT, Event, norm, now, today
-from . import meteo, refugios, ruido
+from . import fallas_zas, meteo, refugios, ruido
 from .geo import AREAS, PATTERNS, zones_json
 from .sources import ayto_movilidad, ayto_noticias, cruceros, feria, fiestas, geoportal, laliga, prensa, roig_arena, visitvalencia
 
@@ -150,6 +150,21 @@ def run() -> dict:
         status.append({"id": "refugios", "name": "València Sostenible · Red de Refugios Climáticos", "ok": False, "count": len(refuges), "error": str(e)[:300]})
 
     try:
+        n_fallas = fallas_zas.build_fallas()
+        status.append({"id": "fallas", "name": "Ajuntament de València · Geoportal (monumentos falleros y zonas de actividades)", "ok": True, "count": n_fallas})
+    except Exception as e:  # noqa: BLE001
+        traceback.print_exc()
+        status.append({"id": "fallas", "name": "Ajuntament de València · Geoportal (monumentos falleros y zonas de actividades)", "ok": False, "count": 0, "error": str(e)[:300]})
+
+    try:
+        zas = fallas_zas.scrape_zas()
+        status.append({"id": "zas", "name": "Ajuntament de València · Zonas acústicamente saturadas (ZAS)", "ok": True, "count": len(zas)})
+    except Exception as e:  # noqa: BLE001
+        traceback.print_exc()
+        zas = prev.get("zas", [])
+        status.append({"id": "zas", "name": "Ajuntament de València · Zonas acústicamente saturadas (ZAS)", "ok": False, "count": len(zas), "error": str(e)[:300]})
+
+    try:
         noise = ruido.scrape()
         status.append({"id": "ruido", "name": "Ajuntament de València · Sonómetros de Ruzafa (datos abiertos)", "ok": True, "count": len(noise)})
     except Exception as e:  # noqa: BLE001
@@ -183,6 +198,7 @@ def run() -> dict:
         "noise": noise,
         "weather": weather,
         "refuges": refuges,
+        "zas": zas,
         "sources": status,
         "health": health,
     }
