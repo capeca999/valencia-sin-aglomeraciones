@@ -7,11 +7,27 @@ jobs:
       - run: |
           python3 - <<'PY'
           import json, urllib.request
-          def get(u):
-              return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=60))
-          r = get("https://opendata.vlci.valencia.es/api/3/action/package_search?rows=1000")["result"]
-          print("TOTAL", r["count"])
-          for p in sorted(r["results"], key=lambda p: p["name"]):
-              fm = sorted({(x.get("format") or "").upper() for x in p.get("resources", [])})
-              print("PKG", p["name"], "|", p["title"], "|", ",".join(fm), "|", (p.get("metadata_modified") or "")[:10])
+          def get(u, raw=False):
+              b = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=90).read()
+              return b if raw else json.loads(b)
+          for name in ["parkings", "discapacitat-sensorial-discapacidad-sensorial", "discapacitat-discapacidad", "falles-fallas", "zones-zas-zonas-zas",
+                       "estacions-de-soroll-estaciones-de-ruido", "dades-diaries-de-l-ultim-mes-de-les-estacions-de-soroll", "zones-dactivitats-zonas-de-actividades", "valenbisi-disponibilitat-valenbisi-dsiponibilidad"]:
+              try:
+                  p = get(f"https://opendata.vlci.valencia.es/api/3/action/package_show?id={name}")["result"]
+                  print("=====", name, "|", (p.get("notes") or "")[:300].replace("\n", " "))
+                  for r in p["resources"]:
+                      print("  RES", r.get("format"), r.get("url"))
+                  res = next((r for r in p["resources"] if (r.get("format") or "").upper() in ("GEOJSON", "JSON")), None) or next((r for r in p["resources"] if (r.get("format") or "").upper() == "CSV"), None)
+                  if res:
+                      b = get(res["url"], raw=True)
+                      if (res.get("format") or "").upper() == "CSV":
+                          print("  CSV", b[:700].decode("utf-8", "replace"))
+                      else:
+                          d = json.loads(b)
+                          feats = d.get("features") or d.get("results") or d
+                          print("  N", len(feats) if isinstance(feats, list) else "?")
+                          for f in (feats[:2] if isinstance(feats, list) else []):
+                              print("  F", json.dumps(f, ensure_ascii=False)[:600])
+              except Exception as e:
+                  print("ERR", name, e)
           PY
