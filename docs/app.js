@@ -75,7 +75,7 @@
   var state = {
     mine: store.get("vsa-mine", []), onlyMine: store.get("vsa-onlymine", false),
     a11y: store.get("vsa-a11y", false), dys: store.get("vsa-dys", false), simple: store.get("vsa-simple", false), size: store.get("vsa-size", 1),
-    quiet: store.get("vsa-quiet", true), noise: store.get("vsa-noise", false),
+    quiet: store.get("vsa-quiet", true), noise: store.get("vsa-noise", false), zas: store.get("vsa-zas", true),
     minLevel: store.get("vsa-small", false) ? 1 : 2, patterns: store.get("vsa-patterns", true),
     live: store.get("vsa-live", false), selected: TODAY, weekStart: 0
   };
@@ -197,7 +197,7 @@
   }
 
   // ---------- Mapa ----------
-  var map, zoneLayer, liveLayer, quietLayer, noiseLayer, liveData = null;
+  var map, zoneLayer, liveLayer, quietLayer, noiseLayer, fallasLayer, zasLayer, liveData = null;
   function initMap() {
     if (!window.L) { $("map").hidden = true; return; }  // sin conexión y sin Leaflet guardado
     var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -217,6 +217,8 @@
     quietLayer = L.layerGroup().addTo(map);
     noiseLayer = L.layerGroup().addTo(map);
     liveLayer = L.layerGroup().addTo(map);
+    fallasLayer = L.layerGroup().addTo(map);
+    zasLayer = L.layerGroup().addTo(map);
     map.on("zoomend", function () { if (DATA) renderNoise(); });
     // El mapa está oculto para lectores de pantalla (su contenido está en la lista): que nada dentro reciba el foco
     var unfocus = function () { map.getContainer().querySelectorAll("a, button, [tabindex]").forEach(function (el) { el.setAttribute("tabindex", "-1"); }); };
@@ -449,7 +451,7 @@
     $("map").hidden = state.a11y;
     $("mapHidden").hidden = !state.a11y;
     document.querySelectorAll(".mapopt").forEach(function (el) { el.hidden = state.a11y && el.id !== "liveLabel"; });
-    if (!state.a11y && map && DATA) setTimeout(function () { map.invalidateSize(); renderMap(); renderQuietMap(); renderNoise(); renderLive(); }, 0);
+    if (!state.a11y && map && DATA) setTimeout(function () { map.invalidateSize(); renderMap(); renderQuietMap(); renderNoise(); renderLive(); renderZas(); renderFallas(); }, 0);
   }
   var speaking = false;
   function speechText() {
@@ -489,7 +491,55 @@
     if (diff >= 0) state.weekStart = Math.floor(diff / 7);
     renderAll();
   }
-  function renderAll() { renderStatus(); renderStrip(); renderMap(); renderDay(); renderQuiet(); renderQuietMap(); }
+  function renderAll() { renderStatus(); renderStrip(); renderMap(); renderDay(); renderQuiet(); renderQuietMap(); renderZas(); renderFallas(); }
+
+  // ---------- Zonas acústicamente saturadas (ruido de ocio nocturno) ----------
+  var ZAS_NAMES = { CARMEN: "El Carmen", XUQUER: "Xúquer", WOODY: "Woody", "JUAN LLORENS": "Juan Llorens" };
+  function zasNames() {
+    var seen = {};
+    return ((DATA && DATA.zas) || []).map(function (z) { var k = (z.props && z.props.zona) || z.name; return ZAS_NAMES[k] || z.name; })
+      .filter(function (n) { if (seen[n]) return false; seen[n] = 1; return true; });
+  }
+  function renderZas() {
+    if (!map || !zasLayer) return;
+    zasLayer.clearLayers();
+    if (!state.zas || state.a11y) return;
+    ((DATA && DATA.zas) || []).forEach(function (z) {
+      var name = ZAS_NAMES[(z.props && z.props.zona) || z.name] || z.name;
+      L.polygon(z.rings, { color: "#6B3FA0", weight: 2, dashArray: "4 4", fillColor: "#6B3FA0", fillOpacity: 0.12 })
+        .bindPopup("<strong>" + esc(name) + "</strong><br>" + esc(T("zasPopup"))).addTo(zasLayer);
+    });
+  }
+
+  // ---------- Fallas: monumentos y calles con carpa (solo días grandes) ----------
+  var FALLAS = null, fallasLoading = false;
+  function isFallasDay(d) { var m = d.slice(5, 7), day = +d.slice(8, 10); return m === "03" && day >= 15 && day <= 19; }
+  function renderFallas() {
+    var on = isFallasDay(state.selected);
+    $("fallasNote").hidden = !on;
+    if (fallasLayer) fallasLayer.clearLayers();
+    if (!on) return;
+    if (!FALLAS) {
+      if (!fallasLoading) {
+        fallasLoading = true;
+        fetch("data/fallas.json").then(function (r) { return r.json(); }).then(function (f) { FALLAS = f; renderFallas(); }).catch(function () {});
+      }
+      return;
+    }
+    var esp = FALLAS.monuments.filter(function (m) { return /^E$/i.test(m.sec); });
+    $("fallasNote").textContent = T("fallasNote", { n: FALLAS.monuments.length, z: FALLAS.zones.length, e: esp.map(function (m) { return m.name; }).join(", ") });
+    if (!map || state.a11y) return;
+    FALLAS.zones.forEach(function (z) {
+      L.polygon(z.rings, { color: css("--l2"), weight: 1, fillColor: css("--l2"), fillOpacity: 0.45 })
+        .bindPopup("<strong>" + esc(T("fallasZone")) + "</strong>" + (z.name ? "<br>" + esc(T("fallaOf", { n: z.name })) : "")).addTo(fallasLayer);
+    });
+    FALLAS.monuments.forEach(function (m) {
+      var big = /^E$/i.test(m.sec);
+      L.circleMarker([m.lat, m.lon], { radius: big ? 9 : 4, color: big ? css("--l3") : css("--l2"), weight: big ? 3 : 1, fillColor: big ? css("--l3") : "#fff", fillOpacity: big ? 0.7 : 0.9 })
+        .bindPopup("<strong>" + esc(T("falla")) + ": " + esc(m.name) + "</strong>" + (m.lema ? "<br>«" + esc(m.lema) + "»" : "") + "<br>" + esc(big ? T("fallaEspecial") : T("fallaNormal")))
+        .addTo(fallasLayer);
+    });
+  }
   function setLang(l) {
     if (!I18N[l]) return;
     stopSpeech();
@@ -505,6 +555,8 @@
   $("quietChk").checked = state.quiet;
   $("noiseChk").checked = state.noise;
   $("quietChk").onchange = function (ev) { state.quiet = ev.target.checked; store.set("vsa-quiet", state.quiet); renderQuietMap(); };
+  $("zasChk").checked = state.zas;
+  $("zasChk").onchange = function (ev) { state.zas = ev.target.checked; store.set("vsa-zas", state.zas); renderZas(); };
   $("noiseChk").onchange = function (ev) { state.noise = ev.target.checked; store.set("vsa-noise", state.noise); renderNoise(); };
   $("sens").onchange = function (ev) { state.minLevel = ev.target.checked ? 1 : 2; store.set("vsa-small", ev.target.checked); renderAll(); };
   $("pat").onchange = function (ev) { state.patterns = ev.target.checked; store.set("vsa-patterns", ev.target.checked); renderMap(); renderDay(); };

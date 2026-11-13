@@ -115,6 +115,7 @@ footer { color: var(--muted); font-size: 0.92rem; display: grid; gap: 10px; }
 /* Fallas y otros días con fuego y petardos: se ve a la primera */
 .day.fire { border-color: var(--l3); background: color-mix(in srgb, var(--l3) 16%, var(--surface)); }
 .day.fire.city { background: color-mix(in srgb, var(--l3) 30%, var(--surface)); }
+.day.fire .wd, .day.fire .mo { color: var(--ink); }
 .day .flame { font-size: 0.9rem; line-height: 1; }
 .status.fire { background: color-mix(in srgb, var(--l3) 12%, var(--surface)); border-left-color: var(--l3); }
 .status.fire .big { color: var(--l3); }
@@ -278,3 +279,5 @@ button.subbtn { background: none; color: inherit; font: inherit; cursor: pointer
 .refuges summary { cursor: pointer; font-weight: 700; padding: 4px 0; }
 .refuges ul { list-style: none; padding: 0; margin: 8px 0; }
 .refuges li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-top: 1px solid var(--line); }
+
+.fallasnote { margin-top: 8px; }
