@@ -1,0 +1,17 @@
+name: Diagnóstico (temporal)
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          def get(u):
+              return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=60))
+          r = get("https://opendata.vlci.valencia.es/api/3/action/package_search?rows=1000")["result"]
+          print("TOTAL", r["count"])
+          for p in sorted(r["results"], key=lambda p: p["name"]):
+              fm = sorted({(x.get("format") or "").upper() for x in p.get("resources", [])})
+              print("PKG", p["name"], "|", p["title"], "|", ",".join(fm), "|", (p.get("metadata_modified") or "")[:10])
+          PY
