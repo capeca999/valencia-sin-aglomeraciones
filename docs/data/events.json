@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:59+01:00",
+ "updated": "2026-11-14T01:37+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -419,45 +419,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-12",
-   "title": "Feria Valencia: FIMMA y MADERALIA",
-   "type": "Feria",
-   "zones": [
-    "feria"
-   ],
-   "level": 1,
-   "start": "10:00",
-   "to": "20:30",
-   "people": "feria profesional",
-   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [
-    "profesional"
-   ],
-   "sid": "feria",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "title": "Fira València: FIMMA i MADERALIA",
-     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
-     "people": "fira professional"
-    },
-    "en": {
-     "title": "Feria Valencia: FIMMA and MADERALIA",
-     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
-     "people": "trade fair"
-    }
-   },
-   "from": "10:00",
-   "source": {
-    "name": "Feria Valencia (calendario oficial)",
-    "url": "https://fimma-maderalia.feriavalencia.com"
-   }
-  },
-  {
    "date": "2026-11-13",
    "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
    "type": "Feria",
@@ -492,115 +453,6 @@
    "source": {
     "name": "Feria Valencia (calendario oficial)",
     "url": "https://www.espaiindumentaria.com"
-   }
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Feria Valencia: FIMMA y MADERALIA",
-   "type": "Feria",
-   "zones": [
-    "feria"
-   ],
-   "level": 1,
-   "start": "10:00",
-   "to": "20:30",
-   "people": "feria profesional",
-   "tip": "Feria profesional: más tráfico y metro algo más lleno hacia Feria Valencia en horario de entrada y salida.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [
-    "profesional"
-   ],
-   "sid": "feria",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "title": "Fira València: FIMMA i MADERALIA",
-     "tip": "Fira professional: més trànsit i metro una mica més ple cap a Fira València a l'hora d'entrada i d'eixida.",
-     "people": "fira professional"
-    },
-    "en": {
-     "title": "Feria Valencia: FIMMA and MADERALIA",
-     "tip": "Trade fair: more traffic and a somewhat busier metro towards Feria Valencia at opening and closing times.",
-     "people": "trade fair"
-    }
-   },
-   "from": "10:00",
-   "source": {
-    "name": "Feria Valencia (calendario oficial)",
-    "url": "https://fimma-maderalia.feriavalencia.com"
-   }
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Raphaelísimo Tour 2026 - Raphael",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "20:00",
-   "to": "23:15",
-   "people": "hasta 15.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 15.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 15,000 people"
-    }
-   },
-   "from": "18:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/raphaelisimo-tour-2026-20261113/"
-   }
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Ultraswan Tour - Abhir",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/abhir-20261113/"
    }
   },
   {
@@ -6517,7 +6369,7 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 46
+   "count": 44
   },
   {
    "id": "visitvalencia",
@@ -6529,7 +6381,7 @@
    "id": "feria",
    "name": "Feria Valencia (calendario oficial de ferias)",
    "ok": true,
-   "count": 52
+   "count": 50
   },
   {
    "id": "cruceros",
@@ -6583,7 +6435,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-11",
-   "zero_days": 3
+   "zero_days": 4
   },
   "laliga": {},
   "roig_arena": {},
@@ -6591,16 +6443,16 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-13",
-   "zero_days": 1
+   "zero_days": 2
   },
   "fiestas": {},
   "prensa": {
    "zero_since": "2026-11-12",
-   "zero_days": 2
+   "zero_days": 3
   },
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 1
+   "zero_days": 2
   },
   "refugios": {},
   "fallas": {},
