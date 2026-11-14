@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T21:43+01:00",
+ "updated": "2026-11-15T00:34+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -419,43 +419,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-13",
-   "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
-   "type": "Feria",
-   "zones": [
-    "feria"
-   ],
-   "level": 2,
-   "start": "10:00",
-   "to": "20:30",
-   "people": "miles de visitantes",
-   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "feria",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "title": "Fira València: ESPAI INDUMENTÀRIA VALENCIANA i FIESTA Y BODA",
-     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
-     "people": "milers de visitants"
-    },
-    "en": {
-     "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA and FIESTA Y BODA",
-     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
-     "people": "thousands of visitors"
-    }
-   },
-   "from": "10:00",
-   "source": {
-    "name": "Feria Valencia (calendario oficial)",
-    "url": "https://www.espaiindumentaria.com"
-   }
-  },
-  {
    "date": "2026-11-14",
    "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
    "type": "Feria",
@@ -490,111 +453,6 @@
    "source": {
     "name": "Feria Valencia (calendario oficial)",
     "url": "https://www.espaiindumentaria.com"
-   }
-  },
-  {
-   "date": "2026-11-14",
-   "title": "Los mejores años de nuestra vida - Hombres G",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 15.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 15.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 15,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/hombres-g-20261114/"
-   }
-  },
-  {
-   "date": "2026-11-14",
-   "title": "Vincen García",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/vincen-garcia-20261114/"
-   }
-  },
-  {
-   "date": "2026-11-14",
-   "title": "Las Noches del Arena - Generación EGB",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "hasta 15.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 15.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 15,000 people"
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/noches-del-arena-261114/"
    }
   },
   {
@@ -6369,7 +6227,7 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 44
+   "count": 41
   },
   {
    "id": "visitvalencia",
@@ -6381,7 +6239,7 @@
    "id": "feria",
    "name": "Feria Valencia (calendario oficial de ferias)",
    "ok": true,
-   "count": 50
+   "count": 49
   },
   {
    "id": "cruceros",
@@ -6435,7 +6293,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-11",
-   "zero_days": 4
+   "zero_days": 5
   },
   "laliga": {},
   "roig_arena": {},
@@ -6443,16 +6301,16 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-13",
-   "zero_days": 2
+   "zero_days": 3
   },
   "fiestas": {},
   "prensa": {
    "zero_since": "2026-11-12",
-   "zero_days": 3
+   "zero_days": 4
   },
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 2
+   "zero_days": 3
   },
   "refugios": {},
   "fallas": {},
