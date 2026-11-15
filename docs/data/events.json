@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:02+01:00",
+ "updated": "2026-11-16T00:41+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -419,43 +419,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-14",
-   "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
-   "type": "Feria",
-   "zones": [
-    "feria"
-   ],
-   "level": 2,
-   "start": "10:00",
-   "to": "20:30",
-   "people": "miles de visitantes",
-   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "feria",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "title": "Fira València: ESPAI INDUMENTÀRIA VALENCIANA i FIESTA Y BODA",
-     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
-     "people": "milers de visitants"
-    },
-    "en": {
-     "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA and FIESTA Y BODA",
-     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
-     "people": "thousands of visitors"
-    }
-   },
-   "from": "10:00",
-   "source": {
-    "name": "Feria Valencia (calendario oficial)",
-    "url": "https://www.espaiindumentaria.com"
-   }
-  },
-  {
    "date": "2026-11-15",
    "title": "Feria Valencia: ESPAI INDUMENTÀRIA VALENCIANA y FIESTA Y BODA",
    "type": "Feria",
@@ -490,76 +453,6 @@
    "source": {
     "name": "Feria Valencia (calendario oficial)",
     "url": "https://www.espaiindumentaria.com"
-   }
-  },
-  {
-   "date": "2026-11-15",
-   "title": "Valencia Basket - Leyma Coruña (Liga ACB Masculina)",
-   "type": "Baloncesto",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "12:00",
-   "to": "14:45",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
-   "official": true,
-   "confirmed": true,
-   "approx": false,
-   "raw": "",
-   "tags": [],
-   "sid": "visitvalencia",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "people": "unes 12.000 persones",
-     "tip": "Evita els voltants del Roig Arena i el transport cap a Quatre Carreres en eixa franja."
-    },
-    "en": {
-     "people": "about 12,000 people",
-     "tip": "Avoid the Roig Arena area and transport towards Quatre Carreres during this time."
-    }
-   },
-   "from": "10:45",
-   "source": {
-    "name": "Visit València (Ayuntamiento)",
-    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-   }
-  },
-  {
-   "date": "2026-11-15",
-   "title": "El Despecho Tour - Jesse & Joy",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "20:00",
-   "to": "23:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "18:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/jesse-and-joy-20261115/"
    }
   },
   {
@@ -3446,6 +3339,41 @@
    }
   },
   {
+   "date": "2027-01-15",
+   "title": "El Día que me olvides Tour - Walls",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270115/"
+   }
+  },
+  {
    "date": "2027-01-20",
    "title": "Feria Valencia: BABYKID SPAIN y FIMI-OTOÑO/INVIERNO",
    "type": "Feria",
@@ -6268,13 +6196,13 @@
    "id": "visitvalencia",
    "name": "Visit València (calendario Valencia Basket)",
    "ok": true,
-   "count": 10
+   "count": 9
   },
   {
    "id": "feria",
    "name": "Feria Valencia (calendario oficial de ferias)",
    "ok": true,
-   "count": 49
+   "count": 48
   },
   {
    "id": "cruceros",
@@ -6328,7 +6256,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-11",
-   "zero_days": 5
+   "zero_days": 6
   },
   "laliga": {},
   "roig_arena": {},
@@ -6336,16 +6264,16 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-13",
-   "zero_days": 3
+   "zero_days": 4
   },
   "fiestas": {},
   "prensa": {
    "zero_since": "2026-11-12",
-   "zero_days": 4
+   "zero_days": 5
   },
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 3
+   "zero_days": 4
   },
   "refugios": {},
   "fallas": {},
