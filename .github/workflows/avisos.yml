@@ -1,0 +1,30 @@
+name: Avisos al móvil
+
+# Cada 30 minutos en las franjas de aviso. El programa mira la hora de Valencia:
+#  - de 06:00 a 11:59 manda el aviso de HOY (una sola vez)
+#  - de 19:00 a 23:59 manda el aviso de MAÑANA (una sola vez)
+# Si GitHub retrasa alguna ejecución, la siguiente lo manda; si ya se mandó, no se repite.
+on:
+  schedule:
+    - cron: "7,37 4-11 * * *"
+    - cron: "7,37 17-23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: avisos
+  cancel-in-progress: false
+
+jobs:
+  avisos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Mandar el aviso que toque (si no se ha mandado ya)
+        run: python -m scraper.notify auto

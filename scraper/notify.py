@@ -15,11 +15,11 @@ import json
 import os
 import sys
 import time
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 import requests
 
-from .common import ROOT, today
+from .common import ROOT, TZ, today
 from .geo import AREAS, areas_of
 
 LEVEL = {1: "algo de gente", 2: "mucha gente", 3: "muchísima gente"}
@@ -90,8 +90,33 @@ def weather_msg(weather: list[dict], day: str, evening: bool):
     return title, body, top + 1
 
 
+def already_sent(topic: str, since: datetime) -> bool:
+    """¿Ya hay algún mensaje en ese tema desde «since»? (ntfy guarda los mensajes 12 h)."""
+    try:
+        r = requests.get(f"https://ntfy.sh/{topic}/json", params={"poll": "1", "since": str(int(since.timestamp()))}, timeout=20)
+        r.raise_for_status()
+        return any(json.loads(line).get("event") == "message" for line in r.text.splitlines() if line.strip())
+    except Exception as e:  # noqa: BLE001
+        print(f"  no se pudo comprobar {topic}: {e}")
+        return False
+
+
 def main() -> None:
     args = sys.argv[1:]
+    since = None
+    if "auto" in args:
+        # Modo automático (avisos.yml, cada 30 min): decide qué toca según la hora de Valencia
+        # y no repite si ese aviso ya se mandó. Así da igual que GitHub retrase la ejecución.
+        now = datetime.now(TZ)
+        if 6 <= now.hour < 12:
+            args.append("morning")
+            since = now.replace(hour=5, minute=30, second=0, microsecond=0)
+        elif 19 <= now.hour <= 23:
+            args.append("evening")
+            since = now.replace(hour=18, minute=30, second=0, microsecond=0)
+        else:
+            print(f"{now:%H:%M}: no es hora de avisos")
+            return
     evening = "evening" in args
     dry = "--dry-run" in args
     cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
@@ -103,7 +128,14 @@ def main() -> None:
     msgs = messages(data, base, evening)
     if not msgs:
         print("No hay eventos grandes: no se envía nada")
+    skip: dict[str, bool] = {}
     for topic, title, body, top in msgs:
+        if since is not None:
+            if topic not in skip:
+                skip[topic] = already_sent(topic, since)
+            if skip[topic]:
+                print(f"[{topic}] ya enviado hoy, no se repite")
+                continue
         print(f"[{topic}] {title}\n{body}\n")
         if dry:
             continue
