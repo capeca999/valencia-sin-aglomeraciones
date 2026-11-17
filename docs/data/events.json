@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T15:21+01:00",
+ "updated": "2026-11-18T00:31+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -869,7 +869,7 @@
    "official": false,
    "confirmed": false,
    "approx": true,
-   "raw": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València elperiodic.com",
+   "raw": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València Ajuntament de Burjassot",
    "tags": [],
    "sid": "prensa",
    "geo": [],
@@ -883,8 +883,8 @@
    },
    "from": "",
    "source": {
-    "name": "Prensa: elperiodic.com",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSjZNd1Z5bEMya0p0ZXJETlRpSGZDSlRqa1Y2dE9wX3JqLVdXSXA2ZGRTT2J3YWZHLXRKOGk5cmhwMm4yampVb1JycENXRklqdmp5RjRnWmd1eEJqMnpINTU3M283RXQ2NGVTbzh2enFMY1UwdlQ5ODJUVXRkY21EZ3FKbFhFOHM4UEw3ckFvT3d1dzBFR0NBU0ZwVFM5ejFaN0hkbEdhUTFUcGxnUWRqOS1vOWdBZw?oc=5"
+    "name": "Prensa: Ajuntament de Burjassot",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMHdYQ05EMlNLdk5LSzNXZV9iOWk1RmY4RndwbzdxcmljUFl0VDVmbWFVTUFha09RTEoweGRCc3NybjVHbFNvbk1FZ2ExU09pOW5HakFUYkdxSUxHSmpqaXNhYWh3LWtpM2xCRXd2TEdTMnI0SnVRRDJVQnpVT202aWlqOG9RQXF5aDQxSjdYT2ZEWUlTUUZkYnd4eFFmOEVZQ1psakkzamo3UHU2UkZTa25hakFHZTg?oc=5"
    }
   },
   {
@@ -3466,6 +3466,41 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/la-la-tour-2027-20270116/"
+   }
+  },
+  {
+   "date": "2027-01-17",
+   "title": "Levante UD – RCD Espanyol de Barcelona (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "ciutat"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "hasta 26.000 personas",
+   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja. La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día.",
+   "official": true,
+   "confirmed": false,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants de l'estadi (Orriols, Av. Germans Machado) i el metro d'Orriols en eixa franja. L'hora encara no està anunciada: LaLiga la confirma 2-3 setmanes abans i el partit es pot moure un dia.",
+     "people": "fins a 26.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the stadium (Orriols, Av. Hermanos Machado) and Orriols metro station during this time. Kick-off time not announced yet: LaLiga confirms it 2-3 weeks before and the match may move by a day.",
+     "people": "up to 26,000 people"
+    }
+   },
+   "from": "",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
    }
   },
   {
@@ -6279,7 +6314,7 @@
    "id": "laliga",
    "name": "LaLiga (Valencia CF y Levante UD)",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   {
    "id": "roig_arena",
@@ -6351,7 +6386,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-11",
-   "zero_days": 7
+   "zero_days": 8
   },
   "laliga": {},
   "roig_arena": {},
@@ -6359,13 +6394,13 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-13",
-   "zero_days": 5
+   "zero_days": 6
   },
   "fiestas": {},
   "prensa": {},
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 5
+   "zero_days": 6
   },
   "refugios": {},
   "fallas": {},
