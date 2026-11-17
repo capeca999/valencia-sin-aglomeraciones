@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T01:15+01:00",
+ "updated": "2026-11-17T03:45+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -5196,7 +5196,7 @@
    "laeq": 57.7,
    "laeq_d": 57.7,
    "laeq_e": 57.6,
-   "laeq_n": 57.7,
+   "laeq_n": 57.6,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
   },
   {
