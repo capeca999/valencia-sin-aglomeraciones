@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:25+01:00",
+ "updated": "2026-11-20T00:03+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -418,113 +418,6 @@
   }
  ],
  "events": [
-  {
-   "date": "2026-11-19",
-   "title": "Valencia Basket vs Virtus Bolonia",
-   "type": "Baloncesto",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "21:00",
-   "to": "23:45",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "unes 12.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "about 12,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-virtus-20261119/"
-   },
-   "also": [
-    {
-     "name": "Visit València (Ayuntamiento)",
-     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-19",
-   "title": "50 aniversario Orquesta Mondragón",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:30",
-   "to": "00:45",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "20:15",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/50-aniversario-la-orquesta-mondragon-20261119/"
-   }
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Los médicos valencianos afrontan una semana de huelgas y protestas: manifestación el miércoles y elecciones sindicales el jueves",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Los médicos valencianos afrontan una semana de huelgas y protestas: manifestación el miércoles y elecciones sindicales el jueves El Periódico de Aquí",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: El Periódico de Aquí",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTB3MkNwM09MQk9fZzRmZU0yaGc0ODhvcl84UmFzOFY1RHlOeEVfLW1RNDdTQ2QxWms4dmo3VUtwR3VHdnBQOG5LZ25kSE5Oa3M1SVU2TjZLc0phcGRkMnFaM1puWWJQWnlGb3MxZEF1bUdvN1dKSjlILS13dHVGV0puV0JNbENLTVJTLUtrVkNQZFE1bEM2dzJrcllySmNweTJKaFhEeFBkNmtDc1dtcEx3?oc=5"
-   }
-  },
   {
    "date": "2026-11-21",
    "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
@@ -6287,13 +6180,13 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 43
+   "count": 41
   },
   {
    "id": "visitvalencia",
    "name": "Visit València (calendario Valencia Basket)",
    "ok": true,
-   "count": 9
+   "count": 8
   },
   {
    "id": "feria",
@@ -6317,7 +6210,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 3
+   "count": 2
   },
   {
    "id": "meteo",
@@ -6353,7 +6246,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-11",
-   "zero_days": 9
+   "zero_days": 10
   },
   "laliga": {},
   "roig_arena": {},
@@ -6361,13 +6254,13 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-13",
-   "zero_days": 7
+   "zero_days": 8
   },
   "fiestas": {},
   "prensa": {},
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 7
+   "zero_days": 8
   },
   "refugios": {},
   "fallas": {},
