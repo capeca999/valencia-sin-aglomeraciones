@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T02:36+01:00",
+ "updated": "2026-11-20T14:59+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -1056,7 +1056,7 @@
   },
   {
    "date": "2026-11-29",
-   "title": "Feria Valencia: 2 RUEDAS",
+   "title": "Feria Valencia: 2 RUEDAS y Elecciones Seccionales y CPCCS Ecuador 2027",
    "type": "Feria",
    "zones": [
     "feria"
@@ -1075,12 +1075,12 @@
    "geo": [],
    "i18n": {
     "va": {
-     "title": "Fira València: 2 RUEDAS",
+     "title": "Fira València: 2 RUEDAS i Elecciones Seccionales y CPCCS Ecuador 2027",
      "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
      "people": "desenes de milers de visitants"
     },
     "en": {
-     "title": "Feria Valencia: 2 RUEDAS",
+     "title": "Feria Valencia: 2 RUEDAS and Elecciones Seccionales y CPCCS Ecuador 2027",
      "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
      "people": "tens of thousands of visitors"
     }
@@ -5176,11 +5176,11 @@
    "name": "Sueca Esq. Denia",
    "lat": 39.4628376,
    "lon": -0.37588849999997365,
-   "date": "2026-11-18",
-   "laeq": 57.3,
-   "laeq_d": 59.0,
-   "laeq_e": 58.0,
-   "laeq_n": 51.1,
+   "date": "2026-11-19",
+   "laeq": 61.8,
+   "laeq_d": 65.0,
+   "laeq_e": 58.1,
+   "laeq_n": 55.5,
    "source": "https://opendata.vlci.valencia.es/dataset/t248652-daily"
   },
   {
@@ -5188,11 +5188,11 @@
    "name": "Sueca, 32",
    "lat": 39.4613594,
    "lon": -0.37514680000003864,
-   "date": "2026-11-18",
-   "laeq": 59.9,
-   "laeq_d": 60.7,
-   "laeq_e": 63.1,
-   "laeq_n": 51.3,
+   "date": "2026-11-19",
+   "laeq": 59.0,
+   "laeq_d": 60.9,
+   "laeq_e": 60.1,
+   "laeq_n": 56.4,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
   },
   {
@@ -5200,11 +5200,11 @@
    "name": "Sueca, 61",
    "lat": 39.4605601,
    "lon": -0.37411520000000564,
-   "date": "2026-11-18",
-   "laeq": 59.7,
-   "laeq_d": 61.5,
-   "laeq_e": 59.7,
-   "laeq_n": 52.2,
+   "date": "2026-11-19",
+   "laeq": 59.6,
+   "laeq_d": 61.0,
+   "laeq_e": 59.5,
+   "laeq_n": 58.1,
    "source": "https://opendata.vlci.valencia.es/dataset/t248684-daily"
   },
   {
@@ -5212,11 +5212,11 @@
    "name": "Sueca, 2",
    "lat": 39.4633107,
    "lon": -0.3766378000000259,
-   "date": "2026-11-18",
-   "laeq": 53.9,
-   "laeq_d": 54.7,
-   "laeq_e": 53.5,
-   "laeq_n": 52.6,
+   "date": "2026-11-19",
+   "laeq": 52.9,
+   "laeq_d": 53.5,
+   "laeq_e": 52.5,
+   "laeq_n": 52.4,
    "source": "https://opendata.vlci.valencia.es/dataset/t248683-daily"
   },
   {
@@ -5224,11 +5224,11 @@
    "name": "Puerto Rico, 21",
    "lat": 39.4609867,
    "lon": -0.3761412000000064,
-   "date": "2026-11-18",
-   "laeq": 57.6,
-   "laeq_d": 59.3,
-   "laeq_e": 58.2,
-   "laeq_n": 51.5,
+   "date": "2026-11-19",
+   "laeq": 58.1,
+   "laeq_d": 60.1,
+   "laeq_e": 58.1,
+   "laeq_n": 55.7,
    "source": "https://opendata.vlci.valencia.es/dataset/t248672-daily"
   },
   {
@@ -5236,11 +5236,11 @@
    "name": "Matías Perelló Esq. Doctor Sumsi",
    "lat": 39.4614718,
    "lon": -0.36814430000003995,
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "laeq": 60.3,
-   "laeq_d": 61.8,
-   "laeq_e": 60.5,
-   "laeq_n": 52.6,
+   "laeq_d": 61.5,
+   "laeq_e": 62.8,
+   "laeq_n": 58.6,
    "source": "https://opendata.vlci.valencia.es/dataset/t248679-daily"
   },
   {
@@ -5248,11 +5248,11 @@
    "name": "General Prim Chaflán Donoso Cortés",
    "lat": 39.4625622,
    "lon": -0.370427100000029,
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "laeq": 54.7,
-   "laeq_d": 56.7,
-   "laeq_e": 54.0,
-   "laeq_n": 48.0,
+   "laeq_d": 55.4,
+   "laeq_e": 57.3,
+   "laeq_n": 53.4,
    "source": "https://opendata.vlci.valencia.es/dataset/t248661-daily"
   },
   {
@@ -5260,11 +5260,11 @@
    "name": "Salvador Abril Chaflán Maestro José Serrano",
    "lat": 39.4635655,
    "lon": -0.37060220000000754,
-   "date": "2026-11-18",
-   "laeq": 59.4,
-   "laeq_d": 60.5,
+   "date": "2026-11-19",
+   "laeq": 58.8,
+   "laeq_d": 60.4,
    "laeq_e": 60.2,
-   "laeq_n": 56.0,
+   "laeq_n": 56.6,
    "source": "https://opendata.vlci.valencia.es/dataset/t248676-daily"
   },
   {
@@ -5284,11 +5284,11 @@
    "name": "Cuba, 3",
    "lat": 39.4628861,
    "lon": -0.3775977000000239,
-   "date": "2026-11-18",
-   "laeq": 60.7,
-   "laeq_d": 62.9,
-   "laeq_e": 58.7,
-   "laeq_n": 53.8,
+   "date": "2026-11-19",
+   "laeq": 62.3,
+   "laeq_d": 64.3,
+   "laeq_e": 66.0,
+   "laeq_n": 58.0,
    "source": "https://opendata.vlci.valencia.es/dataset/t248682-daily"
   },
   {
@@ -5296,11 +5296,11 @@
    "name": "Carles Cervera, Chaflán Reina Doña María",
    "lat": 39.4613005,
    "lon": -0.37288599999999406,
-   "date": "2026-11-18",
-   "laeq": 59.7,
-   "laeq_d": 61.3,
-   "laeq_e": 59.9,
-   "laeq_n": 55.0,
+   "date": "2026-11-19",
+   "laeq": 59.2,
+   "laeq_d": 60.8,
+   "laeq_e": 59.5,
+   "laeq_n": 57.2,
    "source": "https://opendata.vlci.valencia.es/dataset/t248670-daily"
   },
   {
@@ -5308,11 +5308,11 @@
    "name": "Carles Cervera, 34",
    "lat": 39.4615883,
    "lon": -0.3727962000000389,
-   "date": "2026-11-18",
-   "laeq": 55.7,
-   "laeq_d": 55.4,
-   "laeq_e": 57.4,
-   "laeq_n": 50.3,
+   "date": "2026-11-19",
+   "laeq": 55.6,
+   "laeq_d": 57.5,
+   "laeq_e": 55.0,
+   "laeq_n": 54.0,
    "source": "https://opendata.vlci.valencia.es/dataset/t248678-daily"
   },
   {
@@ -5320,11 +5320,11 @@
    "name": "Vivons Chaflán Cádiz",
    "lat": 39.4599927,
    "lon": -0.3721407000000454,
-   "date": "2026-11-18",
-   "laeq": 60.0,
-   "laeq_d": 61.3,
-   "laeq_e": 62.3,
-   "laeq_n": 54.7,
+   "date": "2026-11-19",
+   "laeq": 59.4,
+   "laeq_d": 61.0,
+   "laeq_e": 61.1,
+   "laeq_n": 57.3,
    "source": "https://opendata.vlci.valencia.es/dataset/t248677-daily"
   },
   {
@@ -5332,11 +5332,11 @@
    "name": "Cádiz, 3",
    "lat": 39.4640447,
    "lon": -0.3750515000000405,
-   "date": "2026-11-18",
-   "laeq": 64.5,
-   "laeq_d": 65.8,
-   "laeq_e": 65.7,
-   "laeq_n": 59.6,
+   "date": "2026-11-19",
+   "laeq": 66.4,
+   "laeq_d": 66.5,
+   "laeq_e": 65.2,
+   "laeq_n": 66.4,
    "source": "https://opendata.vlci.valencia.es/dataset/t248655-daily"
   },
   {
@@ -5344,11 +5344,11 @@
    "name": "Cádiz, 16",
    "lat": 39.4631424,
    "lon": -0.3746647000000394,
-   "date": "2026-11-18",
-   "laeq": 61.7,
-   "laeq_d": 62.2,
-   "laeq_e": 65.1,
-   "laeq_n": 55.4,
+   "date": "2026-11-19",
+   "laeq": 61.1,
+   "laeq_d": 62.8,
+   "laeq_e": 61.3,
+   "laeq_n": 58.9,
    "source": "https://opendata.vlci.valencia.es/dataset/t248671-daily"
   },
   {
@@ -5356,11 +5356,11 @@
    "name": "Cura Femenía, 14",
    "lat": 39.46227,
    "lon": -0.3732538,
-   "date": "2026-11-18",
-   "laeq": 57.7,
-   "laeq_d": 57.0,
-   "laeq_e": 62.4,
-   "laeq_n": 50.8,
+   "date": "2026-11-19",
+   "laeq": 60.2,
+   "laeq_d": 62.4,
+   "laeq_e": 59.5,
+   "laeq_n": 51.9,
    "source": "https://opendata.vlci.valencia.es/dataset/t251234-daily"
   }
  ],
