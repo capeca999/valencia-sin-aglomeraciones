@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:03+01:00",
+ "updated": "2026-11-20T02:36+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -3329,6 +3329,76 @@
    }
   },
   {
+   "date": "2027-01-14",
+   "title": "El Día Que Me Olvides Tour - Segunda Fecha - Walls",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270114/"
+   }
+  },
+  {
+   "date": "2027-01-15",
+   "title": "El Día que me olvides Tour - Walls",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270115/"
+   }
+  },
+  {
    "date": "2027-01-17",
    "title": "Levante UD – RCD Espanyol de Barcelona (LALIGA EA SPORTS)",
    "type": "Fútbol",
@@ -6180,7 +6250,7 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 41
+   "count": 43
   },
   {
    "id": "visitvalencia",
