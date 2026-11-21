@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T14:27+01:00",
+ "updated": "2026-11-21T22:39+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -700,7 +700,7 @@
   },
   {
    "date": "2026-11-22",
-   "title": "València Contra el Cáncer 2026: recorrido, horarios y cortes de tráfico este domingo",
+   "title": "La Carrera Contra el Cáncer toma Valencia este domingo: calles cortadas y cambios en 40 líneas de EMT",
    "type": "Manifestación",
    "zones": [],
    "level": 2,
@@ -711,7 +711,7 @@
    "official": false,
    "confirmed": false,
    "approx": true,
-   "raw": "València Contra el Cáncer 2026: recorrido, horarios y cortes de tráfico este domingo Official Press",
+   "raw": "La Carrera Contra el Cáncer toma Valencia este domingo: calles cortadas y cambios en 40 líneas de EMT València Extra",
    "tags": [],
    "sid": "prensa",
    "geo": [],
@@ -725,8 +725,8 @@
    },
    "from": "",
    "source": {
-    "name": "Prensa: Official Press",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxY296VGVOdWI4VDhiOFZTX3dkUWV0bUg0MEdvREUxQkVidER3NTJlaDg1ZkV6YzFSck9LbWlUXzV2eWRkU2NsdTdxN0JsUzVldnJtelpRb1UxOGQxNWZGdkF6ZEtpRVlpbVZQZtIBbEFVX3lxTFBxY296VGVOdWI4VDhiOFZTX3dkUWV0bUg0MEdvREUxQkVidER3NTJlaDg1ZkV6YzFSck9LbWlUXzV2eWRkU2NsdTdxN0JsUzVldnJtelpRb1UxOGQxNWZGdkF6ZEtpRVlpbVZQZg?oc=5"
+    "name": "Prensa: València Extra",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTnhRODlfQmdEMVlFSEp5YXZ3YmU3dXlFUmRsbFlFanBGZkNmMFR4X3JXQTJhWUJ1MENOU3VZVnJQUXBWS1dhZC0yb2w4ZW5od0tUcGhrWmwydGRQdXY3cFJ5YktsWkUzVU9vdGpQeEVwUC1IMTdKbVlUY1ZwaFFrT1ViV1ZERERXdzhhV0NjNHJaVTJrZGs4WFNLWFZYTVBjRVdnTlhBNXN6c0VBYVo0TDVsMk93Z21lU1NtYWt4Um84bEJzMUxWMndzTkRGY1BVUTJBVV85SmJiTWNiSm55Vg?oc=5"
    }
   },
   {
@@ -818,7 +818,7 @@
    "official": false,
    "confirmed": false,
    "approx": true,
-   "raw": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València Ajuntament de Burjassot",
+   "raw": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València Ayuntamiento de Burjassot",
    "tags": [],
    "sid": "prensa",
    "geo": [],
@@ -832,7 +832,7 @@
    },
    "from": "",
    "source": {
-    "name": "Prensa: Ajuntament de Burjassot",
+    "name": "Prensa: Ayuntamiento de Burjassot",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMHdYQ05EMlNLdk5LSzNXZV9iOWk1RmY4RndwbzdxcmljUFl0VDVmbWFVTUFha09RTEoweGRCc3NybjVHbFNvbk1FZ2ExU09pOW5HakFUYkdxSUxHSmpqaXNhYWh3LWtpM2xCRXd2TEdTMnI0SnVRRDJVQnpVT202aWlqOG9RQXF5aDQxSjdYT2ZEWUlTUUZkYnd4eFFmOEVZQ1psakkzamo3UHU2UkZTa25hakFHZTg?oc=5"
    }
   },
@@ -6329,9 +6329,8 @@
   {
    "id": "cruceros",
    "name": "Escalas de cruceros en el puerto (CruiseTimetables, no oficial)",
-   "ok": false,
-   "count": 0,
-   "error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html"
+   "ok": true,
+   "count": 0
   },
   {
    "id": "fiestas",
@@ -6386,9 +6385,8 @@
   "visitvalencia": {},
   "feria": {},
   "cruceros": {
-   "fail_since": "2026-11-21",
-   "last_error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html",
-   "fail_days": 1
+   "zero_since": "2026-11-21",
+   "zero_days": 1
   },
   "fiestas": {},
   "prensa": {},
