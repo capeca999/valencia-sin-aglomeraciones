@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:41+01:00",
+ "updated": "2026-11-21T02:04+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -5190,7 +5190,7 @@
    "lon": -0.37514680000003864,
    "date": "2026-11-19",
    "laeq": 59.0,
-   "laeq_d": 60.9,
+   "laeq_d": 60.8,
    "laeq_e": 60.1,
    "laeq_n": 56.4,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
@@ -6267,8 +6267,9 @@
   {
    "id": "cruceros",
    "name": "Escalas de cruceros en el puerto (CruiseTimetables, no oficial)",
-   "ok": true,
-   "count": 0
+   "ok": false,
+   "count": 0,
+   "error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html"
   },
   {
    "id": "fiestas",
@@ -6279,8 +6280,9 @@
   {
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
-   "ok": true,
-   "count": 2
+   "ok": false,
+   "count": 2,
+   "error": "No se pudo leer ninguna búsqueda de noticias"
   },
   {
    "id": "meteo",
@@ -6316,21 +6318,26 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-11",
-   "zero_days": 10
+   "zero_days": 11
   },
   "laliga": {},
   "roig_arena": {},
   "visitvalencia": {},
   "feria": {},
   "cruceros": {
-   "zero_since": "2026-11-13",
-   "zero_days": 8
+   "fail_since": "2026-11-21",
+   "last_error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html",
+   "fail_days": 1
   },
   "fiestas": {},
-  "prensa": {},
+  "prensa": {
+   "fail_since": "2026-11-21",
+   "last_error": "No se pudo leer ninguna búsqueda de noticias",
+   "fail_days": 1
+  },
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 8
+   "zero_days": 9
   },
   "refugios": {},
   "fallas": {},
