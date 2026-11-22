@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:39+01:00",
+ "updated": "2026-11-22T01:01+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -456,104 +456,39 @@
    }
   },
   {
-   "date": "2026-11-21",
-   "title": "WOW FC 34",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "18:00",
-   "to": "21:15",
-   "people": "hasta 15.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 15.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 15,000 people"
-    }
-   },
-   "from": "16:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/wow-fc-20261121/"
-   }
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Todas las luces Tour - Santero y los muchachos",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/santero-y-los-muchachos-gira-todas-las-luces-20261121/"
-   }
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Carrera Valencia Contra el Cáncer: horario, recorrido y calles cortadas al tráfico el sábado 21 y el domingo 22 de noviembre",
-   "type": "Manifestación",
+   "date": "2026-11-22",
+   "title": "Acera/estacionamiento",
+   "type": "Fiesta / desfile",
    "zones": [],
    "level": 2,
-   "start": "",
-   "to": "",
+   "start": "01:00",
+   "to": "02:30",
    "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Carrera Valencia Contra el Cáncer: horario, recorrido y calles cortadas al tráfico el sábado 21 y el domingo 22 de noviembre El Debate",
+   "tip": "Ocupación oficial de la vía pública registrada por el Ayuntamiento.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "FESTEJOS · Acera/Estacionamiento",
    "tags": [],
-   "sid": "prensa",
-   "geo": [],
+   "sid": "geoportal",
+   "geo": [
+    [
+     39.49057,
+     -0.3837
+    ]
+   ],
    "i18n": {
     "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
+     "tip": "Ocupació oficial de la via pública registrada per l'Ajuntament."
     },
     "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
+     "tip": "Official public-road occupation registered by the City Council."
     }
    },
-   "from": "",
+   "from": "01:00",
    "source": {
-    "name": "Prensa: El Debate",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVktZZk5HOWxSRGhVWWo5Nm4tWkhWc3pSQnpQMUN5bWRvMDU3V3huMHQwRGFfZWhWYzU2TnBZUzQxY2NGS1VvSnZjaEszcWVFSHh0WEw0YkxrZmdLV2Y4X1ZMNXRjMlNUMFA5cG1EM2EwTzIwaWU1dExWTW8zMmxJSU40Z0cyQkpPUHhhNmFCY1lwSVdLaVVhdHNYdUFEcmNhMXQyREk3MkZyajRJYlZuUE4zREJULWI2d1hpQUtoXzVhb0pMODFGd0txTVNxUS1jUTVtNGhPSWVxTm00WldscnhpNE5zd0pOS3hDSkpBNGFPS0cxc2dLUEdhaWVGUUI2ZXJuLWlEWUfSAY4CQVVfeXFMUEFpTnB6bnlXZGlvQVFDYXdLUWl0RjYyamRQR1FKLUZ6WlZ6Q2dHcXlxeDg0ZkN2bmN0YUNSbGRvY0hCbkQ1Wk9RallzTGVXQm9aVXltb2dQbTBWX1Y0RlNSMjVldVVPaE4yakpZZ3VNaHBaR09HZEJfVGhid2dBaXZfZmk5ZEhHcXlOZDdnQ1J0dmdKdlN5dVNiWFVIZ1RxUHRZMTQtMGp6ZzZrTmo5LTlpdENLeENMcWFzZW5JeGR4LVVFaTNRNU94cVVsNk5uTmQzUmRTVXJXZC0tRXdJQUMtemZlLWdQb1R5ckVDblZLelpYeGxmQmZSQmxyS3EzMWpkZVp3RS0wTU1mdi1B?oc=5"
+    "name": "Ajuntament de València · Geoportal (ocupación de vía pública)",
+    "url": "https://geoportal.valencia.es/apps/GeoportalHome/es/inicio/geodatos-abiertos"
    }
   },
   {
@@ -696,37 +631,6 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/omega-morente-20261122/"
-   }
-  },
-  {
-   "date": "2026-11-22",
-   "title": "La Carrera Contra el Cáncer toma Valencia este domingo: calles cortadas y cambios en 40 líneas de EMT",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "La Carrera Contra el Cáncer toma Valencia este domingo: calles cortadas y cambios en 40 líneas de EMT València Extra",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: València Extra",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTnhRODlfQmdEMVlFSEp5YXZ3YmU3dXlFUmRsbFlFanBGZkNmMFR4X3JXQTJhWUJ1MENOU3VZVnJQUXBWS1dhZC0yb2w4ZW5od0tUcGhrWmwydGRQdXY3cFJ5YktsWkUzVU9vdGpQeEVwUC1IMTdKbVlUY1ZwaFFrT1ViV1ZERERXdzhhV0NjNHJaVTJrZGs4WFNLWFZYTVBjRVdnTlhBNXN6c0VBYVo0TDVsMk93Z21lU1NtYWt4Um84bEJzMUxWMndzTkRGY1BVUTJBVV85SmJiTWNiSm55Vg?oc=5"
    }
   },
   {
@@ -3458,6 +3362,76 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270115/"
+   }
+  },
+  {
+   "date": "2027-01-16",
+   "title": "Ritorno a la via dalma Tour - Sergio Dalma",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 2,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 15.000 personas",
+   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 15.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 15,000 people"
+    }
+   },
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/sergio-dalma-20270116/"
+   }
+  },
+  {
+   "date": "2027-01-16",
+   "title": "El Tour Intergaláctico - La La Love You",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "21:00",
+   "to": "00:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "19:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/la-la-tour-2027-20270116/"
    }
   },
   {
@@ -6300,7 +6274,7 @@
    "id": "geoportal",
    "name": "Ajuntament de València · Geoportal (ocupación de vía pública y festejos)",
    "ok": true,
-   "count": 0
+   "count": 1
   },
   {
    "id": "laliga",
@@ -6324,7 +6298,7 @@
    "id": "feria",
    "name": "Feria Valencia (calendario oficial de ferias)",
    "ok": true,
-   "count": 47
+   "count": 50
   },
   {
    "id": "cruceros",
@@ -6342,7 +6316,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 4
+   "count": 2
   },
   {
    "id": "meteo",
@@ -6376,23 +6350,20 @@
   }
  ],
  "health": {
-  "geoportal": {
-   "zero_since": "2026-11-11",
-   "zero_days": 11
-  },
+  "geoportal": {},
   "laliga": {},
   "roig_arena": {},
   "visitvalencia": {},
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-21",
-   "zero_days": 1
+   "zero_days": 2
   },
   "fiestas": {},
   "prensa": {},
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 9
+   "zero_days": 10
   },
   "refugios": {},
   "fallas": {},
