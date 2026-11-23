@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:35+01:00",
+ "updated": "2026-11-23T16:55+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -1382,6 +1382,41 @@
   },
   {
    "date": "2026-12-12",
+   "title": "Levante UD – Deportivo Alavés (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "ciutat"
+   ],
+   "level": 3,
+   "start": "14:00",
+   "to": "17:00",
+   "people": "hasta 26.000 personas",
+   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
+   "official": true,
+   "confirmed": true,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants de l'estadi (Orriols, Av. Germans Machado) i el metro d'Orriols en eixa franja.",
+     "people": "fins a 26.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the stadium (Orriols, Av. Hermanos Machado) and Orriols metro station during this time.",
+     "people": "up to 26,000 people"
+    }
+   },
+   "from": "12:00",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
+   }
+  },
+  {
+   "date": "2026-12-12",
    "title": "Pop Rock Tour - Melendi",
    "type": "Concierto / espectáculo",
    "zones": [
@@ -1483,41 +1518,6 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261213/"
-   }
-  },
-  {
-   "date": "2026-12-13",
-   "title": "Levante UD – Deportivo Alavés (LALIGA EA SPORTS)",
-   "type": "Fútbol",
-   "zones": [
-    "ciutat"
-   ],
-   "level": 3,
-   "start": "",
-   "to": "",
-   "people": "hasta 26.000 personas",
-   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja. La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día.",
-   "official": true,
-   "confirmed": false,
-   "approx": false,
-   "raw": "",
-   "tags": [],
-   "sid": "laliga",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants de l'estadi (Orriols, Av. Germans Machado) i el metro d'Orriols en eixa franja. L'hora encara no està anunciada: LaLiga la confirma 2-3 setmanes abans i el partit es pot moure un dia.",
-     "people": "fins a 26.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the stadium (Orriols, Av. Hermanos Machado) and Orriols metro station during this time. Kick-off time not announced yet: LaLiga confirms it 2-3 weeks before and the match may move by a day.",
-     "people": "up to 26,000 people"
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "LaLiga (web oficial)",
-    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
    }
   },
   {
@@ -4822,11 +4822,11 @@
    "name": "Sueca Esq. Denia",
    "lat": 39.4628376,
    "lon": -0.37588849999997365,
-   "date": "2026-11-21",
-   "laeq": 61.7,
-   "laeq_d": 61.0,
-   "laeq_e": 65.0,
-   "laeq_n": 59.8,
+   "date": "2026-11-22",
+   "laeq": 57.9,
+   "laeq_d": 57.3,
+   "laeq_e": 57.8,
+   "laeq_n": 58.6,
    "source": "https://opendata.vlci.valencia.es/dataset/t248652-daily"
   },
   {
@@ -4834,11 +4834,11 @@
    "name": "Sueca, 32",
    "lat": 39.4613594,
    "lon": -0.37514680000003864,
-   "date": "2026-11-21",
-   "laeq": 65.6,
-   "laeq_d": 67.2,
-   "laeq_e": 66.4,
-   "laeq_n": 59.7,
+   "date": "2026-11-22",
+   "laeq": 57.8,
+   "laeq_d": 58.1,
+   "laeq_e": 59.1,
+   "laeq_n": 56.2,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
   },
   {
@@ -4846,11 +4846,11 @@
    "name": "Sueca, 61",
    "lat": 39.4605601,
    "lon": -0.37411520000000564,
-   "date": "2026-11-21",
-   "laeq": 64.3,
-   "laeq_d": 63.0,
-   "laeq_e": 67.9,
-   "laeq_n": 63.2,
+   "date": "2026-11-22",
+   "laeq": 58.6,
+   "laeq_d": 59.1,
+   "laeq_e": 58.6,
+   "laeq_n": 57.7,
    "source": "https://opendata.vlci.valencia.es/dataset/t248684-daily"
   },
   {
@@ -4858,11 +4858,11 @@
    "name": "Sueca, 2",
    "lat": 39.4633107,
    "lon": -0.3766378000000259,
-   "date": "2026-11-21",
-   "laeq": 53.4,
-   "laeq_d": 53.4,
-   "laeq_e": 53.4,
-   "laeq_n": 53.3,
+   "date": "2026-11-22",
+   "laeq": 52.9,
+   "laeq_d": 52.4,
+   "laeq_e": 52.6,
+   "laeq_n": 53.7,
    "source": "https://opendata.vlci.valencia.es/dataset/t248683-daily"
   },
   {
@@ -4870,11 +4870,11 @@
    "name": "Puerto Rico, 21",
    "lat": 39.4609867,
    "lon": -0.3761412000000064,
-   "date": "2026-11-21",
-   "laeq": 59.6,
-   "laeq_d": 58.7,
-   "laeq_e": 62.7,
-   "laeq_n": 58.4,
+   "date": "2026-11-22",
+   "laeq": 55.9,
+   "laeq_d": 56.6,
+   "laeq_e": 55.3,
+   "laeq_n": 54.7,
    "source": "https://opendata.vlci.valencia.es/dataset/t248672-daily"
   },
   {
@@ -4882,11 +4882,11 @@
    "name": "Matías Perelló Esq. Doctor Sumsi",
    "lat": 39.4614718,
    "lon": -0.36814430000003995,
-   "date": "2026-11-21",
-   "laeq": 63.2,
-   "laeq_d": 63.5,
-   "laeq_e": 65.4,
-   "laeq_n": 61.4,
+   "date": "2026-11-22",
+   "laeq": 59.2,
+   "laeq_d": 59.5,
+   "laeq_e": 58.3,
+   "laeq_n": 58.8,
    "source": "https://opendata.vlci.valencia.es/dataset/t248679-daily"
   },
   {
@@ -4894,11 +4894,11 @@
    "name": "General Prim Chaflán Donoso Cortés",
    "lat": 39.4625622,
    "lon": -0.370427100000029,
-   "date": "2026-11-21",
-   "laeq": 56.0,
-   "laeq_d": 56.9,
-   "laeq_e": 58.6,
-   "laeq_n": 50.1,
+   "date": "2026-11-22",
+   "laeq": 51.9,
+   "laeq_d": 53.1,
+   "laeq_e": 51.1,
+   "laeq_n": 49.6,
    "source": "https://opendata.vlci.valencia.es/dataset/t248661-daily"
   },
   {
@@ -4906,11 +4906,11 @@
    "name": "Salvador Abril Chaflán Maestro José Serrano",
    "lat": 39.4635655,
    "lon": -0.37060220000000754,
-   "date": "2026-11-21",
-   "laeq": 59.5,
-   "laeq_d": 59.7,
-   "laeq_e": 61.3,
-   "laeq_n": 57.8,
+   "date": "2026-11-22",
+   "laeq": 58.1,
+   "laeq_d": 59.1,
+   "laeq_e": 57.4,
+   "laeq_n": 56.6,
    "source": "https://opendata.vlci.valencia.es/dataset/t248676-daily"
   },
   {
@@ -4930,11 +4930,11 @@
    "name": "Cuba, 3",
    "lat": 39.4628861,
    "lon": -0.3775977000000239,
-   "date": "2026-11-21",
-   "laeq": 62.0,
-   "laeq_d": 59.9,
-   "laeq_e": 65.8,
-   "laeq_n": 61.5,
+   "date": "2026-11-22",
+   "laeq": 60.1,
+   "laeq_d": 58.3,
+   "laeq_e": 60.4,
+   "laeq_n": 61.8,
    "source": "https://opendata.vlci.valencia.es/dataset/t248682-daily"
   },
   {
@@ -4942,11 +4942,11 @@
    "name": "Carles Cervera, Chaflán Reina Doña María",
    "lat": 39.4613005,
    "lon": -0.37288599999999406,
-   "date": "2026-11-21",
-   "laeq": 64.7,
-   "laeq_d": 62.5,
-   "laeq_e": 69.4,
-   "laeq_n": 62.6,
+   "date": "2026-11-22",
+   "laeq": 59.8,
+   "laeq_d": 58.2,
+   "laeq_e": 60.0,
+   "laeq_n": 61.5,
    "source": "https://opendata.vlci.valencia.es/dataset/t248670-daily"
   },
   {
@@ -4954,11 +4954,11 @@
    "name": "Carles Cervera, 34",
    "lat": 39.4615883,
    "lon": -0.3727962000000389,
-   "date": "2026-11-21",
-   "laeq": 61.9,
-   "laeq_d": 56.0,
-   "laeq_e": 67.3,
-   "laeq_n": 60.9,
+   "date": "2026-11-22",
+   "laeq": 57.5,
+   "laeq_d": 57.8,
+   "laeq_e": 54.1,
+   "laeq_n": 59.0,
    "source": "https://opendata.vlci.valencia.es/dataset/t248678-daily"
   },
   {
@@ -4966,11 +4966,11 @@
    "name": "Vivons Chaflán Cádiz",
    "lat": 39.4599927,
    "lon": -0.3721407000000454,
-   "date": "2026-11-21",
-   "laeq": 67.9,
-   "laeq_d": 62.6,
-   "laeq_e": 73.8,
-   "laeq_n": 55.9,
+   "date": "2026-11-22",
+   "laeq": 59.2,
+   "laeq_d": 59.3,
+   "laeq_e": 58.2,
+   "laeq_n": 59.3,
    "source": "https://opendata.vlci.valencia.es/dataset/t248677-daily"
   },
   {
@@ -4978,11 +4978,11 @@
    "name": "Cádiz, 3",
    "lat": 39.4640447,
    "lon": -0.3750515000000405,
-   "date": "2026-11-21",
-   "laeq": 65.9,
-   "laeq_d": 65.5,
-   "laeq_e": 67.9,
-   "laeq_n": 65.0,
+   "date": "2026-11-22",
+   "laeq": 63.8,
+   "laeq_d": 63.5,
+   "laeq_e": 63.2,
+   "laeq_n": 64.6,
    "source": "https://opendata.vlci.valencia.es/dataset/t248655-daily"
   },
   {
@@ -4990,11 +4990,11 @@
    "name": "Cádiz, 16",
    "lat": 39.4631424,
    "lon": -0.3746647000000394,
-   "date": "2026-11-21",
-   "laeq": 62.9,
-   "laeq_d": 63.1,
-   "laeq_e": 64.9,
-   "laeq_n": 60.7,
+   "date": "2026-11-22",
+   "laeq": 59.7,
+   "laeq_d": 59.5,
+   "laeq_e": 60.2,
+   "laeq_n": 59.8,
    "source": "https://opendata.vlci.valencia.es/dataset/t248671-daily"
   },
   {
@@ -5002,11 +5002,11 @@
    "name": "Cura Femenía, 14",
    "lat": 39.46227,
    "lon": -0.3732538,
-   "date": "2026-11-21",
-   "laeq": 66.9,
-   "laeq_d": 65.6,
-   "laeq_e": 70.7,
-   "laeq_n": 65.3,
+   "date": "2026-11-22",
+   "laeq": 61.1,
+   "laeq_d": 59.2,
+   "laeq_e": 58.6,
+   "laeq_n": 63.5,
    "source": "https://opendata.vlci.valencia.es/dataset/t251234-daily"
   }
  ],
