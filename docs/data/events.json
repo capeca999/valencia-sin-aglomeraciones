@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:45+01:00",
+ "updated": "2026-11-23T01:35+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -418,252 +418,6 @@
   }
  ],
  "events": [
-  {
-   "date": "2026-11-21",
-   "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
-   "type": "Feria",
-   "zones": [
-    "feria"
-   ],
-   "level": 2,
-   "start": "10:00",
-   "to": "20:30",
-   "people": "decenas de miles de visitantes",
-   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "feria",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "title": "Fira València: JAPAN WEEKEND VALENCIA (ED.2)",
-     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
-     "people": "desenes de milers de visitants"
-    },
-    "en": {
-     "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
-     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
-     "people": "tens of thousands of visitors"
-    }
-   },
-   "from": "10:00",
-   "source": {
-    "name": "Feria Valencia (calendario oficial)",
-    "url": "https://www.japanweekend.com/valencia"
-   }
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Acera/estacionamiento",
-   "type": "Fiesta / desfile",
-   "zones": [],
-   "level": 2,
-   "start": "01:00",
-   "to": "02:30",
-   "people": "",
-   "tip": "Ocupación oficial de la vía pública registrada por el Ayuntamiento.",
-   "official": true,
-   "confirmed": true,
-   "approx": false,
-   "raw": "FESTEJOS · Acera/Estacionamiento",
-   "tags": [],
-   "sid": "geoportal",
-   "geo": [
-    [
-     39.49057,
-     -0.3837
-    ]
-   ],
-   "i18n": {
-    "va": {
-     "tip": "Ocupació oficial de la via pública registrada per l'Ajuntament."
-    },
-    "en": {
-     "tip": "Official public-road occupation registered by the City Council."
-    }
-   },
-   "from": "01:00",
-   "source": {
-    "name": "Ajuntament de València · Geoportal (ocupación de vía pública)",
-    "url": "https://geoportal.valencia.es/apps/GeoportalHome/es/inicio/geodatos-abiertos"
-   }
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
-   "type": "Feria",
-   "zones": [
-    "feria"
-   ],
-   "level": 2,
-   "start": "10:00",
-   "to": "20:30",
-   "people": "decenas de miles de visitantes",
-   "tip": "El metro (líneas 2 y 4, parada Fira València) y los accesos al recinto van llenos, sobre todo por la tarde y el fin de semana.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "feria",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "title": "Fira València: JAPAN WEEKEND VALENCIA (ED.2)",
-     "tip": "El metro (línies 2 i 4, parada Fira València) i els accessos al recinte van plens, sobretot per la vesprada i el cap de setmana.",
-     "people": "desenes de milers de visitants"
-    },
-    "en": {
-     "title": "Feria Valencia: JAPAN WEEKEND VALENCIA (ED.2)",
-     "tip": "The metro (lines 2 and 4, Fira València stop) and the access roads to the venue are crowded, especially in the afternoon and at weekends.",
-     "people": "tens of thousands of visitors"
-    }
-   },
-   "from": "10:00",
-   "source": {
-    "name": "Feria Valencia (calendario oficial)",
-    "url": "https://www.japanweekend.com/valencia"
-   }
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Valencia Basket vs Innova-TSN Leganes",
-   "type": "Baloncesto",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "12:30",
-   "to": "15:15",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "unes 12.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "about 12,000 people"
-    }
-   },
-   "from": "11:15",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-leganes-20261122/"
-   }
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Valencia Basket - Río Breogán (Liga ACB Masculina)",
-   "type": "Baloncesto",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "17:00",
-   "to": "19:45",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena y el transporte hacia Quatre Carreres en esa franja.",
-   "official": true,
-   "confirmed": true,
-   "approx": false,
-   "raw": "",
-   "tags": [],
-   "sid": "visitvalencia",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "people": "unes 12.000 persones",
-     "tip": "Evita els voltants del Roig Arena i el transport cap a Quatre Carreres en eixa franja."
-    },
-    "en": {
-     "people": "about 12,000 people",
-     "tip": "Avoid the Roig Arena area and transport towards Quatre Carreres during this time."
-    }
-   },
-   "from": "15:45",
-   "source": {
-    "name": "Visit València (Ayuntamiento)",
-    "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-   }
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Omega 30ª Aniversario",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/omega-morente-20261122/"
-   }
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Carrera Valencia Contra el Cáncer: horario, recorrido y calles cortadas al tráfico el sábado 21 y el domingo 22 de noviembre",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Carrera Valencia Contra el Cáncer: horario, recorrido y calles cortadas al tráfico el sábado 21 y el domingo 22 de noviembre El Debate",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: El Debate",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVktZZk5HOWxSRGhVWWo5Nm4tWkhWc3pSQnpQMUN5bWRvMDU3V3huMHQwRGFfZWhWYzU2TnBZUzQxY2NGS1VvSnZjaEszcWVFSHh0WEw0YkxrZmdLV2Y4X1ZMNXRjMlNUMFA5cG1EM2EwTzIwaWU1dExWTW8zMmxJSU40Z0cyQkpPUHhhNmFCY1lwSVdLaVVhdHNYdUFEcmNhMXQyREk3MkZyajRJYlZuUE4zREJULWI2d1hpQUtoXzVhb0pMODFGd0txTVNxUS1jUTVtNGhPSWVxTm00WldscnhpNE5zd0pOS3hDSkpBNGFPS0cxc2dLUEdhaWVGUUI2ZXJuLWlEWUfSAY4CQVVfeXFMUEFpTnB6bnlXZGlvQVFDYXdLUWl0RjYyamRQR1FKLUZ6WlZ6Q2dHcXlxeDg0ZkN2bmN0YUNSbGRvY0hCbkQ1Wk9RallzTGVXQm9aVXltb2dQbTBWX1Y0RlNSMjVldVVPaE4yakpZZ3VNaHBaR09HZEJfVGhid2dBaXZfZmk5ZEhHcXlOZDdnQ1J0dmdKdlN5dVNiWFVIZ1RxUHRZMTQtMGp6ZzZrTmo5LTlpdENLeENMcWFzZW5JeGR4LVVFaTNRNU94cVVsNk5uTmQzUmRTVXJXZC0tRXdJQUMtemZlLWdQb1R5ckVDblZLelpYeGxmQmZSQmxyS3EzMWpkZVp3RS0wTU1mdi1B?oc=5"
-   }
-  },
   {
    "date": "2026-11-23",
    "title": "Levante UD – Elche CF (LALIGA EA SPORTS)",
@@ -3257,41 +3011,6 @@
   },
   {
    "date": "2027-01-10",
-   "title": "Simply The Best - Tina Turner Tribute",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "20:00",
-   "to": "23:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "18:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/tributotinaturner-20270101/"
-   }
-  },
-  {
-   "date": "2027-01-10",
    "title": "Valencia CF – Málaga CF (LALIGA EA SPORTS)",
    "type": "Fútbol",
    "zones": [
@@ -3323,146 +3042,6 @@
    "source": {
     "name": "LaLiga (web oficial)",
     "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
-   }
-  },
-  {
-   "date": "2027-01-14",
-   "title": "El Día Que Me Olvides Tour - Segunda Fecha - Walls",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "20:30",
-   "to": "23:45",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:15",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270114/"
-   }
-  },
-  {
-   "date": "2027-01-15",
-   "title": "El Día que me olvides Tour - Walls",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "20:30",
-   "to": "23:45",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:15",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270115/"
-   }
-  },
-  {
-   "date": "2027-01-16",
-   "title": "Ritorno a la via dalma Tour - Sergio Dalma",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 15.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 15.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 15,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/sergio-dalma-20270116/"
-   }
-  },
-  {
-   "date": "2027-01-16",
-   "title": "El Tour Intergaláctico - La La Love You",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/la-la-tour-2027-20270116/"
    }
   },
   {
@@ -6305,7 +5884,7 @@
    "id": "geoportal",
    "name": "Ajuntament de València · Geoportal (ocupación de vía pública y festejos)",
    "ok": true,
-   "count": 1
+   "count": 0
   },
   {
    "id": "laliga",
@@ -6317,19 +5896,19 @@
    "id": "roig_arena",
    "name": "Roig Arena (web oficial)",
    "ok": true,
-   "count": 43
+   "count": 36
   },
   {
    "id": "visitvalencia",
    "name": "Visit València (calendario Valencia Basket)",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "id": "feria",
    "name": "Feria Valencia (calendario oficial de ferias)",
    "ok": true,
-   "count": 50
+   "count": 48
   },
   {
    "id": "cruceros",
@@ -6347,7 +5926,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 3
+   "count": 2
   },
   {
    "id": "meteo",
@@ -6381,20 +5960,23 @@
   }
  ],
  "health": {
-  "geoportal": {},
+  "geoportal": {
+   "zero_since": "2026-11-23",
+   "zero_days": 1
+  },
   "laliga": {},
   "roig_arena": {},
   "visitvalencia": {},
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-21",
-   "zero_days": 2
+   "zero_days": 3
   },
   "fiestas": {},
   "prensa": {},
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 10
+   "zero_days": 11
   },
   "refugios": {},
   "fallas": {},
