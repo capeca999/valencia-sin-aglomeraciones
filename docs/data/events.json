@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:55+01:00",
+ "updated": "2026-11-24T03:54+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -418,41 +418,6 @@
   }
  ],
  "events": [
-  {
-   "date": "2026-11-23",
-   "title": "Levante UD – Elche CF (LALIGA EA SPORTS)",
-   "type": "Fútbol",
-   "zones": [
-    "ciutat"
-   ],
-   "level": 3,
-   "start": "21:00",
-   "to": "00:00",
-   "people": "hasta 26.000 personas",
-   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
-   "official": true,
-   "confirmed": true,
-   "approx": false,
-   "raw": "",
-   "tags": [],
-   "sid": "laliga",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants de l'estadi (Orriols, Av. Germans Machado) i el metro d'Orriols en eixa franja.",
-     "people": "fins a 26.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the stadium (Orriols, Av. Hermanos Machado) and Orriols metro station during this time.",
-     "people": "up to 26,000 people"
-    }
-   },
-   "from": "19:00",
-   "source": {
-    "name": "LaLiga (web oficial)",
-    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
-   }
-  },
   {
    "date": "2026-11-24",
    "title": "Valencia Basket vs Panathinaikos AKTOR Athens",
@@ -4871,7 +4836,7 @@
    "lat": 39.4609867,
    "lon": -0.3761412000000064,
    "date": "2026-11-22",
-   "laeq": 55.9,
+   "laeq": 55.8,
    "laeq_d": 56.6,
    "laeq_e": 55.3,
    "laeq_n": 54.7,
@@ -5890,7 +5855,7 @@
    "id": "laliga",
    "name": "LaLiga (Valencia CF y Levante UD)",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "id": "roig_arena",
@@ -5962,7 +5927,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-23",
-   "zero_days": 1
+   "zero_days": 2
   },
   "laliga": {},
   "roig_arena": {},
@@ -5970,13 +5935,13 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-21",
-   "zero_days": 3
+   "zero_days": 4
   },
   "fiestas": {},
   "prensa": {},
   "meteo": {
    "zero_since": "2026-11-13",
-   "zero_days": 11
+   "zero_days": 12
   },
   "refugios": {},
   "fallas": {},
