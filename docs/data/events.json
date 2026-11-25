@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:42+01:00",
+ "updated": "2026-11-25T04:17+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -420,7 +420,7 @@
  "events": [
   {
    "date": "2026-11-25",
-   "title": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València",
+   "title": "Valencia se prepara para la manifestación del 25N: horario, recorrido y reivindicaciones",
    "type": "Manifestación",
    "zones": [],
    "level": 2,
@@ -431,7 +431,7 @@
    "official": false,
    "confirmed": false,
    "approx": true,
-   "raw": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València Ayuntamiento de Burjassot",
+   "raw": "Valencia se prepara para la manifestación del 25N: horario, recorrido y reivindicaciones Valencia News",
    "tags": [],
    "sid": "prensa",
    "geo": [],
@@ -445,8 +445,8 @@
    },
    "from": "",
    "source": {
-    "name": "Prensa: Ayuntamiento de Burjassot",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMHdYQ05EMlNLdk5LSzNXZV9iOWk1RmY4RndwbzdxcmljUFl0VDVmbWFVTUFha09RTEoweGRCc3NybjVHbFNvbk1FZ2ExU09pOW5HakFUYkdxSUxHSmpqaXNhYWh3LWtpM2xCRXd2TEdTMnI0SnVRRDJVQnpVT202aWlqOG9RQXF5aDQxSjdYT2ZEWUlTUUZkYnd4eFFmOEVZQ1psakkzamo3UHU2UkZTa25hakFHZTg?oc=5"
+    "name": "Prensa: Valencia News",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYTNYSEcxUlBHUGVUV1lOVm9JSjdOeTZGalJWRFp3TXNyd0VzZlEwRkdXZkVoWTZnLWg5aTEteU5nZU1sT3dwSmpvYWhHeDB4VjhXX3B3T1ZjWWtraHhxQUhEREFjM1BTN1VpOVI3ZzNsVkJMX0FNRWZtZzZGQkkyaEFma19tb0UtUWlyRmw0d2dkSzNsWVZPY2FDSUVtVTk3bDctQkN2LVVNcFIySzhEOG15ZW42aVVOdnhBZA?oc=5"
    }
   },
   {
