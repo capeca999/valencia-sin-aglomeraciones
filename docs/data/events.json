@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:50+01:00",
+ "updated": "2026-11-25T01:42+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -418,47 +418,6 @@
   }
  ],
  "events": [
-  {
-   "date": "2026-11-24",
-   "title": "Valencia Basket vs Panathinaikos AKTOR Athens",
-   "type": "Baloncesto",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "20:30",
-   "to": "23:15",
-   "people": "unas 12.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "unes 12.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "about 12,000 people"
-    }
-   },
-   "from": "19:15",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/valencia-basket-vs-panathinikos-20261124/"
-   },
-   "also": [
-    {
-     "name": "Visit València (Ayuntamiento)",
-     "url": "https://www.visitvalencia.com/agenda-valencia/partidos-del-valencia-basket-liga-endesa-y-euroliga-en-roig-arena"
-    }
-   ]
-  },
   {
    "date": "2026-11-25",
    "title": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València",
@@ -2976,6 +2935,41 @@
   },
   {
    "date": "2027-01-10",
+   "title": "Simply The Best - Tina Turner Tribute",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:00",
+   "to": "23:15",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "18:45",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/tributotinaturner-20270101/"
+   }
+  },
+  {
+   "date": "2027-01-10",
    "title": "Valencia CF – Málaga CF (LALIGA EA SPORTS)",
    "type": "Fútbol",
    "zones": [
@@ -3159,6 +3153,41 @@
    "source": {
     "name": "Feria Valencia (calendario oficial)",
     "url": "https://www.fimi.es/bksfimi"
+   }
+  },
+  {
+   "date": "2027-01-24",
+   "title": "Valencia CF – Sevilla FC (LALIGA EA SPORTS)",
+   "type": "Fútbol",
+   "zones": [
+    "mestalla"
+   ],
+   "level": 3,
+   "start": "",
+   "to": "",
+   "people": "hasta 49.000 personas",
+   "tip": "Evita Blasco Ibáñez, Av. Aragón, Av. Suecia y el metro de Aragón y Facultats en esa franja. La hora aún no está anunciada: LaLiga la confirma 2-3 semanas antes y el partido puede moverse un día.",
+   "official": true,
+   "confirmed": false,
+   "approx": false,
+   "raw": "",
+   "tags": [],
+   "sid": "laliga",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita Blasco Ibáñez, l'Av. d'Aragó, l'Av. de Suècia i el metro d'Aragó i Facultats en eixa franja. L'hora encara no està anunciada: LaLiga la confirma 2-3 setmanes abans i el partit es pot moure un dia.",
+     "people": "fins a 49.000 persones"
+    },
+    "en": {
+     "tip": "Avoid Blasco Ibáñez, Av. Aragón, Av. Suecia and the Aragó and Facultats metro stations during this time. Kick-off time not announced yet: LaLiga confirms it 2-3 weeks before and the match may move by a day.",
+     "people": "up to 49,000 people"
+    }
+   },
+   "from": "",
+   "source": {
+    "name": "LaLiga (web oficial)",
+    "url": "https://www.laliga.com/clubes/valencia-cf/proximos-partidos"
    }
   },
   {
@@ -4839,7 +4868,7 @@
    "laeq": 57.5,
    "laeq_d": 59.5,
    "laeq_e": 55.5,
-   "laeq_n": 52.6,
+   "laeq_n": 52.7,
    "source": "https://opendata.vlci.valencia.es/dataset/t248672-daily"
   },
   {
@@ -5870,7 +5899,7 @@
    "id": "laliga",
    "name": "LaLiga (Valencia CF y Levante UD)",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   {
    "id": "roig_arena",
@@ -5882,7 +5911,7 @@
    "id": "visitvalencia",
    "name": "Visit València (calendario Valencia Basket)",
    "ok": true,
-   "count": 7
+   "count": 6
   },
   {
    "id": "feria",
@@ -5942,7 +5971,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-23",
-   "zero_days": 2
+   "zero_days": 3
   },
   "laliga": {},
   "roig_arena": {},
@@ -5950,7 +5979,7 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-21",
-   "zero_days": 4
+   "zero_days": 5
   },
   "fiestas": {},
   "prensa": {},
