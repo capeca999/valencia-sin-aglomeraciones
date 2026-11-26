@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:34+01:00",
+ "updated": "2026-11-26T01:20+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -418,37 +418,6 @@
   }
  ],
  "events": [
-  {
-   "date": "2026-11-25",
-   "title": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Burjassot facilita un autobús gratuito para acudir a la manifestación del 25N en València Ayuntamiento de Burjassot",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: Ayuntamiento de Burjassot",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMHdYQ05EMlNLdk5LSzNXZV9iOWk1RmY4RndwbzdxcmljUFl0VDVmbWFVTUFha09RTEoweGRCc3NybjVHbFNvbk1FZ2ExU09pOW5HakFUYkdxSUxHSmpqaXNhYWh3LWtpM2xCRXd2TEdTMnI0SnVRRDJVQnpVT202aWlqOG9RQXF5aDQxSjdYT2ZEWUlTUUZkYnd4eFFmOEVZQ1psakkzamo3UHU2UkZTa25hakFHZTg?oc=5"
-   }
-  },
   {
    "date": "2026-11-26",
    "title": "Fin de la aventura Tour - Carolina Durante",
@@ -5004,22 +4973,7 @@
    "source": "https://opendata.vlci.valencia.es/dataset/t251234-daily"
   }
  ],
- "weather": [
-  {
-   "kind": "coastal",
-   "level": 1,
-   "from": "2026-11-25T08:00+01:00",
-   "to": "2026-11-25T19:59+01:00",
-   "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos?k=val"
-  },
-  {
-   "kind": "wind",
-   "level": 1,
-   "from": "2026-11-25T10:00+01:00",
-   "to": "2026-11-25T17:59+01:00",
-   "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos?k=val"
-  }
- ],
+ "weather": [],
  "refuges": [
   {
    "name": "Biblioteca Clara Santiró i Font",
@@ -5922,8 +5876,9 @@
   {
    "id": "cruceros",
    "name": "Escalas de cruceros en el puerto (CruiseTimetables, no oficial)",
-   "ok": true,
-   "count": 0
+   "ok": false,
+   "count": 0,
+   "error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html"
   },
   {
    "id": "fiestas",
@@ -5935,13 +5890,13 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 2
+   "count": 1
   },
   {
    "id": "meteo",
    "name": "AEMET · avisos meteorológicos (vía MeteoAlarm)",
    "ok": true,
-   "count": 2
+   "count": 0
   },
   {
    "id": "refugios",
@@ -5971,19 +5926,23 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-23",
-   "zero_days": 3
+   "zero_days": 4
   },
   "laliga": {},
   "roig_arena": {},
   "visitvalencia": {},
   "feria": {},
   "cruceros": {
-   "zero_since": "2026-11-21",
-   "zero_days": 5
+   "fail_since": "2026-11-26",
+   "last_error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html",
+   "fail_days": 1
   },
   "fiestas": {},
   "prensa": {},
-  "meteo": {},
+  "meteo": {
+   "zero_since": "2026-11-26",
+   "zero_days": 1
+  },
   "refugios": {},
   "fallas": {},
   "zas": {},
