@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:34+01:00",
+ "updated": "2026-11-27T03:36+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -523,6 +523,37 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/accept-20261127/"
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "title": "Valencia activa mañana los cortes de tráfico por Navidad",
+   "type": "Manifestación",
+   "zones": [],
+   "level": 2,
+   "start": "",
+   "to": "",
+   "people": "",
+   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
+   "official": false,
+   "confirmed": false,
+   "approx": true,
+   "raw": "Valencia activa mañana los cortes de tráfico por Navidad Valencia Noticias",
+   "tags": [],
+   "sid": "prensa",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
+    },
+    "en": {
+     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
+    }
+   },
+   "from": "",
+   "source": {
+    "name": "Prensa: Valencia Noticias",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON3JHVjNNWTZrcGNvMUhHeURVcklNZFV6cXo4bDBaQmU5ZFVxYUl4MnZiZHJRSS1wTjc5Z0w0TE9ZQTZ1WmdOZV95aUVtWEpadHJ6a3lSZHJqYWVEelUwRldZOHJTUlZqVkhwQThLbXF3LTNRU1VjZ3k4V0ZZa3NoaTFNMy1jRWJGTzNLQzFCVQ?oc=5"
    }
   },
   {
@@ -4800,7 +4831,7 @@
    "date": "2026-11-25",
    "laeq": 58.1,
    "laeq_d": 59.7,
-   "laeq_e": 57.8,
+   "laeq_e": 57.9,
    "laeq_n": 53.2,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
   },
@@ -5889,7 +5920,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 1
+   "count": 2
   },
   {
    "id": "meteo",
