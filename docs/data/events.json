@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:07+01:00",
+ "updated": "2026-11-27T01:34+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -419,76 +419,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-26",
-   "title": "Fin de la aventura Tour - Carolina Durante",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 2,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 15.000 personas",
-   "tip": "Evita el entorno del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 15.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 15,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/carolina-durante-20261126/"
-   }
-  },
-  {
-   "date": "2026-11-26",
-   "title": "Los Fabulosos Cadillacs en Valencia",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/"
-   }
-  },
-  {
    "date": "2026-11-27",
    "title": "Feria Valencia: 2 RUEDAS",
    "type": "Feria",
@@ -593,37 +523,6 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/accept-20261127/"
-   }
-  },
-  {
-   "date": "2026-11-27",
-   "title": "Valencia activa mañana los cortes de tráfico por Navidad",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Valencia activa mañana los cortes de tráfico por Navidad Valencia Noticias",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: Valencia Noticias",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON3JHVjNNWTZrcGNvMUhHeURVcklNZFV6cXo4bDBaQmU5ZFVxYUl4MnZiZHJRSS1wTjc5Z0w0TE9ZQTZ1WmdOZV95aUVtWEpadHJ6a3lSZHJqYWVEelUwRldZOHJTUlZqVkhwQThLbXF3LTNRU1VjZ3k4V0ZZa3NoaTFNMy1jRWJGTzNLQzFCVQ?oc=5"
    }
   },
   {
@@ -3004,6 +2903,76 @@
    }
   },
   {
+   "date": "2027-01-14",
+   "title": "El Día Que Me Olvides Tour - Segunda Fecha - Walls",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270114/"
+   }
+  },
+  {
+   "date": "2027-01-15",
+   "title": "El Día que me olvides Tour - Walls",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270115/"
+   }
+  },
+  {
    "date": "2027-01-17",
    "title": "Levante UD – RCD Espanyol de Barcelona (LALIGA EA SPORTS)",
    "type": "Fútbol",
@@ -4831,7 +4800,7 @@
    "date": "2026-11-25",
    "laeq": 58.1,
    "laeq_d": 59.7,
-   "laeq_e": 57.9,
+   "laeq_e": 57.8,
    "laeq_n": 53.2,
    "source": "https://opendata.vlci.valencia.es/dataset/t248680-daily"
   },
@@ -5920,7 +5889,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 2
+   "count": 1
   },
   {
    "id": "meteo",
@@ -5956,7 +5925,7 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-23",
-   "zero_days": 4
+   "zero_days": 5
   },
   "laliga": {},
   "roig_arena": {},
@@ -5964,13 +5933,13 @@
   "feria": {},
   "cruceros": {
    "zero_since": "2026-11-26",
-   "zero_days": 1
+   "zero_days": 2
   },
   "fiestas": {},
   "prensa": {},
   "meteo": {
    "zero_since": "2026-11-26",
-   "zero_days": 1
+   "zero_days": 2
   },
   "refugios": {},
   "fallas": {},
