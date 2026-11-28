@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:00+01:00",
+ "updated": "2026-11-28T01:02+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -456,107 +456,6 @@
    }
   },
   {
-   "date": "2026-11-27",
-   "title": "Levante UD – R. Racing Club (LALIGA EA SPORTS)",
-   "type": "Fútbol",
-   "zones": [
-    "ciutat"
-   ],
-   "level": 3,
-   "start": "21:00",
-   "to": "00:00",
-   "people": "hasta 26.000 personas",
-   "tip": "Evita el entorno del estadio (Orriols, Av. Hermanos Machado) y el metro de Orriols en esa franja.",
-   "official": true,
-   "confirmed": true,
-   "approx": false,
-   "raw": "",
-   "tags": [],
-   "sid": "laliga",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants de l'estadi (Orriols, Av. Germans Machado) i el metro d'Orriols en eixa franja.",
-     "people": "fins a 26.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the stadium (Orriols, Av. Hermanos Machado) and Orriols metro station during this time.",
-     "people": "up to 26,000 people"
-    }
-   },
-   "from": "19:00",
-   "source": {
-    "name": "LaLiga (web oficial)",
-    "url": "https://www.laliga.com/clubes/levante-ud/proximos-partidos"
-   }
-  },
-  {
-   "date": "2026-11-27",
-   "title": "ACCEPT",
-   "type": "Concierto / espectáculo",
-   "zones": [
-    "roig"
-   ],
-   "level": 1,
-   "start": "21:00",
-   "to": "00:15",
-   "people": "hasta 2.000 personas",
-   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
-   "official": true,
-   "confirmed": true,
-   "approx": true,
-   "raw": "",
-   "tags": [],
-   "sid": "roig_arena",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
-     "people": "fins a 2.000 persones"
-    },
-    "en": {
-     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
-     "people": "up to 2,000 people"
-    }
-   },
-   "from": "19:45",
-   "source": {
-    "name": "Roig Arena (web oficial)",
-    "url": "https://www.roigarena.com/es/event/accept-20261127/"
-   }
-  },
-  {
-   "date": "2026-11-27",
-   "title": "Valencia activa mañana los cortes de tráfico por Navidad",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Valencia activa mañana los cortes de tráfico por Navidad Valencia Noticias",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: Valencia Noticias",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON3JHVjNNWTZrcGNvMUhHeURVcklNZFV6cXo4bDBaQmU5ZFVxYUl4MnZiZHJRSS1wTjc5Z0w0TE9ZQTZ1WmdOZV95aUVtWEpadHJ6a3lSZHJqYWVEelUwRldZOHJTUlZqVkhwQThLbXF3LTNRU1VjZ3k4V0ZZa3NoaTFNMy1jRWJGTzNLQzFCVQ?oc=5"
-   }
-  },
-  {
    "date": "2026-11-28",
    "title": "Feria Valencia: 2 RUEDAS",
    "type": "Feria",
@@ -626,37 +525,6 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/mind-enterprises-20261128/"
-   }
-  },
-  {
-   "date": "2026-11-28",
-   "title": "Una concentración en València subraya este sábado la \"necesidad de mantener viva la memoria\" de las víctimas de la dana",
-   "type": "Manifestación",
-   "zones": [],
-   "level": 2,
-   "start": "",
-   "to": "",
-   "people": "",
-   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
-   "official": false,
-   "confirmed": false,
-   "approx": true,
-   "raw": "Una concentración en València subraya este sábado la \"necesidad de mantener viva la memoria\" de las víctimas de la dana Ultima Hora",
-   "tags": [],
-   "sid": "prensa",
-   "geo": [],
-   "i18n": {
-    "va": {
-     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
-    },
-    "en": {
-     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
-    }
-   },
-   "from": "",
-   "source": {
-    "name": "Prensa: Ultima Hora",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYVVQR1VZRWl0NmxkajFUVURiYlFvTTBIWlhKeWxlU04zRmZJOHhFWWxtaEh2cGhUZjg5SGVkWnhCSVdCY2ZiaExjZ3pWUDVHZFFnQ1BmNHhhVFZKVUpxd0VZM3NpUHFPLThBOTA5NTBQN2pxOE1GX0dNTXdEVTF4WVc0Sk1reFZtaFZ5SXZnS1NVYlc1MjliQ3NYQ0hOZmFUWXlrQlFwTTRNYkljd3hOS1dPaUFQNHpBUU8xYTdydWlRQWdFZ0FucC1oYUJ1dWIwcnNjd0lneEhCQVZBR3V4cVNPUUUxNmFZR0pNMHN6Q0s?oc=5"
    }
   },
   {
@@ -3032,6 +2900,41 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270114/"
+   }
+  },
+  {
+   "date": "2027-01-15",
+   "title": "El Día que me olvides Tour - Walls",
+   "type": "Concierto / espectáculo",
+   "zones": [
+    "roig"
+   ],
+   "level": 1,
+   "start": "20:30",
+   "to": "23:45",
+   "people": "hasta 2.000 personas",
+   "tip": "Evita el entorno del Auditorio del Roig Arena (Quatre Carreres) y el transporte hacia allí en esa franja. La salida del público suele ser el momento más agobiante.",
+   "official": true,
+   "confirmed": true,
+   "approx": true,
+   "raw": "",
+   "tags": [],
+   "sid": "roig_arena",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Evita els voltants del Auditori del Roig Arena (Quatre Carreres) i el transport cap allí en eixa franja. L'eixida del públic sol ser el moment més agobiant.",
+     "people": "fins a 2.000 persones"
+    },
+    "en": {
+     "tip": "Avoid the area around the Roig Arena Auditorium (Quatre Carreres) and transport heading there during this time. The crowd leaving is usually the most overwhelming moment.",
+     "people": "up to 2,000 people"
+    }
+   },
+   "from": "19:15",
+   "source": {
+    "name": "Roig Arena (web oficial)",
+    "url": "https://www.roigarena.com/es/event/walls-en-valencia-20270115/"
    }
   },
   {
@@ -5915,7 +5818,7 @@
    "id": "laliga",
    "name": "LaLiga (Valencia CF y Levante UD)",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "id": "roig_arena",
@@ -5938,9 +5841,8 @@
   {
    "id": "cruceros",
    "name": "Escalas de cruceros en el puerto (CruiseTimetables, no oficial)",
-   "ok": false,
-   "count": 0,
-   "error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html"
+   "ok": true,
+   "count": 0
   },
   {
    "id": "fiestas",
@@ -5952,7 +5854,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 3
+   "count": 1
   },
   {
    "id": "meteo",
@@ -5988,22 +5890,21 @@
  "health": {
   "geoportal": {
    "zero_since": "2026-11-23",
-   "zero_days": 5
+   "zero_days": 6
   },
   "laliga": {},
   "roig_arena": {},
   "visitvalencia": {},
   "feria": {},
   "cruceros": {
-   "fail_since": "2026-11-27",
-   "last_error": "No se pudo descargar https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html: 429 Client Error: Too Many Requests for url: https://www.cruisetimetables.com/valenciaspainschedule-nov2026.html",
-   "fail_days": 1
+   "zero_since": "2026-11-28",
+   "zero_days": 1
   },
   "fiestas": {},
   "prensa": {},
   "meteo": {
    "zero_since": "2026-11-26",
-   "zero_days": 2
+   "zero_days": 3
   },
   "refugios": {},
   "fallas": {},
