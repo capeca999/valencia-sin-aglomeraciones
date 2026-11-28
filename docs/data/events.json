@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:02+01:00",
+ "updated": "2026-11-28T03:26+01:00",
  "zones": {
   "roig": {
    "name": "Roig Arena",
@@ -525,6 +525,37 @@
    "source": {
     "name": "Roig Arena (web oficial)",
     "url": "https://www.roigarena.com/es/event/mind-enterprises-20261128/"
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Convocan una concentración en Valencia este sábado para \"mantener viva la memoria de las víctimas de la...",
+   "type": "Manifestación",
+   "zones": [],
+   "level": 2,
+   "start": "",
+   "to": "",
+   "people": "",
+   "tip": "Convocatoria publicada en prensa; hora y recorrido pueden cambiar. Las manifestaciones suelen cortar calles del centro y pueden ser ruidosas.",
+   "official": false,
+   "confirmed": false,
+   "approx": true,
+   "raw": "Convocan una concentración en Valencia este sábado para \"mantener viva la memoria de las víctimas de la... La Gaceta de la Iberosfera",
+   "tags": [],
+   "sid": "prensa",
+   "geo": [],
+   "i18n": {
+    "va": {
+     "tip": "Convocatòria publicada en premsa; l'hora i el recorregut poden canviar. Les manifestacions solen tallar carrers del centre i poden ser sorolloses."
+    },
+    "en": {
+     "tip": "Call published in the press; time and route may change. Demonstrations usually close streets in the centre and can be noisy."
+    }
+   },
+   "from": "",
+   "source": {
+    "name": "Prensa: La Gaceta de la Iberosfera",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYnJuVGx4N1ZvUFhYZVhCb3JTeE5TR3FZcGJ0UXloZlhKVTlMUmtSMmYwS1VNN1NaQWJORkk5Uk1PMUJ2YXNhUWhSQUNhdHhmUFVMbEo1QTFVSld1X1hWWDBtUmtLU2ZTVW56eGFiT3VkTFU4NjdVLTJYdTRoS0JXdE93THZuX2dNYmt2X3p0U2VBWEZKbW90TzVpU2RZb0gyV0hMTG5kWC1TemRkX0Ztd2U1M0ZNZ2ExNHBhUDlEaTZjTFJud0s5VzJkTnBKNHplWC1yOXJMMlNRaERKRk03a9IB5gFBVV95cUxNbnEzdDhwdkJHa1JsR1dSS0hSWGcwaThOZjZWTklRek56cnc0Q0NTWWMwcWw0WXY5MUV4UThOdWozYjVSelg2cElqYVVNcGxkbVB3TVlRRFpucVNhc01Ld2hIS0tGamVhSU04eXBENEFQUHEydzhFS01NV3Z1S2hLZDdHSk52bFFZOEw0UTZZV3Y5cGROUFlhOGdsUm9jdDVMUkdHMXczQmI0ZDVOaHhEbF9JU25kUXFMaW5Ga0dUWlhfNU94bVE4Wm41cnhEbDVPOUlhNUVNNXVmbTRYcHNUNUFMX2d0dw?oc=5"
    }
   },
   {
@@ -5854,7 +5885,7 @@
    "id": "prensa",
    "name": "Prensa (Google News): manifestaciones y huelgas, marcadas como «sin confirmar»",
    "ok": true,
-   "count": 1
+   "count": 2
   },
   {
    "id": "meteo",
